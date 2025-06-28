@@ -1,0 +1,149 @@
+@media only screen and (max-width: 480px){
+  .sign{
+    width: 35vh;
+    height: 23rem;
+  }
+  .sign h2{
+    font-size: 25px;
+  }
+  .name{
+    width: 31vh;
+    padding: 5px;
+    padding-left: 1.3rem;
+  }
+  .name i{
+    font-size: 1.3rem;
+  }
+  .name input{
+    width: 25vh;
+  }
+  .E-mail{
+    width: 31vh;
+    padding: 6px;
+    padding-left: 1.3rem;
+  }
+  .E-mail i{
+    font-size: 1.3rem;
+  }
+  .E-mail input{
+    width: 25vh;
+  }
+  .Password{
+    width: 31vh;
+    padding: 6px;
+    padding-left: 1.3rem;
+  }
+  .Password i{
+    font-size: 1.3rem;
+  }
+  .Password input{
+    width: 25vh;
+  }
+  .confirm button{
+    font-size: 12px;
+    padding: 11px;
+    width: 9rem;
+  }
+  .sign p{
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .sign{
+    height: 24rem;
+  }
+  .sign h2{
+    font-size: 27px;
+  }
+  .name{
+    width: 38vh;
+    padding: 4px;
+    padding-left: 1.3rem;
+  }
+  .name input{
+    width: 30vh;
+  }
+  .E-mail{
+    width: 38vh;
+    padding: 4px;
+    padding-left: 1.3rem;
+  }
+  .E-mail input{
+    width: 30vh;
+  }
+  .Password{
+    width: 38vh;
+    padding: 4px;
+    padding-left: 1.3rem;
+  }
+  .Password input{
+    width: 30vh;
+  }
+  .confirm button{
+    padding: 11px;
+    width: 9.5rem;
+    font-size: 12.5px;
+  }
+  .sign p{
+    margin-top: 5px;
+    font-size: 14.5px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .sign{
+    height: 24rem;
+    width: 19rem;
+  }
+  .sign h2{
+    font-size: 30px;
+  }
+  .name{
+    width: 41vh;
+    padding: 6px;
+    padding-left: 1.2rem;
+  }
+  .name input{
+    width: 34vh;
+  }
+  .E-mail{
+    width: 41vh;
+    padding: 6px;
+    padding-left: 1.2rem;
+  }
+  .E-mail input{
+    width: 34vh;
+  }
+  .Password{
+    width: 41vh;
+    padding: 6px;
+    padding-left: 1.2rem;
+  }
+  .Password input{
+    width: 34vh;
+  }
+  .confirm button{
+    width: 10rem;
+    font-size: 13.5px;
+    padding: 12px;
+  }
+}
+@media only screen and (min-width: 1025px){
+  .sign{
+    height: 25rem;
+    width: 20rem;
+  }
+  .sign h2{
+    font-size: 32px;
+  }
+  .name input{
+    width: 33vh;
+  }
+  .E-mail input{
+    width: 33vh;
+  }
+  .Password input{
+    width: 33vh;
+  }
+}

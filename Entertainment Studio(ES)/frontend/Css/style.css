@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('../assets/images/main-background.jpg');
+  background-size: cover;
+}
+.sign{
+  height: 52.5vh;
+  border-radius: 20px;
+  border: none;
+  padding: 2rem;
+  background-color: #F8f6f0;
+  box-shadow: 0 0 15px black;
+  width: 42vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sign h2{
+  height: 3rem;
+}
+.name{
+  margin: 20px;
+  background-color: #fff;
+  height: 3rem;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  gap: 10px;
+  box-shadow: 0 0 15px darkgrey;
+  width: 17.5rem;
+  
+}
+
+
+.name input{
+  border: none;
+  height: 2rem;
+  background-color: #fff;
+  outline: none;
+  font-size: 14.5px;
+  width: 30vh;
+
+}
+.name i{
+  font-size: 1.4rem;
+}
+.E-mail{
+  margin: 20px;
+  background-color: #fff;
+  height: 3rem;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  gap: 10px;
+  box-shadow: 0 0 15px darkgrey;
+  width: 17.5rem;
+}
+
+
+.E-mail input{
+  border: none;
+  height: 2rem;
+  background-color: #fff;
+  outline: none;
+  font-size: 14.5px;
+  width: 30vh;
+  outline: none;
+
+}
+.E-mail i{
+  font-size: 1.4rem;
+}
+.Password{
+  margin: 20px;
+  background-color: #fff;
+  height: 3rem;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  gap: 10px;
+  box-shadow: 0 0 15px darkgrey;
+  width: 17.5rem;
+}
+
+
+.Password input{
+  border: none;
+  height: 2rem;
+  outline: none;
+  font-size: 14.5px;
+  width: 30vh;
+
+}
+.Password i{
+  font-size: 1.4rem;
+}
+.confirm{
+  height: 4.5rem;
+}
+.confirm button{
+  padding: 12px;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: rgb(112, 6, 212);
+  width: 11rem;
+  font-size: 14px;
+  font-weight: 560;
+  font-family:Poppins;
+  margin-top: 12px;
+  box-shadow: 0 0 15px darkgrey;
+
+}
+#mouse :hover{
+  cursor: pointer;
+}
+.sign p{
+  font-size: 15px;
+  color: grey;
+  padding-top: 7px;
+
+}
+.sign p a{
+  text-decoration: none;
+}
