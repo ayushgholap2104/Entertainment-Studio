@@ -1,0 +1,1421 @@
+/* For signup */
+@media only screen and (max-width:480px){
+  /* For Sign Up Page */
+  .signup{
+    width: 19rem;
+    height: 27rem;
+    gap: 27px;
+  }
+  .signup h2{
+    font-size: 26px;
+  }
+  #user-up{
+    width: 232px;
+  }
+  .name i{
+    font-size: 24px;
+  }
+  .name input{
+    width: 180px;
+    font-size: 15px;
+  }
+  .E-mail i{
+    font-size: 24px;
+  }
+  .E-mail input{
+    width: 180px;
+    font-size: 15px;
+  }
+  .Password i{
+    font-size: 24px;
+  }
+  .Password input{
+    width: 180px;
+    font-size: 15px;
+  }
+  #btn{
+    width: 150px;
+    font-size: 12px;
+  }
+  .signup p{
+    font-size: 12px;
+  }
+  /* For Sign in page */
+  .signin{
+    width: 19rem;
+    height: 23rem;
+    gap: 27px;
+  }
+  .signin h2{
+    font-size: 26px;
+  }
+  .signin p{
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+  /* For Sign Up page */
+  .signup{
+    width: 22rem;
+    height: 27rem;
+    gap: 25px;
+  }
+  .signup h2{
+    font-size: 28px;
+  }
+  #user-up{
+    width: 290px;
+  }
+  .name i{
+    font-size: 29px;
+  }
+  .name input{
+    width: 240px;
+    font-size: 16px;
+  }
+  .E-mail i{
+    font-size: 29px;
+  }
+  .E-mail input{
+    width: 240px;
+    font-size: 16px;
+  }
+  .Password i{
+    font-size: 29px;
+  }
+  .Password input{
+    width: 240px;
+    font-size: 16px;
+  }
+  #btn{
+    width: 170px;
+    font-size: 13.5px;
+  }
+  .signup p{
+    font-size: 13px;
+  }
+  /* For Sign in page */
+  .signin{
+    width: 22rem;
+    height: 23rem;
+    gap: 25px;
+  }
+  .signin h2{
+    font-size: 28px;
+  }
+  .signin p{
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  /* For Sign Up page */
+  .signup{
+    width: 24rem;
+    height: 27.5rem;
+    gap: 27px;
+  }
+  .signup h2{
+    font-size: 29px;
+  }
+  #user-up{
+    width: 310px;
+  }
+  .name i{
+    font-size: 31px;
+  }
+  .name input{
+    width: 255px;
+    font-size: 16px;
+  }
+  .E-mail i{
+    font-size: 31px;
+  }
+  .E-mail input{
+    width: 255px;
+    font-size: 16px;
+  }
+  .Password i{
+    font-size: 31px;
+  }
+  .Password input{
+    width: 255px;
+    font-size: 16px;
+  }
+  #btn{
+    width: 180px;
+    font-size: 13.5px;
+  }
+  .signup p{
+    font-size: 14px;
+  }
+  /* For Sign in page */
+  .signin{
+    width: 24rem;
+    height: 24rem;
+    gap: 27px;
+  }
+  .signin h2{
+    font-size: 29px;
+  }
+  .signin p{
+    font-size: 13.5px;
+  }
+  
+}
+@media only screen and (min-width:1285px) and (max-width:1390px) {
+  .Es-logo{
+    display: flex;
+    align-items: center;
+  }
+  .sidebar{
+    font-size: 20px;
+  }
+  .brand-name{
+   font-size: 10px;
+   top: 12px;
+   left: 5px;
+   position: relative;
+  }
+  .panel2{
+    width: 8rem;
+    gap: 30px;
+  }
+  .panel2 a{
+    font-size: 15px;
+    width: 4rem;
+  }
+  .home a.active::after{
+    width: 97%;
+  }
+  .about a.active::after{
+    width: 97%;
+  }
+  .panel3{
+    width: 36rem;
+    margin-left: 50px;
+  }
+  .panel3 i{
+    font-size: 17px;
+  }
+  .panel3 input{
+    width: 27rem;
+    height: 3.5vh;
+  }
+  .language{
+    font-size: 20px;
+  }
+  .login{
+   position: relative;
+   right: 5px;
+  }
+  .login a{
+   font-size: 12px;
+  }
+  .panel4{
+   display: flex;
+   gap: 24px;
+   margin-right: 40px;
+
+  }
+  .comment{
+   font-size: 27px;
+   
+  }
+  .light-dark{
+   font-size: 27px;
+  }
+  .search-bar{
+    display: none;
+  }
+  .user-login{
+    display: none;
+  }
+  .slider-container{
+   height: 420px;
+   width:1290px;
+  }
+  /* .parent-box{
+    margin-right: 35px;
+    margin-left: 35px;
+  } */
+
+}
+
+
+@media only screen and (min-width:1166px) and (max-width:1284px){
+  .sidebar{
+    font-size: 19px;
+  }
+  .panel1{
+    margin-right: 2px;
+    /* padding-left: 20px; */
+  }
+  .Es-logo{
+    display: flex;
+    align-items: center;
+  }
+  .Es-logo i{
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  .brand-name{
+   font-size: 9px;
+   position: relative;
+   top: 12px;
+   left: 1px;
+   letter-spacing: 1;
+   
+  }
+  .panel2{
+    width: 8rem;
+    gap: 25px;
+    margin-right: 10px;
+  }
+  .panel2 a{
+    font-size: 14px;
+    width: 4rem;
+  }
+  .home a.active::after{
+    width: 95%;
+  }
+  .about a.active::after{
+    width: 95%;
+  }
+  .panel3{
+    width: 28rem;
+    margin-right: 10px;
+  }
+  .panel3 i{
+    font-size: 16px;
+  }
+  .panel3 input{
+    width: 20rem;
+    height: 3.5vh;
+  }
+  .language{
+    font-size: 19px;
+    margin-right: 18px;
+  }
+  .login{
+   margin-right: 5px;
+  }
+  .login a{
+   font-size: 11px;
+  }
+  .panel4{
+   margin-left: 10px;
+   display: flex;
+   gap: 15px;
+
+  }
+  .comment{
+   font-size: 26px;
+   
+  }
+  .light-dark{
+   font-size: 26px;
+  }
+  .search-bar{
+    display: none;
+  }
+  .user-login{
+    display: none;
+  }
+  .slider-container{
+   height: 420px;
+   width:1170px;
+  }
+  .box{
+   height: 250px;
+   width: 190px;
+  }
+  .category{
+    font-size: 19px;
+  }
+}
+@media only screen and (min-width:1025px) and (max-width:1165px) {
+  .sidebar{
+    font-size: 18px;
+  }
+  .panel1{
+    margin-right: 5px;
+  }
+  .Es-logo{
+    display: flex;
+    align-items: center;
+  }
+  .Es-logo i{
+    font-size: 39px;
+    margin-right: 5px;
+  }
+  .brand-name{
+   font-size: 8px;
+   top: 12px;
+   position: relative;
+   left: 0.2px;
+  }
+  .panel2{
+    gap: 20px;
+  }
+  .panel2 a{
+    font-size: 13px;
+    width: 4rem;
+  }
+  .home a.active::after{
+    width: 87%;
+  }
+  .about a.active::after{
+    width: 87%;
+  }
+  .panel3{
+    width: 19rem;
+    margin-right: 20px;
+    margin-left: 35px;
+  }
+  .panel3 i{
+    font-size: 15px;
+  }
+  .panel3 input{
+    width: 16rem;
+    height: 3.5vh;
+  }
+  .language{
+    font-size: 19px;
+    margin-right: 4px;
+  }
+  .login a{
+   font-size: 10px;
+  }
+  .panel4{
+   margin-left: 25px;
+   display: flex;
+   gap: 20px;
+
+  }
+  .comment{
+   font-size: 25px;
+   
+  }
+  .light-dark{
+   font-size: 25px;
+  }
+  .copy-right{
+    font-size: 14px;
+  }
+  .company-info h4{
+    font-size: 12px;
+  }
+  .company-info a{
+    font-size: 11px;
+  }
+  .feedback-center h4{
+    font-size: 12px;
+  }
+  .feedback-center a{
+    font-size: 11px;
+  }
+  .icons{
+    font-size: 15px;
+  }
+  .side-menu{
+    width: 290px;
+  }
+  .menu a{
+    font-size: 16px;
+    height: 2.5vh;
+  }
+  .menu a.active{
+    font-size: 18px;
+  }
+  .menu a:hover{
+    font-size: 18px;
+  }
+  .search-bar{
+    display: none;
+  }
+  .user-login{
+    display: none;
+  }
+  .slider-container{
+   height: 420px;
+   width:1020px;
+  }
+  .box{
+   height: 240px;
+   width: 180px;
+  }
+  .category{
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width:947px) and (max-width:1024px){
+  /* For Header part */
+  .sidebar{
+    font-size: 22px;
+    height:26px ;
+    width: 29px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .search-bar i{
+    color: gray;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13.5rem;
+  }
+  .Es-logo i{
+    font-size: 60px;
+  }
+
+  .brand-name{
+   font-size: 18px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   letter-spacing: 1px;
+   left: 0.2px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 18px;
+  }
+  .language{
+    font-size: 22px;
+    height: 4vh;
+    width: 3vw;
+  }
+  .login a{
+   font-size: 11px;
+  }
+  .comment{
+   font-size: 29px;
+  }
+  .light-dark{
+   font-size: 29px;
+  }
+  .copy-right{
+    font-size: 13.5px;
+  }
+  .company-info h4{
+    font-size: 11px;
+  }
+  .company-info a{
+    font-size: 10px;
+  }
+  .feedback-center h4{
+    font-size: 11px;
+  }
+  .feedback-center a{
+    font-size: 10px;
+  }
+  .icons{
+    font-size: 14.5px;
+  }
+  .user-login{
+    display: none;
+  }
+  .slider-container{
+   height: 420px;
+   width:950px;
+  }
+  .box{
+   height: 230px;
+   width: 170px;
+  }
+  .category{
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width:850px) and (max-width:946px){
+  .sidebar{
+    font-size: 21px;
+    height:23px ;
+    width: 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11.3rem;
+  }
+  .Es-logo i{
+    font-size: 58px;
+  }
+
+  .brand-name{
+   font-size: 17px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   letter-spacing: 1px;
+   left: 0.2px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 15px;
+  }
+  .language{
+    font-size: 21px;
+    height: 4vh;
+    width: 3vw;
+  }
+  .login a{
+   font-size: 11px;
+  }
+  .comment{
+   font-size: 27px;
+  }
+  .light-dark{
+   font-size: 27px;
+  }
+  .copy-right{
+    font-size: 13px;
+  }
+  .company-info h4{
+    font-size: 10px;
+  }
+  .company-info a{
+    font-size: 9px;
+  }
+  .feedback-center h4{
+    font-size: 10px;
+  }
+  .feedback-center a{
+    font-size: 9px;
+  }
+  .icons{
+    font-size: 14px;
+  }
+  .menu a{
+    font-size: 16px;
+  }
+  .menu a.active{
+    font-size: 17px;
+  }
+  .menu a:hover{
+    font-size: 17px;
+  }
+  .search-bar{
+    width: 12rem;
+  }
+  .search-bar input{
+    height: 3vh;
+    width: 10rem;
+  }
+  .search-bar i{
+    color: grey;
+    font-size: 15px;
+    padding-right: 5px;
+  }
+  .search-bar input::placeholder{
+    color: black;
+    font-size: 12px;
+  }
+  .user-login{
+    display: none;
+  }
+  .slider-container{
+   height: 420px;
+   width:850px;
+  }
+  .box{
+   height: 220px;
+   width: 160px;
+  }
+  .category{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width:850px){
+  #btn-up{
+   width: 42px;
+   height: 42px;
+  }
+  #btn-up i{
+   font-size: 1.3rem;
+  }
+  .sidebar{
+    font-size: 21px;
+    height:24px ;
+    width: 27px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11.2rem;
+  }
+  .Es-logo i{
+    font-size: 57px;
+  }
+
+  .brand-name{
+   font-size: 16px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 25px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 30px;
+  }
+  .light-dark{
+   font-size: 30px;
+  }
+  .copy-right{
+    font-size: 12.5px;
+  }
+  .company-info h4{
+    font-size: 9px;
+  }
+  .company-info a{
+    font-size: 8px;
+  }
+  .feedback-center h4{
+    font-size: 9px;
+  }
+  .feedback-center a{
+    font-size: 8px;
+  }
+  .icons{
+    font-size: 13.5px;
+  }
+  .side-menu{
+    width: 300px;
+  }
+  .menu a{
+    font-size: 15px;
+    height: 2vh;
+  }
+  .menu a.active{
+    font-size: 16px;
+  }
+  .menu a:hover{
+    font-size: 16px;
+  }
+  .search-bar{
+    width: 11rem;
+  }
+  .search-bar input{
+    width: 9rem;
+  }
+  .search-bar i{
+    color: grey;
+    font-size: 15px;
+    padding-right: 7px;
+  }
+  .search-bar input::placeholder{
+    color: black;
+    font-size: 12px;
+  }
+  .slider-container{
+   height: 420px;
+   width:750px;
+  }
+  .box{
+   height: 210px;
+   width: 150px;
+  }
+  .category{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width:739px){
+  .sidebar{
+    font-size: 21px;
+    height:24px ;
+    width: 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  #btn-up{
+    width: 40px;
+    height: 40px;
+  }
+  #btn-up i{
+   font-size: 1.3rem;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.9rem;
+  }
+  .Es-logo i{
+    font-size: 56px;
+  }
+
+  .brand-name{
+   font-size: 15px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 20px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 28px;
+  }
+  .light-dark{
+   font-size: 28px;
+  }
+  .side-menu{
+    width: 280px;
+  }
+  .slider-container{
+   height: 420px;
+   width:650px;
+  }
+  .box{
+   height: 200px;
+   width: 140px;
+  }
+  .category{
+    font-size: 16px;
+  }
+  .swipe-btn{
+    height: 180px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width:644px){
+  .sidebar{
+    font-size: 20px;
+    height:24px ;
+    width: 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+  }
+  .Es-logo i{
+    font-size: 55px;
+  }
+
+  .brand-name{
+   font-size: 14px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 17px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 26.5px;
+  }
+  .light-dark{
+   font-size: 26.5px;
+  }
+  .copy-right{
+    font-size: 12px;
+  }
+  .company-info{
+    visibility: hidden;
+  }
+  .company-info h4{
+    font-size: 8px;
+  }
+  .company-info a{
+    font-size: 7px;
+  }
+  .feedback-center{
+    visibility: hidden;
+  }
+  .feedback-center h4{
+    font-size: 8px;
+  }
+  .feedback-center a{
+    font-size: 7px;
+  }
+  .icons{
+    font-size: 13px;
+    /* margin-bottom: 14px; */
+  }
+  .menu a.active{
+    font-size: 15px;
+  }
+  .menu a:hover{
+    font-size: 15px;
+  }
+  .side-menu{
+    width: 270px;
+  }
+  .user-signin{
+   width: 75px;
+   font-size: 12px;
+   height: 42px;
+  }
+  .user-signin a{
+    font-weight: 500;
+    height:40px ;
+    width: 72px;
+  }
+  .user-signup{
+   width: 110px;
+   font-size: 11px;
+   height: 45px;
+  }
+  .slider-container{
+   height: 420px;
+   width:570px;
+  }
+  .right-arrow{
+    display: none;
+  }
+  .left-arrow{
+    display: none;
+  }
+  .box{
+   height: 190px;
+   width: 130px;
+  }
+  .category{
+    font-size: 16px;
+  }
+  .swipe-btn{
+    height: 170px;
+  }
+}
+@media only screen and (max-width:555px){
+  .sidebar{
+    font-size: 19px;
+    height:22px ;
+    width: 23px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.6rem;
+  }
+  .Es-logo i{
+    font-size: 53px;
+  }
+
+  .brand-name{
+   font-size: 13px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 15px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 25px;
+  }
+  .light-dark{
+   font-size: 25px;
+  }
+  foot{
+    height: 8vh;
+  }
+  .copy-right{
+    font-size: 11.5px;
+  }
+  .company-info h4{
+    font-size: 6px;
+  }
+  .company-info a{
+    font-size: 5px;
+  }
+  .company-info{
+    visibility: hidden;
+  }
+  .feedback-center{
+    visibility: hidden;
+  }
+  .feedback-center h4{
+    font-size: 6px;
+  }
+  .feedback-center a{
+    font-size: 5px;
+  }
+  .icons{
+    font-size: 12.5px;
+  }
+  .side-menu{
+    width: 250px;
+  }
+  .menu a{
+    font-size: 14px;
+    height: 1.5vh;
+  }
+  .menu a.active{
+    font-size: 15px;
+  }
+  .menu a:hover{
+    font-size: 15px;
+  }
+  .search-bar{
+    width: 10rem;
+  }
+  .search-bar input{
+    width: 8rem;
+  }
+  .search-bar i{
+    color: grey;
+    font-size: 14px;
+    padding-right: 7px;
+  }
+  .search-bar input::placeholder{
+    color: black;
+    font-size: 11px;
+  }
+  .user-signin{
+   width: 73px;
+   font-size: 11px;
+   height: 40px;
+  }
+  .user-signin a{
+    font-weight: 500;
+    height:38px ;
+    width: 70px;
+  }
+  .user-signup{
+   width: 100px;
+   font-size: 10px;
+   height: 43px;
+  }
+  .slider-container{
+   height: 420px;
+   width:450px;
+  }
+  .right-arrow{
+    display: none;
+  }
+  .left-arrow{
+    display: none;
+  }
+  .box{
+   height: 180px;
+   width: 120px;
+   margin-bottom: 35px;
+  }
+  .category{
+    font-size: 15px;
+  }
+  .swipe-btn{
+    height: 165px;
+  }
+}
+
+@media only screen and (max-width:470px){
+  #btn-up{
+   width: 40px;
+   height: 40px;
+  }
+  #btn-up i{
+   font-size: 1.2rem;
+  }
+  .sidebar{
+    font-size: 18px;
+    height:21px ;
+    width: 23px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8rem;
+  }
+  .Es-logo i{
+    font-size: 52px;
+  }
+
+  .brand-name{
+   font-size: 12px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 15px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 23px;
+  }
+  .light-dark{
+   font-size: 23px;
+  }
+  .copy-right{
+    font-size: 11px;
+  }
+  .company-info h4{
+    font-size: 5px;
+  }
+  .company-info a{
+    font-size: 4px;
+  }
+  .company-info{
+    visibility: hidden;
+  }
+  .feedback-center{
+    visibility: hidden;
+  }
+  .feedback-center h4{
+    font-size: 5px;
+  }
+  .feedback-center a{
+    font-size: 4px;
+  }
+  .icons{
+    font-size: 12px;
+  }
+  .side-menu{
+    width: 235px;
+  }
+  .menu a{
+    font-size: 13px;
+    height: 1vh;
+  }
+  .menu a.active{
+    font-size: 14px;
+  }
+  .menu a:hover{
+    font-size: 14px;
+  }
+  .search-bar{
+    width: 9rem;
+  }
+  .search-bar input{
+    width: 7rem;
+  }
+  .search-bar i{
+    color: grey;
+    font-size: 13px;
+    padding-right: 7px;
+  }
+  .search-bar input::placeholder{
+    color: black;
+    font-size: 10px;
+  }
+  .user-signin{
+   width: 71px;
+   font-size: 10px;
+   height: 38px;
+  }
+  .user-signin a{
+    font-weight: 500;
+    height:36px ;
+    width: 68px;
+  }
+  .user-signup{
+   width: 98px;
+   font-size: 8px;
+   height: 41px;
+  }
+  .slider-container{
+   height: 420px;
+   width:400px;
+  }
+  .right-arrow{
+    display: none;
+  }
+  .left-arrow{
+    display: none;
+  }
+  .box{
+   height: 170px;
+   width: 110px;
+   margin-bottom: 35px;
+  }
+  .category{
+    font-size: 15px;
+  }
+  .swipe-btn{
+    height: 155px;
+  }
+}
+@media only screen and (max-width:398px){
+  .sidebar{
+    font-size: 16px;
+    height:18px ;
+    width: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:8px;
+  }
+  .Es-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+  }
+  .Es-logo i{
+    font-size: 50px;
+  }
+
+  .brand-name{
+   font-size: 11px;
+   display: flex;
+   position: relative;
+   top: 20px;
+   left: 0.2px;
+   letter-spacing: 1px;
+  }
+  .panel2{
+    display: none;
+  }
+  .panel3{
+    display: none;
+  }
+  .panel4{
+    gap: 15px;
+  }
+  .language{
+    display: none;
+  }
+  .login a{
+   display: none;
+  }
+  .comment{
+   font-size: 21px;
+  }
+  .light-dark{
+   font-size: 21px;
+  }
+  .foot{
+    text-align: center;
+  }
+  .copy-right{
+    font-size: 5px;
+    display: flex;
+  }
+  .company-info h4{
+    font-size: 4px;
+  }
+  .company-info a{
+    font-size: 3px;
+  }
+  .company-info{
+    visibility: hidden;
+  }
+  .feedback-center{
+    visibility: hidden;
+  }
+  .feedback-center h4{
+    font-size: 4px;
+  }
+  .feedback-center a{
+    font-size: 3px;
+  }
+  .icons{
+    font-size: 6px;
+  }
+  .side-menu{
+    width: 220px;
+  }
+  .menu a{
+    font-size: 12px;
+    height: 1vh;
+  }
+  .menu a.active{
+    font-size: 13px;
+  }
+  .menu a:hover{
+    font-size: 13px;
+  }
+  .search-bar{
+    width: 8rem;
+  }
+  .search-bar input{
+    width: 6rem;
+  }
+  .search-bar i{
+    color: grey;
+    font-size: 12px;
+    padding-right: 7px;
+  }
+  .search-bar input::placeholder{
+    color: black;
+    font-size: 9px;
+  }
+  .user-signin{
+   width: 69px;
+   font-size: 9px;
+   height: 36px;
+  }
+  .user-signin a{
+    font-weight: 500;
+    height:34px ;
+    width: 66px;
+  }
+  .user-signup{
+   width: 96px;
+   font-size: 7px;
+   height: 39px;
+  }
+  .slider-container{
+   height: 400px;
+   width:330px;
+  }
+  .right-arrow{
+    display: none;
+  }
+  .left-arrow{
+    display: none;
+  }
+  .box{
+   height: 160px;
+   width: 100px;
+   margin-bottom: 30px;
+  }
+  .category{
+    font-size: 14px;
+  }
+  .swipe-btn{
+    height: 140px;
+  }
+}
+@media only screen and (min-width:1390px) and (max-width:1500px) {
+  .search-bar{
+    display: none;
+  }
+  .user-login{
+    display: none;
+  }
+}
+/* @media only screen and (max-width:499px){
+  .slider-container{
+   width:1200px;
+  }
+  .card-container{
+   width: 100%;
+  }
+  .card{
+   min-width: 100%;
+   height: 100%;
+  }
+
+} */
