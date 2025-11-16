@@ -283,6 +283,42 @@ const boxDetailstore = {
         img: "../img/mitwa-serial.jpg",
         Genre: "Popular Tvshows"
       },
+      {
+        title: "udneKiaasha",
+        img: "../img/UdnekiAasha.jpg",
+        Genre: "Popular Tvshows"
+      },
+      {
+        title: "mangalLakshmi",
+        img: "../img/mangalLakshmi.jpg",
+        Genre: "Popular Tvshows"
+      },
+      {
+        title: "Mahabharat",
+        img: "../img/Mahabharat.jpg",
+        Genre: "Popular Tvshows"
+      },
+      {
+        title: "Sampoorna",
+        img: "../img/Sampoorna.jpg",
+        Genre: "Popular Tvshows",
+      },
+      {
+        title: "Mannat",
+        img: "../img/mannat-serial.jpg",
+        Genre: "Popular Tvshows"
+      },
+      {
+        title: "Devmanush",
+        img: "../img/devmanush-serial.jpg",
+
+        Genre: "Popular Tvshows"
+      },
+      {
+        title: "Mitwa",
+        img: "../img/mitwa-serial.jpg",
+        Genre: "Popular Tvshows"
+      },
       // "womenCricket" box
       {
         title: "womenCricket",
