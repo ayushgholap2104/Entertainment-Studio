@@ -360,33 +360,33 @@ const boxDetailstore = {
         Genre: "Non-stop Sports"
       },
       {
-        title: "india_vs_aus",
-        img: "../img/india-vs-aus.jpg",
+        title: "iplAuctions",
+        img: "../img/iplAuctions.jpg",
         Genre: "Non-stop Sports"
       },
       {
-        title: "menT20final",
-        img: "../img/men-t20final.jpg",
+        title: "indiavsSouthafrica",
+        img: "../img/indiaVssouthafricatest.jpg",
         Genre: "Non-stop Sports"
       },
       {
-        title: "Kabaddi",
-        img: "../img/kabaddi.jpg",
+        title: "IPL",
+        img: "../img/IPL2025.jpg",
         Genre: "Non-stop Sports"
       },
       {
-        title: "Ipl",
-        img: "../img/ipl.jpg",
+        title: "rcbCelebration",
+        img: "../img/rcbCelebration.png",
         Genre: "Non-stop Sports"
       },
       {
-        title: "Badminton",
-        img: "../img/badminton.png",
+        title: "topSports",
+        img: "../img/topSports.jpg",
         Genre: "Non-stop Sports"
       },
       {
-        title: "Football",
-        img: "../img/football.jpg",
+        title: "NationalSports",
+        img: "../img/Nationalsports.jpg",
         Genre: "Non-stop Sports"
       },
       // 5th Box
@@ -425,6 +425,41 @@ const boxDetailstore = {
         img: "../img/death-note.jpg",
         Genre: "Rejoice Anime Fans!"
       },
+      {
+        title: "Haikyuu",
+        img: "../img/Haikyuu.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "spyFamily",
+        img: "../img/spyFamily.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "assasinationClasroom",
+        img: "../img/assasinationClassroom.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "mushukoTensei",
+        img: "../img/mushukoTensei.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "jhunjiltoCollection",
+        img: "../img/jhunjiltoCollection.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "myheroAcademia",
+        img: "../img/myheroAcademia.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
+      {
+        title: "blackButtler",
+        img: "../img/blackButtler.jpg",
+        Genre: "Rejoice Anime Fans!"
+      },
       // 6th Box
       {
         title: "Doraemon",
@@ -461,6 +496,41 @@ const boxDetailstore = {
         img: "../img/micky-mouse.jpg",
         Genre: "Kids Corner"
       },
+      {
+        title: "ninjaHattori",
+        img: "../img/ninjaHattori.png",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "munkiTrunk",
+        img: "../img/munkiTrunk.jpg",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "Ainbo",
+        img: "../img/Ainbo.jpg",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "chikooAurbunty",
+        img: "../img/chikooAurbunty.jpg",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "peppaPig",
+        img: "../img/peppaPig.jpg",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "Bajrangi",
+        img: "../img/Bajrangi.jpg",
+        Genre: "Kids Corner"
+      },
+      {
+        title: "mashaAndbeer",
+        img: "../img/mashaAndbeer.jpg",
+        Genre: "Kids Corner"
+      },
       // 7th Box
       {
         title: "Dragons",
@@ -495,6 +565,41 @@ const boxDetailstore = {
       {
         title: "Anora",
         img: "../img/anora.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "deadpoolWolverin",
+        img: "../img/deadpoolWolverin.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "disneyTangled",
+        img: "../img/disneyTangled.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "disneyCars",
+        img: "../img/disneyCars.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "planetOfapes",
+        img: "../img/planetOfapes.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "alienCovinant",
+        img: "../img/alienCovinant.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "insideOut2",
+        img: "../img/insideOut2.jpg",
+        Genre: "Hollywood Superhits"
+      },
+      {
+        title: "avengerInfinitywar",
+        img: "../img/avengerInfinitywar.jpg",
         Genre: "Hollywood Superhits"
       },
     ]
