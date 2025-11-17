@@ -299,30 +299,64 @@ const boxDetailstore = {
         Genre: "Popular Tvshows"
       },
       {
-        title: "Sampoorna",
-        img: "../img/Sampoorna.jpg",
+        title: "Jhanak",
+        img: "../img/Jhanak.jpg",
         Genre: "Popular Tvshows",
       },
       {
-        title: "Mannat",
-        img: "../img/mannat-serial.jpg",
+        title: "Swabhimaan",
+        img: "../img/Swabhimaan.jpg",
         Genre: "Popular Tvshows"
       },
       {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
-
+        title: "radhaKrishna",
+        img: "../img/radhaKrishna.jpg",
         Genre: "Popular Tvshows"
       },
       {
-        title: "Mitwa",
-        img: "../img/mitwa-serial.jpg",
+        title: "tulaJapnaar",
+        img: "../img/tulaJapnaar.jpg",
         Genre: "Popular Tvshows"
       },
       // "womenCricket" box
       {
         title: "womenCricket",
         img: "../img/women-cricket.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "india_vs_aus",
+        img: "../img/india-vs-aus.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "menT20final",
+        img: "../img/men-t20final.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "Kabaddi",
+        img: "../img/kabaddi.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "Ipl",
+        img: "../img/ipl.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "Badminton",
+        img: "../img/badminton.png",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "Football",
+        img: "../img/football.jpg",
+        Genre: "Non-stop Sports"
+      },
+      {
+        title: "ranjhiTrophy",
+        img: "../img/ranjhiTrophy.jpg",
         Genre: "Non-stop Sports"
       },
       {
