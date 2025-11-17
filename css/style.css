@@ -751,6 +751,9 @@ header{
   position: relative;
   border-radius: 10px;
 }
+.box img:hover{
+  scale: 1.1;
+}
 .box img{
   height: 100%;
   width: 100%;
@@ -764,7 +767,7 @@ header{
   left: 0;
   right: 0;
   bottom: 0;
-  height: 45%;
+  height: 30%;
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
   transition: opacity 0.3s;
   border-bottom-left-radius: 0.2rem;

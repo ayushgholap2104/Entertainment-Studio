@@ -332,6 +332,9 @@
   .category{
     font-size: 19px;
   }
+  .swipe-btn{
+    height: 245px;
+  }
 }
 @media only screen and (min-width:1025px) and (max-width:1165px) {
   .sidebar{
@@ -447,6 +450,9 @@
   .category{
     font-size: 18px;
   }
+  .swipe-btn{
+    height: 235px;
+  }
 }
 @media only screen and (min-width:947px) and (max-width:1024px){
   /* For Header part */
@@ -536,6 +542,9 @@
   }
   .category{
     font-size: 18px;
+  }
+  .swipe-btn{
+    height: 226px;
   }
 }
 @media only screen and (min-width:850px) and (max-width:946px){
@@ -647,6 +656,9 @@
   }
   .category{
     font-size: 17px;
+  }
+  .swipe-btn{
+    height: 218px;
   }
 }
 @media only screen and (max-width:850px){
@@ -764,6 +776,9 @@
   .category{
     font-size: 17px;
   }
+  .swipe-btn{
+    height: 208px;
+  }
 }
 @media only screen and (max-width:739px){
   .sidebar{
@@ -838,8 +853,7 @@
     font-size: 16px;
   }
   .swipe-btn{
-    height: 180px;
-    margin-bottom: 10px;
+    height: 198px;
   }
 }
 @media only screen and (max-width:644px){
@@ -960,7 +974,7 @@
     font-size: 16px;
   }
   .swipe-btn{
-    height: 170px;
+    height: 190px;
   }
 }
 @media only screen and (max-width:555px){
@@ -1097,13 +1111,12 @@
   .box{
    height: 180px;
    width: 120px;
-   margin-bottom: 35px;
   }
   .category{
     font-size: 15px;
   }
   .swipe-btn{
-    height: 165px;
+    height: 175px;
   }
 }
 
@@ -1245,13 +1258,12 @@
   .box{
    height: 170px;
    width: 110px;
-   margin-bottom: 35px;
   }
   .category{
     font-size: 15px;
   }
   .swipe-btn{
-    height: 155px;
+    height: 171px;
   }
 }
 @media only screen and (max-width:398px){
@@ -1389,13 +1401,12 @@
   .box{
    height: 160px;
    width: 100px;
-   margin-bottom: 30px;
   }
   .category{
     font-size: 14px;
   }
   .swipe-btn{
-    height: 140px;
+    height: 161px;
   }
 }
 @media only screen and (min-width:1390px) and (max-width:1500px) {
