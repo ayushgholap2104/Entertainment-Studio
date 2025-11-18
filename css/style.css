@@ -153,7 +153,7 @@ header{
 .home a::after{
   position: absolute;
   content: "";
-  height: 2.5px;
+  height: 3px;
   background-color: #fff;
   bottom: -9px;
   transition:width 0.6s ease;
@@ -166,7 +166,7 @@ header{
 }
 .home a.active::after{
   content: "";
-  height: 2.5px;
+  height: 3px;
   background-color: #fff;
   bottom: -9px;
   transition: width 0.3s ease;
@@ -185,7 +185,7 @@ header{
 .about a::after{
   position: absolute;
   content: "";
-  height: 2.5px;
+  height: 3px;
   background-color:#fff;
   bottom: -9px;
   transition:width 0.6s ease;
@@ -195,7 +195,7 @@ header{
 
 }
 .about a:hover::after{
-  width: 112%;
+  width: 110%;
 }
 .about a.active::after{
   content: "";
@@ -518,7 +518,7 @@ header{
 
 }
 .search-bar input::placeholder{
-  color: var(--primary_color);
+  color: #000000;
   font-size: 14px;
   /* padding-left: 2px; */
   font-weight: 400;
@@ -752,7 +752,7 @@ header{
   border-radius: 10px;
 }
 .box img:hover{
-  scale: 1.1;
+  scale: 1.08;
 }
 .box img{
   height: 100%;
