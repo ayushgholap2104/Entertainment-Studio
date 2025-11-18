@@ -325,6 +325,7 @@ header{
   /* text-align: center; */
   align-items: center;
   padding: 1rem;
+  position: fixed;
 
 }
 .company-info h4{
