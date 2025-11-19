@@ -1416,6 +1416,10 @@
   .user-login{
     display: none;
   }
+  .panel3 input{
+    width: 27rem;
+    height: 3.5vh;
+  }
 }
 /* @media only screen and (max-width:499px){
   .slider-container{
