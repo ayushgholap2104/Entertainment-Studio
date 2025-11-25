@@ -325,24 +325,34 @@ header{
   padding-top: 8rem;
   padding-left: 4rem;
   padding-right:4rem;
-  min-height: 100vh;
-  padding-bottom: 5rem;
+  /* min-height: 100vh; */
+  padding-bottom: 8rem;
   background-color: var(--bg_color);
+}
+.head1{
+  padding: 1.5rem;
+  color: var(--primary_color);
+  border-bottom:var(--border1-color);
+}
+.head1 h2{
+  line-height: 1;
+  font-size: 3rem;
+  font-weight: 550;
 }
 
 .sub-con2{
   height:fit-content;
   border:var(--border1-color);
-  width: 100%;
-  height: 90vh;
+  width: 65%;
   border-radius: 2px;
   background-color: var(--foot-color);
   box-shadow: var(--shadow);
-  width: 100%;
 }
 .main-con2{
   padding: 2.5rem;
+  display: block;
 }
+
 .description{
   display: flex;
   gap: 25px;
@@ -351,6 +361,7 @@ header{
   border-radius: 0.2rem;
   align-items: center;
   background: rgb(255, 249, 191);
+  margin-right: 3px;
 }
 .description i{
   font-size: 38px;
@@ -366,18 +377,172 @@ header{
   margin-right: 2rem;
   word-spacing: 2px;
 }
-
-.head1{
-  padding: 2rem;
+form{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  gap: 1.5rem;
+  width: 100%;
+}
+form span{
+  color: crimson;
+}
+form label{
   color: var(--primary_color);
-  border-bottom:var(--border1-color);
+  font-weight: 500;
 }
-.head1 h2{
+.input_cont{
+  display: flex;
+  flex-direction: column;
+  width: 44.6%;
+  gap: 0.5rem;
+}
+form .input_cont #name{
+  height: 2.2rem;
+  font-size: 14px;
+  outline: none;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 0.05rem solid #0000001a;
+  background: var(--bg_color);
+  color:var(--primary_color);
+  border-width: 0.05rem;
+}
+.input_cont ::placeholder{
+  color: rgb(105, 105, 105);
+}
+form #name:hover{
+  border: 0.05rem solid var(--primary_color);
+  box-shadow: var(--shadow);
+  scale: 1.003;
+}
+/* Container2 */
+.input_cont1{
+  display: flex;
+  flex-direction: column;
+  width: 51.7%;
+  gap: 0.5rem;
+}
+form .input_cont1 #Email{
+  height: 2.2rem;
+  font-size: 14px;
+  outline: none;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 0.05rem solid #0000001a;
+  /* transition: 0.2s; */
+  background: var(--bg_color);
+  color:var(--primary_color);
+  border-width: 0.05rem;
+}
+.input_cont1 ::placeholder{
+  color: rgb(105, 105, 105);
+}
+form #Email:hover{
+  border: 0.05rem solid var(--primary_color);
+  box-shadow: var(--shadow);
+  scale: 1.003;
+}
+/* Cont 3 */
+.input_cont2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.7rem;
+}
+form .input_cont2 #Subject{
+  height: 2.2rem;
+  font-size: 14px;
+  outline: none;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 0.05rem solid #0000001a;
+  background: var(--bg_color);
+  color:var(--primary_color);
+  border-width: 0.05rem;
+}
+.input_cont2 ::placeholder{
+  color: rgb(105, 105, 105);
+}
+form #Subject:hover{
+  border: 0.05rem solid var(--primary_color);
+  box-shadow: var(--shadow);
+  scale: 1.003;
+}
+/* cont 4 */
+.input_cont3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+form .input_cont3 #message{
+  padding: 10px;
+  height: 9rem;
+  font-size: 14px;
+  outline: none;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 0.05rem solid #0000001a;
+  border-width: 0.05rem;
+  /* transition: 0.2s; */
+  background: var(--bg_color);
+  color:var(--primary_color);
+  width: 97.5%;
+}
+.input_cont3 ::placeholder{
+  color: rgb(105, 105, 105);
+}
+form #message:hover{
+  border: 0.05rem solid var(--primary_color);
+  box-shadow: var(--shadow);
+  scale: 1.003;
+}
+#open-popup-btn{
+  padding: 8px 35px;
+  font-size: 0.9rem;
+  box-shadow: 0 0.08rem 0.5rem rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  background: var(--bg_color);
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border:1px solid var(--primary_color);
+  color: rgb(105, 105, 105);
+  margin-top: 10px;
+}
+.popup-center{
+  height: 15rem;
+  padding: 2rem;
+  width: 18rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  z-index: 4;
+  border-radius: 1rem;
   text-align: center;
-  line-height: 1;
-  font-size: 3rem;
-  font-weight: 550;
+  background: #ffdfb8f7;
+  left: 45%;
+  position: fixed;
 }
+.popup-center.active{
+  opacity: 1;
+  top: 50%;
+  transform: translate(-100%,-50%) scale(1);
+  transition: transform 300ms cubic-bezier(0.18, 0.89, 0.43, 1.19);
+}
+.popup_icon{
+  height: 2.8rem;
+  width: 2.8rem;
+  border: 0.2rem solid #ff6400;
+  border-radius: 50%;
+  color: #ff6400;
+  font-size: 2rem;
+  line-height: 3rem;
+  display: inline-block;
+}
+
 .foot{
   width: 100%;
   bottom: 0;
