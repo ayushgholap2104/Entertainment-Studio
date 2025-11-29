@@ -1,11 +1,13 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   font-style: normal;
   scroll-behavior: smooth;
   transition: 0.5s all;
+  list-style: none;
+ 
 }
 html, body {
   overflow-x: hidden;
@@ -347,6 +349,7 @@ header{
   border-radius: 2px;
   background-color: var(--foot-color);
   box-shadow: var(--shadow);
+  float: right;
 }
 .main-con2{
   padding: 2.5rem;
@@ -381,7 +384,7 @@ form{
   display: flex;
   flex-wrap: wrap;
   margin-top: 2.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   gap: 1.5rem;
   width: 100%;
@@ -409,9 +412,11 @@ form .input_cont #name{
   background: var(--bg_color);
   color:var(--primary_color);
   border-width: 0.05rem;
+  text-transform: capitalize;
 }
 .input_cont ::placeholder{
   color: rgb(105, 105, 105);
+  font-weight:400;
 }
 form #name:hover{
   border: 0.05rem solid var(--primary_color);
@@ -439,6 +444,7 @@ form .input_cont1 #Email{
 }
 .input_cont1 ::placeholder{
   color: rgb(105, 105, 105);
+  font-weight:400;
 }
 form #Email:hover{
   border: 0.05rem solid var(--primary_color);
@@ -462,9 +468,11 @@ form .input_cont2 #Subject{
   background: var(--bg_color);
   color:var(--primary_color);
   border-width: 0.05rem;
+  text-transform: capitalize;
 }
 .input_cont2 ::placeholder{
   color: rgb(105, 105, 105);
+  font-weight:400;
 }
 form #Subject:hover{
   border: 0.05rem solid var(--primary_color);
@@ -480,7 +488,7 @@ form #Subject:hover{
 }
 form .input_cont3 #message{
   padding: 10px;
-  height: 9rem;
+  height: 11rem;
   font-size: 14px;
   outline: none;
   padding-left: 12px;
@@ -491,9 +499,11 @@ form .input_cont3 #message{
   background: var(--bg_color);
   color:var(--primary_color);
   width: 97.5%;
+  text-transform: capitalize;
 }
 .input_cont3 ::placeholder{
   color: rgb(105, 105, 105);
+  font-weight:400;
 }
 form #message:hover{
   border: 0.05rem solid var(--primary_color);
@@ -504,18 +514,22 @@ form #message:hover{
   padding: 8px 35px;
   font-size: 0.9rem;
   box-shadow: 0 0.08rem 0.5rem rgba(0, 0, 0, 0.1);
-  font-weight: 400;
   background: var(--bg_color);
   cursor: pointer;
   border-radius: 6px;
   outline: none;
   border: none;
-  border:1px solid var(--primary_color);
-  color: rgb(105, 105, 105);
+  border: 1px solid #f39140;
+  color: #ff9f6e;
   margin-top: 10px;
+  font-weight: 500;
+}
+#open-popup-btn:hover{
+  background-color: #ff6400;
+  color: #fff;
 }
 .popup-center{
-  height: 15rem;
+  height: 14rem;
   padding: 2rem;
   width: 18rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -523,8 +537,16 @@ form #message:hover{
   border-radius: 1rem;
   text-align: center;
   background: #ffdfb8f7;
-  left: 45%;
+  left: 49%;
   position: fixed;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  top: -200%;
+  transform: translate(-100%, -100%) scale(0.5);
+  transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
 }
 .popup-center.active{
   opacity: 1;
@@ -541,7 +563,58 @@ form #message:hover{
   font-size: 2rem;
   line-height: 3rem;
   display: inline-block;
+  align-items: center;
 }
+.popup_icon:hover{
+  cursor: pointer;
+}
+.sub-main{
+  height: 45rem;
+  margin-left: 1rem;
+  width: 33%;
+  border:var(--border1-color);
+  border-radius: 2px;
+  background-color: var(--foot-color);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 8rem;
+  flex-shrink: 1;
+  float: right;
+
+}
+.title{
+  color:#484848;
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-family: cursive;
+  padding: 0.5rem;
+}
+.desc{
+  color: #222;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  width: 20rem;
+  text-align: center;
+  font-weight: 400;
+}
+#popup-btn-close{
+  width: 5.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: 1.5px solid #ff7b00;/* color: #000000; */
+  font-size: 16px;
+  margin-top: 15px;
+  color: #ff7b00;
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+#popup-btn-close:hover{
+  cursor: pointer;
+  color:#fff ;
+  background-color: #ff7b00;
+}
+
 
 .foot{
   width: 100%;
