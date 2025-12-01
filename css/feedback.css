@@ -23,6 +23,9 @@ html, body {
   --foot-color:#fff;
   --border1-color:0.1rem solid #c0c0c0;
   --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --submain-color:#ff9e0026;
+  --icon-color: #666;
+
 }
 body{
   background:var(--bg_color);
@@ -43,6 +46,8 @@ body{
   --foot-color:#1a1b1e;
   --border1-color:0.1rem solid #3f3f3f;
   --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --submain-color:#2C2D31;
+  --icon-color: #c4c3c3;
 }
 #btn-up{
   bottom: 20px;
@@ -332,13 +337,13 @@ header{
   background-color: var(--bg_color);
 }
 .head1{
-  padding: 1.5rem;
+  padding: 2.5rem;
   color: var(--primary_color);
   border-bottom:var(--border1-color);
 }
 .head1 h2{
   line-height: 1;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 550;
 }
 
@@ -569,9 +574,9 @@ form #message:hover{
   cursor: pointer;
 }
 .sub-main{
-  height: 45rem;
+  height: 43rem;
   margin-left: 1rem;
-  width: 33%;
+  width: 29%;
   border:var(--border1-color);
   border-radius: 2px;
   background-color: var(--foot-color);
@@ -579,7 +584,57 @@ form #message:hover{
   position: sticky;
   top: 8rem;
   flex-shrink: 1;
-  float: right;
+  float: left;
+}
+.tab{
+  border-bottom:var(--border1-color) ;
+  height: 3.8rem;
+  display: flex;
+}
+.sub-main-content{
+  padding: 2rem;
+}
+.cards{
+  display: flex;
+}
+.img_cont1{
+  max-width: 40%;
+  margin-right: 1.5rem;
+}
+.img_cont1 img{
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0.2rem;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+.img_description{
+  margin-top: 10px;
+}
+.img_description a{
+  text-decoration: none;
+  color: var(--primary_color);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 0.98rem;
+}
+.img_description p{
+  font-size: 8px;
+  margin-top: 11px;
+  color: var(--icon-color);
+}
+.pop{
+  width: 50%;
+  border-right:var(--border1-color) ;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: var(--submain-color);
+  color: #ff7b00;
+  font-size: 16px;
 
 }
 .title{
