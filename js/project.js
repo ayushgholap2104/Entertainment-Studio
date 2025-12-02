@@ -175,7 +175,7 @@ const boxDetailstore = {
         img: "../img/paramSundari.jpg",
         Genre: "Latest Releases"
       },
-      
+
       // 2nd box
       {
         title: "Jawan",
@@ -650,22 +650,22 @@ function upButton() {
   })
 }
 // Dark-light mode
-function toggleTheme(){ 
+function toggleTheme() {
   const body = document.body
   const Icon = document.querySelector('#icons')
   body.classList.toggle("dark_theme")
 
   if (body.classList.contains("dark_theme")) {
-    Icon.classList.replace('fa-sun','fa-moon');
+    Icon.classList.replace('fa-sun', 'fa-moon');
     document.documentElement.classList.add('dark_theme')
-    
-  }else{
-    Icon.classList.replace('fa-moon','fa-sun')
+
+  } else {
+    Icon.classList.replace('fa-moon', 'fa-sun')
     document.documentElement.classList.remove('dark_theme')
   }
 }
 // Card slider
-function card_right_slide(){
+function card_right_slide() {
   // swipeLeftbtn.style.visibility = 'hidden';
   const sliders = document.querySelectorAll('.child-box-content');
 
@@ -675,29 +675,29 @@ function card_right_slide(){
     const swipeRightbtn = section.querySelector('.swipe-right-btn');
     const swipeLeftbtn = section.querySelector('.swipe-left-btn');
 
-    swipeRightbtn.addEventListener('click',()=>{
-     slider.scrollBy({
-       left: scrollStep,
-       behavior:'smooth'
+    swipeRightbtn.addEventListener('click', () => {
+      slider.scrollBy({
+        left: scrollStep,
+        behavior: 'smooth'
       });
     });
-    swipeLeftbtn.addEventListener('click',()=>{
+    swipeLeftbtn.addEventListener('click', () => {
       slider.scrollBy({
-       left: -scrollStep,
-       behavior:'smooth'
+        left: -scrollStep,
+        behavior: 'smooth'
       });
     });
 
-    slider.addEventListener('scroll',()=>{
-      if (slider.scrollLeft > 0){
+    slider.addEventListener('scroll', () => {
+      if (slider.scrollLeft > 0) {
         swipeLeftbtn.classList.remove('hide-btn')
-      }else{
+      } else {
         swipeLeftbtn.classList.add('hide-btn')
       }
 
-      if(slider.scrollLeft + slider.clientWidth > slider.scrollWidth - 5){
+      if (slider.scrollLeft + slider.clientWidth > slider.scrollWidth - 5) {
         swipeRightbtn.classList.add('hide-btn')
-      }else{
+      } else {
         swipeRightbtn.classList.remove('hide-btn')
       };
     })
@@ -705,29 +705,50 @@ function card_right_slide(){
 }
 
 const form = document.getElementById('my_form')
-async function handleSubmit(event){
+async function handleSubmit(event) {
   event.preventDefault()
   const status = document.querySelector('.popup-center')
-  var data =new FormData(event.target);
+  var data = new FormData(event.target);
 
-  fetch(event.target.action,{
-    method:form.method,
-    body:data,
-    headers:{'accept':'application/json'},
-  }).then(response =>{
-    if(response.ok){
+  // await fetch(event.target.action,{
+  //   method:form.method,
+  //   body:data,
+  //   headers:{'accept':'application/json'},
+  // }).then(response =>{
+  //   if(response.ok){
+  //     status.classList.add('active')
+  //     form.reset()
+  //   }else{
+  //     status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
+  //   }
+  // }).catch(error =>{
+  //   status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
+  // });
+
+  try{
+
+    var res = await fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: { 'accept': 'application/json' },
+    })
+  
+    if (res.ok) {
       status.classList.add('active')
       form.reset()
-    }else{
+    } else {
       status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
     }
-  }).catch(error =>{
-    status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
-  });
+    
+  } catch(err) {
+    console.log(err)
+  }
+
+
 }
-form.addEventListener('submit',handleSubmit)
+form.addEventListener('submit', handleSubmit)
 const feedback_close_btn = document.querySelector('#popup-btn-close')
-feedback_close_btn.addEventListener('click',()=>{
+feedback_close_btn.addEventListener('click', () => {
   document.getElementById('status').classList.remove('active')
 })
 
