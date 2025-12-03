@@ -218,11 +218,12 @@ header{
   height: 40px;
   margin-left: 50px;
   border-radius: 8px;
-  transition: 0.4s ease;
+  transition:scale 0.4s ease;
 }
 
 .panel3:hover{
   border:1px solid #5A00B5;
+  scale: 1.004;
 }
 
 

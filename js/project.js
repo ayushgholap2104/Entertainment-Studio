@@ -743,8 +743,6 @@ async function handleSubmit(event) {
   } catch(err) {
     console.log(err)
   }
-
-
 }
 form.addEventListener('submit', handleSubmit)
 const feedback_close_btn = document.querySelector('#popup-btn-close')
