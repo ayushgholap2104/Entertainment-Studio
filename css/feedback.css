@@ -79,7 +79,7 @@ body{
 
 /* Home page */
 header{
-  padding: 1rem;
+  padding: 0.8rem;
   background-color:#000000;
   display: flex;
   align-items: center;
@@ -91,18 +91,13 @@ header{
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
   z-index: 1000;
   /* overflow: hidden; */
-  
 }
-.panel1:hover{
+.Es-logo:hover{
   cursor: pointer;
-}
-.panel1{
-  display: flex;
-  align-items: center;
 }
 .sidebar{
   font-size: 20px;
-  height: 28px;
+  height: 26px;
   color:#fff;
   position: relative;
   display: block;
@@ -110,7 +105,7 @@ header{
   border-radius: 5px;
   transition: border-color 0.3s;
   margin-left: 2rem;
-  width: 22px;
+  width: 26px;
   padding: 5px;
   align-items: center;
   padding-left: 10px;

@@ -1,14 +1,17 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   font-style: normal;
   scroll-behavior: smooth;
   transition: 0.5s all;
+  list-style: none;
+ 
 }
-html, body {
-  overflow-x: hidden;
+html,body{
+  max-width: 100%;
+  overflow-x: clip;
 }
 :root{
   --body_color:#fff;
@@ -18,6 +21,12 @@ html, body {
   --sidemenu_color:#fff;
   --menu_items_color_hover:#ff6600;
   --menu_items_color:rgb(36, 36, 36);
+  --foot-color:#fff;
+  --border1-color:0.1rem solid #c0c0c0;
+  --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --submain-color:#ff9e0026;
+  --icon-color: #666;
+
 }
 body{
   background:var(--bg_color);
@@ -25,6 +34,7 @@ body{
   min-height: 100vh;
   width: 100%;
   transition: background-color 0.3s ease,color 0.3s ease;
+
 }
 .dark_theme{
   --body_color:#000000;
@@ -34,6 +44,11 @@ body{
   --sidemenu_color:#141414;
   --menu_items_color:#ff6600;
   --menu_items_color:#fff;
+  --foot-color:#1a1b1e;
+  --border1-color:0.1rem solid #3f3f3f;
+  --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --submain-color:#2C2D31;
+  --icon-color: #c4c3c3;
 }
 #btn-up{
   bottom: 20px;
@@ -64,29 +79,25 @@ body{
 
 /* Home page */
 header{
-  height: 85px;
+  padding: 0.8rem;
   background-color:#000000;
   display: flex;
   align-items: center;
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
   top: 0;
   left: 0;
   right:0;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-  z-index: 100;
-  
+  z-index: 1000;
+  /* overflow: hidden; */
 }
-.panel1:hover{
+.Es-logo:hover{
   cursor: pointer;
-}
-.panel1{
-  display: flex;
-  align-items: center;
 }
 .sidebar{
   font-size: 20px;
-  height: 28px;
+  height: 26px;
   color:#fff;
   position: relative;
   display: block;
@@ -94,7 +105,7 @@ header{
   border-radius: 5px;
   transition: border-color 0.3s;
   margin-left: 2rem;
-  width: 22px;
+  width: 26px;
   padding: 5px;
   align-items: center;
   padding-left: 10px;
@@ -218,15 +229,13 @@ header{
   height: 40px;
   margin-left: 50px;
   border-radius: 8px;
-  transition:scale 0.4s ease;
+  transition: 0.4s ease;
 }
 
 .panel3:hover{
   border:1px solid #5A00B5;
   scale: 1.004;
 }
-
-
 .panel3 i{
   color: rgb(249, 247, 247);
   font-size: 17px;

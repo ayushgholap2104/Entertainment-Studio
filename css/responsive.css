@@ -246,17 +246,12 @@
   .sidebar{
     font-size: 19px;
   }
-  .panel1{
-    margin-right: 2px;
-    /* padding-left: 20px; */
-  }
   .Es-logo{
     display: flex;
     align-items: center;
   }
   .Es-logo i{
     font-size: 40px;
-    margin-right: 5px;
   }
   .brand-name{
    font-size: 9px;
@@ -264,37 +259,32 @@
    top: 12px;
    left: 1px;
    letter-spacing: 1;
-   
   }
   .panel2{
-    width: 8rem;
     gap: 25px;
-    margin-right: 10px;
   }
   .panel2 a{
     font-size: 14px;
-    width: 4rem;
   }
   .home a.active::after{
-    width: 95%;
+    width: 108%;
   }
   .about a.active::after{
-    width: 95%;
+    width: 108%;
   }
   .panel3{
-    width: 28rem;
+    width: 26rem;
     margin-right: 10px;
   }
   .panel3 i{
     font-size: 16px;
   }
   .panel3 input{
-    width: 20rem;
+    width: 23rem;
     height: 3.5vh;
   }
   .language{
     font-size: 19px;
-    margin-right: 18px;
   }
   .login{
    margin-right: 5px;
@@ -303,7 +293,7 @@
    font-size: 11px;
   }
   .panel4{
-   margin-left: 10px;
+   /* margin-left: 10px; */
    display: flex;
    gap: 15px;
 
@@ -337,11 +327,9 @@
   }
 }
 @media only screen and (min-width:1025px) and (max-width:1165px) {
+  
   .sidebar{
     font-size: 18px;
-  }
-  .panel1{
-    margin-right: 5px;
   }
   .Es-logo{
     display: flex;
@@ -362,18 +350,16 @@
   }
   .panel2 a{
     font-size: 13px;
-    width: 4rem;
+    /* width: 4rem; */
   }
   .home a.active::after{
-    width: 87%;
+    width: 105%;
   }
   .about a.active::after{
-    width: 87%;
+    width: 105%;
   }
   .panel3{
-    width: 19rem;
-    margin-right: 20px;
-    margin-left: 35px;
+    width: 20rem;
   }
   .panel3 i{
     font-size: 15px;
@@ -390,10 +376,8 @@
    font-size: 10px;
   }
   .panel4{
-   margin-left: 25px;
    display: flex;
    gap: 20px;
-
   }
   .comment{
    font-size: 25px;
@@ -456,6 +440,10 @@
 }
 @media only screen and (min-width:947px) and (max-width:1024px){
   /* For Header part */
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 22px;
     height:26px ;
@@ -465,7 +453,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .search-bar i{
     color: gray;
@@ -474,7 +462,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 13.5rem;
   }
   .Es-logo i{
     font-size: 60px;
@@ -548,6 +535,10 @@
   }
 }
 @media only screen and (min-width:850px) and (max-width:946px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 21px;
     height:23px ;
@@ -557,13 +548,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 11.3rem;
   }
   .Es-logo i{
     font-size: 58px;
@@ -662,6 +652,10 @@
   }
 }
 @media only screen and (max-width:850px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   #btn-up{
    width: 42px;
    height: 42px;
@@ -678,13 +672,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 11.2rem;
   }
   .Es-logo i{
     font-size: 57px;
@@ -781,6 +774,10 @@
   }
 }
 @media only screen and (max-width:739px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 21px;
     height:24px ;
@@ -790,7 +787,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   #btn-up{
     width: 40px;
@@ -803,7 +800,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8.9rem;
   }
   .Es-logo i{
     font-size: 56px;
@@ -857,6 +853,10 @@
   }
 }
 @media only screen and (max-width:644px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 20px;
     height:24px ;
@@ -866,13 +866,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7rem;
   }
   .Es-logo i{
     font-size: 55px;
@@ -978,6 +977,10 @@
   }
 }
 @media only screen and (max-width:555px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 19px;
     height:22px ;
@@ -987,13 +990,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4.6rem;
   }
   .Es-logo i{
     font-size: 53px;
@@ -1121,6 +1123,10 @@
 }
 
 @media only screen and (max-width:470px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   #btn-up{
    width: 40px;
    height: 40px;
@@ -1137,13 +1143,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.8rem;
   }
   .Es-logo i{
     font-size: 52px;
@@ -1267,22 +1272,22 @@
   }
 }
 @media only screen and (max-width:398px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
   .sidebar{
     font-size: 16px;
     height:18px ;
     width: 20px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
+    /* padding-right:8px; */
   }
   .Es-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.2rem;
   }
   .Es-logo i{
     font-size: 50px;
