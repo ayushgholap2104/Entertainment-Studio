@@ -445,15 +445,11 @@
     padding: 0.6rem;
   }
   .sidebar{
-    font-size: 22px;
-    height:26px ;
-    width: 29px;
+    font-size: 21px;
+    height:22px ;
+    width: 36px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .search-bar i{
     color: gray;
@@ -464,7 +460,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .brand-name{
@@ -541,15 +537,11 @@
     padding: 0.6rem;
   }
   .sidebar{
-    font-size: 21px;
-    height:23px ;
-    width: 26px;
+    font-size: 20px;
+    height:22px ;
+    width: 35px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -557,7 +549,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 58px;
+    font-size: 53px;
   }
 
   .brand-name{
@@ -666,15 +658,11 @@
    font-size: 1.3rem;
   }
   .sidebar{
-    font-size: 21px;
-    height:24px ;
-    width: 27px;
+    font-size: 20px;
+    height:20px ;
+    width: 32px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -682,7 +670,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 57px;
+    font-size: 52px;
   }
 
   .brand-name{
@@ -781,15 +769,11 @@
     justify-content: space-between;
   }
   .sidebar{
-    font-size: 21px;
-    height:24px ;
-    width: 26px;
+    font-size: 20px;
+    height:20px ;
+    width: 30px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   #btn-up{
     width: 40px;
@@ -804,7 +788,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 56px;
+    font-size: 50px;
   }
 
   .brand-name{
@@ -860,15 +844,11 @@
     justify-content: space-between;
   }
   .sidebar{
-    font-size: 20px;
-    height:24px ;
-    width: 26px;
+    font-size: 19px;
+    height:20px ;
+    width: 30px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -876,7 +856,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 55px;
+    font-size: 48px;
   }
 
   .brand-name{
@@ -984,15 +964,11 @@
     justify-content: space-between;
   }
   .sidebar{
-    font-size: 19px;
-    height:22px ;
-    width: 23px;
+    font-size: 18px;
+    height:20px ;
+    width: 30px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1000,7 +976,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 53px;
+    font-size: 45px;
   }
 
   .brand-name{
@@ -1138,14 +1114,10 @@
   }
   .sidebar{
     font-size: 18px;
-    height:21px ;
-    width: 23px;
+    height:20px ;
+    width: 30px;
     color: #fff;
     border: 1px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1153,7 +1125,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 52px;
+    font-size: 43px;
   }
 
   .brand-name{
@@ -1280,11 +1252,10 @@
   }
   .sidebar{
     font-size: 16px;
-    height:18px ;
-    width: 20px;
+    height:16px ;
+    width: 23px;
     color: #fff;
     border: 1px solid #fff;
-    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1292,7 +1263,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .brand-name{
