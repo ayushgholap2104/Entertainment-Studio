@@ -359,13 +359,13 @@
     width: 105%;
   }
   .panel3{
-    width: 20rem;
+    width: 24rem;
   }
   .panel3 i{
     font-size: 15px;
   }
   .panel3 input{
-    width: 16rem;
+    width: 20rem;
     height: 3.5vh;
   }
   .language{
@@ -453,7 +453,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .search-bar i{
     color: gray;
@@ -548,7 +548,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -672,7 +672,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -787,7 +787,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   #btn-up{
     width: 40px;
@@ -866,7 +866,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -990,7 +990,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1143,7 +1143,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1282,7 +1282,7 @@
     width: 20px;
     color: #fff;
     border: 1px solid #fff;
-    /* padding-right:8px; */
+    padding-right:8px;
   }
   .Es-logo{
     display: flex;
@@ -1422,8 +1422,8 @@
     display: none;
   }
   .panel3 input{
-    width: 27rem;
-    height: 3.5vh;
+    width: 25rem;
+    height: 3vh;
   }
 }
 /* @media only screen and (max-width:499px){
