@@ -350,7 +350,6 @@
   }
   .panel2 a{
     font-size: 13px;
-    /* width: 4rem; */
   }
   .home a.active::after{
     width: 105%;
@@ -359,13 +358,13 @@
     width: 105%;
   }
   .panel3{
-    width: 24rem;
+    width: 20rem;
   }
   .panel3 i{
     font-size: 15px;
   }
   .panel3 input{
-    width: 20rem;
+    width: 17rem;
     height: 3.5vh;
   }
   .language{
@@ -443,6 +442,7 @@
   header{
     display: flex;
     justify-content: space-between;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 22px;
@@ -538,6 +538,7 @@
   header{
     display: flex;
     justify-content: space-between;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 21px;
@@ -655,6 +656,7 @@
   header{
     display: flex;
     justify-content: space-between;
+    padding: 0.6rem;
   }
   #btn-up{
    width: 42px;
