@@ -377,10 +377,10 @@ header{
   font-size: 16px;
   line-height: 1.5;
   color: rgb(157, 70, 0);
-  text-shadow: rgb(255, 255, 255) 0px 0.1rem 0.1rem;
   overflow-wrap: break-word;
   margin-right: 2rem;
   word-spacing: 2px;
+  font-weight: 400;
 }
 form{
   display: flex;
@@ -590,10 +590,14 @@ form #message:hover{
   display: flex;
 }
 .sub-main .sub-main-content{
-  padding: 2.5rem;
+  padding: 2rem;
+  /* gap: 30px; */
 }
 .cards{
   display: flex;
+}
+.pop{
+  font-weight: 400;
 }
 .img_cont1{
   max-width: 40%;
@@ -613,16 +617,17 @@ form #message:hover{
 .img_description a{
   text-decoration: none;
   color: var(--primary_color);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:"Poppins";
   line-height: 1;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 .img_description a:hover{
   color: #ff7b00;
 }
 .img_description p{
   font-size: 8px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: var(--icon-color);
 }
 .pop{
