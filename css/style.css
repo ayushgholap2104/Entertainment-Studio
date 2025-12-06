@@ -78,7 +78,7 @@ body{
 }
 
 /* Home page */
-header{
+#head{
   padding: 0.8rem;
   background-color:#000000;
   display: flex;
