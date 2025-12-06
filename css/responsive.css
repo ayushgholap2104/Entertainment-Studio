@@ -234,10 +234,12 @@
    height: 420px;
    width:1290px;
   }
-  /* .parent-box{
-    margin-right: 35px;
-    margin-left: 35px;
-  } */
+  .sub-main{
+    top: 4.6rem;
+  }
+  .img_description a{
+    font-size: 0.8rem;
+  }
 
 }
 
@@ -325,6 +327,14 @@
   .swipe-btn{
     height: 245px;
   }
+  .sub-main{
+    top: 4.4rem;
+  }
+  .img_description a{
+    font-size: 0.75rem;
+  }
+
+  
 }
 @media only screen and (min-width:1025px) and (max-width:1165px) {
   
@@ -435,6 +445,21 @@
   }
   .swipe-btn{
     height: 235px;
+  }
+  .content2{
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+  .sub-main{
+    width: 35%;
+    top: 4.4rem;
+
+  }
+  .img_cont1{
+    margin-bottom: 0;
+  }
+  .sub-main-content .cards .img_cont1 img{
+    height: 80%;
   }
 }
 @media only screen and (min-width:947px) and (max-width:1024px){
