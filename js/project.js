@@ -15,8 +15,6 @@ window.addEventListener("load", () => {
   toggleTheme()
   card_right_slide()
   feedback_msg()
-  headersticky()
-
 })
 
 const functions = {
@@ -751,16 +749,6 @@ feedback_close_btn.addEventListener('click', () => {
   document.getElementById('status').classList.remove('active')
 })
 
-function headersticky(){
-  window.addEventListener('scroll',()=>{
-    const header = document.getElementById("head")
-    if (window.scrollY > 300){
-      header.style.position = "static"
-    }else{
-      header.style.position = "sticky"
-    }
-  })
-}
 
 
 
