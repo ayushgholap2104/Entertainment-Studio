@@ -450,13 +450,34 @@
     padding-left: 1rem;
     padding-right: 0rem;
   }
+  .head1 h2{
+    font-size: 2.4rem;
+  }
+  .description{
+    margin-right: 0px;
+    padding: 0.8rem;
+  }
+  .description i{
+    font-size: 35px;
+  }
+  .page_info{
+    font-size: 14px;
+  }
+  form{
+    font-size: 0.7rem;
+  }
+  #open-popup-btn{
+    padding: 10px 35px;
+  }
   .sub-main{
     width: 35%;
     top: 4.4rem;
-
   }
   .img_cont1{
     margin-bottom: 0;
+  }
+  .img_description a{
+    font-size: 0.8rem;
   }
   .sub-main-content .cards .img_cont1 img{
     height: 80%;
@@ -553,6 +574,43 @@
   }
   .swipe-btn{
     height: 226px;
+  }
+  .content2{
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+  .head1 h2{
+    font-size: 2.4rem;
+  }
+  .description{
+    margin: 0px;
+    padding: 0.8rem;
+    width: 27.5rem;
+  }
+  .description i{
+    font-size: 35px;
+  }
+  .page_info{
+    font-size: 14px;
+  }
+  form{
+    font-size: 0.7rem;
+  }
+  #open-popup-btn{
+    padding: 10px 35px;
+  }
+  .sub-main{
+    width: 35%;
+    top: 4.8rem;
+  }
+  .img_cont1{
+    margin-bottom: 0;
+  }
+  .img_description a{
+    font-size: 0.75rem;
+  }
+  .sub-main-content .cards .img_cont1 img{
+    height: 80%;
   }
 }
 @media only screen and (min-width:850px) and (max-width:946px){
@@ -667,6 +725,31 @@
   }
   .swipe-btn{
     height: 218px;
+  }
+  .content2{
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .sub-con2{
+    width: 100%;
+  }
+  .sub-main{
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 3rem;
+  }
+  .img_cont1{
+    margin-right: 0;
+    margin-bottom: 0;
+    display: block;
+    max-width: 25%;
+    height: auto;
+  }
+  .sub-main-content .cards .img_cont1 img{
+    height: auto;
+    width: 50%;
   }
 }
 @media only screen and (max-width:850px){
