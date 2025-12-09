@@ -360,7 +360,7 @@ header{
 
 .description{
   display: flex;
-  gap: 25px;
+  gap: 20px;
   border: rgb(184, 174, 128);
   padding: 1rem;
   border-radius: 0.2rem;
@@ -684,7 +684,7 @@ form #message:hover{
 }
 
 footer{
-  margin-top: 5rem;
+  margin-top: 1.5rem;
 }
 .foot{
   width: 100%;
