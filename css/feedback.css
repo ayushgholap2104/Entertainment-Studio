@@ -327,7 +327,7 @@ header{
 .content2{
   display: flex;
   /* padding: 1rem; */
-  padding-top: 4rem;
+  padding-top: 3rem;
   background-color: var(--bg_color);
   padding-left:9%;
 }
@@ -378,7 +378,7 @@ header{
   line-height: 1.5;
   color: rgb(157, 70, 0);
   overflow-wrap: break-word;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   word-spacing: 2px;
   font-weight: 400;
 }
