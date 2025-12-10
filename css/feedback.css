@@ -348,7 +348,7 @@ header{
 .sub-con2{
   height:fit-content;
   border:var(--border1-color);
-  width: 60%;
+  width: 65%;
   border-radius: 2px;
   background-color: var(--foot-color);
   box-shadow: var(--shadow);
@@ -369,8 +369,8 @@ header{
   margin-right: 3px;
 }
 .description i{
-  font-size: 38px;
-  margin-bottom: 10px;
+  font-size: 37px;
+  margin-bottom: 30px;
   color: rgb(202, 118, 49);
 }
 .page_info{
@@ -401,8 +401,9 @@ form label{
 .input_cont{
   display: flex;
   flex-direction: column;
-  width: 44%;
+  width: 45%;
   gap: 0.5rem;
+  max-width: 45%;
 }
 form .input_cont #name{
   height: 2.2rem;
@@ -429,9 +430,10 @@ form #name:hover{
 .input_cont1{
   display: flex;
   flex-direction: column;
-  width: 51.7%;
+  width: 52%;
   gap: 0.5rem;
   margin-bottom: 15px;
+  max-width: 52%;
 }
 form .input_cont1 #Email{
   height: 2.2rem;
@@ -461,6 +463,7 @@ form #Email:hover{
   width: 100%;
   gap: 0.7rem;
   margin-bottom: 15px;
+  max-width: 100%;
 }
 form .input_cont2 #Subject{
   height: 2.2rem;
@@ -489,25 +492,28 @@ form #Subject:hover{
   flex-direction: column;
   width: 100%;
   gap: 0.5rem;
+  max-width: 100%;
 }
 form .input_cont3 #message{
-  padding: 10px;
+  /* padding: 10px; */
   height: 11rem;
   font-size: 14px;
   outline: none;
-  padding-left: 12px;
+  /* padding-left: 12px; */
   border-radius: 4px;
   border: 0.05rem solid #0000001a;
   border-width: 0.05rem;
   /* transition: 0.2s; */
   background: var(--bg_color);
   color:var(--primary_color);
-  width: 97.5%;
+  width: 100%;
   text-transform: capitalize;
+  padding-top: 0.5rem;
 }
 .input_cont3 ::placeholder{
   color: rgb(105, 105, 105);
   font-weight:400;
+  padding-left: 10px;
 }
 form #message:hover{
   border: 0.05rem solid #f39140;

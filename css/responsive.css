@@ -327,6 +327,14 @@
   .swipe-btn{
     height: 245px;
   }
+  .description i{
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+  .page_info{
+    margin-right: 1rem;
+    font-size: 15px;
+  }
   .sub-main{
     top: 4.4rem;
   }
@@ -450,6 +458,9 @@
     padding-left: 1rem;
     padding-right: 0rem;
   }
+  .sub-con2{
+    width: 69%;
+  }
   .head1 h2{
     font-size: 2.4rem;
   }
@@ -470,8 +481,11 @@
     padding: 10px 35px;
   }
   .sub-main{
-    width: 35%;
-    top: 4.4rem;
+    width: 27%;
+    top: 4.4rem; 
+  }
+  .sub-main .sub-main-content{
+    padding: 1.4rem;
   }
   .img_cont1{
     margin-bottom: 0;
@@ -579,9 +593,6 @@
     padding-left: 1rem;
     padding-right: 0rem;
   }
-  .sub-con2{
-    width: 75%;
-  }
   .head1 h2{
     font-size: 2.4rem;
   }
@@ -595,17 +606,23 @@
   form{
     font-size: 0.7rem;
   }
+  .input_cont{
+    width: 44.5%;
+  }
+  .input_cont1{
+    width: 52.5%;
+  }
   #open-popup-btn{
     padding: 10px 35px;
   }
   .sub-main{
-    width: 35%;
+    width: 31.5%;
     top: 4.8rem;
     margin-left: 0.5rem;
     margin-right: 1rem;
   }
   .sub-main .sub-main-content{
-    padding: 2.1rem;
+    padding: 2rem;
     /* gap: 30px; */
   }
   .img_cont1{
@@ -746,19 +763,14 @@
     font-size: 2.4rem;
   }
   .description i{
-    font-size:32px ;
+    font-size:31px ;
+    margin-bottom: 10px;
   }
   .page_info{
     font-size: 15px;
   }
   form{
     font-size: 0.7rem;
-  }
-  .input_cont{
-    width: 44.5%;
-  }
-  .input_cont1{
-    width: 53.2%;
   }
   .sub-main{
     width: 100%;
@@ -919,22 +931,23 @@
     font-size: 2.4rem;
   }
   .description i{
-    font-size:32px ;
+    font-size:30px ;
+    margin-top: 0;
   }
 
   .page_info{
-    font-size: 14px;
-    margin-right: 1.5rem;
+    font-size: 15px;
+    margin-right: 1rem;
   }
   form{
     font-size: 0.7rem;
   }
-  .input_cont{
-    width: 44.4%;
+  /* .input_cont{
+    width: 42%;
   }
   .input_cont1{
     width: 53%;
-  }
+  } */
   .sub-main{
     width: 100%;
     margin-top: 1rem;
