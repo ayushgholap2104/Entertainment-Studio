@@ -234,11 +234,21 @@
    height: 420px;
    width:1290px;
   }
+  .content2{
+    padding-left: 7%;
+  }
+  .sub-con2{
+    width: 75%;
+  }
   .sub-main{
     top: 4.6rem;
+    
   }
   .img_description a{
-    font-size: 0.8rem;
+    font-size: 0.78rem;
+  }
+  .img_description p{
+    margin-top: 10px;
   }
 
 }
@@ -340,6 +350,9 @@
   }
   .img_description a{
     font-size: 0.75rem;
+  }
+  .img_description p{
+    margin-top: 10px;
   }
 
   
@@ -481,20 +494,23 @@
     padding: 10px 35px;
   }
   .sub-main{
-    width: 27%;
+    width: 27.5%;
     top: 4.4rem; 
   }
   .sub-main .sub-main-content{
-    padding: 1.4rem;
+    padding: 1.5rem;
   }
+  .img_description p{
+    margin-top: 5px;
+  }
+  /* .sub-main .sub-main-content{
+    padding: 1.4rem;
+  } */
   .img_cont1{
     margin-bottom: 0;
   }
   .img_description a{
-    font-size: 0.8rem;
-  }
-  .sub-main-content .cards .img_cont1 img{
-    height: 80%;
+    font-size: 0.7rem;
   }
 }
 @media only screen and (min-width:947px) and (max-width:1024px){
@@ -621,18 +637,14 @@
     margin-left: 0.5rem;
     margin-right: 1rem;
   }
-  .sub-main .sub-main-content{
-    padding: 2rem;
-    /* gap: 30px; */
+  .img_description p{
+    margin-top: 5px;
   }
   .img_cont1{
     margin-bottom: 0;
   }
   .img_description a{
-    font-size: 0.75rem;
-  }
-  .sub-main-content .cards .img_cont1 img{
-    height: 80%;
+    font-size: 0.68rem;
   }
 }
 @media only screen and (min-width:850px) and (max-width:946px){
@@ -778,6 +790,10 @@
     /* margin-right: 3rem; */
     margin-left: 0;
   }
+  .sub-main .sub-main-content{
+    padding: 1.5rem;
+    /* gap: 30px; */
+  }
   .tab{
     height: 3.2rem;
   }
@@ -787,17 +803,16 @@
     /* display: block; */
     max-width: 25%;
   }
+  .sub-main-content .cards .img_cont1 img{
+    height: 85%;
+  }
   .img_description{
     flex: 0 1 55%;
   }
   .img_description a{
     font-size: 0.8rem;
   }
-  .sub-main-content .cards .img_cont1 img{
-    height:9rem;
-    width: 100%;
-    margin-bottom: 10px;
-  }
+  
 }
 @media only screen and (max-width:850px){
   header{
