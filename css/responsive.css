@@ -1061,6 +1061,18 @@
   .swipe-btn{
     height: 198px;
   }
+  .img_cont{
+    width: 44%;
+    max-width: 44%;
+    flex: 1 1 44%;
+    
+  }
+  .img_cont1{
+    width: 53%;
+    max-width: 53%;
+    flex: 1 1 53%;
+
+  }
 }
 @media only screen and (max-width:644px){
   header{
