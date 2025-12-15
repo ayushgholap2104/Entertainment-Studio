@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ES-Watch Popular Animes Online</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div class="panel1">
-        <div class="sidebar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entertainment Studio-Watch Tv Shows,Webseries and More</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/anime.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="dark">
+    <button class="btn-up" id="btn-up">
+      <i class="fa-solid fa-up-long"></i>
+    </button>
+    <header id="head">
+      <div class="sidebar">
           <i class="fa-solid fa-bars" id="menu-btn"></i>
-        </div>
-        <div class="Es-logo">
+      </div>
+      <div class="Es-logo">
           <i class="fa-brands fa-firefox"></i>
           <span class="brand-name">ES</span>
-        </div>
       </div>
       <div class="panel2">
         <div class="home">
-         <a href="../frontend/Home.html" class="active"><i class="fa-solid fa-house"></i>Home</a>
+          <a href="../frontend/Home.html"
+            ><i class="fa-solid fa-house"></i>Home</a
+          >
         </div>
         <div class="about">
-          <a href="../frontend/About.html"><i class="fa-solid fa-circle-info"></i>About</a>
+          <a href="../frontend/About.html"
+            ><i class="fa-solid fa-circle-info"></i>About</a
+          >
         </div>
       </div>
       <div class="panel3 active" tabindex="0">
         <div class="search-btn">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" name="search" placeholder="Search for Movies, Shows, Channels etc." autocomplete="off" spellcheck="false">
+          <input
+            type="text"
+            name="search"
+            placeholder="Search for Movies, Shows, Channels etc."
+            autocomplete="off"
+            spellcheck="false"
+          />
         </div>
       </div>
       <div class="panel4">
@@ -50,49 +69,75 @@
           </a>
         </div>
         <div class="light-dark">
-          <i class="fa-solid fa-moon"></i>
+          <i
+            onclick="toggleTheme()"
+            class="fa-solid fa-moon"
+            id="icons"
+          ></i>
         </div>
       </div>
     </header>
     <div class="side-menu" id="side-menu">
+      <div class="user-login">
+        <div class="user-signin">
+          <a href="/">Login</a>
+        </div>
+        <div class="user-signup">
+          <a href="sign_up.html">Sign up for FREE</a>
+        </div>
+      </div>
       <div class="menu">
-        <a href="Home.html" class="home-btn" >Home</a>
+        <a href="Home.html" class="home-btn">Home</a>
         <a href="shows.html" class="shows-btn">TV</a>
-        <a href="movies.html" class="movies-btn">Movies</a>
-        <a href="kids.html" class="sports-btn">Sports</a>
+        <a href="movies.html" class="movies-btn ">Movies</a>
+        <a href="kids.html" class="kids-btn">Kids</a>
         <a href="animes.html" class="animes-btn active">Animes</a>
       </div>
       <div class="search-bar">
-        <input type="text" name="search" placeholder="Search..." autocomplete="off" spellcheck="false">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search..."
+          autocomplete="off"
+          spellcheck="false"
+        />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
-    <div class="side-menu" id="side-menu">
-      <div class="menu">
-        <a href="Home.html" class="home-btn" >Home</a>
-        <a href="shows.html" class="shows-btn">TV</a>
-        <a href="movies.html" class="movies-btn">Movies</a>
-        <a href="sports.html" class="sports-btn">Sports</a>
-        <a href="animes.html" class="animes-btn">Animes</a>
+    <main class="main-content">
+      <div class="slider-container">
+        <button class="left-arrow">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="card-container"></div>
+        <button class="right-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
       </div>
-      <div class="search-bar">
-        <input type="text" name="search" placeholder="Search..." autocomplete="off" spellcheck="false">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-    </div>
+      <div class="parent-box"></div>
+    </main>
     <footer class="foot">
-      <div class="copy-right">
-        <p>&copy Copyright 2025, All Rights Reserved | ❤️  Entertainment-Studio</p>
+      <div class="company-info">
+        <h4>Company</h4>
+        <a href="About.html">About Us</a>
       </div>
-      <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-twitter"></i>
+      <div class="copy-right">
+        <p>
+          &copy Copyright 2025, All Rights Reserved | ❤️ Entertainment-Studio
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <div class="feedback-center">
+        <h4>Reach Us</h4>
+        <a href="feedback.html">Feedback</a>
       </div>
     </footer>
-  </div>
-  <script src="../js/project.js"></script>
-  
-</body>
+    <script src="../js/anime.js"></script>
+  </body>
 </html>
+<!-- var(--drk_bdy_color) -->
