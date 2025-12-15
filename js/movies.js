@@ -14,7 +14,6 @@ window.addEventListener("load", () => {
   upButton()
   toggleTheme()
   card_right_slide()
-  feedback_msg()
 })
 
 const functions = {
