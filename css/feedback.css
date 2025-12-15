@@ -363,13 +363,12 @@ section{
   border: rgb(184, 174, 128);
   padding: 1rem;
   border-radius: 0.2rem;
-  align-items: center;
+  /* align-items: center; */
   background: rgb(255, 249, 191);
-  margin-right: 3px;
+  /* margin-right: 3px; */
 }
 .description i{
-  font-size: 37px;
-  margin-bottom: 30px;
+  font-size: 36px;
   color: rgb(202, 118, 49);
 }
 .page_info{
