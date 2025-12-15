@@ -21,20 +21,20 @@ const functions = {
     // A variable that contains data in json format
     const cardsData = [
       {
-        title: "Bajirao Mastani",
-        img: "../img/bajirao-mastani.jpg"
+        title: "Ekaki",
+        img: "../img/Ekaki.png"
       },
       {
-        title: "Pushpa 2",
-        img: "../img/Pushpa.jpg"
+        title: "The Magic Of Shiri",
+        img: "../img/TheMagicofShiri.jpg"
       },
       {
-        title: "SitaRamam",
-        img: "../img/sitaramam.jpg"
+        title: "MoonKnight",
+        img: "../img/MoonKnight.jpg"
       },
       {
-        title: "Master",
-        img: "../img/Master.jpg"
+        title: "Tokyo Revengers",
+        img: "../img/tokyoRevengers.jpg"
       },
 
     ]
@@ -104,74 +104,74 @@ const boxDetailstore = {
     const boxesData = [
       // 1st box
       {
-        title: "Shaitaan",
-        img: "../img/Shaitaan.jpg",
-        Genre: "Latest Releases"
+        title: "MoonWalk",
+        img: "../img/MoonWalk.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Avengers",
-        img: "../img/Avengers.jpg",
-        Genre: "Latest Releases"
+        title: "KhalbaliRecords",
+        img: "../img/KhalbaliRecords.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Hanuman",
-        img: "../img/hanuman.jpg",
-        Genre: "Latest Releases"
+        title: "HoneyMoonPhotographer",
+        img: "../img/HoneyMoonPhotographer.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "thelandBeforetime",
-        img: "../img/landb.jpg",
-        Genre: "Latest Releases"
+        title: "Cadets",
+        img: "../img/Cadets.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "jurassicWorld",
-        img: "../img/jurassic-world.jpg",
-        Genre: "Latest Releases"
+        title: "Taali",
+        img: "../img/Taali.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Kantara",
-        img: "../img/kantara.jpg",
-        Genre: "Latest Releases"
+        title: "Kaalkoot Series",
+        img: "../img/Kaalkoot-Series.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Thama",
-        img: "../img/thama.jpg",
-        Genre: "Latest Releases"
+        title: "ShekharHome",
+        img: "../img/ShekharHome.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "rathnan-prapancha",
-        img: "../img/rathnan-prapancha.jpg",
-        Genre: "Latest Releases"
+        title: "Asur2",
+        img: "../img/Asur2.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Zebra",
-        img: "../img/Zebra.jpg",
-        Genre: "Latest Releases"
+        title: "CandySeries",
+        img: "../img/CandySeries.jpg",
+        Genre: "Must Watch Originals"
       },
       {
-        title: "Lokha",
-        img: "../img/lokah.jpg",
-        Genre: "Latest Releases"
+        title: "IllegalSeries",
+        img: "../img/IllegalSeries.jpg",
+        Genre: "Must Watch Originals"
       },
       {
         title: "radheSham",
         img: "../img/Radhe-sham.jpg",
-        Genre: "Latest Releases"
+        Genre: "Must Watch Originals"
       },
       {
         title: "bubbleGum",
         img: "../img/Bubblegum.jpg",
-        Genre: "Latest Releases"
+        Genre: "Must Watch Originals"
       },
       {
         title: "Wicked",
         img: "../img/Wicked.jpg",
-        Genre: "Latest Releases"
+        Genre: "Must Watch Originals"
       },
       {
         title: "paramSundari",
         img: "../img/paramSundari.jpg",
-        Genre: "Latest Releases"
+        Genre: "Must Watch Originals"
       },
 
       // 2nd box
