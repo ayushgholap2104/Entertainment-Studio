@@ -154,23 +154,23 @@ const boxDetailstore = {
         Genre: "Must Watch Originals"
       },
       {
-        title: "radheSham",
-        img: "../img/Radhe-sham.jpg",
+        title: "YaariaanSeries",
+        img: "../img/YaariaanSeries.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "bubbleGum",
-        img: "../img/Bubblegum.jpg",
+        title: "Gaanth",
+        img: "../img/Gaanth.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "Wicked",
-        img: "../img/Wicked.jpg",
+        title: "Aashikana",
+        img: "../img/Aashikana.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "paramSundari",
-        img: "../img/paramSundari.jpg",
+        title: "HanumanSeries",
+        img: "../img/HanumanSeries.jpg",
         Genre: "Must Watch Originals"
       },
 
