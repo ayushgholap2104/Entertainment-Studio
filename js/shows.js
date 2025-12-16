@@ -531,63 +531,63 @@ const boxDetailstore = {
       },
       // 7th Box
       {
-        title: "Dragons",
-        img: "../img/dragons-movie.jpg",
+        title: "lagna nanter hoilach prem",
+        img: "../img/lagna_nanter_hoilach_prem.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "Fastx",
-        img: "../img/fastx.jpeg",
+        title: "Kerala Files",
+        img: "../img/Kerala_Files.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "Ironman",
-        img: "../img/ironman.jpg",
+        title: "Parampara",
+        img: "../img/Parampara.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "FastandFurious",
-        img: "../img/fast-and-furious.jpg",
+        title: "CriminalJustice",
+        img: "../img/CriminalJustice.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "openHeighmer",
-        img: "../img/openheighmer.jpeg",
+        title: "Ekaki",
+        img: "../img/Ekaki.png",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "Dc",
-        img: "../img/dc.jpg",
+        title: "Bhay",
+        img: "../img/Bhay.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "Anora",
-        img: "../img/anora.jpg",
+        title: "Mahabharat",
+        img: "../img/Mahabharat.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "deadpoolWolverin",
-        img: "../img/deadpoolWolverin.jpg",
+        title: "The Legend Of Hanuman",
+        img: "../img/The_Legend_Of_Hanuman.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "disneyTangled",
-        img: "../img/disneyTangled.jpg",
+        title: "Asur2",
+        img: "../img/Asur2.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "disneyCars",
-        img: "../img/disneyCars.jpg",
+        title: "SquidGame",
+        img: "../img/SquidGame.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "planetOfapes",
-        img: "../img/planetOfapes.jpg",
+        title: "Alice_In_Borderland",
+        img: "../img/Alice_In_Borderland.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "alienCovinant",
-        img: "../img/alienCovinant.jpg",
+        title: "Ziddi Ishq",
+        img: "../img/Ziddi_Ishq.jpg",
         Genre: "Shows Recommended For You"
       },
       {
