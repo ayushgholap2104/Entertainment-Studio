@@ -309,6 +309,9 @@
    gap: 15px;
 
   }
+  .side-menu{
+    margin-top: 70px;
+  }
   .comment{
    font-size: 26px;
    
@@ -358,6 +361,7 @@
   .img_description p{
     margin-top: 10px;
   }
+  
 
   
 }

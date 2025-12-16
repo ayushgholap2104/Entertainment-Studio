@@ -413,7 +413,7 @@ body{
   position: fixed;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  margin-top: 85px;
+  margin-top: 74px;
   left: -388px;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 
@@ -473,7 +473,7 @@ body{
   font-weight: 500;
 }
 .menu{ 
-  margin-top: 5px;
+  margin-top: 25px;
   display: flex;
   flex-direction:column ;
   gap: 35px;
