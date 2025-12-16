@@ -328,48 +328,48 @@ const boxDetailstore = {
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "menT20final",
-        img: "../img/men-t20final.jpg",
+        title: "Ashoka",
+        img: "../img/Ashoka.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "Kabaddi",
-        img: "../img/kabaddi.jpg",
+        title: "BigMouth",
+        img: "../img/BigMouth.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "Ipl",
-        img: "../img/ipl.jpg",
+        title: "Moon Knight",
+        img: "../img/MoonKnight.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "Badminton",
-        img: "../img/badminton.png",
+        title: "WandaVision",
+        img: "../img/WandaVision.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "Football",
-        img: "../img/football.jpg",
+        title: "ThePitt",
+        img: "../img/ThePitt.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "ranjhiTrophy",
-        img: "../img/ranjhiTrophy.jpg",
+        title: "Loki",
+        img: "../img/Loki.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "iplAuctions",
-        img: "../img/iplAuctions.jpg",
+        title: "The Hunting Party",
+        img: "../img/The_Hunting_Party.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "indiavsSouthafrica",
-        img: "../img/indiaVssouthafricatest.jpg",
+        title: "SharkTank",
+        img: "../img/SharkTank.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "IPL",
-        img: "../img/IPL2025.jpg",
+        title: "Succession",
+        img: "../img/Succession.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
