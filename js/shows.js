@@ -191,48 +191,48 @@ const boxDetailstore = {
         Genre: "House Of Dramas"
       },
       {
-        title: "justiceLeague",
-        img: "../img/Justice-league.jpg",
+        title: "Kobali Series",
+        img: "../img/KobaliSeries.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "bhootPolice",
-        img: "../img/Bhoot-police.jpg",
+        title: "Thukra Ke Pyaar Mera",
+        img: "../img/Thukra_ke_Pyaar_Mera.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "blackPanther",
-        img: "../img/Black-panther.png",
+        title: "Gunaah",
+        img: "../img/Gunaah.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "masterMovie",
-        img: "../img/Master-movie.jpg",
+        title: "Tharla tar mag",
+        img: "../img/tharla-mag-serial.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "Jumanji",
-        img: "../img/Jumanji.jpg",
+        title: "Pariniti Serial",
+        img: "../img/ParinitiSerial.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "VR",
-        img: "../img/VR.jpg",
+        title: "Yeh Ristha Kya Khelata he",
+        img: "../img/yeh-rista-serial.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "Salaar",
-        img: "../img/Salaar.jpg",
+        title: "Illegal",
+        img: "../img/IllegalSeries.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "King-of-Kotha",
-        img: "../img/King-Of-Kotha.jpg",
+        title: "Apolina",
+        img: "../img/Apolina.jpg",
         Genre: "House Of Dramas"
       },
       {
-        title: "Mirai",
-        img: "../img/Mirai.jpg",
+        title: "Devmanush",
+        img: "../img/devmanush-serial.jpg",
         Genre: "House Of Dramas"
       },
       {
@@ -249,144 +249,143 @@ const boxDetailstore = {
       {
         title: "bigBoss",
         img: "../img/bigboss.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Anupama",
         img: "../img/anupama-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "ristakyakhelatahe",
         img: "../img/yeh-rista-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Tharlamag",
         img: "../img/tharla-mag-serial.jpg",
-        Genre: "Popular Tvshows",
+        Genre: "Popular Serials",
       },
       {
         title: "Mannat",
         img: "../img/mannat-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Devmanush",
         img: "../img/devmanush-serial.jpg",
-
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Mitwa",
         img: "../img/mitwa-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "udneKiaasha",
         img: "../img/UdnekiAasha.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "mangalLakshmi",
         img: "../img/mangalLakshmi.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Mahabharat",
         img: "../img/Mahabharat.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "Jhanak",
         img: "../img/Jhanak.jpg",
-        Genre: "Popular Tvshows",
+        Genre: "Popular Serials",
       },
       {
         title: "Swabhimaan",
         img: "../img/Swabhimaan.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "radhaKrishna",
         img: "../img/radhaKrishna.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
       {
         title: "tulaJapnaar",
         img: "../img/tulaJapnaar.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Serials"
       },
-      // "womenCricket" box
+      // 4th box
       {
-        title: "womenCricket",
-        img: "../img/women-cricket.jpg",
-        Genre: "Non-stop Sports"
+        title: "Healer",
+        img: "../img/Healer.jpg",
+        Genre: "Shows You Can't Miss"
       },
       {
-        title: "india_vs_aus",
-        img: "../img/india-vs-aus.jpg",
-        Genre: "Non-stop Sports"
+        title: "Irrational",
+        img: "../img/Irrational.jpg",
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "menT20final",
         img: "../img/men-t20final.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "Kabaddi",
         img: "../img/kabaddi.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "Ipl",
         img: "../img/ipl.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "Badminton",
         img: "../img/badminton.png",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "Football",
         img: "../img/football.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "ranjhiTrophy",
         img: "../img/ranjhiTrophy.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "iplAuctions",
         img: "../img/iplAuctions.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "indiavsSouthafrica",
         img: "../img/indiaVssouthafricatest.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "IPL",
         img: "../img/IPL2025.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "rcbCelebration",
         img: "../img/rcbCelebration.png",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "topSports",
         img: "../img/topSports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       {
         title: "NationalSports",
         img: "../img/Nationalsports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Shows You Can't Miss"
       },
       // 5th Box
       {
