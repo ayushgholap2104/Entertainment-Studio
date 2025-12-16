@@ -591,13 +591,13 @@ const boxDetailstore = {
         Genre: "Shows Recommended For You"
       },
       {
-        title: "insideOut2",
-        img: "../img/insideOut2.jpg",
+        title: "Stranger Things",
+        img: "../img/Stranger_Things.jpg",
         Genre: "Shows Recommended For You"
       },
       {
-        title: "avengerInfinitywar",
-        img: "../img/avengerInfinitywar.jpg",
+        title: "Money_Heist",
+        img: "../img/Money_Heist.jpg",
         Genre: "Shows Recommended For You"
       },
     ]
