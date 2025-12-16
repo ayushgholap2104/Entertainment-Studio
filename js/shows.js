@@ -176,74 +176,74 @@ const boxDetailstore = {
 
       // 2nd box
       {
-        title: "Jawan",
-        img: "../img/Jawan.jpg",
-        Genre: "Action Extavaganza"
+        title: "TrialSeries",
+        img: "../img/TrialSeries.jpg",
+        Genre: "House Of Dramas"
       },
       {
-        title: "Terminator",
-        img: "../img/Terminator.jpg",
-        Genre: "Action Extavaganza"
+        title: "Rambo In Love",
+        img: "../img/RamboInLove.jpg",
+        Genre: "House Of Dramas"
       },
       {
-        title: "Leo",
-        img: "../img/Leo.jpg",
-        Genre: "Action Extavaganza"
+        title: "MangalLakshmi",
+        img: "../img/mangalLakshmi.jpg",
+        Genre: "House Of Dramas"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "bhootPolice",
         img: "../img/Bhoot-police.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "blackPanther",
         img: "../img/Black-panther.png",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "masterMovie",
         img: "../img/Master-movie.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "Jumanji",
         img: "../img/Jumanji.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "VR",
         img: "../img/VR.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "Salaar",
         img: "../img/Salaar.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "King-of-Kotha",
         img: "../img/King-Of-Kotha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "Mirai",
         img: "../img/Mirai.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "Kabali",
         img: "../img/Kabali.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       {
         title: "vikramVedha",
         img: "../img/Vikramvedha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "House Of Dramas"
       },
       // 3rd Box
       {
