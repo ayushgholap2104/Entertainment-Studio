@@ -373,232 +373,232 @@ const boxDetailstore = {
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "rcbCelebration",
-        img: "../img/rcbCelebration.png",
+        title: "Tokyo Revengers",
+        img: "../img/tokyoRevengers.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "topSports",
-        img: "../img/topSports.jpg",
+        title: "CB Strike",
+        img: "../img/CB_Strike.jpg",
         Genre: "Shows You Can't Miss"
       },
       {
-        title: "NationalSports",
-        img: "../img/Nationalsports.jpg",
+        title: "Law And Order",
+        img: "../img/Law_And_Order.jpg",
         Genre: "Shows You Can't Miss"
       },
       // 5th Box
       {
         title: "jujutsuKiasen",
         img: "../img/jujutsu-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "onepiece",
         img: "../img/onepiece-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "demonSlayer",
         img: "../img/demon-slayer.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "Naruto",
         img: "../img/naruto.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "AttackonTitan",
         img: "../img/Aot.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "Bleach",
         img: "../img/bleach.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "deathNote",
         img: "../img/death-note.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "Haikyuu",
         img: "../img/Haikyuu.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "spyFamily",
         img: "../img/spyFamily.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "assasinationClasroom",
         img: "../img/assasinationClassroom.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "mushukoTensei",
         img: "../img/mushukoTensei.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "jhunjiltoCollection",
         img: "../img/jhunjiltoCollection.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "myheroAcademia",
         img: "../img/myheroAcademia.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       {
         title: "blackButtler",
         img: "../img/blackButtler.jpg",
-        Genre: "Rejoice Anime Fans!"
+        Genre: "Top Rated Animes!"
       },
       // 6th Box
       {
         title: "Doraemon",
         img: "../img/doraemon.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Shinchan",
         img: "../img/shinchan.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "TomandJerry",
         img: "../img/tom-and-cherry.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Ben10",
         img: "../img/ben10.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "motuPatlu",
         img: "../img/motu-patlu.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Woody",
         img: "../img/woody.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "mickyMouse",
         img: "../img/micky-mouse.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Shows"
       },
       // 7th Box
       {
         title: "Dragons",
         img: "../img/dragons-movie.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "Fastx",
         img: "../img/fastx.jpeg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "Ironman",
         img: "../img/ironman.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "FastandFurious",
         img: "../img/fast-and-furious.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "openHeighmer",
         img: "../img/openheighmer.jpeg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "Dc",
         img: "../img/dc.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "Anora",
         img: "../img/anora.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "deadpoolWolverin",
         img: "../img/deadpoolWolverin.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "disneyTangled",
         img: "../img/disneyTangled.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "disneyCars",
         img: "../img/disneyCars.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "planetOfapes",
         img: "../img/planetOfapes.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "alienCovinant",
         img: "../img/alienCovinant.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "insideOut2",
         img: "../img/insideOut2.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
       {
         title: "avengerInfinitywar",
         img: "../img/avengerInfinitywar.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Shows Recommended For You"
       },
     ]
     const parentBox = document.querySelector('.parent-box')
