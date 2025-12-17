@@ -531,8 +531,8 @@ const boxDetailstore = {
       },
       // 7th Box
       {
-        title: "lagna nanter hoilach prem",
-        img: "../img/lagna_nanter_hoilach_prem.jpg",
+        title: "Money_Heist",
+        img: "../img/Money_Heist.jpg",
         Genre: "Shows Recommended For You"
       },
       {
@@ -596,8 +596,8 @@ const boxDetailstore = {
         Genre: "Shows Recommended For You"
       },
       {
-        title: "Money_Heist",
-        img: "../img/Money_Heist.jpg",
+        title: "lagna nanter hoilach prem",
+        img: "../img/lagna_nanter_hoilach_prem.jpg",
         Genre: "Shows Recommended For You"
       },
     ]
