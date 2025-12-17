@@ -25,8 +25,8 @@ const functions = {
         img: "../img/Ekaki.png"
       },
       {
-        title: "The Magic Of Shiri",
-        img: "../img/TheMagicofShiri.jpg"
+        title: "Money Heist",
+        img: "../img/Money_Heist.jpg"
       },
       {
         title: "MoonKnight",
