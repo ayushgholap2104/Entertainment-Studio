@@ -627,6 +627,7 @@ body{
   flex-shrink: 0;
   box-sizing: border-box;
   object-fit: cover;
+  overflow: clip;
 }
 .card::after{
   content: "";
