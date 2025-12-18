@@ -95,7 +95,7 @@ body{
   cursor: pointer;
 }
 .sidebar{
-  font-size: 20px;
+  font-size: 22px;
   height: 26px;
   color:#fff;
   position: relative;
@@ -542,6 +542,7 @@ body{
   z-index: 0;
   min-height: 100vh;
   /* overflow: hidden; */
+  padding: 0.8rem;
 }
 .slider-container{
   height: 430px;
