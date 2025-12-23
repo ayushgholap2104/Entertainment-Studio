@@ -163,12 +163,15 @@
   
 }
 @media only screen and (min-width:1285px) and (max-width:1390px) {
+  #head{
+    padding: 1rem;
+  }
   .Es-logo{
     display: flex;
     align-items: center;
   }
   .sidebar{
-    font-size: 20px;
+    font-size: 22px;
   }
   .brand-name{
    font-size: 10px;
@@ -199,10 +202,10 @@
   }
   .panel3 input{
     width: 27rem;
-    height: 3.5vh;
+    height: 2.5vh;
   }
   .language{
-    font-size: 20px;
+    font-size: 21px;
   }
   .login{
    position: relative;
@@ -218,11 +221,11 @@
 
   }
   .comment{
-   font-size: 27px;
+   font-size: 28px;
    
   }
   .light-dark{
-   font-size: 27px;
+   font-size: 28px;
   }
   .search-bar{
     display: none;
@@ -232,7 +235,7 @@
   }
   .slider-container{
    height: 420px;
-   width:1290px;
+   width:1260px;
   }
   .content2{
     padding-left: 7%;
@@ -254,15 +257,18 @@
 
 
 @media only screen and (min-width:1166px) and (max-width:1284px){
+  #head{
+    padding: 1rem;
+  }
   .sidebar{
-    font-size: 19px;
+    font-size: 21px;
   }
   .Es-logo{
     display: flex;
     align-items: center;
   }
   .Es-logo i{
-    font-size: 40px;
+    font-size: 42px;
   }
   .brand-name{
    font-size: 9px;
@@ -293,10 +299,10 @@
   }
   .panel3 input{
     width: 23rem;
-    height: 3.5vh;
+    height: 2.5vh;
   }
   .language{
-    font-size: 19px;
+    font-size: 20px;
   }
   .login{
    margin-right: 5px;
@@ -310,15 +316,12 @@
    gap: 16px;
 
   }
-  .side-menu{
-    margin-top: 70px;
-  }
   .comment{
-   font-size: 26px;
+   font-size: 27px;
    
   }
   .light-dark{
-   font-size: 26px;
+   font-size: 27px;
   }
   .search-bar{
     display: none;
@@ -326,9 +329,15 @@
   .user-login{
     display: none;
   }
+  .main-content{
+    padding: 0.6rem;
+  }
   .slider-container{
    height: 420px;
-   width:1170px;
+   width:1150px;
+  }
+  .parent-box{
+    padding: 0.6rem;
   }
   .box{
    height: 250px;
@@ -367,16 +376,18 @@
   
 }
 @media only screen and (min-width:1025px) and (max-width:1165px) {
-  
+  #head{
+    padding: 1rem;
+  }
   .sidebar{
-    font-size: 18px;
+    font-size: 20px;
   }
   .Es-logo{
     display: flex;
     align-items: center;
   }
   .Es-logo i{
-    font-size: 39px;
+    font-size: 40px;
     margin-right: 5px;
   }
   .brand-name{
@@ -405,7 +416,7 @@
   }
   .panel3 input{
     width: 16rem;
-    height: 3.5vh;
+    height: 2.5vh;
   }
   .language{
     font-size: 19px;
@@ -462,9 +473,15 @@
   .user-login{
     display: none;
   }
+  .main-content{
+    padding: 0.6rem;
+  }
   .slider-container{
    height: 420px;
-   width:1020px;
+   width:1010px;
+  }
+  .parent-box{
+    padding: 0.6rem;
   }
   .box{
    height: 240px;
@@ -524,14 +541,15 @@
 }
 @media only screen and (min-width:947px) and (max-width:1024px){
   /* For Header part */
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    padding: 1rem;
+    align-items: center;
   }
   .sidebar{
-    font-size: 21px;
-    height:22px ;
+    font-size: 22px;
+    height:28px ;
     width: 36px;
     color: #fff;
     border: 1px solid #fff;
@@ -545,7 +563,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 55px;
+    font-size: 60px;
   }
 
   .brand-name{
@@ -564,20 +582,21 @@
   }
   .panel4{
     gap: 18px;
+    padding-right: 20px;
   }
   .language{
     font-size: 22px;
-    height: 4vh;
-    width: 3vw;
+    height: 3vh;
+    width: 4vw;
   }
   .login a{
-   font-size: 11px;
+   font-size: 12px;
   }
   .comment{
-   font-size: 29px;
+   font-size: 30px;
   }
   .light-dark{
-   font-size: 29px;
+   font-size: 30px;
   }
   .copy-right{
     font-size: 13.5px;
@@ -602,7 +621,10 @@
   }
   .slider-container{
    height: 420px;
-   width:950px;
+   width:920px;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 230px;
@@ -657,14 +679,14 @@
   }
 }
 @media only screen and (min-width:850px) and (max-width:946px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    padding: 1rem;
   }
   .sidebar{
-    font-size: 20px;
-    height:22px ;
+    font-size: 21px;
+    height:28px ;
     width: 35px;
     color: #fff;
     border: 1px solid #fff;
@@ -675,7 +697,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 53px;
+    font-size: 58px;
   }
 
   .brand-name{
@@ -694,20 +716,21 @@
   }
   .panel4{
     gap: 15px;
+    padding-right: 20px;
   }
   .language{
     font-size: 21px;
-    height: 4vh;
-    width: 3vw;
+    height: 3vh;
+    width: 4vw;
   }
   .login a{
-   font-size: 11px;
+   font-size: 12px;
   }
   .comment{
-   font-size: 27px;
+   font-size: 29px;
   }
   .light-dark{
-   font-size: 27px;
+   font-size: 29px;
   }
   .copy-right{
     font-size: 13px;
@@ -757,7 +780,10 @@
   }
   .slider-container{
    height: 420px;
-   width:850px;
+   width:830px;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 220px;
@@ -825,10 +851,10 @@
   
 }
 @media only screen and (max-width:850px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    padding: 1rem;
   }
   #btn-up{
    width: 42px;
@@ -838,9 +864,9 @@
    font-size: 1.3rem;
   }
   .sidebar{
-    font-size: 20px;
-    height:20px ;
-    width: 32px;
+    font-size: 24px;
+    height:30px ;
+    width: 34px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -850,7 +876,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 52px;
+    font-size: 60px;
   }
 
   .brand-name{
@@ -869,6 +895,7 @@
   }
   .panel4{
     gap: 25px;
+    padding-right: 20px;
   }
   .language{
     display: none;
@@ -877,10 +904,10 @@
    display: none;
   }
   .comment{
-   font-size: 30px;
+   font-size: 35px;
   }
   .light-dark{
-   font-size: 30px;
+   font-size: 35px;
   }
   .copy-right{
     font-size: 12.5px;
@@ -930,7 +957,10 @@
   }
   .slider-container{
    height: 420px;
-   width:750px;
+   width:730px;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 210px;
@@ -998,14 +1028,15 @@
   }
 }
 @media only screen and (max-width:739px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   .sidebar{
-    font-size: 20px;
-    height:20px ;
-    width: 30px;
+    font-size: 22px;
+    height:30px ;
+    width: 34px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -1022,7 +1053,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 50px;
+    font-size: 59px;
   }
 
   .brand-name{
@@ -1049,17 +1080,20 @@
    display: none;
   }
   .comment{
-   font-size: 28px;
+   font-size: 33px;
   }
   .light-dark{
-   font-size: 28px;
+   font-size: 33px;
   }
   .side-menu{
     width: 280px;
   }
   .slider-container{
    height: 420px;
-   width:650px;
+   width:620px;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 200px;
@@ -1093,13 +1127,14 @@
   }
 }
 @media only screen and (max-width:644px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   .sidebar{
-    font-size: 19px;
-    height:20px ;
+    font-size: 21px;
+    height:28px ;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
@@ -1110,7 +1145,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 48px;
+    font-size: 58px;
   }
 
   .brand-name{
@@ -1137,10 +1172,10 @@
    display: none;
   }
   .comment{
-   font-size: 26.5px;
+   font-size: 30px;
   }
   .light-dark{
-   font-size: 26.5px;
+   font-size: 30px;
   }
   .copy-right{
     font-size: 12px;
@@ -1179,27 +1214,27 @@
   .user-signin{
    width: 75px;
    font-size: 12px;
-   height: 42px;
   }
   .user-signin a{
-    font-weight: 500;
-    height:40px ;
     width: 72px;
   }
   .user-signup{
    width: 110px;
    font-size: 11px;
-   height: 45px;
   }
   .slider-container{
    height: 420px;
-   width:570px;
+   width:540px;
+
   }
   .right-arrow{
     display: none;
   }
   .left-arrow{
     display: none;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 190px;
@@ -1233,13 +1268,14 @@
   }
 }
 @media only screen and (max-width:555px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   .sidebar{
-    font-size: 18px;
-    height:20px ;
+    font-size: 20px;
+    height:25px ;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
@@ -1250,7 +1286,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 45px;
+    font-size: 57px;
   }
 
   .brand-name{
@@ -1277,10 +1313,10 @@
    display: none;
   }
   .comment{
-   font-size: 25px;
+   font-size: 29px;
   }
   .light-dark{
-   font-size: 25px;
+   font-size: 29px;
   }
   foot{
     height: 8vh;
@@ -1340,27 +1376,27 @@
   .user-signin{
    width: 73px;
    font-size: 11px;
-   height: 40px;
   }
   .user-signin a{
     font-weight: 500;
-    height:38px ;
     width: 70px;
   }
   .user-signup{
-   width: 100px;
-   font-size: 10px;
-   height: 43px;
+    width: 100px;
+    font-size: 10px;
   }
   .slider-container{
-   height: 420px;
-   width:450px;
+    height: 420px;
+    width:450px;
   }
   .right-arrow{
     display: none;
   }
   .left-arrow{
     display: none;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 180px;
@@ -1411,9 +1447,10 @@
 }
 
 @media only screen and (max-width:470px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   #btn-up{
    width: 40px;
@@ -1423,8 +1460,8 @@
    font-size: 1.2rem;
   }
   .sidebar{
-    font-size: 18px;
-    height:20px ;
+    font-size: 19px;
+    height:25px ;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
@@ -1435,7 +1472,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 43px;
+    font-size: 55px;
   }
 
   .brand-name{
@@ -1462,10 +1499,10 @@
    display: none;
   }
   .comment{
-   font-size: 23px;
+   font-size: 28px;
   }
   .light-dark{
-   font-size: 23px;
+   font-size: 28px;
   }
   .copy-right{
     font-size: 11px;
@@ -1522,27 +1559,27 @@
   .user-signin{
    width: 71px;
    font-size: 10px;
-   height: 38px;
   }
   .user-signin a{
     font-weight: 500;
-    height:36px ;
     width: 68px;
   }
   .user-signup{
    width: 98px;
    font-size: 8px;
-   height: 41px;
   }
   .slider-container{
    height: 420px;
-   width:400px;
+   width:380px;
   }
   .right-arrow{
     display: none;
   }
   .left-arrow{
     display: none;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 170px;
@@ -1597,14 +1634,15 @@
   }
 }
 @media only screen and (max-width:398px){
-  header{
+  #head{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   .sidebar{
-    font-size: 16px;
-    height:16px ;
-    width: 23px;
+    font-size: 18px;
+    height:22px ;
+    width: 25px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -1614,7 +1652,7 @@
     align-items: center;
   }
   .Es-logo i{
-    font-size: 40px;
+    font-size: 54px;
   }
 
   .brand-name{
@@ -1641,10 +1679,10 @@
    display: none;
   }
   .comment{
-   font-size: 21px;
+   font-size: 28px;
   }
   .light-dark{
-   font-size: 21px;
+   font-size: 28px;
   }
   .foot{
     text-align: center;
@@ -1705,17 +1743,14 @@
   .user-signin{
    width: 69px;
    font-size: 9px;
-   height: 36px;
   }
   .user-signin a{
     font-weight: 500;
-    height:34px ;
     width: 66px;
   }
   .user-signup{
    width: 96px;
    font-size: 7px;
-   height: 39px;
   }
   .slider-container{
    height: 400px;
@@ -1726,6 +1761,9 @@
   }
   .left-arrow{
     display: none;
+  }
+  .child-boxes{
+    overflow: scroll;
   }
   .box{
    height: 160px;
@@ -1788,7 +1826,7 @@
   }
   .panel3 input{
     width: 25rem;
-    height: 3vh;
+    height: 2vh;
   }
 }
 /* @media only screen and (max-width:499px){
