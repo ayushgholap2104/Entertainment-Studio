@@ -329,9 +329,6 @@
   .user-login{
     display: none;
   }
-  .main-content{
-    padding: 0.6rem;
-  }
   .slider-container{
    height: 420px;
    width:1150px;
@@ -440,16 +437,16 @@
     font-size: 14px;
   }
   .company-info h4{
-    font-size: 12px;
+    font-size: 13px;
   }
   .company-info a{
-    font-size: 11px;
-  }
-  .feedback-center h4{
     font-size: 12px;
   }
+  .feedback-center h4{
+    font-size: 13px;
+  }
   .feedback-center a{
-    font-size: 11px;
+    font-size: 12px;
   }
   .icons{
     font-size: 15px;
@@ -472,9 +469,6 @@
   }
   .user-login{
     display: none;
-  }
-  .main-content{
-    padding: 0.6rem;
   }
   .slider-container{
    height: 420px;

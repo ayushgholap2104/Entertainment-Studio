@@ -10,8 +10,8 @@
  
 }
 html,body{
-  max-width: 100%;
   overflow-x: clip;
+  height: 100%;
 }
 :root{
   --body_color:#fff;
@@ -83,12 +83,12 @@ body{
   background-color:#000000;
   display: flex;
   align-items: center;
-  top: 0;
   left: 0;
   right:0;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 10000;
   transition: all 0.3s;
+  position: fixed;
 }
 .Es-logo:hover{
   cursor: pointer;
@@ -401,21 +401,20 @@ body{
   color: #1DA1F2;
 }
 .side-menu{
+  height: 100vh;
   width: 320px;
-  z-index: 100;
+  z-index: 10;
   background:  var(--sidemenu_color);
   display: flex;
   flex-direction: column;
   padding: 20px;
   transition:left 0.5s ease;
   opacity: 0.9;
-  position: fixed;
-  height: calc(100vh - 60px);
-  overflow-y: auto;
-  /* margin-top: 65px; */
   left: -388px;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-
+  position: fixed;
+  overflow: clip;
+  margin-top: 4.3rem;
 }
 .user-login{
   display: flex;
@@ -473,14 +472,12 @@ body{
   background-color:#8c05fb;
 }
 .menu{ 
-  margin-top: 20px;
   display: flex;
   flex-direction:column ;
   gap: 35px;
   margin-left: 10px;
   margin-bottom: 48px;
-  opacity: 1;
-  z-index: 10;
+  padding-top: 1rem;
 }
 .menu a{
   text-decoration: none;
@@ -488,9 +485,7 @@ body{
   font-size: 18px;
   font-family: 'Poppins';
   font-weight: 500;
-  z-index: 1000;
-  opacity: 1;
-  height: 3vh;
+
 }
 .menu a.active{
   color: var(--menu_items_color_hover);
@@ -500,7 +495,7 @@ body{
 .menu a:hover{
   color:var(--menu_items_color_hover) ;
   transition: 0.3s ease;
-  font-size: 19px;
+  transform: translateX(4px);
 }
 .search-bar{
   width: 13rem;
@@ -540,9 +535,7 @@ body{
   display: flex;
   flex-direction: column;
   z-index: 0;
-  min-height: 100vh;
-  padding: 0.8rem;
-  /* overflow: hidden; */
+  padding: calc(95px + 0.8rem) 0.8rem 0.8rem;;
 }
 .slider-container{
   height: 430px;
