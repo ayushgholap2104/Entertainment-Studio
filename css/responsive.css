@@ -1746,6 +1746,9 @@
    width: 96px;
    font-size: 7px;
   }
+  .parent-box{
+    padding: 0;
+  }
   .slider-container{
    height: 400px;
    width:330px;
