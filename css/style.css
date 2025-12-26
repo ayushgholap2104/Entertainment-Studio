@@ -377,6 +377,8 @@ body{
 .copy-right p{
   font-weight: 400;
   color: #fff;
+  align-items: center;
+  
 }
 .icons{
   display: flex;

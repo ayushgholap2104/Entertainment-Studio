@@ -428,28 +428,9 @@
   }
   .comment{
    font-size: 25px;
-   
   }
   .light-dark{
    font-size: 25px;
-  }
-  .copy-right{
-    font-size: 14px;
-  }
-  .company-info h4{
-    font-size: 13px;
-  }
-  .company-info a{
-    font-size: 12px;
-  }
-  .feedback-center h4{
-    font-size: 13px;
-  }
-  .feedback-center a{
-    font-size: 12px;
-  }
-  .icons{
-    font-size: 15px;
   }
   .side-menu{
     width: 290px;
@@ -592,24 +573,6 @@
   .light-dark{
    font-size: 30px;
   }
-  .copy-right{
-    font-size: 13.5px;
-  }
-  .company-info h4{
-    font-size: 11px;
-  }
-  .company-info a{
-    font-size: 10px;
-  }
-  .feedback-center h4{
-    font-size: 11px;
-  }
-  .feedback-center a{
-    font-size: 10px;
-  }
-  .icons{
-    font-size: 14.5px;
-  }
   .user-login{
     display: none;
   }
@@ -725,24 +688,6 @@
   }
   .light-dark{
    font-size: 29px;
-  }
-  .copy-right{
-    font-size: 13px;
-  }
-  .company-info h4{
-    font-size: 10px;
-  }
-  .company-info a{
-    font-size: 9px;
-  }
-  .feedback-center h4{
-    font-size: 10px;
-  }
-  .feedback-center a{
-    font-size: 9px;
-  }
-  .icons{
-    font-size: 14px;
   }
   .menu a{
     font-size: 16px;
@@ -903,24 +848,6 @@
   .light-dark{
    font-size: 35px;
   }
-  .copy-right{
-    font-size: 12.5px;
-  }
-  .company-info h4{
-    font-size: 9px;
-  }
-  .company-info a{
-    font-size: 8px;
-  }
-  .feedback-center h4{
-    font-size: 9px;
-  }
-  .feedback-center a{
-    font-size: 8px;
-  }
-  .icons{
-    font-size: 13.5px;
-  }
   .side-menu{
     width: 300px;
   }
@@ -1079,6 +1006,12 @@
   .light-dark{
    font-size: 33px;
   }
+  .company-info{
+    display: none;
+  }
+  .feedback-center{
+    display: none;
+  }
   .side-menu{
     width: 280px;
   }
@@ -1171,30 +1104,11 @@
   .light-dark{
    font-size: 30px;
   }
-  .copy-right{
-    font-size: 12px;
-  }
   .company-info{
-    visibility: hidden;
-  }
-  .company-info h4{
-    font-size: 8px;
-  }
-  .company-info a{
-    font-size: 7px;
+    display: none;
   }
   .feedback-center{
-    visibility: hidden;
-  }
-  .feedback-center h4{
-    font-size: 8px;
-  }
-  .feedback-center a{
-    font-size: 7px;
-  }
-  .icons{
-    font-size: 13px;
-    /* margin-bottom: 14px; */
+    display: none;
   }
   .menu a.active{
     font-size: 15px;
@@ -1315,29 +1229,11 @@
   foot{
     height: 8vh;
   }
-  .copy-right{
-    font-size: 11.5px;
-  }
-  .company-info h4{
-    font-size: 6px;
-  }
-  .company-info a{
-    font-size: 5px;
-  }
   .company-info{
-    visibility: hidden;
+    display: none;
   }
   .feedback-center{
-    visibility: hidden;
-  }
-  .feedback-center h4{
-    font-size: 6px;
-  }
-  .feedback-center a{
-    font-size: 5px;
-  }
-  .icons{
-    font-size: 12.5px;
+    display: none;
   }
   .side-menu{
     width: 250px;
@@ -1498,29 +1394,11 @@
   .light-dark{
    font-size: 28px;
   }
-  .copy-right{
-    font-size: 11px;
-  }
-  .company-info h4{
-    font-size: 5px;
-  }
-  .company-info a{
-    font-size: 4px;
-  }
   .company-info{
-    visibility: hidden;
+    display: none;
   }
   .feedback-center{
-    visibility: hidden;
-  }
-  .feedback-center h4{
-    font-size: 5px;
-  }
-  .feedback-center a{
-    font-size: 4px;
-  }
-  .icons{
-    font-size: 12px;
+    display: none;
   }
   .side-menu{
     width: 235px;
@@ -1681,30 +1559,11 @@
   .foot{
     text-align: center;
   }
-  .copy-right{
-    font-size: 5px;
-    display: flex;
-  }
-  .company-info h4{
-    font-size: 4px;
-  }
-  .company-info a{
-    font-size: 3px;
-  }
   .company-info{
-    visibility: hidden;
+    display: none;
   }
   .feedback-center{
-    visibility: hidden;
-  }
-  .feedback-center h4{
-    font-size: 4px;
-  }
-  .feedback-center a{
-    font-size: 3px;
-  }
-  .icons{
-    font-size: 6px;
+    display: none;
   }
   .side-menu{
     width: 220px;
