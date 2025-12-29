@@ -501,7 +501,6 @@ body{
 .menu a:hover{
   color:var(--menu_items_color_hover) ;
   transition: 0.3s ease;
-  transform: translateX(4px);
 }
 .search-bar{
   width: 13rem;
