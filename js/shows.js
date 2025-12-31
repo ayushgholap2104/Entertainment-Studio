@@ -552,7 +552,7 @@ const boxDetailstore = {
       },
       {
         title: "Ekaki",
-        img: "../img/Ekaki.png",
+        img: "../img/Ekaki.jpg",
         Genre: "Shows Recommended For You"
       },
       {

@@ -29,12 +29,12 @@ const functions = {
         img: "../img/VR.jpg"
       },
       {
-        title: "SitaRamam",
-        img: "../img/sitaramam.jpg"
+        title: "Stree2",
+        img: "../img/Stree2.jpg"
       },
       {
-        title: "Master",
-        img: "../img/Master.jpg"
+        title: "Sairat",
+        img: "../img/Sairat.jpg"
       },
 
     ]
