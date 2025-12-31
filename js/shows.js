@@ -21,8 +21,8 @@ const functions = {
     // A variable that contains data in json format
     const cardsData = [
       {
-        title: "Ekaki",
-        img: "../img/Ekaki.png"
+        title: "Demon_slayer",
+        img: "../img/Demon_slayer.jpg"
       },
       {
         title: "Money Heist",
