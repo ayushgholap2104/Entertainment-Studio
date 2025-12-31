@@ -21,12 +21,12 @@ const functions = {
     // A variable that contains data in json format
     const cardsData = [
       {
-        title: "Bajirao Mastani",
-        img: "../img/bajirao-mastani.jpg"
+        title: "D_Block",
+        img: "../img/D_Block.jpg"
       },
       {
-        title: "Pushpa 2",
-        img: "../img/Pushpa.jpg"
+        title: "Vikrant rona",
+        img: "../img/VR.jpg"
       },
       {
         title: "SitaRamam",

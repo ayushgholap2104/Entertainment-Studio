@@ -1,3 +1,16 @@
+// let events = [
+//   {
+//     id: 1,
+//     eventTitle: "Campaign",
+//     eventDesc: "This is the event description",
+//     eventMedia: [
+//       "path1/path2/path2",
+//       "path1/path2/path3",
+//       "vidpath/vidpath/vidpath"
+//     ]
+//   },
+// ] 
+
 window.addEventListener("load", () => {
 
   const sidebarIcon = document.querySelector('.sidebar')
