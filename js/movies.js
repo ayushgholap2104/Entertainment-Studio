@@ -104,218 +104,217 @@ const boxDetailstore = {
     const boxesData = [
       // 1st box
       {
-        title: "Shaitaan",
-        img: "../img/Shaitaan.jpg",
-        Genre: "Latest Releases"
+        title: "The Dark Sphere",
+        img: "../img/The_dark_sphere.jpg",
+        Genre: "New Movies for You"
       },
       {
-        title: "Avengers",
-        img: "../img/Avengers.jpg",
-        Genre: "Latest Releases"
+        title: "parantu po",
+        img: "../img/parantu_po.jpg",
+        Genre: "New Movies for You"
       },
       {
-        title: "Hanuman",
-        img: "../img/hanuman.jpg",
-        Genre: "Latest Releases"
+        title: "Kramp",
+        img: "../img/K_ramp.jpg",
+        Genre: "New Movies for You"
       },
       {
-        title: "thelandBeforetime",
-        img: "../img/landb.jpg",
-        Genre: "Latest Releases"
+        title: "40 Acres",
+        img: "../img/40_Acres.jpg",
+        Genre: "New Movies for You"
       },
       {
-        title: "jurassicWorld",
-        img: "../img/jurassic-world.jpg",
-        Genre: "Latest Releases"
+        title: "Blind_spot",
+        img: "../img/Blind_spot.jpg",
+        Genre: "New Movies for You"
       },
       {
         title: "Kantara",
         img: "../img/kantara.jpg",
-        Genre: "Latest Releases"
+        Genre: "New Movies for You"
       },
       {
-        title: "Thama",
-        img: "../img/thama.jpg",
-        Genre: "Latest Releases"
+        title: "Bempura",
+        img: "../img/Bempura.jpg",
+        Genre: "New Movies for You"
       },
       {
         title: "rathnan-prapancha",
         img: "../img/rathnan-prapancha.jpg",
-        Genre: "Latest Releases"
+        Genre: "New Movies for You"
       },
       {
         title: "Zebra",
-        img: "../img/Zebra.jpg",
-        Genre: "Latest Releases"
+        img: "../img/Aan_pavam.jpg",
+        Genre: "New Movies for You"
       },
       {
         title: "Lokha",
         img: "../img/lokah.jpg",
-        Genre: "Latest Releases"
+        Genre: "New Movies for You"
       },
       {
         title: "radheSham",
         img: "../img/Radhe-sham.jpg",
-        Genre: "Latest Releases"
+        Genre: "New Movies for You"
       },
       {
-        title: "bubbleGum",
-        img: "../img/Bubblegum.jpg",
-        Genre: "Latest Releases"
+        title: "Kesari chapter 2",
+        img: "../img/Kesari_chapter_2.jpg",
+        Genre: "New Movies for You"
       },
       {
-        title: "Wicked",
-        img: "../img/Wicked.jpg",
-        Genre: "Latest Releases"
+        title: "The Attack of 26/11",
+        img: "../img/The_attack_of_2611.jpg",
+        Genre: "New Movies for You"
       },
       {
         title: "paramSundari",
         img: "../img/paramSundari.jpg",
-        Genre: "Latest Releases"
+        Genre: "New Movies for You"
       },
 
       // 2nd box
       {
         title: "Jawan",
         img: "../img/Jawan.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "Terminator",
         img: "../img/Terminator.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "Leo",
         img: "../img/Leo.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
-        title: "bhootPolice",
-        img: "../img/Bhoot-police.jpg",
-        Genre: "Action Extavaganza"
+        title: "Sister Midnight",
+        img: "../img/Sister_midnight.jpg",
+        Genre: "Popular Movies"
       },
       {
         title: "blackPanther",
         img: "../img/Black-panther.png",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "masterMovie",
         img: "../img/Master-movie.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "Jumanji",
         img: "../img/Jumanji.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "VR",
         img: "../img/VR.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
-        title: "Salaar",
-        img: "../img/Salaar.jpg",
-        Genre: "Action Extavaganza"
+        title: "Tanhaji",
+        img: "../img/Tanhaji.jpg",
+        Genre: "Popular Movies"
       },
       {
         title: "King-of-Kotha",
         img: "../img/King-Of-Kotha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
-        title: "Mirai",
-        img: "../img/Mirai.jpg",
-        Genre: "Action Extavaganza"
+        title: "Bloody Daddy",
+        img: "../img/Bloody_daddy.jpg",
+        Genre: "Popular Movies"
       },
       {
         title: "Kabali",
         img: "../img/Kabali.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       {
         title: "vikramVedha",
         img: "../img/Vikramvedha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Popular Movies"
       },
       // 3rd Box
       {
-        title: "bigBoss",
-        img: "../img/bigboss.jpg",
-        Genre: "Popular Tvshows"
+        title: "Munjhya",
+        img: "../img/Munjhya.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Anupama",
-        img: "../img/anupama-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "Train to busan",
+        img: "../img/Train_to_busan.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "ristakyakhelatahe",
-        img: "../img/yeh-rista-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "Annabella",
+        img: "../img/Annabella.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Tharlamag",
-        img: "../img/tharla-mag-serial.jpg",
-        Genre: "Popular Tvshows",
+        title: "Terrifier",
+        img: "../img/Terrifier.jpg",
+        Genre: "Horror Movies",
       },
       {
-        title: "Mannat",
-        img: "../img/mannat-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "Alien Covinant.",
+        img: "../img/alienCovinant.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
-
-        Genre: "Popular Tvshows"
+        title: "Aranmanai_4",
+        img: "../img/Aranmanai_4.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Mitwa",
-        img: "../img/mitwa-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "Do Not Enter",
+        img: "../img/Do_not_enter.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "udneKiaasha",
-        img: "../img/UdnekiAasha.jpg",
-        Genre: "Popular Tvshows"
+        title: "Lift",
+        img: "../img/Lift.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "mangalLakshmi",
-        img: "../img/mangalLakshmi.jpg",
-        Genre: "Popular Tvshows"
+        title: "I Saw the Devil",
+        img: "../img/I_saw_the_devil.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Mahabharat",
-        img: "../img/Mahabharat.jpg",
-        Genre: "Popular Tvshows"
+        title: "Romamcham",
+        img: "../img/Romamcham.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "Jhanak",
-        img: "../img/Jhanak.jpg",
-        Genre: "Popular Tvshows",
+        title: "Maneater",
+        img: "../img/Maneater.jpg",
+        Genre: "Horror Movies",
       },
       {
-        title: "Swabhimaan",
-        img: "../img/Swabhimaan.jpg",
-        Genre: "Popular Tvshows"
+        title: "Knock at cabin",
+        img: "../img/Knock_at_cabin.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "radhaKrishna",
-        img: "../img/radhaKrishna.jpg",
-        Genre: "Popular Tvshows"
+        title: "Bhediya",
+        img: "../img/bhediya.jpg",
+        Genre: "Horror Movies"
       },
       {
-        title: "tulaJapnaar",
-        img: "../img/tulaJapnaar.jpg",
-        Genre: "Popular Tvshows"
+        title: "Sinners",
+        img: "../img/Sinners.jpg",
+        Genre: "Horror Movies"
       },
       // "womenCricket" box
       {

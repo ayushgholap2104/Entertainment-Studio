@@ -663,8 +663,6 @@ body{
   /* object-fit: cover; */
   transform: scale(1.1);
   object-fit: cover;
-  
-
 }
 .card-img-title-cont{
   position: relative;
