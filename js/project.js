@@ -43,8 +43,8 @@ const functions = {
         img: "../img/Pushpa.jpg"
       },
       {
-        title: "SitaRamam",
-        img: "../img/sitaramam.jpg"
+        title: "Luckybhaskar",
+        img: "../img/Luckybhaskar.jpg"
       },
       {
         title: "Master",

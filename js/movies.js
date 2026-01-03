@@ -318,74 +318,74 @@ const boxDetailstore = {
       },
       // "womenCricket" box
       {
-        title: "womenCricket",
-        img: "../img/women-cricket.jpg",
-        Genre: "Non-stop Sports"
+        title: "sitaramam",
+        img: "../img/sitaramam.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "india_vs_aus",
-        img: "../img/india-vs-aus.jpg",
-        Genre: "Non-stop Sports"
+        title: "Khuda haafiz",
+        img: "../img/Khuda_haafiz.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "menT20final",
-        img: "../img/men-t20final.jpg",
-        Genre: "Non-stop Sports"
+        title: "Duniyadari",
+        img: "../img/Duniyadari.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "Kabaddi",
-        img: "../img/kabaddi.jpg",
-        Genre: "Non-stop Sports"
+        title: "Zara hatke",
+        img: "../img/Zara_hatke.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "Ipl",
-        img: "../img/ipl.jpg",
-        Genre: "Non-stop Sports"
+        title: "The family star",
+        img: "../img/The_family_star.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "Badminton",
-        img: "../img/badminton.png",
-        Genre: "Non-stop Sports"
+        title: "Premalu",
+        img: "../img/Premalu.jpg",
+        Genre: "Romance Movies"
       },
       {
-        title: "Football",
-        img: "../img/football.jpg",
-        Genre: "Non-stop Sports"
+        title: "Sanam re",
+        img: "../img/Sanam_re.jpg",
+        Genre: "Romance Movies"
       },
       {
         title: "ranjhiTrophy",
         img: "../img/ranjhiTrophy.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "iplAuctions",
         img: "../img/iplAuctions.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "indiavsSouthafrica",
         img: "../img/indiaVssouthafricatest.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "IPL",
         img: "../img/IPL2025.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "rcbCelebration",
         img: "../img/rcbCelebration.png",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "topSports",
         img: "../img/topSports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       {
         title: "NationalSports",
         img: "../img/Nationalsports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Romance Movies"
       },
       // 5th Box
       {
