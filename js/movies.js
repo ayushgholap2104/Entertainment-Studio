@@ -353,181 +353,181 @@ const boxDetailstore = {
         Genre: "Romance Movies"
       },
       {
-        title: "ranjhiTrophy",
-        img: "../img/ranjhiTrophy.jpg",
+        title: "liger",
+        img: "../img/liger.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "iplAuctions",
-        img: "../img/iplAuctions.jpg",
+        title: "ved",
+        img: "../img/ved.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "indiavsSouthafrica",
-        img: "../img/indiaVssouthafricatest.jpg",
+        title: "Tadap",
+        img: "../img/Tadap.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "IPL",
-        img: "../img/IPL2025.jpg",
+        title: "Badshaho",
+        img: "../img/Badshaho.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "rcbCelebration",
-        img: "../img/rcbCelebration.png",
+        title: "Student of year",
+        img: "../img/Student_of_year.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "topSports",
-        img: "../img/topSports.jpg",
+        title: "Game of love",
+        img: "../img/Game_of_love.jpg",
         Genre: "Romance Movies"
       },
       {
-        title: "NationalSports",
-        img: "../img/Nationalsports.jpg",
+        title: "Titanic",
+        img: "../img/Titanic.jpg",
         Genre: "Romance Movies"
       },
       // 5th Box
       {
-        title: "jujutsuKiasen",
-        img: "../img/jujutsu-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Super 30",
+        img: "../img/Super_30.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "onepiece",
-        img: "../img/onepiece-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Ms_Dhoni",
+        img: "../img/Ms_Dhoni.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "demonSlayer",
-        img: "../img/demon-slayer.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Mission mangal",
+        img: "../img/Mission_mangal.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "Naruto",
-        img: "../img/naruto.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Bhuj",
+        img: "../img/Bhuj.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "AttackonTitan",
-        img: "../img/Aot.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Rocketry",
+        img: "../img/Rocketry.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "Bleach",
-        img: "../img/bleach.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "12th fail",
+        img: "../img/12th_fail.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "deathNote",
-        img: "../img/death-note.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "83 movie",
+        img: "../img/83_movie.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "Haikyuu",
-        img: "../img/Haikyuu.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Panga",
+        img: "../img/Panga.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "spyFamily",
-        img: "../img/spyFamily.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Baghavant kesari",
+        img: "../img/Baghavant_kesari.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "assasinationClasroom",
-        img: "../img/assasinationClassroom.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Sarfira",
+        img: "../img/Sarfira.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "mushukoTensei",
-        img: "../img/mushukoTensei.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Neru",
+        img: "../img/Neru.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "jhunjiltoCollection",
-        img: "../img/jhunjiltoCollection.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Captain marvel",
+        img: "../img/Captain_marvel.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "myheroAcademia",
-        img: "../img/myheroAcademia.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Raya the last dragon",
+        img: "../img/Raya_the_last_dragon.jpg",
+        Genre: "Inspirational Movies"
       },
       {
-        title: "blackButtler",
-        img: "../img/blackButtler.jpg",
-        Genre: "Rejoice Anime Fans!"
+        title: "Brave",
+        img: "../img/Brave.jpg",
+        Genre: "Inspirational Movies"
       },
       // 6th Box
       {
-        title: "Doraemon",
-        img: "../img/doraemon.jpg",
-        Genre: "Kids Corner"
+        title: "The lion king",
+        img: "../img/The_lion_king.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Shinchan",
-        img: "../img/shinchan.jpg",
-        Genre: "Kids Corner"
+        title: "Alladin",
+        img: "../img/Alladin.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "TomandJerry",
-        img: "../img/tom-and-cherry.jpg",
-        Genre: "Kids Corner"
+        title: "Kung_fu_panda",
+        img: "../img/Kung_fu_panda.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Ben10",
-        img: "../img/ben10.jpg",
-        Genre: "Kids Corner"
+        title: "Moana2",
+        img: "../img/Moana2.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "motuPatlu",
-        img: "../img/motu-patlu.jpg",
-        Genre: "Kids Corner"
+        title: "How to train your dragon 2",
+        img: "../img/How_to_train_your_dragon2.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Woody",
-        img: "../img/woody.jpg",
-        Genre: "Kids Corner"
+        title: "Motu patlu kungfu king",
+        img: "../img/Motu_patlu_kungfu_king.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "mickyMouse",
-        img: "../img/micky-mouse.jpg",
-        Genre: "Kids Corner"
+        title: "The Bad Guys",
+        img: "../img/The_bad_guys.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Kids Corner"
+        Genre: "Popular Kids Movies"
       },
       // 7th Box
       {
