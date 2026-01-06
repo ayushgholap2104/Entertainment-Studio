@@ -21,20 +21,20 @@ const functions = {
     // A variable that contains data in json format
     const cardsData = [
       {
-        title: "Bajirao Mastani",
-        img: "../img/bajirao-mastani.jpg"
+        title: "Boss baby",
+        img: "../img/Boss_baby.jpg"
       },
       {
-        title: "Pushpa 2",
-        img: "../img/Pushpa.jpg"
+        title: "disney cars",
+        img: "../img/disney_cars.jpg"
       },
       {
-        title: "SitaRamam",
-        img: "../img/sitaramam.jpg"
+        title: "incredibles 2",
+        img: "../img/incredibles_2.jpg"
       },
       {
-        title: "Master",
-        img: "../img/Master.jpg"
+        title: "The_wildrobot",
+        img: "../img/The_wildrobot.jpg"
       },
 
     ]
@@ -104,74 +104,74 @@ const boxDetailstore = {
     const boxesData = [
       // 1st box
       {
-        title: "Shaitaan",
-        img: "../img/Shaitaan.jpg",
-        Genre: "Latest Releases"
+        title: "Luca",
+        img: "../img/Luca.jpg",
+        Genre: "Popular Kids Shows"
       },
       {
-        title: "Avengers",
-        img: "../img/Avengers.jpg",
-        Genre: "Latest Releases"
+        title: "Finding Nemo",
+        img: "../img/Finding_nemo.jpg",
+        Genre: "Popular Kids Shows"
       },
       {
-        title: "Hanuman",
-        img: "../img/hanuman.jpg",
-        Genre: "Latest Releases"
+        title: "Good dinosaur",
+        img: "../img/Good_dinosaur.jpg",
+        Genre: "Popular Kids Shows"
       },
       {
         title: "thelandBeforetime",
         img: "../img/landb.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "jurassicWorld",
         img: "../img/jurassic-world.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Kantara",
         img: "../img/kantara.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Thama",
         img: "../img/thama.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "rathnan-prapancha",
         img: "../img/rathnan-prapancha.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Zebra",
         img: "../img/Zebra.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Lokha",
         img: "../img/lokah.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "radheSham",
         img: "../img/Radhe-sham.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "bubbleGum",
         img: "../img/Bubblegum.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "Wicked",
         img: "../img/Wicked.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
       {
         title: "paramSundari",
         img: "../img/paramSundari.jpg",
-        Genre: "Latest Releases"
+        Genre: "Popular Kids Shows"
       },
 
       // 2nd box
