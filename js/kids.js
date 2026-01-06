@@ -106,287 +106,287 @@ const boxDetailstore = {
       {
         title: "Luca",
         img: "../img/Luca.jpg",
-        Genre: "Popular Kids Shows"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "Finding Nemo",
         img: "../img/Finding_nemo.jpg",
-        Genre: "Popular Kids Shows"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "Good dinosaur",
         img: "../img/Good_dinosaur.jpg",
-        Genre: "Popular Kids Shows"
+        Genre: "Popular Kids Movies"
       },
       {
         title: "thelandBeforetime",
         img: "../img/landb.jpg",
-        Genre: "Popular Kids Shows"
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "jurassicWorld",
-        img: "../img/jurassic-world.jpg",
-        Genre: "Popular Kids Shows"
+        title: "tangled",
+        img: "../img/tangled.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Kantara",
-        img: "../img/kantara.jpg",
-        Genre: "Popular Kids Shows"
+        title: "Zotopia",
+        img: "../img/Zotopia.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Thama",
-        img: "../img/thama.jpg",
-        Genre: "Popular Kids Shows"
+        title: "Elemental",
+        img: "../img/Elemental.png",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "rathnan-prapancha",
-        img: "../img/rathnan-prapancha.jpg",
-        Genre: "Popular Kids Shows"
+        title: "LiloStitch",
+        img: "../img/LiloStitch.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Zebra",
-        img: "../img/Zebra.jpg",
-        Genre: "Popular Kids Shows"
+        title: "Mufasa",
+        img: "../img/Mufasa.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "Lokha",
-        img: "../img/lokah.jpg",
-        Genre: "Popular Kids Shows"
+        title: "frozen",
+        img: "../img/frozen.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "radheSham",
-        img: "../img/Radhe-sham.jpg",
-        Genre: "Popular Kids Shows"
+        title: "The Jungle Book",
+        img: "../img/The_junglebook.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "bubbleGum",
-        img: "../img/Bubblegum.jpg",
-        Genre: "Popular Kids Shows"
+        title: "Narnia",
+        img: "../img/Narnia.jpg",
+        Genre: "Popular Kids Movies"
       },
       {
         title: "Wicked",
         img: "../img/Wicked.jpg",
-        Genre: "Popular Kids Shows"
+        Genre: "Popular Kids Movies"
       },
       {
-        title: "paramSundari",
-        img: "../img/paramSundari.jpg",
-        Genre: "Popular Kids Shows"
+        title: "Coco",
+        img: "../img/Coco.jpg",
+        Genre: "Popular Kids Movies"
       },
 
       // 2nd box
       {
-        title: "Jawan",
-        img: "../img/Jawan.jpg",
-        Genre: "Action Extavaganza"
+        title: "Sonic2",
+        img: "../img/Sonic2.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Terminator",
-        img: "../img/Terminator.jpg",
-        Genre: "Action Extavaganza"
+        title: "Alladin",
+        img: "../img/Alladin.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Leo",
-        img: "../img/Leo.jpg",
-        Genre: "Action Extavaganza"
+        title: "Maleficient",
+        img: "../img/Maleficient.jpg",
+        Genre: "Fantasy Movies"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Fantasy Movies"
       },
       {
-        title: "bhootPolice",
-        img: "../img/Bhoot-police.jpg",
-        Genre: "Action Extavaganza"
+        title: "Princes Diaries",
+        img: "../img/PrincesDiaries.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "blackPanther",
-        img: "../img/Black-panther.png",
-        Genre: "Action Extavaganza"
+        title: "madagaskar",
+        img: "../img/madagaskar.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "masterMovie",
-        img: "../img/Master-movie.jpg",
-        Genre: "Action Extavaganza"
+        title: "Snow white",
+        img: "../img/Snow_white.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Jumanji",
-        img: "../img/Jumanji.jpg",
-        Genre: "Action Extavaganza"
+        title: "Ratatouille",
+        img: "../img/Ratatouille.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "VR",
-        img: "../img/VR.jpg",
-        Genre: "Action Extavaganza"
+        title: "Minecraft",
+        img: "../img/Minecraft.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Salaar",
-        img: "../img/Salaar.jpg",
-        Genre: "Action Extavaganza"
+        title: "Boss Baby",
+        img: "../img/Boss_baby.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "King-of-Kotha",
-        img: "../img/King-Of-Kotha.jpg",
-        Genre: "Action Extavaganza"
+        title: "Home Alone",
+        img: "../img/Home_alone.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Mirai",
-        img: "../img/Mirai.jpg",
-        Genre: "Action Extavaganza"
+        title: "Elemental",
+        img: "../img/Elemental.png",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "Kabali",
-        img: "../img/Kabali.jpg",
-        Genre: "Action Extavaganza"
+        title: "Turning Red",
+        img: "../img/Turning_red.jpg",
+        Genre: "Fantasy Movies"
       },
       {
-        title: "vikramVedha",
-        img: "../img/Vikramvedha.jpg",
-        Genre: "Action Extavaganza"
+        title: "Alice_In_Wonderland",
+        img: "../img/Alice_In_Wonderland.jpg",
+        Genre: "Fantasy Movies"
       },
       // 3rd Box
       {
         title: "bigBoss",
         img: "../img/bigboss.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Anupama",
         img: "../img/anupama-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "ristakyakhelatahe",
         img: "../img/yeh-rista-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Tharlamag",
         img: "../img/tharla-mag-serial.jpg",
-        Genre: "Popular Tvshows",
+        Genre: "Top 10 Movies",
       },
       {
         title: "Mannat",
         img: "../img/mannat-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Devmanush",
         img: "../img/devmanush-serial.jpg",
 
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Mitwa",
         img: "../img/mitwa-serial.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "udneKiaasha",
         img: "../img/UdnekiAasha.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "mangalLakshmi",
         img: "../img/mangalLakshmi.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Mahabharat",
         img: "../img/Mahabharat.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "Jhanak",
         img: "../img/Jhanak.jpg",
-        Genre: "Popular Tvshows",
+        Genre: "Top 10 Movies",
       },
       {
         title: "Swabhimaan",
         img: "../img/Swabhimaan.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "radhaKrishna",
         img: "../img/radhaKrishna.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       {
         title: "tulaJapnaar",
         img: "../img/tulaJapnaar.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Top 10 Movies"
       },
       // "womenCricket" box
       {
         title: "womenCricket",
         img: "../img/women-cricket.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "india_vs_aus",
         img: "../img/india-vs-aus.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "menT20final",
         img: "../img/men-t20final.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "Kabaddi",
         img: "../img/kabaddi.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "Ipl",
         img: "../img/ipl.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "Badminton",
         img: "../img/badminton.png",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "Football",
         img: "../img/football.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "ranjhiTrophy",
         img: "../img/ranjhiTrophy.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "iplAuctions",
         img: "../img/iplAuctions.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "indiavsSouthafrica",
         img: "../img/indiaVssouthafricatest.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "IPL",
         img: "../img/IPL2025.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "rcbCelebration",
         img: "../img/rcbCelebration.png",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "topSports",
         img: "../img/topSports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       {
         title: "NationalSports",
         img: "../img/Nationalsports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Must Watch Originals"
       },
       // 5th Box
       {
@@ -463,143 +463,143 @@ const boxDetailstore = {
       {
         title: "Doraemon",
         img: "../img/doraemon.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "Shinchan",
         img: "../img/shinchan.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "TomandJerry",
         img: "../img/tom-and-cherry.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "Ben10",
         img: "../img/ben10.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "motuPatlu",
         img: "../img/motu-patlu.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "Woody",
         img: "../img/woody.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "mickyMouse",
         img: "../img/micky-mouse.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Kids Corner"
+        Genre: "Recommended Shows"
       },
       // 7th Box
       {
         title: "Dragons",
         img: "../img/dragons-movie.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "Fastx",
         img: "../img/fastx.jpeg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "Ironman",
         img: "../img/ironman.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "FastandFurious",
         img: "../img/fast-and-furious.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "openHeighmer",
         img: "../img/openheighmer.jpeg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "Dc",
         img: "../img/dc.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "Anora",
         img: "../img/anora.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "deadpoolWolverin",
         img: "../img/deadpoolWolverin.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "disneyTangled",
         img: "../img/disneyTangled.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "disneyCars",
         img: "../img/disneyCars.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "planetOfapes",
         img: "../img/planetOfapes.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "alienCovinant",
         img: "../img/alienCovinant.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "insideOut2",
         img: "../img/insideOut2.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
       {
         title: "avengerInfinitywar",
         img: "../img/avengerInfinitywar.jpg",
-        Genre: "Hollywood Superhits"
+        Genre: "Amazing Extravanza"
       },
     ]
     const parentBox = document.querySelector('.parent-box')
