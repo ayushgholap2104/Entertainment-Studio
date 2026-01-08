@@ -247,145 +247,144 @@ const boxDetailstore = {
       },
       // 3rd Box
       {
-        title: "bigBoss",
-        img: "../img/bigboss.jpg",
-        Genre: "Top 10 Movies"
+        title: "Monster Inc",
+        img: "../img/Monster_inc.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Anupama",
-        img: "../img/anupama-serial.jpg",
-        Genre: "Top 10 Movies"
+        title: "Toy story",
+        img: "../img/Toy_story.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "ristakyakhelatahe",
-        img: "../img/yeh-rista-serial.jpg",
-        Genre: "Top 10 Movies"
+        title: "Home Alone",
+        img: "../img/Home_alone.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Tharlamag",
-        img: "../img/tharla-mag-serial.jpg",
-        Genre: "Top 10 Movies",
+        title: "InsideOut 2",
+        img: "../img/insideOut2.jpg",
+        Genre: "Top Rated Movies",
       },
       {
-        title: "Mannat",
-        img: "../img/mannat-serial.jpg",
-        Genre: "Top 10 Movies"
+        title: "Shrek",
+        img: "../img/Shrek.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
-
-        Genre: "Top 10 Movies"
+        title: "Dalmatians",
+        img: "../img/Dalmatians.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Mitwa",
-        img: "../img/mitwa-serial.jpg",
-        Genre: "Top 10 Movies"
+        title: "Lego Movie",
+        img: "../img/Lego_movie.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "udneKiaasha",
-        img: "../img/UdnekiAasha.jpg",
-        Genre: "Top 10 Movies"
+        title: "Wall_E",
+        img: "../img/Wall_E.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "mangalLakshmi",
-        img: "../img/mangalLakshmi.jpg",
-        Genre: "Top 10 Movies"
+        title: "Mulan",
+        img: "../img/Mulan.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Mahabharat",
-        img: "../img/Mahabharat.jpg",
-        Genre: "Top 10 Movies"
+        title: "Up",
+        img: "../img/Up.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "Jhanak",
-        img: "../img/Jhanak.jpg",
-        Genre: "Top 10 Movies",
+        title: "Wreck It Ralph",
+        img: "../img/Wreck_it_ralph.jpg",
+        Genre: "Top Rated Movies",
       },
       {
-        title: "Swabhimaan",
-        img: "../img/Swabhimaan.jpg",
-        Genre: "Top 10 Movies"
+        title: "incredibles_2",
+        img: "../img/incredibles_2.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "radhaKrishna",
-        img: "../img/radhaKrishna.jpg",
-        Genre: "Top 10 Movies"
+        title: "hotelTransylvania",
+        img: "../img/hotelTransylvania.jpg",
+        Genre: "Top Rated Movies"
       },
       {
-        title: "tulaJapnaar",
-        img: "../img/tulaJapnaar.jpg",
-        Genre: "Top 10 Movies"
+        title: "The Little Mermaid",
+        img: "../img/The_little_mermaid.jpg",
+        Genre: "Top Rated Movies"
       },
       // "womenCricket" box
       {
-        title: "womenCricket",
-        img: "../img/women-cricket.jpg",
+        title: "Matilda",
+        img: "../img/Matilda.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "india_vs_aus",
-        img: "../img/india-vs-aus.jpg",
+        title: "the_land_Beforetime",
+        img: "../img/the_land_Beforetime.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "menT20final",
-        img: "../img/men-t20final.jpg",
+        title: "Ice_age",
+        img: "../img/Ice_age.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "Kabaddi",
-        img: "../img/kabaddi.jpg",
+        title: "Despicable",
+        img: "../img/Despicable.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "Ipl",
-        img: "../img/ipl.jpg",
+        title: "Spongebob",
+        img: "../img/Spongebob.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "Badminton",
-        img: "../img/badminton.png",
+        title: "Blue_clues",
+        img: "../img/Blue_clues.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "Football",
-        img: "../img/football.jpg",
+        title: "Odd_parents",
+        img: "../img/Odd_parents.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "ranjhiTrophy",
-        img: "../img/ranjhiTrophy.jpg",
+        title: "The_backyardians",
+        img: "../img/The_backyardians.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "iplAuctions",
-        img: "../img/iplAuctions.jpg",
+        title: "Avatar_the_last_airbender",
+        img: "../img/Avatar_the_last_airbender.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "indiavsSouthafrica",
-        img: "../img/indiaVssouthafricatest.jpg",
+        title: "Hey_arnold",
+        img: "../img/Hey_arnold.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "IPL",
-        img: "../img/IPL2025.jpg",
+        title: "The_loudhouse",
+        img: "../img/The_loudhouse.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "rcbCelebration",
-        img: "../img/rcbCelebration.png",
+        title: "Rugrats",
+        img: "../img/Rugrats.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "topSports",
-        img: "../img/topSports.jpg",
+        title: "The_star_and_evil",
+        img: "../img/The_star_and_evil.jpg",
         Genre: "Must Watch Originals"
       },
       {
-        title: "NationalSports",
-        img: "../img/Nationalsports.jpg",
+        title: "Gravity Falls",
+        img: "../img/Gravity_falls.jpg",
         Genre: "Must Watch Originals"
       },
       // 5th Box
@@ -537,38 +536,38 @@ const boxDetailstore = {
         Genre: "Amazing Extravanza"
       },
       {
-        title: "Fastx",
-        img: "../img/fastx.jpeg",
+        title: "Mickey_mouse",
+        img: "../img/Mickey_mouse.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "Ironman",
-        img: "../img/ironman.jpg",
+        title: "Kim_possible",
+        img: "../img/Kim_possible.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "FastandFurious",
-        img: "../img/fast-and-furious.jpg",
+        title: "Phineas_ferb",
+        img: "../img/Phineas_ferb.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "openHeighmer",
-        img: "../img/openheighmer.jpeg",
+        title: "Sofia_the_first",
+        img: "../img/Sofia_the_first.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "Dc",
-        img: "../img/dc.jpg",
+        title: "Doc_mcstuffins",
+        img: "../img/Doc_mcstuffins.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "Anora",
-        img: "../img/anora.jpg",
+        title: "Milo_murphylaw",
+        img: "../img/Milo_murphylaw.jpg",
         Genre: "Amazing Extravanza"
       },
       {
-        title: "deadpoolWolverin",
-        img: "../img/deadpoolWolverin.jpg",
+        title: "Miles_from_tommorowland",
+        img: "../img/Miles_from_tommorowland.jpg",
         Genre: "Amazing Extravanza"
       },
       {
