@@ -21,20 +21,20 @@ const functions = {
     // A variable that contains data in json format
     const cardsData = [
       {
-        title: "Bajirao Mastani",
-        img: "../img/bajirao-mastani.jpg"
+        title: "Attack_on_titan",
+        img: "../img/Attack_on_titan.jpg"
       },
       {
-        title: "Pushpa 2",
-        img: "../img/Pushpa.jpg"
+        title: "Demon_slayer",
+        img: "../img/Demon_slayer.jpg"
       },
       {
-        title: "SitaRamam",
-        img: "../img/sitaramam.jpg"
+        title: "full_metal_alchemist",
+        img: "../img/full_metal_alchemist.jpg"
       },
       {
-        title: "Master",
-        img: "../img/Master.jpg"
+        title: "Mobpsycho",
+        img: "../img/Mobpsycho.jpg"
       },
 
     ]
@@ -104,74 +104,74 @@ const boxDetailstore = {
     const boxesData = [
       // 1st box
       {
-        title: "Shaitaan",
-        img: "../img/Shaitaan.jpg",
-        Genre: "Latest Releases"
+        title: "Attack_on_titan",
+        img: "../img/Attack_on_titan.jpg",
+        Genre: "Exciting Animes"
       },
       {
-        title: "Avengers",
-        img: "../img/Avengers.jpg",
-        Genre: "Latest Releases"
+        title: "Tawawa_on_monday",
+        img: "../img/Tawawa_on_monday.jpg",
+        Genre: "Exciting Animes"
       },
       {
         title: "Hanuman",
         img: "../img/hanuman.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "thelandBeforetime",
         img: "../img/landb.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "jurassicWorld",
         img: "../img/jurassic-world.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "Kantara",
         img: "../img/kantara.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "Thama",
         img: "../img/thama.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "rathnan-prapancha",
         img: "../img/rathnan-prapancha.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "Zebra",
         img: "../img/Zebra.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "Lokha",
         img: "../img/lokah.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "radheSham",
         img: "../img/Radhe-sham.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "bubbleGum",
         img: "../img/Bubblegum.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "Wicked",
         img: "../img/Wicked.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
       {
         title: "paramSundari",
         img: "../img/paramSundari.jpg",
-        Genre: "Latest Releases"
+        Genre: "Exciting Animes"
       },
 
       // 2nd box
