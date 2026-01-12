@@ -191,58 +191,58 @@ const boxDetailstore = {
         Genre: "Action and Adventure"
       },
       {
-        title: "justiceLeague",
-        img: "../img/Justice-league.jpg",
+        title: "To_be_hero_x",
+        img: "../img/To_be_hero_x.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "bhootPolice",
-        img: "../img/Bhoot-police.jpg",
+        title: "Blackbuttler",
+        img: "../img/blackButtler.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "blackPanther",
-        img: "../img/Black-panther.png",
+        title: "MyheroAcademia",
+        img: "../img/myheroAcademia.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "masterMovie",
-        img: "../img/Master-movie.jpg",
+        title: "Medalist",
+        img: "../img/Medalist.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "Jumanji",
-        img: "../img/Jumanji.jpg",
+        title: "The Fragrant Flower",
+        img: "../img/The_fragrant_flower.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "VR",
-        img: "../img/VR.jpg",
+        title: "Onepiece Anime",
+        img: "../img/onepiece-anime.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "Salaar",
-        img: "../img/Salaar.jpg",
+        title: "Chainsaw_Man",
+        img: "../img/Chainsaw_Man.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "King-of-Kotha",
-        img: "../img/King-Of-Kotha.jpg",
+        title: "Tokyo Ghoul",
+        img: "../img/Tokyo_ghoul.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "Mirai",
-        img: "../img/Mirai.jpg",
+        title: "Black Cover",
+        img: "../img/Black_Cover.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "Kabali",
-        img: "../img/Kabali.jpg",
+        title: "FairyTail",
+        img: "../img/FairyTail.jpg",
         Genre: "Action and Adventure"
       },
       {
-        title: "vikramVedha",
-        img: "../img/Vikramvedha.jpg",
+        title: "Kill_Anime",
+        img: "../img/Kill_Anime.jpg",
         Genre: "Action and Adventure"
       },
       // 3rd Box
