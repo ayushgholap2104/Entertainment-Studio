@@ -124,43 +124,43 @@ const boxDetailstore = {
         Genre: "Exciting Animes"
       },
       {
-        title: "jurassicWorld",
-        img: "../img/jurassic-world.jpg",
+        title: "Apothecary_diaries",
+        img: "../img/Apothecary_diaries.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "Kantara",
-        img: "../img/kantara.jpg",
+        title: "Gachiakuta",
+        img: "../img/Gachiakuta.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "Thama",
-        img: "../img/thama.jpg",
+        title: "Dr_stone",
+        img: "../img/Dr_stone.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "rathnan-prapancha",
-        img: "../img/rathnan-prapancha.jpg",
+        title: "Kaiju_no_8",
+        img: "../img/Kaiju_no_8.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "Zebra",
-        img: "../img/Zebra.jpg",
+        title: "sakamoto_days",
+        img: "../img/sakamoto_days.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "Lokha",
-        img: "../img/lokah.jpg",
+        title: "Solo_levelling",
+        img: "../img/Solo_levelling.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "radheSham",
-        img: "../img/Radhe-sham.jpg",
+        title: "Dandadan",
+        img: "../img/Dandadan.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "bubbleGum",
-        img: "../img/Bubblegum.jpg",
+        title: "Wind_breaker",
+        img: "../img/Wind_breaker.jpg",
         Genre: "Exciting Animes"
       },
       {
@@ -169,81 +169,81 @@ const boxDetailstore = {
         Genre: "Exciting Animes"
       },
       {
-        title: "paramSundari",
-        img: "../img/paramSundari.jpg",
+        title: "My_dressup_darling",
+        img: "../img/My_dressup_darling.jpg",
         Genre: "Exciting Animes"
       },
 
       // 2nd box
       {
-        title: "Jawan",
-        img: "../img/Jawan.jpg",
-        Genre: "Action Extavaganza"
+        title: "Fire_force",
+        img: "../img/Fire_force.jpg",
+        Genre: "Action and Adventure"
       },
       {
-        title: "Terminator",
-        img: "../img/Terminator.jpg",
-        Genre: "Action Extavaganza"
+        title: "Lord_of_mystery",
+        img: "../img/Lord_of_mystery.jpg",
+        Genre: "Action and Adventure"
       },
       {
-        title: "Leo",
-        img: "../img/Leo.jpg",
-        Genre: "Action Extavaganza"
+        title: "Takopis_original_sin",
+        img: "../img/Takopis_original_sin.jpg",
+        Genre: "Action and Adventure"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "bhootPolice",
         img: "../img/Bhoot-police.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "blackPanther",
         img: "../img/Black-panther.png",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "masterMovie",
         img: "../img/Master-movie.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "Jumanji",
         img: "../img/Jumanji.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "VR",
         img: "../img/VR.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "Salaar",
         img: "../img/Salaar.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "King-of-Kotha",
         img: "../img/King-Of-Kotha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "Mirai",
         img: "../img/Mirai.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "Kabali",
         img: "../img/Kabali.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       {
         title: "vikramVedha",
         img: "../img/Vikramvedha.jpg",
-        Genre: "Action Extavaganza"
+        Genre: "Action and Adventure"
       },
       // 3rd Box
       {
