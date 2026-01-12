@@ -114,13 +114,13 @@ const boxDetailstore = {
         Genre: "Exciting Animes"
       },
       {
-        title: "Hanuman",
-        img: "../img/hanuman.jpg",
+        title: "haikyuu",
+        img: "../img/haikyuu.jpg",
         Genre: "Exciting Animes"
       },
       {
-        title: "thelandBeforetime",
-        img: "../img/landb.jpg",
+        title: "the_detective_is_already_dead",
+        img: "../img/the_detective_is_already_dead.jpg",
         Genre: "Exciting Animes"
       },
       {
