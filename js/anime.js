@@ -247,75 +247,75 @@ const boxDetailstore = {
       },
       // 3rd Box
       {
-        title: "bigBoss",
-        img: "../img/bigboss.jpg",
-        Genre: "Popular Tvshows"
+        title: "Sword Art Online",
+        img: "../img/Sword_art_online.jpg",
+        Genre: "Popular Animes"
       },
       {
-        title: "Anupama",
-        img: "../img/anupama-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "Slime",
+        img: "../img/Slime.jpg",
+        Genre: "Popular Animes"
       },
       {
-        title: "ristakyakhelatahe",
-        img: "../img/yeh-rista-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "The rising of slime hero",
+        img: "../img/The_rising_of_slime_hero.jpg",
+        Genre: "Popular Animes"
       },
       {
-        title: "Tharlamag",
-        img: "../img/tharla-mag-serial.jpg",
-        Genre: "Popular Tvshows",
+        title: "Silent_voice",
+        img: "../img/Silent_voice.jpg",
+        Genre: "Popular Animes",
       },
       {
-        title: "Mannat",
-        img: "../img/mannat-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "The_promised_neverland",
+        img: "../img/The_promised_neverland.jpg",
+        Genre: "Popular Animes"
       },
       {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
+        title: "Your_name",
+        img: "../img/Your_name.jpg",
 
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
-        title: "Mitwa",
-        img: "../img/mitwa-serial.jpg",
-        Genre: "Popular Tvshows"
+        title: "frieren",
+        img: "../img/frieren.jpg",
+        Genre: "Popular Animes"
       },
       {
         title: "udneKiaasha",
         img: "../img/UdnekiAasha.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
         title: "mangalLakshmi",
         img: "../img/mangalLakshmi.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
         title: "Mahabharat",
         img: "../img/Mahabharat.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
         title: "Jhanak",
         img: "../img/Jhanak.jpg",
-        Genre: "Popular Tvshows",
+        Genre: "Popular Animes",
       },
       {
         title: "Swabhimaan",
         img: "../img/Swabhimaan.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
         title: "radhaKrishna",
         img: "../img/radhaKrishna.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       {
         title: "tulaJapnaar",
         img: "../img/tulaJapnaar.jpg",
-        Genre: "Popular Tvshows"
+        Genre: "Popular Animes"
       },
       // "womenCricket" box
       {
