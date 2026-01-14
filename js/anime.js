@@ -283,110 +283,110 @@ const boxDetailstore = {
         Genre: "Popular Animes"
       },
       {
-        title: "udneKiaasha",
-        img: "../img/UdnekiAasha.jpg",
+        title: "Hell Paradise",
+        img: "../img/Hell_paradise.jpg",
         Genre: "Popular Animes"
       },
       {
-        title: "mangalLakshmi",
-        img: "../img/mangalLakshmi.jpg",
+        title: "Tokyo Revengers",
+        img: "../img/tokyoRevengers.jpg",
         Genre: "Popular Animes"
       },
       {
-        title: "Mahabharat",
-        img: "../img/Mahabharat.jpg",
+        title: "Blue Lock",
+        img: "../img/Blue_lock.jpg",
         Genre: "Popular Animes"
       },
       {
-        title: "Jhanak",
-        img: "../img/Jhanak.jpg",
+        title: "Winland Saga",
+        img: "../img/Winland_saga.jpg",
         Genre: "Popular Animes",
       },
       {
-        title: "Swabhimaan",
-        img: "../img/Swabhimaan.jpg",
+        title: "Bungo_straydogs",
+        img: "../img/Bungo_straydogs.jpg",
         Genre: "Popular Animes"
       },
       {
-        title: "radhaKrishna",
-        img: "../img/radhaKrishna.jpg",
+        title: "Mashle",
+        img: "../img/Mashle.jpg",
         Genre: "Popular Animes"
       },
       {
-        title: "tulaJapnaar",
-        img: "../img/tulaJapnaar.jpg",
+        title: "Horimiya",
+        img: "../img/Horimiya.jpg",
         Genre: "Popular Animes"
       },
       // "womenCricket" box
       {
-        title: "womenCricket",
-        img: "../img/women-cricket.jpg",
-        Genre: "Non-stop Sports"
+        title: "Demon Slayer",
+        img: "../img/demon-slayer.jpg",
+        Genre: "Amazing Movies"
       },
       {
-        title: "india_vs_aus",
-        img: "../img/india-vs-aus.jpg",
-        Genre: "Non-stop Sports"
+        title: "Detective Cannon Movie",
+        img: "../img/Detective_cannon_movie.jpg",
+        Genre: "Amazing Movies"
       },
       {
-        title: "menT20final",
-        img: "../img/men-t20final.jpg",
-        Genre: "Non-stop Sports"
+        title: "Chainsaw Man Movie",
+        img: "../img/Chainsaw_Man_Movie.jpg",
+        Genre: "Amazing Movies"
       },
       {
-        title: "Kabaddi",
-        img: "../img/kabaddi.jpg",
-        Genre: "Non-stop Sports"
+        title: "Jujutsu Kaisen Movie",
+        img: "../img/Jujutsu_kaisen_Movie.jpg",
+        Genre: "Amazing Movies"
       },
       {
-        title: "Ipl",
-        img: "../img/ipl.jpg",
-        Genre: "Non-stop Sports"
+        title: "The Rose Movie",
+        img: "../img/The_rose_movie.jpg",
+        Genre: "Amazing Movies"
       },
       {
         title: "Badminton",
         img: "../img/badminton.png",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "Football",
         img: "../img/football.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "ranjhiTrophy",
         img: "../img/ranjhiTrophy.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "iplAuctions",
         img: "../img/iplAuctions.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "indiavsSouthafrica",
         img: "../img/indiaVssouthafricatest.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "IPL",
         img: "../img/IPL2025.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "rcbCelebration",
         img: "../img/rcbCelebration.png",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "topSports",
         img: "../img/topSports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       {
         title: "NationalSports",
         img: "../img/Nationalsports.jpg",
-        Genre: "Non-stop Sports"
+        Genre: "Amazing Movies"
       },
       // 5th Box
       {
