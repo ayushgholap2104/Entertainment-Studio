@@ -344,23 +344,23 @@ const boxDetailstore = {
         Genre: "Amazing Movies"
       },
       {
-        title: "Badminton",
-        img: "../img/badminton.png",
+        title: "Doraemon_movie",
+        img: "../img/Doraemon_movie.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "Football",
-        img: "../img/football.jpg",
+        title: "100_meters",
+        img: "../img/100_meters.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "ranjhiTrophy",
-        img: "../img/ranjhiTrophy.jpg",
+        title: "Mononuku",
+        img: "../img/Mononuku.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "iplAuctions",
-        img: "../img/iplAuctions.jpg",
+        title: "Lost_in_starlight",
+        img: "../img/Lost_in_starlight.jpg",
         Genre: "Amazing Movies"
       },
       {
@@ -463,72 +463,72 @@ const boxDetailstore = {
       {
         title: "Doraemon",
         img: "../img/doraemon.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "Shinchan",
         img: "../img/shinchan.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "TomandJerry",
         img: "../img/tom-and-cherry.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "Ben10",
         img: "../img/ben10.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "motuPatlu",
         img: "../img/motu-patlu.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "Woody",
         img: "../img/woody.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "mickyMouse",
         img: "../img/micky-mouse.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Kids Corner"
+        Genre: "Kids Animes"
       },
       // 7th Box
       {
