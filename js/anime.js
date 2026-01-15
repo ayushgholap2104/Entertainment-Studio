@@ -364,28 +364,28 @@ const boxDetailstore = {
         Genre: "Amazing Movies"
       },
       {
-        title: "indiavsSouthafrica",
-        img: "../img/indiaVssouthafricatest.jpg",
+        title: "Pancrease_anime",
+        img: "../img/Pancrease_anime.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "IPL",
-        img: "../img/IPL2025.jpg",
+        title: "Slam_dunk",
+        img: "../img/Slam_dunk.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "rcbCelebration",
-        img: "../img/rcbCelebration.png",
+        title: "Suzume",
+        img: "../img/Suzume.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "topSports",
-        img: "../img/topSports.jpg",
+        title: "Belle",
+        img: "../img/Belle.jpg",
         Genre: "Amazing Movies"
       },
       {
-        title: "NationalSports",
-        img: "../img/Nationalsports.jpg",
+        title: "The_colors_within",
+        img: "../img/The_colors_within.jpg",
         Genre: "Amazing Movies"
       },
       // 5th Box
@@ -532,74 +532,74 @@ const boxDetailstore = {
       },
       // 7th Box
       {
-        title: "Dragons",
-        img: "../img/dragons-movie.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Gachiakuta",
+        img: "../img/Gachiakuta.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "Fastx",
-        img: "../img/fastx.jpeg",
-        Genre: "Hollywood Superhits"
+        title: "Fate Stay Night",
+        img: "../img/Fate_stay_night.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "Ironman",
-        img: "../img/ironman.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Cyber_punk",
+        img: "../img/Cyber_punk.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "FastandFurious",
-        img: "../img/fast-and-furious.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Berserk",
+        img: "../img/Berserk.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "openHeighmer",
-        img: "../img/openheighmer.jpeg",
-        Genre: "Hollywood Superhits"
+        title: "Code_gease",
+        img: "../img/Code_gease.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "Dc",
-        img: "../img/dc.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Re_zero_anime",
+        img: "../img/Re_zero_anime.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "Anora",
-        img: "../img/anora.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Record_of_ragnorak",
+        img: "../img/Record_of_ragnorak.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "deadpoolWolverin",
-        img: "../img/deadpoolWolverin.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Steins_gate",
+        img: "../img/Steins_gate.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "disneyTangled",
-        img: "../img/disneyTangled.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Evangelion",
+        img: "../img/Evangelion.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "disneyCars",
-        img: "../img/disneyCars.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Dragonballz1",
+        img: "../img/Dragonballz1.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "planetOfapes",
-        img: "../img/planetOfapes.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Gintama",
+        img: "../img/Gintama.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "alienCovinant",
-        img: "../img/alienCovinant.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Fragrant_flower",
+        img: "../img/Fragrant_flower.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "insideOut2",
-        img: "../img/insideOut2.jpg",
-        Genre: "Hollywood Superhits"
+        title: "The_bondocks",
+        img: "../img/The_bondocks.jpg",
+        Genre: "Most Watched Animes"
       },
       {
-        title: "avengerInfinitywar",
-        img: "../img/avengerInfinitywar.jpg",
-        Genre: "Hollywood Superhits"
+        title: "Kingdom_anime",
+        img: "../img/Kingdom_anime.jpg",
+        Genre: "Most Watched Animes"
       },
     ]
     const parentBox = document.querySelector('.parent-box')
