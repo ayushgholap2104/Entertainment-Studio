@@ -12,7 +12,6 @@ window.addEventListener("load", () => {
   slide_left_rightbtn()
   boxDetailstore.childBoxes()
   upButton()
-  toggleTheme()
   card_right_slide()
 })
 
@@ -646,21 +645,6 @@ function upButton() {
       btn_up.style.pointerEvents = 'auto'
     }
   })
-}
-// Dark-light mode
-function toggleTheme() {
-  const body = document.body
-  const Icon = document.querySelector('#icons')
-  body.classList.toggle("dark_theme")
-
-  if (body.classList.contains("dark_theme")) {
-    Icon.classList.replace('fa-sun', 'fa-moon');
-    document.documentElement.classList.add('dark_theme')
-
-  } else {
-    Icon.classList.replace('fa-moon', 'fa-sun')
-    document.documentElement.classList.remove('dark_theme')
-  }
 }
 // Card slider
 function card_right_slide() {
