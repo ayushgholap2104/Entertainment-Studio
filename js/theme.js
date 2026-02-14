@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  
+  savedTheme()
 })
 
 function toggleTheme() {
@@ -21,8 +21,12 @@ function toggleTheme() {
 function savedTheme(){
   currTheme = localStorage.getItem('theme')
   const Icon = document.querySelector('#icons')
-  if (currTheme == 'dark_theme'){
-    Icon.classList.replace('fa-sun', 'fa-moon');
+  if (currTheme === 'light_theme'){
+    Icon.classList.replace('fa-moon','fa-sun');
+    document.body.classList.add('light_theme')
+    document.documentElement.classList.add('light_theme')
+  }else{
+    Icon.classList.replace('fa-sun','fa-moon');
     document.body.classList.add('dark_theme')
     document.documentElement.classList.add('dark_theme')
   }

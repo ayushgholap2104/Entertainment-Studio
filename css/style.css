@@ -494,8 +494,6 @@ body{
 }
 .menu a.active{
   color: var(--menu_items_color_hover);
-  font-size: 19px;
-  font-weight: bold;
 }
 .menu a:hover{
   color:var(--menu_items_color_hover) ;
