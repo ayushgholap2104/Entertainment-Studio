@@ -1,6 +1,30 @@
 window.addEventListener("load", () => {
+  sidebarClick()
   feedback_msg()
 })
+function sidebarClick(){
+  const sidebarIcon = document.querySelector('.sidebar')
+  const sidebarMenu = document.querySelector('#side-menu')
+
+  sidebarIcon.addEventListener('click', () => {
+    sidebarMenu.classList.toggle('active')
+  })
+}
+
+function toggleTheme() {
+  const body = document.body
+  const Icon = document.querySelector('#icons')
+  body.classList.toggle("dark_theme")
+
+  if (body.classList.contains("dark_theme")) {
+    Icon.classList.replace('fa-sun', 'fa-moon');
+    document.documentElement.classList.add('dark_theme')
+
+  } else {
+    Icon.classList.replace('fa-moon', 'fa-sun')
+    document.documentElement.classList.remove('dark_theme')
+  }
+}
 
 const form = document.getElementById('my_form')
 async function handleSubmit(event) {

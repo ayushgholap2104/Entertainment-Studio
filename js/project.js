@@ -12,15 +12,8 @@
 // ] 
 
 window.addEventListener("load", () => {
-
-  const sidebarIcon = document.querySelector('.sidebar')
-  const sidebarMenu = document.querySelector('#side-menu')
-
-  sidebarIcon.addEventListener('click', () => {
-    sidebarMenu.classList.toggle('active')
-  })
   functions.cardDataBinding()
-
+  sidebarClick()
   startslider()
   slide_left_rightbtn()
   boxDetailstore.childBoxes()
@@ -29,6 +22,15 @@ window.addEventListener("load", () => {
   card_right_slide()
   feedback_msg()
 })
+
+function sidebarClick(){
+  const sidebarIcon = document.querySelector('.sidebar')
+  const sidebarMenu = document.querySelector('#side-menu')
+
+  sidebarIcon.addEventListener('click', () => {
+    sidebarMenu.classList.toggle('active')
+  })
+}
 
 const functions = {
   cardDataBinding: function () {
