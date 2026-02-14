@@ -72,8 +72,7 @@ body{
   cursor: pointer;
   transform: scale(0.9);
   transition: transform 0.2s ease;
-  background-color: #5A00B5;
-  
+  /* background-color: #5A00B5; */
 }
 
 /* Home page */
