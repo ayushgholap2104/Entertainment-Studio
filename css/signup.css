@@ -28,10 +28,11 @@
   background-color: #EDECED;
   gap: 30px;
   box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 .signup h2{
-  margin-top: 3rem;
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 1.6rem;
 }
 #user-up{
@@ -40,13 +41,10 @@
   border-radius: 30px;
   background-color: #fff;
   padding: 5px;
-  position: relative;
-  left: 20px;
   box-shadow: 0.5px 1px 2px 2px rgba(115, 114, 114, 0.5);
 }
 .name{
   width: 19rem;
-  margin-left: 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -66,7 +64,6 @@
 }
 .E-mail{
   width: 19rem;
-  margin-left: 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -85,7 +82,6 @@
 }
 .Password{
   width: 19rem;
-  margin-left: 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -114,7 +110,6 @@
   background-color: #5A00B5;
   outline: none;
   border: none;
-  box-shadow: 0.5px 1px 2px 2px rgba(115, 114, 114, 0.5);
 }
 .signup p{
   font-size: 13px;
@@ -127,9 +122,6 @@
   color: #5A00B5;
   text-decoration: none;
 
-}
-#user-up :hover{
-  cursor: pointer;
 }
 .create_button :hover{
   cursor: pointer;

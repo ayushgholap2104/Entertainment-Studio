@@ -27,10 +27,12 @@
   background-color: #EDECED;
   gap: 30px;
   box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
 }
 .signin h2{
-  margin-top: 3rem;
-  font-weight: bolder;
+
+  font-weight: 500;
   font-size: 1.6rem;
 }
 #user-up{
@@ -43,7 +45,6 @@
 }
 .E-mail{
   width: 19rem;
-  margin-left: 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -62,7 +63,6 @@
 }
 .Password{
   width: 19rem;
-  margin-left: 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -91,6 +91,9 @@
   background-color: #5A00B5;
   outline: none;
   border: none;
+}
+#btn:hover{
+  cursor: pointer;
 }
 .signin p{
   font-size: 14px;
