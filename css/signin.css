@@ -17,12 +17,11 @@
   height: 100vh;
 }
 .signin{
-  width: 24rem;
+  width: 23rem;
   /* border: 2px solid black; */
-  height: 23rem;
+  height: 22rem;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
   border-radius: 2rem;
   background-color: #EDECED;
   gap: 30px;
@@ -43,6 +42,9 @@
   padding: 5px;
   box-shadow: 0.5px 1px 2px 2px rgba(115, 114, 114, 0.5);
 }
+#user-up input::placeholder{
+  font-size: 15px;
+}
 .E-mail{
   width: 19rem;
   display: flex;
@@ -51,11 +53,11 @@
   color: #5A00B5;
 }
 .E-mail i{
-  font-size: 30px;
+  font-size: 29px;
   padding-top: 2px;
 }
 .E-mail input{
-  height: 35px;
+  height: 34px;
   width: 16rem;
   border: none;
   outline: none;
@@ -69,11 +71,11 @@
   color: #5A00B5
 }
 .Password i{
-  font-size: 30px;
+  font-size: 29px;
   padding-top: 2px;
 }
 .Password input{
-  height: 35px;
+  height: 34px;
   width: 16rem;
   border: none;
   outline: none;
@@ -81,9 +83,9 @@
 
 #btn{
   padding: 10px;
-  width: 10rem;
+  width: 170px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13.5px;
   border-radius: 20px;
   color:  #ffffff;
   background-color: #5A00B5;
@@ -94,7 +96,7 @@
   cursor: pointer;
 }
 .signin p{
-  font-size: 14px;
+  font-size: 13px;
   color: gray;
 }
 .signin p a{
