@@ -114,6 +114,7 @@ body{
   border: 1px solid  #fff;
   background-color: #d6d6d61a;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .sidebar.active{
