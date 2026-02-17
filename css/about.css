@@ -456,7 +456,7 @@ body{
 }
 .aboutContent{
   min-height: 100vh;
-  padding-top: 96px;
+  padding-top: 89px;
 }
 .aboutContent .about_Info1{
   display: flex;
@@ -514,7 +514,7 @@ body{
 }
 .about_desc2 .head2{
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Georgia','serif';
   width: 750px;
   color: var(--text_color_head);
@@ -527,7 +527,8 @@ body{
   color: var(--text_color_para);
 }
 .aboutContent .about_img2{
-  height: 300px;
+  height: 330px;
+  width: 420px;
 }
 .aboutContent .about_img2 img{
   height: 100%;

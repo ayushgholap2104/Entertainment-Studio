@@ -246,6 +246,9 @@
   .user-login{
     display: none;
   }
+  .aboutContent{
+    padding-top: 81px;
+  }
   .slider-container{
    height: 420px;
    width:1260px;
@@ -341,6 +344,15 @@
   }
   .user-login{
     display: none;
+  }
+  .about_Info1 .about_desc1 p{
+    width: 650px;
+  }
+  .aboutContent{
+    padding-top: 78px;
+  }
+  .about_Info2 .about_desc2 .head2{
+    width: 650px;
   }
   .slider-container{
    height: 420px;
@@ -464,6 +476,18 @@
   .user-login{
     display: none;
   }
+  .about_Info1 .about_desc1 p{
+    width: 550px;
+  }
+  .aboutContent{
+    padding-top: 78px;
+  }
+  .about_Info2 .about_desc2 .head2{
+    width: 500px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 450px;
+  }
   .slider-container{
    height: 420px;
    width:1010px;
@@ -532,7 +556,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
     align-items: center;
   }
   .sidebar{
@@ -574,8 +598,8 @@
   }
   .language{
     font-size: 22px;
-    height: 3vh;
-    width: 4vw;
+    height: 38px;
+    width: 38px;
   }
   .login a{
    font-size: 12px;
@@ -588,6 +612,31 @@
   }
   .user-login{
     display: none;
+  }
+  .about_desc1 .head1{
+    font-size: 39px;
+  }
+  .about_Info1 .about_desc1 p{
+    width: 450px;
+    font-size: 17px;
+  }
+  .aboutContent{
+    padding-top: 81px;
+  }
+  .aboutContent .about_img1{
+    height: 310px;
+  }
+  .about_Info2 .about_desc2 .head2{
+    width: 500px;
+    font-size: 27px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 400px;
+    font-size: 16px;
+  }
+  .aboutContent .about_img2{
+    height: 330px;
+    width: 350px;
   }
   .slider-container{
    height: 420px;
@@ -652,7 +701,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 21px;
@@ -690,8 +739,8 @@
   }
   .language{
     font-size: 21px;
-    height: 3vh;
-    width: 4vw;
+    height: 35px;
+    width: 35px;
   }
   .login a{
    font-size: 12px;
@@ -729,6 +778,9 @@
   }
   .user-login{
     display: none;
+  }
+  .aboutContent{
+    padding-top: 79px;
   }
   .slider-container{
    height: 420px;
@@ -806,7 +858,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   #btn-up{
    width: 42px;
@@ -889,6 +941,9 @@
     color: black;
     font-size: 12px;
   }
+  .aboutContent{
+    padding-top: 81px;
+  }
   .slider-container{
    height: 420px;
    width:730px;
@@ -965,7 +1020,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 22px;
@@ -1070,7 +1125,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 21px;
@@ -1143,6 +1198,9 @@
    width: 110px;
    font-size: 11px;
   }
+  .aboutContent{
+    padding-top: 79px;
+  }
   .slider-container{
    height: 420px;
    width:540px;
@@ -1192,7 +1250,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 20px;
@@ -1353,7 +1411,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   #btn-up{
    width: 40px;
@@ -1453,6 +1511,9 @@
    width: 98px;
    font-size: 8px;
   }
+  .aboutContent{
+    padding-top: 76px;
+  }
   .slider-container{
    height: 420px;
    width:380px;
@@ -1522,7 +1583,7 @@
   #head{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.6rem;
   }
   .sidebar{
     font-size: 18px;
@@ -1687,6 +1748,9 @@
   }
 }
 @media only screen and (min-width:1390px) and (max-width:1500px) {
+  #head{
+    padding: 0.6rem;
+  }
   .search-bar{
     display: none;
   }
