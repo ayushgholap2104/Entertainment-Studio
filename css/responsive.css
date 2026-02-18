@@ -970,7 +970,7 @@
     font-size: 12px;
   }
   .aboutContent{
-    padding-top: 81px;
+    padding-top: 78px;
   }
   .aboutContent .about_Info1{
     flex-direction: column;
@@ -1312,9 +1312,6 @@
   .user-signup{
    width: 110px;
    font-size: 11px;
-  }
-  .aboutContent{
-    padding-top: 79px;
   }
   .aboutContent .about_Info1{
     flex-direction: column;
@@ -1713,7 +1710,7 @@
    font-size: 8px;
   }
   .aboutContent{
-    padding-top: 76px;
+    padding-top: 75px;
   }
   .aboutContent .about_Info1{
     flex-direction: column;
