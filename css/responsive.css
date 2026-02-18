@@ -782,6 +782,34 @@
   .aboutContent{
     padding-top: 79px;
   }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0 50px 0;
+    gap: 35px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 100px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 750px;
+  }
+  .aboutContent .about_img2{
+    width:550px;
+  }
+
   .slider-container{
    height: 420px;
    width:830px;
@@ -944,6 +972,49 @@
   .aboutContent{
     padding-top: 81px;
   }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 0 40px 0;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 38px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 16px;
+  }
+  .aboutContent .about_img1{
+    height: 310px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 70px 0px;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 650px;
+    font-size: 16px;
+    
+  }
+  .aboutContent .about_img2{
+    width:500px;
+  }
   .slider-container{
    height: 420px;
    width:730px;
@@ -1080,8 +1151,52 @@
   .feedback-center{
     display: none;
   }
+
   .side-menu{
     width: 280px;
+  }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 0 40px 0;
+    gap: 20px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 36px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 15px;
+    width: 600px;
+  }
+  .aboutContent .about_img1{
+    height: 300px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 60px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    width: 650px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 600px;
+    font-size: 15px;
+    
+  }
+  .aboutContent .about_img2{
+    width:480px;
   }
   .slider-container{
    height: 420px;
@@ -1200,6 +1315,49 @@
   }
   .aboutContent{
     padding-top: 79px;
+  }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0 25px 0;
+    gap: 20px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 34px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 14px;
+    width: 550px;
+  }
+  .aboutContent .about_img1{
+    height: 280px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 60px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 22px;
+    width: 550px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 520px;
+    font-size: 14px;
+    
+  }
+  .aboutContent .about_img2{
+    width:450px;
   }
   .slider-container{
    height: 420px;
@@ -1345,6 +1503,49 @@
   .user-signup{
     width: 100px;
     font-size: 10px;
+  }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    gap: 20px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 32px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 13px;
+    width: 450px;
+  }
+  .aboutContent .about_img1{
+    height: 260px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 60px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 450px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 400px;
+    font-size: 13px;
+    
+  }
+  .aboutContent .about_img2{
+    width:420px;
   }
   .slider-container{
     height: 420px;
@@ -1514,6 +1715,49 @@
   .aboutContent{
     padding-top: 76px;
   }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    gap: 20px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 30px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 12px;
+    width: 350px;
+  }
+  .aboutContent .about_img1{
+    height: 250px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 60px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 400px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 350px;
+    font-size: 12px;
+    
+  }
+  .aboutContent .about_img2{
+    width:370px;
+  }
   .slider-container{
    height: 420px;
    width:380px;
@@ -1681,6 +1925,49 @@
   }
   .parent-box{
     padding: 0;
+  }
+  .aboutContent .about_Info1{
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0 1px 0;
+    gap: 20px;
+  }
+  .about_Info1 .about_desc1{
+    gap: 25px;
+  }
+  .about_desc1 .head1{
+    font-size: 28px;
+  }
+  .about_Info1 .about_desc1 p{
+    font-size: 11px;
+    width: 300px;
+  }
+  .aboutContent .about_img1{
+    height: 240px;
+  }
+  .aboutContent .about_Info2{
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 0 60px 0px;
+    gap: 40px;
+  }
+  .about_Info2 .about_desc2{
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .about_desc2 .head2{
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 300px;
+  }
+  .about_Info2 .about_desc2 p{
+    width: 300px;
+    font-size: 11px;
+    
+  }
+  .aboutContent .about_img2{
+    width:320px;
   }
   .slider-container{
    height: 400px;

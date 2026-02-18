@@ -525,6 +525,7 @@ body{
   font-size: 17px;
   line-height: 1.3rem;
   color: var(--text_color_para);
+  flex-wrap: wrap;
 }
 .aboutContent .about_img2{
   height: 330px;
