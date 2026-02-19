@@ -617,11 +617,11 @@ body{
   cursor: pointer;
   color:#E1306C;
 }
-.fa-youtube:hover{
+.fa-linkedin:hover{
   cursor: pointer;
-  color: #FF0000;
+  color: #0A66C2;
 }
-.fa-twitter:hover{
+.fa-github:hover{
   cursor: pointer;
-  color: #1DA1F2;
+  color: #686666;
 }
