@@ -645,6 +645,20 @@ const boxDetailstore = {
     })
   },
 }
+function searchbarClick(){
+  const search_btn = document.querySelector('.search-btn input')
+  search_btn.addEventListener('input' , ()=>{
+    const allBoxes = document.querySelectorAll('.box')
+    allBoxes.forEach(box =>{
+      if (box.innerText.include('input')){
+        
+      }
+
+    })
+
+  })
+
+}
 function upButton() {
   const btn_up = document.querySelector('#btn-up')
   btn_up.addEventListener('click', () => {
