@@ -17,13 +17,12 @@ window.addEventListener("load", () => {
   startslider()
   slide_left_rightbtn()
   boxDetailstore.childBoxes()
+  searchbarClick()
   upButton()
   card_right_slide()
-  feedback_msg()
-  searchbarClick()
 })
 
-function sidebarClick(){
+function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
 
@@ -641,22 +640,55 @@ const boxDetailstore = {
       }
       const box = document.createElement('div');
       box.classList.add('box');
+      box.dataset.title = boxData.title;
       box.innerHTML = `<img src="${boxData.img}" alt="${boxData.title}" srcset="" />`
       genreMap[Genre].appendChild(box)
     })
   },
 }
-function searchbarClick(){
+function searchbarClick() {
   const search_btn = document.querySelector('.search-btn input')
-  search_btn.addEventListener('input' , ()=>{
-    const allBoxes = document.querySelectorAll('.box')
-    allBoxes.forEach(box =>{
-      if (box.innerText.include('input')){
-        box.style.display = 'block'
-      }else{
-        box.style.display = 'none'
-      }
-    })
+  const sections = document.querySelectorAll('.child-box-content')
+  const foot = document.querySelector('.foot')
+  search_btn.addEventListener('input',()=>{
+    const search_value = search_btn.value.toLowerCase().trim()
+    if (search_value === ""){
+      sections.forEach(section=>{
+        section.style.display = 'block'
+        const boxes = section.querySelectorAll('.box')
+        const box_left_btn = section.querySelector('.swipe-left-btn')
+        const box_right_btn = section.querySelector('.swipe-right-btn')
+        boxes.forEach(box=>{
+          box.style.display = 'block'
+        })
+
+        box_left_btn.style.display = ''
+        box_right_btn.style.display = ''
+      })
+      foot.style.position = 'static'
+      return
+    }
+    sections.forEach(section => {
+      const allboxes = section.querySelectorAll('.box')
+      const cardleftBtn = section.querySelector('.swipe-left-btn')
+      const cardrightBtn = section.querySelector('.swipe-right-btn')
+      let hasVisiblebox = false
+
+      allboxes.forEach(box=>{
+        const boxText = box.dataset.title.toLowerCase();
+        if (boxText.includes(search_value)){
+          box.style.display = 'block'
+          hasVisiblebox = true
+        }else{
+          box.style.display = 'none'
+        }
+      })
+      section.style.display = hasVisiblebox ? 'block':'none';
+      cardleftBtn.style.display = 'none'
+      cardrightBtn.style.display = 'none'
+    });
+    foot.style.position = 'relative'
+
   })
 }
 function upButton() {
