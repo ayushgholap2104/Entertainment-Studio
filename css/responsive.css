@@ -210,12 +210,12 @@
     width: 36rem;
     margin-left: 50px;
   }
-  .panel3 i{
+  .panel3 .search-btn i{
     font-size: 17px;
   }
-  .panel3 input{
-    width: 27rem;
-    height: 2.5vh;
+  .panel3 .search-btn input{
+    width: 28rem;
+    height: 3.8vh;
   }
   .language{
     font-size: 21px;
@@ -308,14 +308,13 @@
   }
   .panel3{
     width: 26rem;
-    margin-right: 10px;
   }
-  .panel3 i{
+  .panel3 .search-btn i{
     font-size: 16px;
   }
-  .panel3 input{
-    width: 23rem;
-    height: 2.5vh;
+  .panel3 .search-btn input{
+    width: 22rem;
+    height: 3.8vh;
   }
   .language{
     font-size: 20px;
@@ -434,14 +433,15 @@
     width: 105%;
   }
   .panel3{
-    width: 20rem;
+    width: 21rem;
+    margin-left: 26px;
   }
-  .panel3 i{
+  .panel3 .search-btn i{
     font-size: 15px;
   }
-  .panel3 input{
-    width: 16rem;
-    height: 2.5vh;
+  .panel3 .search-btn input{
+    width: 15rem;
+    height: 3.8vh;
   }
   .language{
     font-size: 19px;

@@ -239,7 +239,7 @@ body{
   font-size: 17px;
   padding-left: 15px;
 }
-.panel3 input{
+.panel3 .search-btn input{
   width: 31rem;
   outline: none;
   background: #000000;
@@ -249,7 +249,7 @@ body{
   height: 4vh;
 
 }
-.panel3 input::placeholder{
+.panel3 .search-btn input::placeholder{
   font-size: 13px;
   position: relative;
   bottom: 2px;
@@ -334,7 +334,7 @@ body{
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
   position: fixed;
   overflow: clip;
-  margin-top: 4.3rem;
+  margin-top: 4.2rem;
 }
 .user-login{
   display: flex;
@@ -781,4 +781,5 @@ body{
 .fa-github:hover{
   cursor: pointer;
   color: #686666;
+
 }

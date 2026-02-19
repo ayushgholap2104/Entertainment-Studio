@@ -20,6 +20,7 @@ window.addEventListener("load", () => {
   upButton()
   card_right_slide()
   feedback_msg()
+  searchbarClick()
 })
 
 function sidebarClick(){
@@ -651,13 +652,12 @@ function searchbarClick(){
     const allBoxes = document.querySelectorAll('.box')
     allBoxes.forEach(box =>{
       if (box.innerText.include('input')){
-        
+        box.style.display = 'block'
+      }else{
+        box.style.display = 'none'
       }
-
     })
-
   })
-
 }
 function upButton() {
   const btn_up = document.querySelector('#btn-up')
