@@ -354,6 +354,9 @@
   .about_Info2 .about_desc2 .head2{
     width: 650px;
   }
+  .about_Info2 .about_desc2 p{
+    width: 600px;
+  }
   .slider-container{
    height: 420px;
    width:1150px;

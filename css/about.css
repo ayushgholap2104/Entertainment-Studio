@@ -28,7 +28,7 @@ html,body{
   --primary_color1:#b4b4b4e0;
   --primary_color2:#e4e4e4;
   --text_color_head:#2E2E2E;
-  --text_color_para:#5E5E5E;
+  --text_color_para:#3c3c3c;
 
 }
 body{
@@ -520,7 +520,7 @@ body{
   color: var(--text_color_head);
 }
 .about_Info2 .about_desc2 p{
-  width: 550px;
+  width: 650px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.3rem;
