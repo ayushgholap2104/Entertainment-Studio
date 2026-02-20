@@ -1,13 +1,6 @@
 window.addEventListener("load", () => {
-
-  const sidebarIcon = document.querySelector('.sidebar')
-  const sidebarMenu = document.querySelector('#side-menu')
-
-  sidebarIcon.addEventListener('click', () => {
-    sidebarMenu.classList.toggle('active')
-  })
+  sidebarClick()
   functions.cardDataBinding()
-
   startslider()
   slide_left_rightbtn()
   boxDetailstore.childBoxes()
@@ -16,7 +9,14 @@ window.addEventListener("load", () => {
   upButton()
   card_right_slide()
 })
+function sidebarClick(){
+  const sidebarIcon = document.querySelector('.sidebar')
+  const sidebarMenu = document.querySelector('#side-menu')
 
+  sidebarIcon.addEventListener('click', () => {
+    sidebarMenu.classList.toggle('active')
+  })
+}
 const functions = {
   cardDataBinding: function () {
     // A variable that contains data in json format
