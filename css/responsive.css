@@ -931,11 +931,12 @@
   .panel4{
     gap: 25px;
     padding-right: 20px;
+    padding-left: 0px;
   }
   .language{
     display: none;
   }
-  .login a{
+  .login{
    display: none;
   }
   .comment{
