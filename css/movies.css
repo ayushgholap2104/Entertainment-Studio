@@ -529,7 +529,6 @@ body{
   border-radius: 5px;
   margin: auto;
   display: flex;
-  /* justify-content: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -682,7 +681,7 @@ body{
 .box img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
   /* border: 0.1px solid var(--bg_color); */
 }
 .box:after{
