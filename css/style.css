@@ -263,12 +263,12 @@ body{
 .panel4{
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
   padding-left: 40px;
 }
 .language{
-  height: 32px ;
-  width: 30px;
+  height: 35px ;
+  width: 35px;
   padding: 3px 5px ;
   border-radius: 50%;
   color: #fff;
@@ -307,8 +307,6 @@ body{
 }
 .comment{
   font-size: 30px;
-  position: relative;
-  left: 14px;
 }
 .comment a{
   text-decoration: none;
@@ -316,8 +314,6 @@ body{
 }
 .light-dark{
   font-size: 30px;
-  position: relative;
-  left: 10px;
 }
 .comment:hover a{
   color:#fff;
