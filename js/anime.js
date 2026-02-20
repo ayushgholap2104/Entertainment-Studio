@@ -11,6 +11,8 @@ window.addEventListener("load", () => {
   startslider()
   slide_left_rightbtn()
   boxDetailstore.childBoxes()
+  searchbarClick()
+  sidebarSearchclick()
   upButton()
   card_right_slide()
 })
@@ -628,6 +630,95 @@ const boxDetailstore = {
       genreMap[Genre].appendChild(box)
     })
   },
+}
+function searchbarClick() {
+  const search_btn = document.querySelector('.search-btn input')
+  const sections = document.querySelectorAll('.child-box-content')
+  const foot = document.querySelector('.foot')
+  search_btn.addEventListener('input', () => {
+    const search_value = search_btn.value.toLowerCase().trim()
+    if (search_value === "") {
+      sections.forEach(section => {
+        section.style.display = 'block'
+        const boxes = section.querySelectorAll('.box')
+        const box_left_btn = section.querySelector('.swipe-left-btn')
+        const box_right_btn = section.querySelector('.swipe-right-btn')
+        boxes.forEach(box => {
+          box.style.display = 'block'
+        })
+
+        box_left_btn.style.display = ''
+        box_right_btn.style.display = ''
+      })
+      foot.style.position = 'static'
+      return
+    }
+    sections.forEach(section => {
+      const allboxes = section.querySelectorAll('.box')
+      const cardleftBtn = section.querySelector('.swipe-left-btn')
+      const cardrightBtn = section.querySelector('.swipe-right-btn')
+      let hasVisiblebox = false
+
+      allboxes.forEach(box => {
+        const boxText = box.dataset.title.toLowerCase();
+        if (boxText.includes(search_value)) {
+          box.style.display = 'block'
+          hasVisiblebox = true
+        } else {
+          box.style.display = 'none'
+        }
+      })
+      section.style.display = hasVisiblebox ? 'block' : 'none';
+      cardleftBtn.style.display = 'none'
+      cardrightBtn.style.display = 'none'
+    });
+    foot.style.position = 'relative'
+
+  })
+}
+function sidebarSearchclick() {
+  const search_btn = document.querySelector('.search-bar input')
+  const sections = document.querySelectorAll('.child-box-content')
+  const foot = document.querySelector('.foot')
+  search_btn.addEventListener('input', () => {
+    const search_value = search_btn.value.toLowerCase().trim()
+    if (search_value === "") {
+      sections.forEach(section => {
+        section.style.display = 'block'
+        const boxes = section.querySelectorAll('.box')
+        const box_left_btn = section.querySelector('.swipe-left-btn')
+        const box_right_btn = section.querySelector('.swipe-right-btn')
+        boxes.forEach(box => {
+          box.style.display = 'block'
+        })
+
+        box_left_btn.style.display = ''
+        box_right_btn.style.display = ''
+      })
+      foot.style.position = 'static'
+      return
+    }
+    sections.forEach(section => {
+      const allboxes = section.querySelectorAll('.box')
+      const cardleftBtn = section.querySelector('.swipe-left-btn')
+      const cardrightBtn = section.querySelector('.swipe-right-btn')
+      let hasVisiblebox = false
+
+      allboxes.forEach(box => {
+        const boxText = box.dataset.title.toLowerCase();
+        if (boxText.includes(search_value)) {
+          box.style.display = 'block'
+          hasVisiblebox = true
+        } else {
+          box.style.display = 'none'
+        }
+      })
+      section.style.display = hasVisiblebox ? 'block' : 'none';
+      cardleftBtn.style.display = 'none'
+      cardrightBtn.style.display = 'none'
+    });
+
+  })
 }
 function upButton() {
   const btn_up = document.querySelector('#btn-up')
