@@ -626,6 +626,7 @@ const boxDetailstore = {
       }
       const box = document.createElement('div');
       box.classList.add('box');
+      box.dataset.title = boxData.title;
       box.innerHTML = `<img src="${boxData.img}" alt="${boxData.title}" srcset="" />`
       genreMap[Genre].appendChild(box)
     })
