@@ -474,7 +474,7 @@ body{
   overflow: clip;
   cursor: pointer;
   /* margin-left: 20px; */
-  margin: 125px auto 30px;
+  margin: 120px auto 30px;
   z-index: 0;
 }
 .right-arrow{
