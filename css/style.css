@@ -26,7 +26,8 @@ html,body{
   --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
   --submain-color:#ff9e0026;
   --icon-color: #666;
-
+  --profile-color-hover:rgb(50, 50, 50);
+  --signout-color:rgba(198, 198, 198, 0.287);
 }
 body{
   background:var(--bg_color);
@@ -49,6 +50,8 @@ body{
   --shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
   --submain-color:#2C2D31;
   --icon-color: #c4c3c3;
+  --profile-color-hover:rgb(184, 184, 184);
+  --signout-color:rgba(255,255,255,0.05);
 }
 #btn-up{
   bottom: 20px;
@@ -275,6 +278,7 @@ body{
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  position: relative;
 }
 .language:hover{
   background-color: #e8e8e832;
@@ -321,6 +325,91 @@ body{
 }
 .comment a.active{
   color: #fff;
+}
+.profile_popup{
+  background: var(--foot-color);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  z-index: 999;
+  position:absolute ;
+  top: 75px;
+  width: 250px;
+  height: 20vh;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.profile_popup.active{
+  visibility: visible;
+}
+.profile_container1{
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  position: relative;
+}
+.profile_container1::after{
+  content: "";
+  position: absolute;
+  width: 115%;
+  bottom: 0;
+  border-bottom:1px solid rgb(140 140 140 / 0.2);
+  overflow: hidden;
+
+}
+.profile_popup .profile_container1 .profile_img{
+  height: 50px;
+  width: 50px;
+}
+.profile_popup .profile_container1 .profile_img img{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.profile_popup .profile_container1 .profile_name p{
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--primary_color);
+}
+.profile_popup .profile_container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 14px;
+}
+
+.profile_popup .profile_container2 .profile_msg1 a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  padding: 8px 35px;
+  border-radius: 20px;
+  background:var(--primary_color);
+  color: var(--body_color);
+}
+.profile_popup .profile_container2 .profile_msg1 a:hover{
+  background-color: var(--profile-color-hover);
+}
+.profile_popup .profile_container2 .profile_msg2 a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  padding: 8px 50px;
+  border-radius: 20px;
+  background: var(--signout-color);
+  border: none;
+  color: var(--primary_color);
+}
+.profile_popup .profile_container2 .profile_msg2 a:hover {
+  background: rgba(255,0,0,0.15);
+  color: #ff4d4d;
 }
 .side-menu{
   width: 320px;
