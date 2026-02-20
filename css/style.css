@@ -350,17 +350,17 @@ body{
 .profile_container1{
   display: flex;
   justify-content: space-around;
-  height: 60px;
   position: relative;
+  align-items: center;
+
 }
 .profile_container1::after{
   content: "";
   position: absolute;
   width: 115%;
-  bottom: 0;
+  bottom: -15px;
   border-bottom:1px solid rgb(140 140 140 / 0.2);
   overflow: hidden;
-
 }
 .profile_popup .profile_container1 .profile_img{
   height: 50px;
@@ -373,8 +373,9 @@ body{
   background-size: cover;
   border-radius: 50%;
 }
+
 .profile_popup .profile_container1 .profile_name p{
-  font-size: 17px;
+  font-size: 16.5px;
   font-weight: 500;
   color: var(--primary_color);
 }
@@ -382,7 +383,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 33px;
   gap: 14px;
 }
 
