@@ -742,6 +742,8 @@ function profilePopup(){
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click',()=>{
     showProfile.classList.toggle('active');
+    userProfilebtn.classList.toggle('active');
+    
   })
 }
 function upButton() {
