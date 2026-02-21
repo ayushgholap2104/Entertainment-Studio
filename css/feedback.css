@@ -803,7 +803,7 @@ form #message:hover {
   background-color: var(--foot-color);
   box-shadow: var(--shadow);
   position: sticky;
-  top: 5.7rem;
+  top: 5rem;
   height: fit-content;
   align-self: flex-start;
   flex-shrink: 1;
