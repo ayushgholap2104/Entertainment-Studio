@@ -943,6 +943,7 @@
   }
   .side-menu {
     width: 300px;
+    margin-top: 0px;
   }
   .user-login{
     margin-top: 15px;
