@@ -203,15 +203,15 @@
     width: 97%;
   }
   .panel3 {
-    width: 36rem;
+    width: 33rem;
     /* margin-left: 50px; */
   }
   .panel3 .search-btn i {
     font-size: 17px;
   }
   .panel3 .search-btn input {
-    width: 30rem;
-    height: 4.5vh;
+    width: 28rem;
+    /* height: 4.5vh; */
   }
   .language {
     font-size: 21px;
@@ -242,7 +242,7 @@
   .slider-container {
     height: 420px;
     width: 1260px;
-    margin: 105px auto 30px;
+    margin: 115px auto 30px;
   }
   .content2 {
     padding-left: 7%;
@@ -301,7 +301,6 @@
   }
   .panel3 .search-btn input {
     width: 22rem;
-    height: 4.5vh;
   }
   .language {
     font-size: 20px;
@@ -341,7 +340,7 @@
   .slider-container {
     height: 420px;
     width: 1150px;
-    margin: 100px auto 30px;
+    /* margin: 100px auto 30px; */
   }
   .content2 {
     margin-top: 3.5rem;
@@ -421,7 +420,6 @@
   }
   .panel3 .search-btn input {
     width: 21rem;
-    height: 3vh;
   }
   .language {
     font-size: 19px;
@@ -474,7 +472,7 @@
   .slider-container {
     height: 420px;
     width: 1010px;
-    margin: 100px auto 30px;
+    /* margin: 100px auto 30px; */
   }
   .parent-box {
     padding: 0.6rem;
@@ -541,7 +539,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.8rem; */
     align-items: center;
     /* z-index: 1999; */
   }
@@ -581,7 +579,7 @@
   }
   .panel4 {
     gap: 18px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
   }
   .language {
     font-size: 22px;
@@ -690,7 +688,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 21px;
@@ -741,8 +739,12 @@
   .light-dark {
     font-size: 29px;
   }
+  .menu{
+    margin-top: 30px;
+   }
   .menu a {
     font-size: 16px;
+  
   }
   .menu a.active {
     font-size: 17px;
@@ -876,7 +878,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   #btn-up {
     width: 42px;
@@ -948,9 +950,11 @@
   .side-menu {
     width: 300px;
   }
+  .user-login{
+    margin-top: 15px;
+  }
   .menu a {
     font-size: 15px;
-    height: 2vh;
   }
   .menu a.active {
     font-size: 16px;
@@ -1096,7 +1100,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 22px;
@@ -1247,7 +1251,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 21px;
@@ -1412,7 +1416,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 20px;
@@ -1639,7 +1643,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   #btn-up {
     width: 40px;
@@ -1680,7 +1684,7 @@
     display: none;
   }
   .panel4 {
-    gap: 12px;
+    gap: 15px;
   }
   .language {
     height: 33px;
@@ -1856,7 +1860,7 @@
   #head {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 18px;
@@ -1888,9 +1892,9 @@
   .panel3 {
     display: none;
   }
-  .panel4 {
-    gap: 12px;
-  }
+  /* .panel4 {
+    gap: 15px;
+  } */
   .language {
     height: 32px;
     width: 32px;
@@ -2083,28 +2087,11 @@
     margin-top: 0.1rem;
   }
 }
-@media only screen and (min-width: 1390px) and (max-width: 1500px) {
-  .search-bar {
+@media only screen and (min-width: 1391px) and (max-width: 1500px) {
+  .user-login{
     display: none;
   }
-  .user-login {
+  .search-bar{
     display: none;
-  }
-  .panel3 input {
-    width: 25rem;
-    height: 2vh;
   }
 }
-/* @media only screen and (max-width:499px){
-  .slider-container{
-   width:1200px;
-  }
-  .card-container{
-   width: 100%;
-  }
-  .card{
-   min-width: 100%;
-   height: 100%;
-  }
-
-} */
