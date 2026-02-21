@@ -549,7 +549,7 @@ body {
 }
 .aboutContent {
   min-height: 100vh;
-  padding-top: 89px;
+  padding-top: 80px;
 }
 .aboutContent .about_Info1 {
   display: flex;

@@ -416,7 +416,7 @@ body{
   position: fixed;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  margin-top: 70px;
+  margin-top: 80px;
   left: -388px;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 
@@ -541,11 +541,12 @@ body{
   display: flex;
   /* padding: 1rem; */
   background-color: var(--bg_color);
-  min-height: 100vh;
-  margin-top: 4.9rem;
+  /* margin-top: 5rem; */  
+  padding-top: 7.5rem;
 }
-section {
-  padding: 2.5rem 9%;
+section{
+  padding: 2rem 9%;
+  /* margin-top: 5rem; */
 }
 .head1 {
   padding: 2rem;
@@ -901,9 +902,9 @@ form #message:hover {
   color: #fff;
   background-color: #ff7b00;
 }
+footer{
+  margin-top: 2rem;
 
-footer {
-  margin-top: 1.5rem;
 }
 .foot {
   width: 100%;
