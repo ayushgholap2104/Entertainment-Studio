@@ -617,7 +617,7 @@ form label {
   width: 45%;
   gap: 0.7rem;
   max-width: 45%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 form .input_cont #name {
   height: 2.2rem;
@@ -647,7 +647,7 @@ form #name:hover {
   width: 52%;
   gap: 0.7rem;
   max-width: 52%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 form .input_cont1 #Email {
   height: 2.2rem;
@@ -677,7 +677,7 @@ form #Email:hover {
   width: 100%;
   gap: 0.7rem;
   max-width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 form .input_cont2 #Subject {
   height: 2.2rem;
@@ -745,7 +745,7 @@ form #message:hover {
   border: none;
   border: 1px solid #f39140;
   color: #ff9f6e;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-weight: 400;
 }
 #open-popup-btn:hover {
