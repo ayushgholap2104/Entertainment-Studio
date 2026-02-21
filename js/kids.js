@@ -6,10 +6,11 @@ window.addEventListener("load", () => {
   boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
+  profilePopup()
   upButton()
   card_right_slide()
 })
-function sidebarClick(){
+function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
 
@@ -718,6 +719,15 @@ function sidebarSearchclick() {
       cardleftBtn.style.display = 'none'
       cardrightBtn.style.display = 'none'
     });
+
+  })
+}
+function profilePopup() {
+  const userProfilebtn = document.querySelector('.language')
+  const showProfile = document.querySelector('.profile_popup')
+  userProfilebtn.addEventListener('click', () => {
+    showProfile.classList.toggle('active');
+    userProfilebtn.classList.toggle('active');
 
   })
 }

@@ -1,5 +1,6 @@
 window.addEventListener("load", () => {
   sidebarClick()
+  profilePopup()
   feedback_msg()
 })
 function sidebarClick(){
@@ -8,6 +9,15 @@ function sidebarClick(){
 
   sidebarIcon.addEventListener('click', () => {
     sidebarMenu.classList.toggle('active')
+  })
+}
+function profilePopup(){
+  const userProfilebtn = document.querySelector('.language')
+  const showProfile = document.querySelector('.profile_popup')
+  userProfilebtn.addEventListener('click',()=>{
+    showProfile.classList.toggle('active');
+    userProfilebtn.classList.toggle('active');
+    
   })
 }
 const form = document.getElementById('my_form')

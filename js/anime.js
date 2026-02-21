@@ -6,6 +6,7 @@ window.addEventListener("load", () => {
   boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
+  profilePopup()
   upButton()
   card_right_slide()
 })
@@ -720,6 +721,15 @@ function sidebarSearchclick() {
       cardleftBtn.style.display = 'none'
       cardrightBtn.style.display = 'none'
     });
+    
+  })
+}
+function profilePopup(){
+  const userProfilebtn = document.querySelector('.language')
+  const showProfile = document.querySelector('.profile_popup')
+  userProfilebtn.addEventListener('click',()=>{
+    showProfile.classList.toggle('active');
+    userProfilebtn.classList.toggle('active');
     
   })
 }
