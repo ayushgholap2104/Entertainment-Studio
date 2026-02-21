@@ -238,6 +238,7 @@ body{
   font-size: 17px;
   padding-left: 15px;
 }
+
 .panel3 .search-btn input{
   width: 31rem;
   outline: none;
@@ -245,7 +246,7 @@ body{
   border: none;
   color: #fff;
   padding-left: 10px;
-  height: 3.5vh;
+  height:4.5vh;
 }
 .panel3 .search-btn input::placeholder{
   font-size: 13px;
@@ -302,6 +303,7 @@ body{
   text-decoration: none;
   color: #a9a9a9dc;
 }
+
 .light-dark{
   font-size: 30px;
 }
@@ -514,7 +516,7 @@ body{
   border: 0.1rem solid #ffff;
 }
 .search-bar input{
-  height: 3.5vh;
+  height: 4vh;
   border: none;
   width: 11rem;
   outline: none;

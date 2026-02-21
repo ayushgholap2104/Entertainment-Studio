@@ -8,8 +8,7 @@
   transition: 0.5s all;
   list-style: none;
 }
-html,
-body {
+html,body {
   max-width: 100%;
   overflow-x: clip;
 }
@@ -29,14 +28,12 @@ body {
   --profile-color-hover:rgb(50, 50, 50);
   --signout-color:rgba(198, 198, 198, 0.287);
 }
-body {
-  background: var(--bg_color);
+body{
+  background:var(--bg_color);
   color: #fff;
   min-height: 100vh;
   width: 100%;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: background-color 0.3s ease,color 0.3s ease;
 }
 .dark_theme {
   --body_color: #000000;
@@ -271,10 +268,7 @@ body {
   position: relative;
   cursor: pointer;
 }
-.language.active {
-  background-color: #e8e8e832;
-  cursor: pointer;
-}
+
 .login a {
   font-weight: bold;
   font-size: 13px;
@@ -300,6 +294,9 @@ body {
 .comment a {
   text-decoration: none;
   color: #a9a9a9dc;
+}
+.comment a.active{
+  color: #fff;
 }
 .light-dark {
   font-size: 30px;
@@ -414,7 +411,7 @@ body {
   position: fixed;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  margin-top: 76px;
+  /* margin-top: 76px; */
   left: -388px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -533,11 +530,12 @@ body {
 .content2 {
   display: flex;
   /* padding: 1rem; */
-  padding-top: 3rem;
   background-color: var(--bg_color);
+  min-height: 100vh;
+  margin-top: 4.9rem;
 }
 section {
-  padding: 2rem 9%;
+  padding: 2.5rem 9%;
 }
 .head1 {
   padding: 2rem;

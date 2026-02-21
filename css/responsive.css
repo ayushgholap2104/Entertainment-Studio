@@ -211,7 +211,7 @@
   }
   .panel3 .search-btn input {
     width: 30rem;
-    height: 3vh;
+    height: 4.5vh;
   }
   .language {
     font-size: 21px;
@@ -246,6 +246,7 @@
   }
   .content2 {
     padding-left: 7%;
+    margin-top: 3.7rem;
   }
   .sub-con2 {
     width: 75%;
@@ -300,7 +301,7 @@
   }
   .panel3 .search-btn input {
     width: 22rem;
-    height: 3vh;
+    height: 4.5vh;
   }
   .language {
     font-size: 20px;
@@ -341,6 +342,9 @@
     height: 420px;
     width: 1150px;
     margin: 100px auto 30px;
+  }
+  .content2 {
+    margin-top: 3.5rem;
   }
   .parent-box {
     padding: 0.6rem;
@@ -488,6 +492,7 @@
   .content2 {
     padding-left: 1rem;
     padding-right: 0rem;
+    margin-top: 3.5rem;
   }
   .sub-con2 {
     width: 69%;
@@ -538,6 +543,7 @@
     justify-content: space-between;
     padding: 0.6rem;
     align-items: center;
+    /* z-index: 1999; */
   }
   .sidebar {
     font-size: 22px;
@@ -640,6 +646,7 @@
   .content2 {
     padding-left: 1rem;
     padding-right: 0rem;
+    margin-top: 4.3rem;
   }
   .head1 h2 {
     font-size: 2.4rem;
@@ -816,6 +823,7 @@
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 4.3rem;
   }
 
   .sub-con2 {
@@ -1033,6 +1041,7 @@
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 4.2rem;
   }
   .sub-con2 {
     width: 100%;
@@ -1562,6 +1571,9 @@
   }
   .aboutContent .about_img2 {
     width: 420px;
+  }
+  .content2{
+    margin-top: 4rem;
   }
   .slider-container {
     height: 420px;
