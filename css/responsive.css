@@ -1,865 +1,854 @@
 /* For signup */
-@media only screen and (max-width:480px){
+@media only screen and (max-width: 480px) {
   /* For Sign Up Page */
-  .signup{
+  .signup {
     width: 17rem;
     height: 23rem;
     gap: 27px;
   }
-  .signup h2{
+  .signup h2 {
     font-size: 25px;
   }
-  #user-up{
+  #user-up {
     width: 232px;
   }
-  #user-up input::placeholder{
+  #user-up input::placeholder {
     font-size: 13px;
   }
-  .name i{
+  .name i {
     font-size: 24px;
   }
-  .name input{
-    width: 180px;
-    height:28px ;
-  }
-  .E-mail i{
-    font-size: 24px;
-  }
-  .E-mail input{
+  .name input {
     width: 180px;
     height: 28px;
   }
-  .Password i{
+  .E-mail i {
     font-size: 24px;
   }
-  .Password input{
+  .E-mail input {
     width: 180px;
     height: 28px;
   }
-  #btn{
+  .Password i {
+    font-size: 24px;
+  }
+  .Password input {
+    width: 180px;
+    height: 28px;
+  }
+  #btn {
     width: 140px;
     font-size: 11px;
   }
-  .signup p{
+  .signup p {
     font-size: 11px;
   }
 
   /* For Sign in page */
-  .signin{
+  .signin {
     width: 17rem;
     height: 20rem;
     gap: 27px;
   }
-  .signin h2{
+  .signin h2 {
     font-size: 26px;
   }
-  .signin p{
+  .signin p {
     font-size: 11px;
   }
 }
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   /* For Sign Up page */
-  .signup{
+  .signup {
     width: 19rem;
     height: 24rem;
     gap: 25px;
   }
-  .signup h2{
+  .signup h2 {
     font-size: 28px;
   }
-  #user-up{
+  #user-up {
     width: 270px;
   }
-  #user-up input::placeholder{
+  #user-up input::placeholder {
     font-size: 14px;
   }
-  .name i{
+  .name i {
     font-size: 26px;
   }
-  .name input{
+  .name input {
     width: 220px;
     height: 30px;
   }
-  .E-mail i{
+  .E-mail i {
     font-size: 26px;
   }
-  .E-mail input{
+  .E-mail input {
     width: 220px;
     height: 30px;
   }
-  .Password i{
+  .Password i {
     font-size: 26px;
   }
-  .Password input{
+  .Password input {
     width: 220px;
     height: 30px;
   }
-  #btn{
+  #btn {
     width: 150px;
     font-size: 12px;
   }
-  .signup p{
+  .signup p {
     font-size: 13px;
   }
   /* For Sign in page */
-  .signin{
+  .signin {
     width: 19rem;
     height: 20rem;
     gap: 25px;
   }
-  .signin h2{
+  .signin h2 {
     font-size: 28px;
   }
-  .signin p{
+  .signin p {
     font-size: 12px;
   }
 }
-@media only screen and (min-width:769px) and (max-width:1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* For Sign Up page */
-  .signup{
+  .signup {
     width: 21rem;
     height: 24rem;
     gap: 27px;
   }
-  .signup h2{
+  .signup h2 {
     font-size: 29px;
   }
-  #user-up{
+  #user-up {
     width: 310px;
   }
-  #user-up input::placeholder{
+  #user-up input::placeholder {
     font-size: 15px;
   }
-  .name i{
+  .name i {
     font-size: 28px;
   }
-  .name input{
+  .name input {
     width: 255px;
     font-size: 16px;
     height: 32px;
   }
-  .E-mail i{
+  .E-mail i {
     font-size: 28px;
   }
-  .E-mail input{
+  .E-mail input {
     width: 255px;
     font-size: 16px;
     height: 32px;
   }
-  .Password i{
+  .Password i {
     font-size: 28px;
   }
-  .Password input{
+  .Password input {
     width: 255px;
     font-size: 16px;
     height: 32px;
   }
-  #btn{
+  #btn {
     width: 160px;
     font-size: 13px;
   }
-  .signup p{
+  .signup p {
     font-size: 13px;
   }
   /* For Sign in page */
-  .signin{
+  .signin {
     width: 22rem;
     height: 22rem;
     gap: 27px;
   }
-  .signin h2{
+  .signin h2 {
     font-size: 29px;
   }
-  .signin p{
+  .signin p {
     font-size: 13px;
   }
-  
 }
-@media only screen and (min-width:1285px) and (max-width:1390px) {
-  #head{
-    padding: 1rem;
-    justify-content: space-between;
-  }
-  .Es-logo{
+@media only screen and (min-width: 1285px) and (max-width: 1390px) {
+  .Es-logo {
     display: flex;
     align-items: center;
   }
-  .sidebar{
+  .sidebar {
     font-size: 22px;
   }
-  .brand-name{
-   font-size: 10px;
-   top: 12px;
-   left: 5px;
-   position: relative;
+  .brand-name {
+    font-size: 10px;
+    top: 12px;
+    left: 5px;
+    position: relative;
   }
-  .panel2{
+  .panel2 {
     /* width: 8rem; */
     gap: 30px;
   }
-  .panel2 a{
+  .panel2 a {
     font-size: 15px;
     width: 4rem;
   }
-  .home a.active::after{
+  .home a.active::after {
     width: 97%;
   }
-  .about a.active::after{
+  .about a.active::after {
     width: 97%;
   }
-  .panel3{
+  .panel3 {
     width: 36rem;
     /* margin-left: 50px; */
   }
-  .panel3 .search-btn i{
+  .panel3 .search-btn i {
     font-size: 17px;
   }
-  .panel3 .search-btn input{
+  .panel3 .search-btn input {
     width: 30rem;
     height: 3vh;
   }
-  .language{
+  .language {
     font-size: 21px;
   }
-  .login a{
-   font-size: 12px;
+  .login a {
+    font-size: 12px;
   }
-  .panel4{
-   display: flex;
-   gap: 24px;
-   /* margin-right: 40px; */
+  .panel4 {
+    display: flex;
+    gap: 24px;
+    /* margin-right: 40px; */
   }
-  .comment{
-   font-size: 28px;
+  .comment {
+    font-size: 28px;
   }
-  .light-dark{
-   font-size: 28px;
+  .light-dark {
+    font-size: 28px;
   }
-  .search-bar{
+  .search-bar {
     display: none;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 81px;
   }
-  .slider-container{
-   height: 420px;
-   width:1260px;
+  .slider-container {
+    height: 420px;
+    width: 1260px;
+    margin: 105px auto 30px;
   }
-  .content2{
+  .content2 {
     padding-left: 7%;
   }
-  .sub-con2{
+  .sub-con2 {
     width: 75%;
   }
-  .sub-main{
+  .sub-main {
     top: 4.6rem;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.78rem;
   }
-  .img_description p{
+  .img_description p {
     margin-top: 10px;
   }
-
 }
 
-
-@media only screen and (min-width:1166px) and (max-width:1284px){
-  #head{
-    padding: 1rem;
-  }
-  .sidebar{
+@media only screen and (min-width: 1166px) and (max-width: 1284px) {
+  .sidebar {
     font-size: 21px;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     align-items: center;
   }
-  .Es-logo i{
+  .Es-logo i {
     font-size: 42px;
   }
-  .brand-name{
-   font-size: 9px;
-   position: relative;
-   top: 12px;
-   left: 1px;
-   letter-spacing: 1;
+  .brand-name {
+    font-size: 9px;
+    position: relative;
+    top: 12px;
+    left: 1px;
+    letter-spacing: 1;
   }
-  .panel2{
+  .panel2 {
     gap: 35px;
     /* margin-left: 40px; */
   }
-  .panel2 a{
+  .panel2 a {
     font-size: 15px;
   }
-  .home a.active::after{
+  .home a.active::after {
     width: 108%;
   }
-  .about a.active::after{
+  .about a.active::after {
     width: 108%;
   }
-  .panel3{
+  .panel3 {
     width: 26rem;
   }
-  .panel3 .search-btn i{
+  .panel3 .search-btn i {
     font-size: 16px;
   }
-  .panel3 .search-btn input{
+  .panel3 .search-btn input {
     width: 22rem;
     height: 3vh;
   }
-  .language{
+  .language {
     font-size: 20px;
   }
-  .login a{
-   font-size: 11px;
+  .login a {
+    font-size: 11px;
   }
-  .panel4{
-   /* margin-left: 10px; */
-   display: flex;
-   /* gap: 16px; */
-
+  .panel4 {
+    /* margin-left: 10px; */
+    display: flex;
+    /* gap: 16px; */
   }
-  .comment{
-   font-size: 27px;
-   
+  .comment {
+    font-size: 27px;
   }
-  .light-dark{
-   font-size: 27px;
+  .light-dark {
+    font-size: 27px;
   }
-  .search-bar{
+  .search-bar {
     display: none;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     width: 650px;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 78px;
   }
-  .about_Info2 .about_desc2 .head2{
+  .about_Info2 .about_desc2 .head2 {
     width: 650px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 600px;
   }
-  .slider-container{
-   height: 420px;
-   width:1150px;
+  .slider-container {
+    height: 420px;
+    width: 1150px;
+    margin: 100px auto 30px;
   }
-  .parent-box{
+  .parent-box {
     padding: 0.6rem;
   }
-  .box{
-   height: 250px;
-   width: 190px;
+  .box {
+    height: 250px;
+    width: 190px;
   }
-  .category{
+  .category {
     font-size: 19px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 245px;
   }
-  .input_cont{
+  .input_cont {
     width: 44.7%;
   }
-  .input_cont1{
+  .input_cont1 {
     width: 54%;
   }
-  .description i{
+  .description i {
     font-size: 32px;
   }
-  .page_info{
+  .page_info {
     margin-right: 1rem;
     font-size: 15px;
   }
-  .sub-main{
+  .sub-main {
     top: 4.4rem;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.75rem;
   }
-  .img_description p{
+  .img_description p {
     margin-top: 10px;
   }
-  
-
-  
 }
-@media only screen and (min-width:1025px) and (max-width:1165px) {
-  #head{
-    padding: 1rem;
-  }
-  .sidebar{
+@media only screen and (min-width: 1025px) and (max-width: 1165px) {
+  .sidebar {
     font-size: 20px;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     align-items: center;
   }
-  .Es-logo i{
+  .Es-logo i {
     font-size: 40px;
     margin-right: 5px;
   }
-  .brand-name{
-   font-size: 8px;
-   top: 12px;
-   position: relative;
-   left: 0.2px;
+  .brand-name {
+    font-size: 8px;
+    top: 12px;
+    position: relative;
+    left: 0.2px;
   }
-  .panel2{
+  .panel2 {
     gap: 20px;
   }
-  .panel2 a{
+  .panel2 a {
     font-size: 14px;
   }
-  .home a.active::after{
+  .home a.active::after {
     width: 105%;
   }
-  .about a.active::after{
+  .about a.active::after {
     width: 105%;
   }
-  .panel3{
+  .panel3 {
     width: 25rem;
     /* margin-left: 26px; */
   }
-  .panel3 .search-btn i{
+  .panel3 .search-btn i {
     font-size: 15px;
   }
-  .panel3 .search-btn input{
+  .panel3 .search-btn input {
     width: 21rem;
     height: 3vh;
   }
-  .language{
+  .language {
     font-size: 19px;
     /* margin-right: 4px; */
   }
-  .login a{
-   font-size: 10px;
+  .login a {
+    font-size: 10px;
   }
-  .panel4{
-   display: flex;
-   gap: 18px;
+  .panel4 {
+    display: flex;
+    gap: 18px;
   }
-  .comment{
-   font-size: 25px;
+  .comment {
+    font-size: 25px;
   }
-  .light-dark{
-   font-size: 25px;
+  .light-dark {
+    font-size: 25px;
   }
-  .side-menu{
+  .side-menu {
     width: 290px;
   }
-  .menu a{
+  .menu a {
     font-size: 16px;
     height: 2.5vh;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 18px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 18px;
   }
-  .search-bar{
+  .search-bar {
     display: none;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     width: 550px;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 78px;
   }
-  .about_Info2 .about_desc2 .head2{
+  .about_Info2 .about_desc2 .head2 {
     width: 500px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 450px;
   }
-  .slider-container{
-   height: 420px;
-   width:1010px;
+  .slider-container {
+    height: 420px;
+    width: 1010px;
+    margin: 100px auto 30px;
   }
-  .parent-box{
+  .parent-box {
     padding: 0.6rem;
   }
-  .box{
-   height: 240px;
-   width: 180px;
+  .box {
+    height: 240px;
+    width: 180px;
   }
-  .category{
+  .category {
     font-size: 18px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 235px;
   }
-  .content2{
+  .content2 {
     padding-left: 1rem;
     padding-right: 0rem;
   }
-  .sub-con2{
+  .sub-con2 {
     width: 69%;
   }
-  .head1 h2{
+  .head1 h2 {
     font-size: 2.4rem;
   }
-  .description{
+  .description {
     margin-right: 0px;
     padding: 0.8rem;
   }
-  .description i{
+  .description i {
     font-size: 35px;
   }
-  .page_info{
+  .page_info {
     font-size: 14px;
   }
-  form{
+  form {
     font-size: 0.7rem;
   }
-  #open-popup-btn{
+  #open-popup-btn {
     padding: 10px 35px;
   }
-  .sub-main{
+  .sub-main {
     width: 27.5%;
-    top: 4.4rem; 
+    top: 4.4rem;
   }
-  .sub-main .sub-main-content{
+  .sub-main .sub-main-content {
     padding: 1.5rem;
   }
-  .img_description p{
+  .img_description p {
     margin-top: 5px;
   }
   /* .sub-main .sub-main-content{
     padding: 1.4rem;
   } */
-  .img_cont1{
+  .img_cont1 {
     margin-bottom: 0;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.7rem;
   }
 }
-@media only screen and (min-width:947px) and (max-width:1024px){
+@media only screen and (min-width: 947px) and (max-width: 1024px) {
   /* For Header part */
-  #head{
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
     align-items: center;
   }
-  .sidebar{
+  .sidebar {
     font-size: 22px;
-    height:28px ;
+    height: 28px;
     width: 36px;
     color: #fff;
     border: 1px solid #fff;
+    padding: 5px 4px;
   }
-  .search-bar i{
+  .search-bar i {
     color: gray;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 60px;
+  .Es-logo i {
+    font-size: 56px;
   }
 
-  .brand-name{
-   font-size: 18px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   letter-spacing: 1px;
-   left: 0.2px;
+  .brand-name {
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    letter-spacing: 1px;
+    left: 0.2px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
+  .panel4 {
     gap: 18px;
     padding-right: 10px;
   }
-  .language{
+  .language {
     font-size: 22px;
     height: 38px;
     width: 38px;
   }
-  .login a{
-   font-size: 12px;
+  .login a {
+    font-size: 12px;
   }
-  .comment{
-   font-size: 30px;
+  .comment {
+    font-size: 30px;
   }
-  .light-dark{
-   font-size: 30px;
+  .light-dark {
+    font-size: 30px;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 39px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     width: 450px;
     font-size: 17px;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 81px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 310px;
   }
-  .about_Info2 .about_desc2 .head2{
+  .about_Info2 .about_desc2 .head2 {
     width: 500px;
     font-size: 27px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 400px;
     font-size: 16px;
   }
-  .aboutContent .about_img2{
+  .aboutContent .about_img2 {
     height: 330px;
     width: 350px;
   }
-  .slider-container{
-   height: 420px;
-   width:920px;
+  .slider-container {
+    height: 420px;
+    width: 920px;
+    margin: 115px auto 30px;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 230px;
-   width: 170px;
+  .box {
+    height: 230px;
+    width: 170px;
   }
-  .category{
+  .category {
     font-size: 18px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 226px;
   }
-  .content2{
+  .content2 {
     padding-left: 1rem;
     padding-right: 0rem;
   }
-  .head1 h2{
+  .head1 h2 {
     font-size: 2.4rem;
   }
-  .description i{
+  .description i {
     font-size: 32px;
     margin-bottom: 30px;
   }
-  .page_info{
+  .page_info {
     font-size: 14px;
   }
-  form{
+  form {
     font-size: 0.7rem;
   }
-  .input_cont{
+  .input_cont {
     width: 44.5%;
   }
-  .input_cont1{
+  .input_cont1 {
     width: 52.5%;
   }
-  #open-popup-btn{
+  #open-popup-btn {
     padding: 10px 35px;
   }
-  .sub-main{
+  .sub-main {
     width: 31.5%;
     top: 4.8rem;
     margin-left: 0.5rem;
     margin-right: 1rem;
   }
-  .img_description p{
+  .img_description p {
     margin-top: 5px;
   }
-  .img_cont1{
+  .img_cont1 {
     margin-bottom: 0;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.68rem;
   }
 }
-@media only screen and (min-width:850px) and (max-width:946px){
-  #head{
+@media only screen and (min-width: 850px) and (max-width: 946px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 21px;
-    height:28px ;
+    height: 28px;
     width: 35px;
     color: #fff;
     border: 1px solid #fff;
+    padding: 5px 4px;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 58px;
+  .Es-logo i {
+    font-size: 55px;
   }
 
-  .brand-name{
-   font-size: 17px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   letter-spacing: 1px;
-   left: 0.2px;
+  .brand-name {
+    font-size: 15px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    letter-spacing: 1px;
+    left: 0.2px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
+  .panel4 {
     gap: 15px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
   }
-  .language{
-    font-size: 21px;
+  .language {
+    font-size: 22px;
     height: 35px;
     width: 35px;
   }
-  .login a{
-   font-size: 12px;
+  .login a {
+    font-size: 12px;
   }
-  .comment{
-   font-size: 29px;
+  .comment {
+    font-size: 29px;
   }
-  .light-dark{
-   font-size: 29px;
+  .light-dark {
+    font-size: 29px;
   }
-  .menu a{
+  .menu a {
     font-size: 16px;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 17px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 17px;
   }
-  .search-bar{
+  .search-bar {
     width: 12rem;
   }
-  .search-bar input{
+  .search-bar input {
     height: 3vh;
     width: 10rem;
   }
-  .search-bar i{
+  .search-bar i {
     color: grey;
     font-size: 15px;
     padding-right: 5px;
   }
-  .search-bar input::placeholder{
+  .search-bar input::placeholder {
     color: black;
     font-size: 12px;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 79px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 30px 0 50px 0;
     gap: 35px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 100px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 750px;
   }
-  .aboutContent .about_img2{
-    width:550px;
+  .aboutContent .about_img2 {
+    width: 550px;
   }
 
-  .slider-container{
-   height: 420px;
-   width:830px;
+  .slider-container {
+    height: 420px;
+    width: 830px;
+    margin: 110px auto 30px;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 220px;
-   width: 160px;
+  .box {
+    height: 220px;
+    width: 160px;
   }
-  .category{
+  .category {
     font-size: 17px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 218px;
   }
-  .content2{
+  .content2 {
     flex-direction: column;
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .sub-con2{
+  .sub-con2 {
     width: 100%;
   }
-  .head1 h2{
+  .head1 h2 {
     text-align: center;
     font-size: 2.4rem;
   }
-  .description i{
-    font-size:31px ;
+  .description i {
+    font-size: 31px;
     margin-bottom: 10px;
   }
-  .page_info{
+  .page_info {
     font-size: 15px;
   }
-  form{
+  form {
     font-size: 0.7rem;
   }
-  .sub-main{
+  .sub-main {
     width: 100%;
     margin-top: 1rem;
     /* margin-right: 3rem; */
     margin-left: 0;
   }
-  .sub-main .sub-main-content{
+  .sub-main .sub-main-content {
     padding: 1.5rem;
     /* gap: 30px; */
   }
-  .tab{
+  .tab {
     height: 3.2rem;
   }
-  .img_cont1{
+  .img_cont1 {
     margin-right: 1rem;
     margin-bottom: 0;
     /* display: block; */
@@ -868,189 +857,200 @@
   /* .sub-main-content .cards .img_cont1 img{
     height: 80%;
   } */
-  .img_description{
+  .img_description {
     flex: 0 1 55%;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.8rem;
   }
-
-  
 }
-@media only screen and (max-width:850px){
-  #head{
+@media only screen and (max-width: 850px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  #btn-up{
-   width: 42px;
-   height: 42px;
+  #btn-up {
+    width: 42px;
+    height: 42px;
   }
-  #btn-up i{
-   font-size: 1.3rem;
+  #btn-up i {
+    font-size: 1.3rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 24px;
-    height:30px ;
+    height: 30px;
     width: 34px;
     color: #fff;
     border: 1px solid #fff;
+    padding: 5px 6px;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 60px;
+  .Es-logo i {
+    font-size: 56px;
   }
 
-  .brand-name{
-   font-size: 16px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 25px;
-    padding-right: 20px;
+  .panel4 {
+    gap: 14px;
+    /* padding-right: 20px; */
     padding-left: 0px;
   }
-  .language{
+  .language {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+  }
+  .profile_popup {
+    right: -20px;
+    width: 240px;
+  }
+  .profile_popup .profile_container2 .profile_msg1 a {
+    padding: 8px 30px;
+  }
+  .profile_popup .profile_container2 .profile_msg2 a {
+    padding: 8px 45px;
+  }
+  .login {
     display: none;
   }
-  .login{
-   display: none;
+  .comment {
+    font-size: 35px;
   }
-  .comment{
-   font-size: 35px;
+  .light-dark {
+    font-size: 35px;
   }
-  .light-dark{
-   font-size: 35px;
-  }
-  .side-menu{
+  .side-menu {
     width: 300px;
   }
-  .menu a{
+  .menu a {
     font-size: 15px;
     height: 2vh;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 16px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 16px;
   }
-  .search-bar{
+  .search-bar {
     width: 11rem;
   }
-  .search-bar input{
+  .search-bar input {
     width: 9rem;
   }
-  .search-bar i{
+  .search-bar i {
     color: grey;
     font-size: 15px;
     padding-right: 7px;
   }
-  .search-bar input::placeholder{
+  .search-bar input::placeholder {
     color: black;
     font-size: 12px;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 70px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 25px 0 40px 0;
     gap: 20px;
     justify-content: space-evenly;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 38px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 16px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 310px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 70px 0px;
     gap: 40px;
     justify-content: space-evenly;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 26px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 650px;
     font-size: 16px;
-    
   }
-  .aboutContent .about_img2{
-    width:500px;
+  .aboutContent .about_img2 {
+    width: 500px;
   }
-  .slider-container{
-   height: 420px;
-   width:730px;
+  .slider-container {
+    height: 420px;
+    width: 730px;
+    margin: 110px auto 30px;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 210px;
-   width: 150px;
+  .box {
+    height: 210px;
+    width: 150px;
   }
-  .category{
+  .category {
     font-size: 17px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 208px;
   }
-  .content2{
+  .content2 {
     flex-direction: column;
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .sub-con2{
+  .sub-con2 {
     width: 100%;
   }
-  .head1 h2{
+  .head1 h2 {
     text-align: center;
     font-size: 2.4rem;
   }
-  .description i{
-    font-size:30px ;
+  .description i {
+    font-size: 30px;
     margin-top: 0;
   }
 
-  .page_info{
+  .page_info {
     font-size: 15px;
     margin-right: 1rem;
   }
-  form{
+  form {
     font-size: 0.7rem;
   }
   /* .input_cont{
@@ -1059,985 +1059,1026 @@
   .input_cont1{
     width: 53%;
   } */
-  .sub-main{
+  .sub-main {
     width: 100%;
     margin-top: 1rem;
     /* margin-right: 3rem; */
     margin-left: 0;
   }
-  .tab{
+  .tab {
     height: 3.2rem;
   }
-  .img_cont1{
+  .img_cont1 {
     margin-right: 1rem;
     margin-bottom: 0;
     /* display: block; */
     max-width: 25%;
   }
-  .img_description{
+  .img_description {
     flex: 0 1 60%;
   }
-  .sub-main-content .cards .img_cont1 img{
-    height:9rem;
+  .sub-main-content .cards .img_cont1 img {
+    height: 9rem;
     width: 100%;
     margin-bottom: 10px;
   }
 }
-@media only screen and (max-width:739px){
-  #head{
+@media only screen and (max-width: 739px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 22px;
-    height:30px ;
+    height: 30px;
     width: 34px;
     color: #fff;
     border: 1px solid #fff;
+    padding: 4px 5px;
   }
-  #btn-up{
+  #btn-up {
     width: 40px;
     height: 40px;
   }
-  #btn-up i{
-   font-size: 1.3rem;
+  #btn-up i {
+    font-size: 1.3rem;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 59px;
+  .Es-logo i {
+    font-size: 55px;
   }
 
-  .brand-name{
-   font-size: 15px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 15px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 20px;
+  .panel4 {
+    gap: 14px;
   }
-  .language{
+  .language {
+    height: 38px;
+    width: 38px;
+    font-size: 23px;
+  }
+  .login a {
     display: none;
   }
-  .login a{
-   display: none;
+  .comment {
+    font-size: 33px;
   }
-  .comment{
-   font-size: 33px;
+  .light-dark {
+    font-size: 33px;
   }
-  .light-dark{
-   font-size: 33px;
-  }
-  .company-info{
+  .company-info {
     display: none;
   }
-  .feedback-center{
+  .feedback-center {
     display: none;
   }
 
-  .side-menu{
+  .side-menu {
     width: 280px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 25px 0 40px 0;
     gap: 20px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 36px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 15px;
     width: 600px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 300px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 24px;
     width: 650px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 600px;
     font-size: 15px;
-    
   }
-  .aboutContent .about_img2{
-    width:480px;
+  .aboutContent .about_img2 {
+    width: 480px;
   }
-  .slider-container{
-   height: 420px;
-   width:620px;
+  .slider-container {
+    height: 420px;
+    width: 620px;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 200px;
-   width: 140px;
+  .box {
+    height: 200px;
+    width: 140px;
   }
-  .category{
+  .category {
     font-size: 16px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 198px;
   }
-  .input_cont{
+  .input_cont {
     width: 45%;
     max-width: 45%;
   }
-  .input_cont1{
+  .input_cont1 {
     width: 51.8%;
     max-width: 51.6%;
   }
-  form .input_cont #name{
+  form .input_cont #name {
     font-size: 13px;
   }
-  form .input_cont1 #Email{
+  form .input_cont1 #Email {
     font-size: 13px;
   }
-  form .input_cont2 #Subject{
+  form .input_cont2 #Subject {
     font-size: 13px;
   }
-  form .input_cont3 #message{
+  form .input_cont3 #message {
     font-size: 13px;
   }
 }
-@media only screen and (max-width:644px){
-  #head{
+@media only screen and (max-width: 644px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 21px;
-    height:28px ;
+    height: 28px;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 58px;
+  .Es-logo i {
+    font-size: 54px;
   }
 
-  .brand-name{
-   font-size: 14px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 17px;
+  .panel4 {
+    gap: 12px;
   }
-  .language{
+  .language {
+    height: 36px;
+    width: 36px;
+    font-size: 22px;
+  }
+  .login a {
     display: none;
   }
-  .login a{
-   display: none;
+  .comment {
+    font-size: 30px;
   }
-  .comment{
-   font-size: 30px;
+  .light-dark {
+    font-size: 30px;
   }
-  .light-dark{
-   font-size: 30px;
-  }
-  .company-info{
+  .company-info {
     display: none;
   }
-  .feedback-center{
+  .feedback-center {
     display: none;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 15px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 15px;
   }
-  .side-menu{
+  .side-menu {
     width: 270px;
   }
-  .user-signin{
-   width: 75px;
-   font-size: 12px;
+  .user-signin {
+    width: 75px;
+    font-size: 12px;
   }
-  .user-signin a{
+  .user-signin a {
     width: 72px;
   }
-  .user-signup{
-   width: 110px;
-   font-size: 11px;
+  .user-signup {
+    width: 110px;
+    font-size: 11px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 15px 0 25px 0;
     gap: 20px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 34px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 14px;
     width: 550px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 280px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 22px;
     width: 550px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 520px;
     font-size: 14px;
-    
   }
-  .aboutContent .about_img2{
-    width:450px;
+  .aboutContent .about_img2 {
+    width: 450px;
   }
-  .slider-container{
-   height: 420px;
-   width:540px;
-
+  .slider-container {
+    height: 420px;
+    width: 540px;
   }
-  .right-arrow{
+  .right-arrow {
     display: none;
   }
-  .left-arrow{
+  .left-arrow {
     display: none;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 190px;
-   width: 130px;
+  .box {
+    height: 190px;
+    width: 130px;
   }
-  .category{
+  .category {
     font-size: 16px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 190px;
   }
-  .input_cont{
+  .input_cont {
     width: 44.8%;
     max-width: 44.8%;
   }
-  .input_cont1{
+  .input_cont1 {
     width: 51%;
     max-width: 51%;
   }
-  form .input_cont #name{
+  form .input_cont #name {
     font-size: 13px;
   }
-  form .input_cont1 #Email{
+  form .input_cont1 #Email {
     font-size: 13px;
   }
-  form .input_cont2 #Subject{
+  form .input_cont2 #Subject {
     font-size: 13px;
   }
-  form .input_cont3 #message{
+  form .input_cont3 #message {
     font-size: 13px;
   }
 }
-@media only screen and (max-width:555px){
-  #head{
+@media only screen and (max-width: 555px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 20px;
-    height:25px ;
+    height: 25px;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 57px;
+  .Es-logo i {
+    font-size: 53px;
   }
 
-  .brand-name{
-   font-size: 13px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 13px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 15px;
+  .panel4 {
+    gap: 12px;
   }
-  .language{
+  .language {
+    height: 34px;
+    width: 34px;
+    font-size: 21px;
+  }
+  .profile_popup {
+    right: -30px;
+    width: 220px;
+    height: 18.5vh;
+  }
+  .profile_popup .profile_container1 .profile_img {
+    height: 45px;
+    width: 45px;
+  }
+  .profile_popup .profile_container1 .profile_name p {
+    font-size: 15.5px;
+  }
+  .profile_popup .profile_container2 .profile_msg1 a {
+    padding: 8px 25px;
+    font-size: 13px;
+  }
+  .profile_popup .profile_container2 .profile_msg2 a {
+    padding: 8px 40px;
+    font-size: 13px;
+  }
+  .login a {
     display: none;
   }
-  .login a{
-   display: none;
+  .comment {
+    font-size: 29px;
   }
-  .comment{
-   font-size: 29px;
+  .light-dark {
+    font-size: 29px;
   }
-  .light-dark{
-   font-size: 29px;
-  }
-  foot{
+  foot {
     height: 8vh;
   }
-  .company-info{
+  .company-info {
     display: none;
   }
-  .feedback-center{
+  .feedback-center {
     display: none;
   }
-  .side-menu{
+  .side-menu {
     width: 250px;
   }
-  .menu a{
+  .menu a {
     font-size: 14px;
     height: 1.5vh;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 15px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 15px;
   }
-  .search-bar{
+  .search-bar {
     width: 10rem;
   }
-  .search-bar input{
+  .search-bar input {
     width: 8rem;
   }
-  .search-bar i{
+  .search-bar i {
     color: grey;
     font-size: 14px;
     padding-right: 7px;
   }
-  .search-bar input::placeholder{
+  .search-bar input::placeholder {
     color: black;
     font-size: 11px;
   }
-  .user-signin{
-   width: 73px;
-   font-size: 11px;
+  .user-signin {
+    width: 73px;
+    font-size: 11px;
   }
-  .user-signin a{
+  .user-signin a {
     font-weight: 500;
     width: 70px;
   }
-  .user-signup{
+  .user-signup {
     width: 100px;
     font-size: 10px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 5px 0 10px 0;
     gap: 20px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 32px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 13px;
     width: 450px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 260px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 20px;
     width: 450px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 400px;
     font-size: 13px;
-    
   }
-  .aboutContent .about_img2{
-    width:420px;
+  .aboutContent .about_img2 {
+    width: 420px;
   }
-  .slider-container{
+  .slider-container {
     height: 420px;
-    width:450px;
+    width: 450px;
   }
-  .right-arrow{
+  .right-arrow {
     display: none;
   }
-  .left-arrow{
+  .left-arrow {
     display: none;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 180px;
-   width: 120px;
+  .box {
+    height: 180px;
+    width: 120px;
   }
-  .category{
+  .category {
     font-size: 15px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 175px;
   }
-  .content2{
+  .content2 {
     padding-top: 2rem;
   }
-  .input_cont{
+  .input_cont {
     width: 44%;
     max-width: 44%;
-
   }
-  .input_cont1{
+  .input_cont1 {
     width: 51%;
     max-width: 51%;
   }
-  form .input_cont #name{
+  form .input_cont #name {
     font-size: 12px;
   }
-  form .input_cont1 #Email{
+  form .input_cont1 #Email {
     font-size: 12px;
   }
-  form .input_cont2 #Subject{
+  form .input_cont2 #Subject {
     font-size: 12px;
   }
-  form .input_cont3 #message{
+  form .input_cont3 #message {
     font-size: 12px;
   }
-  .page_info{
+  .page_info {
     font-size: 14px;
   }
-  .img_cont1{
+  .img_cont1 {
     max-width: 15rem;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.75rem;
   }
-  footer{
+  footer {
     margin-top: 0.1rem;
   }
 }
 
-@media only screen and (max-width:470px){
-  #head{
+@media only screen and (max-width: 470px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  #btn-up{
-   width: 40px;
-   height: 40px;
+  #btn-up {
+    width: 40px;
+    height: 40px;
   }
-  #btn-up i{
-   font-size: 1.2rem;
+  #btn-up i {
+    font-size: 1.2rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 19px;
-    height:25px ;
+    height: 25px;
     width: 30px;
     color: #fff;
     border: 1px solid #fff;
+    padding: 5px 5px;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 55px;
+  .Es-logo i {
+    font-size: 52px;
   }
 
-  .brand-name{
-   font-size: 12px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 12px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 15px;
+  .panel4 {
+    gap: 12px;
   }
-  .language{
+  .language {
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
+  }
+  .login a {
     display: none;
   }
-  .login a{
-   display: none;
+  .comment {
+    font-size: 28px;
   }
-  .comment{
-   font-size: 28px;
+  .light-dark {
+    font-size: 28px;
   }
-  .light-dark{
-   font-size: 28px;
-  }
-  .company-info{
+  .company-info {
     display: none;
   }
-  .feedback-center{
+  .feedback-center {
     display: none;
   }
-  .side-menu{
+  .side-menu {
     width: 235px;
   }
-  .menu a{
+  .menu a {
     font-size: 13px;
     height: 1vh;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 14px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 14px;
   }
-  .search-bar{
+  .search-bar {
     width: 9rem;
   }
-  .search-bar input{
+  .search-bar input {
     width: 7rem;
   }
-  .search-bar i{
+  .search-bar i {
     color: grey;
     font-size: 13px;
     padding-right: 7px;
   }
-  .search-bar input::placeholder{
+  .search-bar input::placeholder {
     color: black;
     font-size: 10px;
   }
-  .user-signin{
-   width: 71px;
-   font-size: 10px;
+  .user-signin {
+    width: 71px;
+    font-size: 10px;
   }
-  .user-signin a{
+  .user-signin a {
     font-weight: 500;
     width: 68px;
   }
-  .user-signup{
-   width: 98px;
-   font-size: 8px;
+  .user-signup {
+    width: 98px;
+    font-size: 8px;
   }
-  .aboutContent{
+  .aboutContent {
     padding-top: 65px;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 5px 0 10px 0;
     gap: 20px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 30px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 12px;
     width: 350px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 250px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 18px;
     width: 400px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 350px;
     font-size: 12px;
-    
   }
-  .aboutContent .about_img2{
-    width:370px;
+  .aboutContent .about_img2 {
+    width: 370px;
   }
-  .slider-container{
-   height: 420px;
-   width:380px;
+  .slider-container {
+    height: 420px;
+    width: 380px;
   }
-  .right-arrow{
+  .right-arrow {
     display: none;
   }
-  .left-arrow{
+  .left-arrow {
     display: none;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 170px;
-   width: 110px;
+  .box {
+    height: 170px;
+    width: 110px;
   }
-  .category{
+  .category {
     font-size: 15px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 171px;
   }
-  .content2{
+  .content2 {
     padding-top: 2rem;
   }
-  .head1 h2{
+  .head1 h2 {
     font-size: 2.2rem;
   }
-  .input_cont{
+  .input_cont {
     width: 43%;
     max-width: 43%;
   }
-  .input_cont1{
+  .input_cont1 {
     width: 50%;
     max-width: 50%;
   }
-  form .input_cont #name{
+  form .input_cont #name {
     font-size: 8px;
   }
-  form .input_cont1 #Email{
+  form .input_cont1 #Email {
     font-size: 8px;
   }
-  form .input_cont2 #Subject{
+  form .input_cont2 #Subject {
     font-size: 8px;
   }
-  form .input_cont3 #message{
+  form .input_cont3 #message {
     font-size: 8px;
   }
-  .page_info{
+  .page_info {
     font-size: 13px;
   }
-  .sub-main .sub-main-content{
+  .sub-main .sub-main-content {
     padding: 2rem;
   }
-  .img_cont1{
+  .img_cont1 {
     max-width: 15rem;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.75rem;
   }
-  footer{
+  footer {
     margin-top: 0.1rem;
   }
 }
-@media only screen and (max-width:398px){
-  #head{
+@media only screen and (max-width: 398px) {
+  #head {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
   }
-  .sidebar{
+  .sidebar {
     font-size: 18px;
-    height:22px ;
+    height: 22px;
     width: 25px;
     color: #fff;
     border: 1px solid #fff;
   }
-  .Es-logo{
+  .Es-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Es-logo i{
-    font-size: 54px;
+  .Es-logo i {
+    font-size: 51px;
   }
 
-  .brand-name{
-   font-size: 11px;
-   display: flex;
-   position: relative;
-   top: 20px;
-   left: 0.2px;
-   letter-spacing: 1px;
+  .brand-name {
+    font-size: 11px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0.2px;
+    letter-spacing: 1px;
   }
-  .panel2{
+  .panel2 {
     display: none;
   }
-  .panel3{
+  .panel3 {
     display: none;
   }
-  .panel4{
-    gap: 15px;
+  .panel4 {
+    gap: 12px;
   }
-  .language{
+  .language {
+    height: 32px;
+    width: 32px;
+    font-size: 19px;
+  }
+  .profile_popup {
+    right: -35px;
+    width: 200px;
+    height: 17.5vh;
+  }
+  .profile_popup .profile_container1 .profile_img {
+    height: 40px;
+    width: 40px;
+  }
+  .profile_popup .profile_container1 .profile_name p {
+    font-size: 15px;
+  }
+  .profile_popup .profile_container2 .profile_msg1 a {
+    padding: 8px 25px;
+    font-size: 12px;
+  }
+  .profile_popup .profile_container2 .profile_msg2 a {
+    padding: 8px 38px;
+    font-size: 12px;
+  }
+  .login a {
     display: none;
   }
-  .login a{
-   display: none;
+  .comment {
+    font-size: 28px;
   }
-  .comment{
-   font-size: 28px;
+  .light-dark {
+    font-size: 28px;
   }
-  .light-dark{
-   font-size: 28px;
-  }
-  .foot{
+  .foot {
     text-align: center;
   }
-  .company-info{
+  .company-info {
     display: none;
   }
-  .feedback-center{
+  .feedback-center {
     display: none;
   }
-  .side-menu{
+  .side-menu {
     width: 220px;
   }
-  .menu a{
+  .menu a {
     font-size: 12px;
     height: 1vh;
   }
-  .menu a.active{
+  .menu a.active {
     font-size: 13px;
   }
-  .menu a:hover{
+  .menu a:hover {
     font-size: 13px;
   }
-  .search-bar{
+  .search-bar {
     width: 8rem;
   }
-  .search-bar input{
+  .search-bar input {
     width: 6rem;
   }
-  .search-bar i{
+  .search-bar i {
     color: grey;
     font-size: 12px;
     padding-right: 7px;
   }
-  .search-bar input::placeholder{
+  .search-bar input::placeholder {
     color: black;
     font-size: 9px;
   }
-  .user-signin{
-   width: 69px;
-   font-size: 9px;
+  .user-signin {
+    width: 69px;
+    font-size: 9px;
   }
-  .user-signin a{
+  .user-signin a {
     font-weight: 500;
     width: 66px;
   }
-  .user-signup{
-   width: 96px;
-   font-size: 7px;
+  .user-signup {
+    width: 96px;
+    font-size: 7px;
   }
-  .parent-box{
+  .parent-box {
     padding: 0;
   }
-  .aboutContent .about_Info1{
+  .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
     padding: 0px 0 1px 0;
     gap: 20px;
   }
-  .about_Info1 .about_desc1{
+  .about_Info1 .about_desc1 {
     gap: 25px;
   }
-  .about_desc1 .head1{
+  .about_desc1 .head1 {
     font-size: 28px;
   }
-  .about_Info1 .about_desc1 p{
+  .about_Info1 .about_desc1 p {
     font-size: 11px;
     width: 300px;
   }
-  .aboutContent .about_img1{
+  .aboutContent .about_img1 {
     height: 240px;
   }
-  .aboutContent .about_Info2{
+  .aboutContent .about_Info2 {
     flex-direction: column;
     text-align: center;
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
-  .about_Info2 .about_desc2{
+  .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
     align-items: center;
   }
-  .about_desc2 .head2{
+  .about_desc2 .head2 {
     margin-bottom: 15px;
     font-size: 16px;
     width: 300px;
   }
-  .about_Info2 .about_desc2 p{
+  .about_Info2 .about_desc2 p {
     width: 300px;
     font-size: 11px;
-    
   }
-  .aboutContent .about_img2{
-    width:320px;
+  .aboutContent .about_img2 {
+    width: 320px;
   }
-  .slider-container{
-   height: 400px;
-   width:330px;
+  .slider-container {
+    height: 400px;
+    width: 330px;
   }
-  .right-arrow{
+  .right-arrow {
     display: none;
   }
-  .left-arrow{
+  .left-arrow {
     display: none;
   }
-  .child-boxes{
+  .child-boxes {
     overflow: scroll;
   }
-  .box{
-   height: 160px;
-   width: 100px;
+  .box {
+    height: 160px;
+    width: 100px;
   }
-  .category{
+  .category {
     font-size: 14px;
   }
-  .swipe-btn{
+  .swipe-btn {
     height: 161px;
   }
-  .content2{
+  .content2 {
     padding-top: 2rem;
   }
-  .head1 h2{
+  .head1 h2 {
     font-size: 2rem;
   }
-  .description{
+  .description {
     margin-right: 0;
   }
-  .page_info{
+  .page_info {
     margin-right: 1rem;
   }
-  .input_cont{
+  .input_cont {
     width: 43%;
     max-width: 43%;
     margin-bottom: 1rem;
-  
   }
-  .input_cont1{
+  .input_cont1 {
     width: 49.5%;
     max-width: 49.5%;
     margin-bottom: 1rem;
   }
-  .input_cont2{
+  .input_cont2 {
     margin-bottom: 1rem;
   }
-  .input_cont3{
+  .input_cont3 {
     margin-bottom: 0.5rem;
   }
-  .page_info{
+  .page_info {
     font-size: 13px;
   }
-  .sub-main .sub-main-content{
+  .sub-main .sub-main-content {
     padding: 1.5rem;
   }
-  .img_description a{
+  .img_description a {
     font-size: 0.75rem;
   }
-  footer{
+  footer {
     margin-top: 0.1rem;
   }
 }
-@media only screen and (min-width:1390px) and (max-width:1500px) {
-  #head{
-    padding: 0.6rem;
-  }
-  .search-bar{
+@media only screen and (min-width: 1390px) and (max-width: 1500px) {
+  .search-bar {
     display: none;
   }
-  .user-login{
+  .user-login {
     display: none;
   }
-  .panel3 input{
+  .panel3 input {
     width: 25rem;
     height: 2vh;
   }

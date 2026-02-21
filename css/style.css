@@ -92,14 +92,15 @@ body{
   right:0;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
   justify-content: space-evenly;
+  /* text-align: center; */
 }
 .Es-logo:hover{
   cursor: pointer;
 }
 .sidebar{
-  font-size: 20px;
+  font-size: 21px;
   height: 26px;
   color:#fff;
   position: relative;
@@ -107,7 +108,7 @@ body{
   border: 1px solid transparent;
   border-radius: 5px;
   transition: border-color 0.3s;
-  padding: 5px;
+  padding: 5px 10px;
   align-items: center;
   justify-content: center;
 }
@@ -137,7 +138,7 @@ body{
   display: flex;
   align-items: center;
   text-decoration: none;
-  gap: 45px;
+  gap: 35px;
 }
 .panel2 a{
   text-decoration: none;
@@ -237,17 +238,16 @@ body{
   font-size: 17px;
   padding-left: 15px;
 }
-.panel3 input{
+.panel3 .search-btn input{
   width: 31rem;
   outline: none;
   background: #000000;
   border: none;
   color: #fff;
   padding-left: 10px;
-  height: 4vh;
-
+  height: 3.5vh;
 }
-.panel3 input::placeholder{
+.panel3 .search-btn input::placeholder{
   font-size: 13px;
   position: relative;
   bottom: 2px;
@@ -255,7 +255,7 @@ body{
 .panel4{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
 }
 .language{
   height: 35px ;
