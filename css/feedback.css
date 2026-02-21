@@ -26,6 +26,8 @@ body {
   --shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --submain-color: #ff9e0026;
   --icon-color: #666;
+  --profile-color-hover:rgb(50, 50, 50);
+  --signout-color:rgba(198, 198, 198, 0.287);
 }
 body {
   background: var(--bg_color);
@@ -49,6 +51,8 @@ body {
   --shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --submain-color: #2c2d31;
   --icon-color: #c4c3c3;
+  --profile-color-hover:rgb(184, 184, 184);
+  --signout-color:rgba(255,255,255,0.05);
 }
 #btn-up {
   bottom: 20px;

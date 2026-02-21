@@ -29,6 +29,8 @@ body {
   --primary_color2: #e4e4e4;
   --text_color_head: #2e2e2e;
   --text_color_para: #3c3c3c;
+  --profile-color-hover:rgb(50, 50, 50);
+  --signout-color:rgba(198, 198, 198, 0.287);
 }
 body {
   background: var(--bg_color);
@@ -56,6 +58,8 @@ body {
   --primary_color2: #2c2d31;
   --text_color_head: #fff;
   --text_color_para: #d7d7d7;
+  --profile-color-hover:rgb(184, 184, 184);
+  --signout-color:rgba(255,255,255,0.05);
 }
 #btn-up {
   bottom: 20px;
