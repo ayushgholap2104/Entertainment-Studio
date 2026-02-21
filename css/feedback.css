@@ -430,9 +430,9 @@ body{
 }
 .user-signin{
   border: 1px solid var(--primary_color);
-  width: 80px;
+  /* width: 80px; */
   font-size: 13px;
-  height: 45px;
+  /* height: 45px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -457,12 +457,9 @@ body{
   color: var(--body_color);
 }
 .user-signup{
-  width: 120px;
+  /* width: 120px; */
   font-size: 12px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height: 48px; */
   border-radius: 6px;
   background-color:#8c05fb;
 }
@@ -473,8 +470,15 @@ body{
 }
 .user-signup a{
   text-decoration: none;
+  height: 44px;
+  width: 90px;
   color: #ffffff;
   font-weight: 500;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 .menu{ 
   margin-top: 15px;

@@ -1310,16 +1310,12 @@
   .side-menu {
     width: 270px;
   }
-  .user-signin {
-    width: 75px;
-    font-size: 12px;
+  .user-signin a{
+    width: 90px;
+    
   }
-  .user-signin a {
-    width: 72px;
-  }
-  .user-signup {
-    width: 110px;
-    font-size: 11px;
+  .user-signup a{
+    width: 100px;
   }
   .aboutContent .about_Info1 {
     flex-direction: column;
