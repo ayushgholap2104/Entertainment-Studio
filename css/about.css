@@ -424,7 +424,7 @@ body {
   transition:left 0.5s ease;
   opacity: 0.9;
   position: fixed;
-  height: calc(100vh - 60px);
+  height:100vh;
   overflow-y: auto;
   margin-top: 70px;
   left: -388px;
