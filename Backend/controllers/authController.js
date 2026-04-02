@@ -1,5 +1,6 @@
 const db = require("../config/db")
 const bcrypt = require("bcrypt")
+const jwt = require("jsonwebtoken")
 
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
@@ -50,7 +51,15 @@ exports.login = (req,res) =>{
         if (!isMatch){
           return res.json("Incorrect password")
         }
-        res.json("Login successful")
+        const token = jwt.sign(
+          {id :user.id, email:user.email},
+          "secretkey",
+          {expiresIn:"24h"}
+        )
+        res.json({
+          Message:"Login successful",
+          token:token
+        })
       } catch (error) {
         res.status(500).json("Error in comparing password")
       }
