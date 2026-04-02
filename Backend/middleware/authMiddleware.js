@@ -13,3 +13,4 @@ const verifytoken = (req,res,next) =>{
     res.json("Invalid token")
   }
 }
+module.exports = verifytoken
