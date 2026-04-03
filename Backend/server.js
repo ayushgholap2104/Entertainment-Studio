@@ -12,9 +12,9 @@ app.use(express.json())
 app.get('/',(req,res) =>{
   res.send("Backend is running")
 })
-app.get('/dashboard',verifytoken,(req,res) =>{
-  res.send("Welcome")
-})
+// app.get('/dashboard',verifytoken,(req,res) =>{
+//   res.send("Welcome")
+// })
 
 // Server
 const PORT = 5000;
