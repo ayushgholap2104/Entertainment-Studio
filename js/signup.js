@@ -20,5 +20,6 @@ function signupData(){
     })
     const data = await res.json()
     alert(data)
+    // window.location.href = '../frontend/Home.html'
   })
 }
