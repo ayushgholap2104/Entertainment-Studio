@@ -9,7 +9,7 @@ exports.signup = (req, res) => {
   db.query(
     "SELECT * FROM users_detail WHERE email = ?",
     [email],
-    async (err, result,next) => {
+    async (err, result) => {
       if (err) {
         return res.status(500).json(err)
       }
@@ -39,7 +39,7 @@ exports.login = (req,res) =>{
   db.query(
     "SELECT * FROM users_detail WHERE email = ?",
     [email],
-    async (err,result,next) =>{
+    async (err,result) =>{
       if (err){
         return res.status(500).json(err)
       }
