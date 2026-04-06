@@ -31,7 +31,6 @@ exports.signup = (req, res) => {
       } catch (error) {
         return res.status(500).json("Error hashing password")
       }
-      next()
     }
   )
 }
@@ -65,7 +64,6 @@ exports.login = (req,res) =>{
       } catch (error) {
         res.status(500).json("Error in comparing password")
       }
-      next()
     }
   )
 }

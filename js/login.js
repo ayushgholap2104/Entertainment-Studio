@@ -21,7 +21,7 @@ function loginData(){
     if (data.token){
       localStorage.setItem('token',data.token)
       alert("Login Successful")
-      // window.location.href = '../frontend/Home.html'
+      window.location.href = "../frontend/Home.html"
     }else{
       alert(data)
     }
