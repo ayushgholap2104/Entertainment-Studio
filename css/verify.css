@@ -15,11 +15,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  
 }
 /* For Sign up */
 .verify_interface{
-  width: 23.5rem;
+  width: 22rem;
   /* border: 2px solid black; */
   height: 25rem;
   display: flex;
@@ -49,13 +48,13 @@
 }
 .verify_interface .otp_code .otp_input{
   width: 42px;
-  height: 65px;
+  height: 62px;
   border-radius: 20%;
   border:1.5px solid rgb(199, 199, 199);
   background-color: rgb(217, 217, 217);
   outline: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bolder;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.08);
   display: flex;

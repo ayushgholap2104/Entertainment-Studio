@@ -56,6 +56,37 @@
   .signin p {
     font-size: 11px;
   }
+  /* For Verify page */
+  .verify_interface {
+    width: 18rem;
+    height: 22.5rem;
+    gap: 27px;
+  }
+  .verify_interface .verify_icon {
+    font-size: 60px;
+  }
+  .verify_interface .verify_head h2 {
+    font-size: 18px;
+  }
+  .verify_interface .verify_head p {
+    font-size: 7px;
+  }
+  .verify_interface .otp_code {
+    gap: 10px;
+  }
+  .verify_interface .otp_code .otp_input {
+    width: 36px;
+    height: 52px;
+    font-size: 17px;
+  }
+  .verify_interface .resend_code a {
+    font-size: 11px;
+  }
+  .verify_interface .verify_code button {
+    width: 140px;
+    font-size: 10px;
+    height: 38px;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* For Sign Up page */
@@ -112,6 +143,37 @@
   }
   .signin p {
     font-size: 12px;
+  }
+  /* For Verify page */
+  .verify_interface {
+    width: 19rem;
+    height: 24rem;
+    gap: 25px;
+  }
+  .verify_interface .verify_icon {
+    font-size: 65px;
+  }
+  .verify_interface .verify_head h2 {
+    font-size: 20px;
+  }
+  .verify_interface .verify_head p {
+    font-size: 8px;
+  }
+  .verify_interface .otp_code {
+    gap: 11px;
+  }
+  .verify_interface .otp_code .otp_input {
+    width: 37px;
+    height: 54px;
+    font-size: 18px;
+  }
+  .verify_interface .resend_code a {
+    font-size: 12px;
+  }
+  .verify_interface .verify_code button {
+    width: 150px;
+    font-size: 11px;
+    height: 39px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -172,6 +234,37 @@
   }
   .signin p {
     font-size: 13px;
+  }
+  /* For Verify page */
+  .verify_interface {
+    width: 21rem;
+    height: 24rem;
+    gap: 27px;
+  }
+  .verify_interface .verify_icon {
+    font-size: 70px;
+  }
+  .verify_interface .verify_head h2 {
+    font-size: 22px;
+  }
+  .verify_interface .verify_head p {
+    font-size: 9px;
+  }
+  .verify_interface .otp_code {
+    gap: 12px;
+  }
+  .verify_interface .otp_code .otp_input {
+    width: 38px;
+    height: 56px;
+    font-size: 19px;
+  }
+  .verify_interface .resend_code a {
+    font-size: 12.5px;
+  }
+  .verify_interface .verify_code button {
+    width: 160px;
+    font-size: 12px;
+    height: 40px;
   }
 }
 @media only screen and (min-width: 1285px) and (max-width: 1390px) {
@@ -368,7 +461,7 @@
     margin-right: 1rem;
     font-size: 15px;
   }
-  
+
   .img_description a {
     font-size: 0.75rem;
   }
@@ -733,12 +826,11 @@
   .light-dark {
     font-size: 29px;
   }
-  .menu{
+  .menu {
     margin-top: 30px;
-   }
+  }
   .menu a {
     font-size: 16px;
-  
   }
   .menu a.active {
     font-size: 17px;
@@ -945,7 +1037,7 @@
     width: 300px;
     margin-top: 0px;
   }
-  .user-login{
+  .user-login {
     margin-top: 15px;
   }
   .menu a {
@@ -1310,11 +1402,10 @@
   .side-menu {
     width: 270px;
   }
-  .user-signin a{
+  .user-signin a {
     width: 90px;
-    
   }
-  .user-signup a{
+  .user-signup a {
     width: 100px;
   }
   .aboutContent .about_Info1 {
@@ -1567,7 +1658,7 @@
   .aboutContent .about_img2 {
     width: 420px;
   }
-  .content2{
+  .content2 {
     margin-top: 4rem;
   }
   .slider-container {
@@ -2079,10 +2170,10 @@
   }
 }
 @media only screen and (min-width: 1391px) and (max-width: 1500px) {
-  .user-login{
+  .user-login {
     display: none;
   }
-  .search-bar{
+  .search-bar {
     display: none;
   }
 }
