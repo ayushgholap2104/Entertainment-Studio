@@ -9,7 +9,7 @@ function loginData(){
     const email = document.querySelector('#email').value
     const password = document.querySelector('#password').value
 
-    const res = await fetch("http://127.0.0.2:5000/api/auth/login",{
+    const res = await fetch("http://127.0.0.1:5000/api/auth/login",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
