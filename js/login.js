@@ -1,28 +1,32 @@
 window.addEventListener("load", () => {
   loginData()
 })
-function loginData(){
+function loginData() {
   const form = document.querySelector('form')
-  form.addEventListener('submit',async(e)=>{
+  form.addEventListener('submit', async (e) => {
     e.preventDefault()
 
     const email = document.querySelector('#email').value
     const password = document.querySelector('#password').value
 
-    const res = await fetch("http://127.0.0.1:5000/api/auth/login",{
-      method:"POST",
-      headers:{
-        "Content-Type":"application/json"
+    const res = await fetch("http://127.0.0.1:5000/api/auth/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
       },
-      body: JSON.stringify({email,password})
+      body: JSON.stringify({ email, password })
     })
 
     const data = await res.json()
-    if (data.token){
-      localStorage.setItem('token',data.token)
-      alert("Login Successful")
-      window.location.href = "../frontend/Home.html"
-    }else{
+    if (data.token) {
+      localStorage.setItem('token', data.token)
+      if (data.includes('success')) {
+        showToast(data, "success");
+      } else {
+        showToast(data, "failure");
+      }
+      window.location.href = "../frontend/verify.html"
+    } else {
       alert(data)
     }
   })

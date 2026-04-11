@@ -19,7 +19,11 @@ function signupData(){
       body: JSON.stringify({name,email,password})
     })
     const data = await res.json()
-    alert(data)
+    if(data.includes('success')){
+      showToast(data, "success");
+    }else{
+      showToast(data, "failure");
+    }
     window.location.href = "Home.html"
   })
 }
