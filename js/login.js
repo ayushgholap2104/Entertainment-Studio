@@ -23,9 +23,9 @@ function loginData() {
       if (data.includes('success')) {
         showToast(data, "success");
       } else {
-        showToast(data, "failure");
+        showToast(data, "danger");
       }
-      window.location.href = "../frontend/verify.html"
+      window.location.href = "../frontend/Home.html"
     } else {
       alert(data)
     }
