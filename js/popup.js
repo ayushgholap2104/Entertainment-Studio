@@ -1,6 +1,3 @@
-window.addEventListener("load", () => {
-  showToast()
-})
 function showToast(message, type = "success") {
   const toastEl = document.getElementById("toastMsg");
   const toastText = document.getElementById("toastText");
