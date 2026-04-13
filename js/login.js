@@ -21,10 +21,10 @@ function loginData() {
     if (data.token) {
       localStorage.setItem('token', data.token)
       if (data.success) {
-        showToast(data.message, "success");
+        showToast(data, "success");
         
       } else {
-        showToast(data.message, "danger");
+        showToast(data, "danger");
       }
       window.location.href = "../frontend/Home.html"
     } else {
