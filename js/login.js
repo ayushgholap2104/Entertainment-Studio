@@ -20,10 +20,11 @@ function loginData() {
     const data = await res.json()
     if (data.token) {
       localStorage.setItem('token', data.token)
-      if (data.includes('success')) {
-        showToast(data, "success");
+      if (data.success) {
+        showToast(data.message, "success");
+        
       } else {
-        showToast(data, "danger");
+        showToast(data.message, "danger");
       }
       window.location.href = "../frontend/Home.html"
     } else {
