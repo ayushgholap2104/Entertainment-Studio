@@ -22,12 +22,12 @@ function loginData() {
       localStorage.setItem('token', data.token)
       if (data.success) {
         showToast(data.message, "success");
-        setTimeout(() => {
-          window.location.href = "../frontend/Home.html"
-        }, 3000)
       } else {
         showToast(data.message, "danger");
       }
+      setTimeout(() => {
+        window.location.href = "../frontend/Home.html"
+      }, 2000)
     } else {
       alert(data)
     }

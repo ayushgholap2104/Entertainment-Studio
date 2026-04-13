@@ -2,9 +2,9 @@ window.addEventListener("load", () => {
   signupData()
 })
 
-function signupData(){
+function signupData() {
   const form = document.querySelector('form')
-  form.addEventListener('submit',async(e) =>{
+  form.addEventListener('submit', async (e) => {
     e.preventDefault()
 
     const name = document.querySelector('#name').value
@@ -12,21 +12,20 @@ function signupData(){
     const password = document.querySelector('#password').value
 
     const res = await fetch("http://127.0.0.1:5000/api/auth/signup", {
-      method:"POST",
-      headers:{
-        "Content-Type":"application/json"
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
       },
-      body: JSON.stringify({name,email,password})
+      body: JSON.stringify({ name, email, password })
     })
     const data = await res.json()
-    if(data.success){
+    if (data.success) {
       showToast(data.message, "success");
-
-      setTimeout(()=>{
-        window.location.href = "Home.html"
-      },3000)
-    }else{
+    } else {
       showToast(data.message, "danger");
     }
+    setTimeout(() => {
+      window.location.href = "Home.html"
+    }, 2000)
   })
 }
