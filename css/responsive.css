@@ -13,28 +13,31 @@
     width: 232px;
   }
   #user-up input::placeholder {
-    font-size: 13px;
+    font-size: 11px;
   }
   .name i {
-    font-size: 24px;
+    font-size: 21px;
   }
   .name input {
     width: 180px;
     height: 28px;
+    font-size: 11.5px;
   }
   .E-mail i {
-    font-size: 24px;
+    font-size: 21px;
   }
   .E-mail input {
     width: 180px;
     height: 28px;
+    font-size: 11.5px;
   }
   .Password i {
-    font-size: 24px;
+    font-size: 21px;
   }
   .Password input {
     width: 180px;
     height: 28px;
+    font-size: 11.5px;
   }
   #btn {
     width: 140px;
@@ -102,28 +105,31 @@
     width: 270px;
   }
   #user-up input::placeholder {
-    font-size: 14px;
+    font-size: 12px;
   }
   .name i {
-    font-size: 26px;
+    font-size: 23px;
   }
   .name input {
     width: 220px;
     height: 30px;
+    font-size: 13px;
   }
   .E-mail i {
-    font-size: 26px;
+    font-size: 23px;
   }
   .E-mail input {
     width: 220px;
     height: 30px;
+    font-size: 13px;
   }
   .Password i {
-    font-size: 26px;
+    font-size: 23px;
   }
   .Password input {
     width: 220px;
     height: 30px;
+    font-size: 13px;
   }
   #btn {
     width: 150px;
@@ -190,30 +196,30 @@
     width: 310px;
   }
   #user-up input::placeholder {
-    font-size: 15px;
+    font-size: 13px;
   }
   .name i {
-    font-size: 28px;
+    font-size: 24px;
   }
   .name input {
     width: 255px;
-    font-size: 16px;
+    font-size: 14px;
     height: 32px;
   }
   .E-mail i {
-    font-size: 28px;
+    font-size: 24px;
   }
   .E-mail input {
     width: 255px;
-    font-size: 16px;
+    font-size: 14px;
     height: 32px;
   }
   .Password i {
-    font-size: 28px;
+    font-size: 24px;
   }
   .Password input {
     width: 255px;
-    font-size: 16px;
+    font-size: 14px;
     height: 32px;
   }
   #btn {
