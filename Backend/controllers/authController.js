@@ -58,7 +58,7 @@ exports.login = (req,res) =>{
           {expiresIn:"24h"}
         )
         res.json({
-          Message:"Login successful",
+          message:"Login successful",
           token:token
         })
       } catch (error) {
