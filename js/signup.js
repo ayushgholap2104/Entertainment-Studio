@@ -20,12 +20,15 @@ function signupData() {
     })
     const data = await res.json()
     if (data.success) {
-      showToast(data, "success");
+      showToast(data.message, "success");
+      setTimeout(() => {
+        window.location.href = "../frontend/Home.html"
+      }, 2000)
     } else {
-      showToast(data, "danger");
+      showToast(data.message, "danger");
+      setTimeout(() => {
+        window.location.href = "/"
+      }, 2000)
     }
-    setTimeout(() => {
-      window.location.href = "Home.html"
-    }, 2000)
   })
 }

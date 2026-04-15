@@ -14,7 +14,9 @@ exports.signup = (req, res) => {
         return res.status(500).json(err)
       }
       if (result.length > 0) {
-        return res.json("Email is already exist")
+        return res.json({
+          success:false,
+          message:"Email already exist"})
       }
       try {
         const hashedpassword = await bcrypt.hash(password,10)
@@ -25,7 +27,9 @@ exports.signup = (req, res) => {
             if (err) {
               return res.status(500).json(err)
             }
-            res.json("User registered successfully")
+            res.json({
+              success:true,
+              message:"User registered successfully"})
           }
         )
       } catch (error) {
@@ -58,7 +62,7 @@ exports.login = (req,res) =>{
           {expiresIn:"24h"}
         )
         res.json({
-          message:"Login successful",
+          message:"Enter Verification Code",
           token:token
         })
       } catch (error) {
