@@ -62,6 +62,7 @@ exports.login = (req,res) =>{
           {expiresIn:"24h"}
         )
         res.json({
+          success:true,
           message:"Enter Verification Code",
           token:token
         })
