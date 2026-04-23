@@ -48,23 +48,38 @@ exports.login = (req,res) =>{
         return res.status(500).json(err)
       }
       if (result.length ===0){
-        return res.json("User does not exist")
+        return res.json({
+          success:false,
+          message:"User does not exist"
+        })
       }
       const user = result[0]
       try {
         const isMatch = await bcrypt.compare(password,user.password)
         if (!isMatch){
-          return res.json("Incorrect password")
+          return res.json({
+            success:false,
+            message:"Incorrect password"
+          })
         }
-        const token = jwt.sign(
-          {id :user.id, email:user.email},
-          "secretkey",
-          {expiresIn:"24h"}
-        )
+        const otp = Math.floor(100000 + Math.random() * 900000)
+        db.query(
+          "UPDATE users_detail SET otp = ? WHERE email = ?",
+          [otp,email]
+        ),
+        (err)=>{
+          if(err){
+            res.status(500).json({
+              success:false,
+              message:"Error sending verification code"
+            })
+          }
+        }
+        console.log("OTP:",otp)
         res.json({
           success:true,
-          message:"Enter Verification Code",
-          token:token
+          message:"Enter verification code",
+          email:email
         })
       } catch (error) {
         res.status(500).json("Error in comparing password")

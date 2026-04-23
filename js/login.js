@@ -18,18 +18,14 @@ function loginData() {
     })
 
     const data = await res.json()
-    if (data.token) {
-      localStorage.setItem('token', data.token)
-      if (data.success) {
-        showToast(data.message, "success");
-        setTimeout(() => {
-          window.location.href = "../frontend/verify.html"
-        }, 2000)
-      } else {
-        showToast(data.message, "danger");
-      }
+    localStorage.setItem('token', data.token)
+    if (data.success) {
+      showToast(data.message, "success");
+      setTimeout(() => {
+        window.location.href = "../frontend/verify.html"
+      }, 2000)
     } else {
-      showToast(data, "danger");
+      showToast(data.message, "danger");
     }
   })
 }
