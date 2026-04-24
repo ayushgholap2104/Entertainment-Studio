@@ -2,6 +2,8 @@ window.addEventListener("load", () => {
   boxfunctionality()
 })
 
+const inputs = document.querySelectorAll('.otp_input')
+
 function boxfunctionality(){
   const inputs = document.querySelectorAll('.otp_input')
 
@@ -21,3 +23,18 @@ function boxfunctionality(){
     })
   })
 }
+
+function getOTP(){
+  let otp = "";
+  inputs.forEach(input=>{
+    otp += input.value
+  });
+
+  return otp
+}
+
+// function verifyOTP(){
+//   const verifyBtn = 
+// }
+
+

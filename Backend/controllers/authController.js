@@ -1,6 +1,7 @@
 const db = require("../config/db")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
+const nodemailer = require("nodemailer")
 
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
@@ -76,6 +77,7 @@ exports.login = (req,res) =>{
           }
         }
         console.log("OTP:",otp)
+        sendOTP(email,otp)
         res.json({
           success:true,
           message:"Enter verification code",
@@ -83,6 +85,56 @@ exports.login = (req,res) =>{
         })
       } catch (error) {
         res.status(500).json("Error in comparing password")
+      }
+    }
+  )
+}
+// OTP send logic
+const sendOTP = async (email,otp) =>{
+  try {
+    const transporter = nodemailer.createTransport({
+      service:"gmail",
+      auth:{
+        user:"ayushgholap2104@gmail.com",
+        pass:"vrvj btua mnvj ousk"
+      }
+    })
+
+    await transporter.sendMail({
+      from:"ayushgholap2104@gmail.com",
+      to:email,
+      subject:"Your OTP code",
+      text:`Your OTP code for entertainment studio is : ${otp}`
+    })
+    console.log("OTP is sent to your email")
+  } catch (error) {
+    console.log("Email err:", error)
+  }
+}
+
+exports.verify = (req,res) =>{
+  const {email, otp} = req.body
+
+  db.query(
+    "SELECT * FROM users_detail WHERE email =? AND otp = ?",
+    [email , otp],
+    (err,result) =>{
+      if(err){
+        res.status(500).json({
+          success:false,
+          message:"Server error"
+        })
+      }
+      if(result.length >0){
+        res.json({
+          success:true,
+          message:"OTP verified"
+        })
+      }else{
+        res.json({
+          success:false,
+          message:"Invalid OTP"
+        })
       }
     }
   )

@@ -19,6 +19,7 @@ function loginData() {
 
     const data = await res.json()
     localStorage.setItem('token', data.token)
+    localStorage.setItem('userEmail', data.email)
     if (data.success) {
       showToast(data.message, "success");
       setTimeout(() => {
