@@ -17,7 +17,7 @@ exports.signup = (req, res) => {
       if (result.length > 0) {
         return res.json({
           success:false,
-          message:"Email already exist"})
+          message:"Account already exist"})
       }
       try {
         const hashedpassword = await bcrypt.hash(password,10)
@@ -51,7 +51,7 @@ exports.login = (req,res) =>{
       if (result.length ===0){
         return res.json({
           success:false,
-          message:"User does not exist"
+          message:"Account does not exist"
         })
       }
       const user = result[0]
