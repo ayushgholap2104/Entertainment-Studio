@@ -54,7 +54,6 @@ exports.login = (req,res) =>{
           message:"Account does not exist"
         })
       }
-      const user = result[0]
       try {
         const isMatch = await bcrypt.compare(password,user.password)
         if (!isMatch){
@@ -126,9 +125,19 @@ exports.verify = (req,res) =>{
         })
       }
       if(result.length >0){
+        const user = result[0]
+
+        const token = jwt.sign(
+          {id:user.id,email:user.email},
+          "secretkey",
+          {expiresIn:"24h"}
+        )
+        db.query("UPDATE users_detail SET otp = NULL WHERE email =?",[email])
+
         res.json({
           success:true,
-          message:"OTP verified"
+          message:"OTP verified",
+          token:token
         })
       }else{
         res.json({

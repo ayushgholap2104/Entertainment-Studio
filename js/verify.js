@@ -53,6 +53,8 @@ function verifyOTP() {
 
     if (data.success) {
       showToast(data.message, "success");
+      localStorage.setItem('token',data.token)
+
       setTimeout(() => {
         window.location.href = "../frontend/Home.html"
       }, 1000)
