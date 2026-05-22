@@ -21,8 +21,9 @@ function signupData() {
     const data = await res.json()
     if (data.success) {
       showToast(data.message, "success");
+      localStorage.setItem("userEmail",data.email)
       setTimeout(() => {
-        window.location.href = "../frontend/Home.html"
+        window.location.href = "../frontend/verify.html"
       }, 2000)
     } else {
       showToast(data.message, "danger");

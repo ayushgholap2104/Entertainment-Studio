@@ -16,21 +16,29 @@ exports.signup = (req, res) => {
       }
       if (result.length > 0) {
         return res.json({
-          success:false,
-          message:"Account already exist"})
+          success: false,
+          message: "Account already exist"
+        })
       }
       try {
-        const hashedpassword = await bcrypt.hash(password,10)
+        const hashedpassword = await bcrypt.hash(password, 10)
+        const otp = Math.floor(100000 + Math.random() * 900000)
         db.query(
-          "INSERT INTO users_detail (name,email,password) VALUES (?,?,?)",
-          [name, email, hashedpassword],
-          (err, result) => {
+          "INSERT INTO users_detail (name,email,password,otp) VALUES (?,?,?,?)",
+          [name, email, hashedpassword, otp],
+          (err) => {
             if (err) {
-              return res.status(500).json(err)
+              return res.status(500).json({
+                success: false,
+                message: "Error creating user"
+              })
             }
+            console.log("OTP:", otp)
+            sendOTP(email, otp)
             res.json({
-              success:true,
-              message:"User registered successfully"})
+              success: true,
+              message: "OTP sent to your email"
+            })
           }
         )
       } catch (error) {
@@ -39,48 +47,55 @@ exports.signup = (req, res) => {
     }
   )
 }
-exports.login = (req,res) =>{
-  const {email,password} = req.body
+exports.login = (req, res) => {
+  const { email, password } = req.body
   db.query(
     "SELECT * FROM users_detail WHERE email = ?",
     [email],
-    async (err,result) =>{
-      if (err){
+    async (err, result) => {
+      if (err) {
         return res.status(500).json(err)
       }
-      if (result.length ===0){
+      if (result.length === 0) {
         return res.json({
-          success:false,
-          message:"Account does not exist"
+          success: false,
+          message: "Account does not exist"
         })
       }
       try {
-        const isMatch = await bcrypt.compare(password,user.password)
-        if (!isMatch){
+        const isMatch = await bcrypt.compare(password, user.password)
+        if (!isMatch) {
           return res.json({
-            success:false,
-            message:"Incorrect password"
+            success: false,
+            message: "Incorrect password"
           })
+        }
+
+        if (!user.is_verified) {
+          return res.json({
+            success: false,
+            message: "Please verify your email first"
+          });
         }
         const otp = Math.floor(100000 + Math.random() * 900000)
         db.query(
           "UPDATE users_detail SET otp = ? WHERE email = ?",
-          [otp,email]
+          [otp, email]
         ),
-        (err)=>{
-          if(err){
-            res.status(500).json({
-              success:false,
-              message:"Error sending verification code"
-            })
+          (err) => {
+            if (err) {
+              res.status(500).json({
+                success: false,
+                message: "Error sending verification code"
+              })
+            }
           }
-        }
-        console.log("OTP:",otp)
-        sendOTP(email,otp)
+        console.log("OTP:", otp)
+        sendOTP(email, otp)
         res.json({
-          success:true,
-          message:"Enter verification code",
-          email:email
+          success: true,
+          message: "Enter verification code",
+          email: email
         })
       } catch (error) {
         res.status(500).json("Error in comparing password")
@@ -89,21 +104,21 @@ exports.login = (req,res) =>{
   )
 }
 // OTP send logic
-const sendOTP = async (email,otp) =>{
+const sendOTP = async (email, otp) => {
   try {
     const transporter = nodemailer.createTransport({
-      service:"gmail",
-      auth:{
-        user:"ayushgholap2104@gmail.com",
-        pass:"vrvj btua mnvj ousk"
+      service: "gmail",
+      auth: {
+        user: "ayushgholap2104@gmail.com",
+        pass: "vrvj btua mnvj ousk"
       }
     })
 
     await transporter.sendMail({
-      from:"ayushgholap2104@gmail.com",
-      to:email,
-      subject:"Your OTP code",
-      text:`Your OTP code for entertainment studio is : ${otp}`
+      from: "ayushgholap2104@gmail.com",
+      to: email,
+      subject: "Your OTP code",
+      text: `Your OTP code for entertainment studio is : ${otp}`
     })
     console.log("OTP is sent to your email")
   } catch (error) {
@@ -111,38 +126,38 @@ const sendOTP = async (email,otp) =>{
   }
 }
 
-exports.verify = (req,res) =>{
-  const {email, otp} = req.body
+exports.verify = (req, res) => {
+  const { email, otp } = req.body
 
   db.query(
     "SELECT * FROM users_detail WHERE email =? AND otp = ?",
-    [email , otp],
-    (err,result) =>{
-      if(err){
+    [email, otp],
+    (err, result) => {
+      if (err) {
         res.status(500).json({
-          success:false,
-          message:"Server error"
+          success: false,
+          message: "Server error"
         })
       }
-      if(result.length >0){
+      if (result.length > 0) {
         const user = result[0]
 
         const token = jwt.sign(
-          {id:user.id,email:user.email},
+          { id: user.id, email: user.email },
           "secretkey",
-          {expiresIn:"24h"}
+          { expiresIn: "24h" }
         )
-        db.query("UPDATE users_detail SET otp = NULL WHERE email =?",[email])
+        db.query("UPDATE users_detail SET otp = NULL,is_verified = true WHERE email =?", [email])
 
         res.json({
-          success:true,
-          message:"OTP verified",
-          token:token
+          success: true,
+          message: "OTP verified",
+          token: token
         })
-      }else{
+      } else {
         res.json({
-          success:false,
-          message:"Invalid OTP"
+          success: false,
+          message: "Invalid OTP"
         })
       }
     }
