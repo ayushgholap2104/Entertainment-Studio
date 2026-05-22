@@ -329,11 +329,11 @@ body{
   position:absolute ;
   top: 70px;
   width: 230px;
-  height: 21vh;
   visibility: hidden;
   transform: translateY(8px);
   opacity: 0;
   transition: all 0.5s ease;
+  height: fit-content;
 }
 .profile_popup.active{
   visibility: visible;
@@ -377,7 +377,6 @@ body{
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
-  gap: 5px;
 }
 
 .profile_popup .profile_container2 .profile_msg1 a{
