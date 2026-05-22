@@ -313,7 +313,7 @@
     /* height: 4.5vh; */
   }
   .language {
-    font-size: 21px;
+    font-size: 28px;
   }
   .login a {
     font-size: 12px;
@@ -399,7 +399,7 @@
     width: 22rem;
   }
   .language {
-    font-size: 20px;
+    font-size: 27px;
   }
   .login a {
     font-size: 11px;
@@ -516,7 +516,7 @@
     width: 21rem;
   }
   .language {
-    font-size: 19px;
+    font-size: 25px;
     /* margin-right: 4px; */
   }
   .login a {
@@ -675,7 +675,7 @@
     /* padding-right: 10px; */
   }
   .language {
-    font-size: 22px;
+    font-size: 30px;
     height: 38px;
     width: 38px;
   }
@@ -819,7 +819,7 @@
     /* padding-right: 20px; */
   }
   .language {
-    font-size: 22px;
+    font-size: 29px;
     height: 35px;
     width: 35px;
   }
@@ -980,9 +980,9 @@
     font-size: 1.3rem;
   }
   .sidebar {
-    font-size: 24px;
-    height: 30px;
-    width: 34px;
+    font-size: 22px;
+    height: 26px;
+    width: 30px;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px 6px;
@@ -993,11 +993,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 56px;
+    font-size: 52px;
   }
 
   .brand-name {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1018,7 +1018,7 @@
   .language {
     height: 40px;
     width: 40px;
-    font-size: 24px;
+    font-size: 32px;
   }
   .profile_popup {
     right: -20px;
@@ -1034,10 +1034,10 @@
     display: none;
   }
   .comment {
-    font-size: 35px;
+    font-size: 32px;
   }
   .light-dark {
-    font-size: 35px;
+    font-size: 32px;
   }
   .side-menu {
     width: 300px;
@@ -1196,9 +1196,9 @@
     /* padding: 0.6rem; */
   }
   .sidebar {
-    font-size: 22px;
-    height: 30px;
-    width: 34px;
+    font-size: 20px;
+    height: 24px;
+    width: 28px;
     color: #fff;
     border: 1px solid #fff;
     padding: 4px 5px;
@@ -1216,11 +1216,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .brand-name {
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1239,16 +1239,16 @@
   .language {
     height: 38px;
     width: 38px;
-    font-size: 23px;
+    font-size: 30px;
   }
   .login a {
     display: none;
   }
   .comment {
-    font-size: 33px;
+    font-size: 30px;
   }
   .light-dark {
-    font-size: 33px;
+    font-size: 30px;
   }
   .company-info {
     display: none;
@@ -1347,9 +1347,9 @@
     /* padding: 0.6rem; */
   }
   .sidebar {
-    font-size: 21px;
-    height: 28px;
-    width: 30px;
+    font-size: 18px;
+    height: 22px;
+    width: 26px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -1359,7 +1359,7 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 54px;
+    font-size: 48px;
   }
 
   .brand-name {
@@ -1382,16 +1382,16 @@
   .language {
     height: 36px;
     width: 36px;
-    font-size: 22px;
+    font-size: 28px;
   }
   .login a {
     display: none;
   }
   .comment {
-    font-size: 30px;
+    font-size: 28px;
   }
   .light-dark {
-    font-size: 30px;
+    font-size: 28px;
   }
   .company-info {
     display: none;
@@ -1507,9 +1507,9 @@
     /* padding: 0.6rem; */
   }
   .sidebar {
-    font-size: 20px;
-    height: 25px;
-    width: 30px;
+    font-size: 16px;
+    height: 20px;
+    width: 24px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -1519,11 +1519,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 53px;
+    font-size: 46px;
   }
 
   .brand-name {
-    font-size: 13px;
+    font-size: 12px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1542,7 +1542,7 @@
   .language {
     height: 34px;
     width: 34px;
-    font-size: 21px;
+    font-size: 27px;
   }
   .profile_popup {
     right: -30px;
@@ -1568,10 +1568,10 @@
     display: none;
   }
   .comment {
-    font-size: 29px;
+    font-size: 27px;
   }
   .light-dark {
-    font-size: 29px;
+    font-size: 27px;
   }
   foot {
     height: 8vh;
@@ -1741,9 +1741,9 @@
     font-size: 1.2rem;
   }
   .sidebar {
-    font-size: 19px;
-    height: 25px;
-    width: 30px;
+    font-size: 14px;
+    height: 18px;
+    width: 22px;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px 5px;
@@ -1754,11 +1754,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 52px;
+    font-size: 44px;
   }
 
   .brand-name {
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1777,16 +1777,16 @@
   .language {
     height: 33px;
     width: 33px;
-    font-size: 20px;
+    font-size: 26px;
   }
   .login a {
     display: none;
   }
   .comment {
-    font-size: 28px;
+    font-size: 26px;
   }
   .light-dark {
-    font-size: 28px;
+    font-size: 26px;
   }
   .company-info {
     display: none;
@@ -1951,9 +1951,9 @@
     /* padding: 0.6rem; */
   }
   .sidebar {
-    font-size: 18px;
-    height: 22px;
-    width: 25px;
+    font-size: 13px;
+    height: 17px;
+    width: 20px;
     color: #fff;
     border: 1px solid #fff;
   }
@@ -1963,11 +1963,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 51px;
+    font-size: 42px;
   }
 
   .brand-name {
-    font-size: 11px;
+    font-size: 10px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1986,7 +1986,7 @@
   .language {
     height: 32px;
     width: 32px;
-    font-size: 19px;
+    font-size: 24px;
   }
   .profile_popup {
     right: -35px;
@@ -2012,10 +2012,10 @@
     display: none;
   }
   .comment {
-    font-size: 28px;
+    font-size: 26px;
   }
   .light-dark {
-    font-size: 28px;
+    font-size: 26px;
   }
   .foot {
     text-align: center;

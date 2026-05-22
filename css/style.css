@@ -369,7 +369,7 @@ body{
 
 .profile_popup .profile_container1 .profile_name p{
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--primary_color);
 }
 .profile_popup .profile_container2{
