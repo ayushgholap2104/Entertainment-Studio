@@ -282,7 +282,7 @@ body{
   font-weight: bold;
   font-size: 12px;
   text-decoration: none;
-  color: #fff;
+  color: #a9a9a9dc;
   height: 36px;
   width:70px ;
   border-radius: 5px;
@@ -482,7 +482,7 @@ body{
   font-weight: 500;
 }
 .menu{ 
-  margin-top: 15px;
+  margin-top: 40px;
   display: flex;
   flex-direction:column ;
   gap: 35px;

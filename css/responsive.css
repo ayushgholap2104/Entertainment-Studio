@@ -832,9 +832,7 @@
   .light-dark {
     font-size: 29px;
   }
-  .menu {
-    margin-top: 30px;
-  }
+  
   .menu a {
     font-size: 16px;
   }
@@ -1044,7 +1042,11 @@
     margin-top: 0px;
   }
   .user-login {
+    margin-top: 80px;
+  }
+  .menu{
     margin-top: 15px;
+    gap: 30px;
   }
   .menu a {
     font-size: 15px;
