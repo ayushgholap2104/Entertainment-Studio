@@ -17,5 +17,6 @@ function sidebarClick(){
 
   sidebarIcon.addEventListener('click', () => {
     sidebarMenu.classList.toggle('active')
+    sidebarIcon.classList.toggle('active')
   })
 }
