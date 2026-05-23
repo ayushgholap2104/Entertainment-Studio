@@ -429,7 +429,7 @@ const boxDetailstore = {
       },
       {
         title: "Haikyuu",
-        img: "../img/Haikyuu.jpg",
+        img: "../img/haikyuu.jpg",
         Genre: "Rejoice Anime Fans!"
       },
       {
