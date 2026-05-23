@@ -289,7 +289,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1.5px solid  #a9a9a9dc;;
+  border: 1.5px solid  #a9a9a9dc;
   transition: all 0.6s ease;
 }
 .login:hover a{

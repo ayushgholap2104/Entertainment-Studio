@@ -1413,9 +1413,7 @@
   .user-signin a {
     width: 90px;
   }
-  .user-signup a {
-    width: 100px;
-  }
+  
   .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;

@@ -433,6 +433,7 @@ body{
   margin-bottom: 25px;
   /* display: none; */
 }
+
 .user-signin{
   border: 1px solid var(--primary_color);
   width: 80px;
@@ -478,8 +479,8 @@ body{
 }
 .user-signup a{
   text-decoration: none;
-  color: #ffffff;
   font-weight: 500;
+  color: #e6e6e6;
 }
 .menu{ 
   margin-top: 40px;
