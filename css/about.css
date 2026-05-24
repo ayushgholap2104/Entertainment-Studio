@@ -336,7 +336,7 @@ body {
   position:absolute ;
   top: 70px;
   width: 230px;
-  height: 21vh;
+  height: 200px;
   visibility: hidden;
   transform: translateY(8px);
   opacity: 0;
