@@ -333,7 +333,7 @@ body{
   transform: translateY(8px);
   opacity: 0;
   transition: all 0.5s ease;
-  height: 200px;
+  height: 180px;
 }
 .profile_popup.active{
   visibility: visible;

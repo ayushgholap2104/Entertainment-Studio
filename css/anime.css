@@ -329,7 +329,7 @@ body {
   position:absolute ;
   top: 70px;
   width: 230px;
-  height: 200px;
+  height: 180px;
   visibility: hidden;
   transform: translateY(8px);
   opacity: 0;
