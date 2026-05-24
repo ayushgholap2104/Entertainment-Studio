@@ -441,6 +441,7 @@ body {
   justify-content: space-evenly;
   margin-bottom: 25px;
   /* display: none; */
+  margin-top: 80px;
 }
 .user-signin{
   border: 1px solid var(--primary_color);
@@ -552,13 +553,12 @@ body {
   left: 0;
 }
 .aboutContent {
-  min-height: 100vh;
   padding-top: 80px;
 }
 .aboutContent .about_Info1 {
   display: flex;
   background-color: var(--primary_color1);
-  height: 50vh;
+  height: 480px;
   align-items: center;
   justify-content: space-between;
   padding-left: 90px;
@@ -597,7 +597,7 @@ body {
 .aboutContent .about_Info2 {
   display: flex;
   background-color: var(--primary_color2);
-  height: 50vh;
+  height: 480px;
   align-items: center;
   justify-content: space-between;
   padding-left: 60px;

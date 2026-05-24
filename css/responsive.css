@@ -1042,9 +1042,6 @@
     width: 300px;
     margin-top: 0px;
   }
-  .user-login {
-    margin-top: 80px;
-  }
   .menu{
     margin-top: 15px;
     gap: 30px;
@@ -2073,7 +2070,7 @@
   .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
-    padding: 0px 0 1px 0;
+    padding: 10px 0px 10px 0px;
     gap: 20px;
   }
   .about_Info1 .about_desc1 {
@@ -2095,6 +2092,7 @@
     padding: 45px 0 60px 0px;
     gap: 40px;
   }
+  
   .about_Info2 .about_desc2 {
     gap: 25px;
     width: 100%;
@@ -2110,7 +2108,7 @@
     font-size: 11px;
   }
   .aboutContent .about_img2 {
-    width: 320px;
+    width: 300px;
   }
   .slider-container {
     height: 400px;
@@ -2174,6 +2172,10 @@
   }
   footer {
     margin-top: 0.1rem;
+  }
+  .copy-right {
+    font-size: 13.5px;
+    
   }
 }
 @media only screen and (min-width: 1391px) and (max-width: 1500px) {

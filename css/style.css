@@ -432,6 +432,7 @@ body{
   justify-content: space-evenly;
   margin-bottom: 25px;
   /* display: none; */
+  margin-top: 80px;
 }
 
 .user-signin{
