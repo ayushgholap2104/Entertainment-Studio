@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/responsive.css"/>
+    <link rel="stylesheet" href="../css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -21,12 +21,143 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <div class="profile_icon">
-      <div class="profile_head"></div>
-      <div class="profile_img"></div>
-      <div class="profile_details"></div>
+  <body class="dark">
+    <header id="head">
+      <div class="sidebar">
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+      </div>
+      <div class="Es-logo">
+        <i class="fa-brands fa-firefox" style="color: #63e6be"></i>
+        <span class="brand-name">ES</span>
+      </div>
+      <div class="panel2">
+        <div class="home">
+          <a href="../frontend/Home.html"
+            ><i class="fa-solid fa-house"></i>Home</a
+          >
+        </div>
+        <div class="about">
+          <a href="../frontend/About.html"
+            ><i class="fa-solid fa-circle-info"></i>About</a
+          >
+        </div>
+      </div>
+      <div class="panel3" tabindex="0">
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            placeholder="Search for Movies, Shows, Channels etc."
+            autocomplete="off"
+            spellcheck="false"
+            style="text-transform: capitalize"
+          />
+        </div>
+      </div>
+      <div class="panel4">
+        <div class="language">
+          <i class="fa-solid fa-circle-user"></i>
+          <div class="profile_popup">
+            <div class="profile_container1">
+              <div class="profile_img">
+                <img src="../img/About_img1.png" alt="" srcset="" />
+              </div>
+              <div class="profile_name">
+                <p>Ayush N Gholap</p>
+              </div>
+            </div>
+            <div class="profile_container2">
+              <div class="profile_msg1">
+                <a href="profile.html">View profile</a>
+              </div>
+              <div class="profile_msg2">
+                <a href="/">Sign out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="login">
+          <a href="../index.html">LOGIN</a>
+        </div>
+        <div class="comment">
+          <a href="feedback.html">
+            <i class="fa-regular fa-comment"></i>
+          </a>
+        </div>
+        <div class="light-dark">
+          <i onclick="toggleTheme()" class="fa-solid fa-moon" id="icons"></i>
+        </div>
+      </div>
+    </header>
+    <div class="side-menu" id="side-menu">
+      <div class="user-login">
+        <div class="user-signin">
+          <a href="/">Login</a>
+        </div>
+        <div class="user-signup">
+          <a href="sign_up.html">Sign up</a>
+        </div>
+      </div>
+      <div class="menu">
+        <a href="Home.html" class="home-btn">Home</a>
+        <a href="About.html" class="about-btn">About</a>
+        <a href="shows.html" class="shows-btn">TV</a>
+        <a href="movies.html" class="movies-btn">Movies</a>
+        <a href="kids.html" class="kids-btn">Kids</a>
+        <a href="animes.html" class="animes-btn">Animes</a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search..."
+          autocomplete="off"
+          spellcheck="false"
+          style="text-transform: capitalize"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
     </div>
+    <main class="profile_container"></main>
+    <footer class="foot">
+      <div class="company-info">
+        <h4>Company</h4>
+        <a href="About.html">About Us</a>
+      </div>
+      <div class="copy-right">
+        <p>
+          &copy Copyright 2025, All Rights Reserved | ❤️ Entertainment-Studio
+        </p>
+        <div class="icons">
+          <a
+            href="https://www.facebook.com/ayush.gholap.14"
+            class="fa-brands fa-facebook"
+          ></a>
+          <a
+            href="https://www.instagram.com/ayush__gholap2104/"
+            class="fa-brands fa-instagram"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ayushngholap/"
+            class="fa-brands fab fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/ayushgholap2104"
+            class="fa-brands fab fa-github"
+          ></a>
+        </div>
+      </div>
+      <div class="feedback-center">
+        <h4>Reach Us</h4>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </footer>
     <script src="../js/profile.js"></script>
+    <script src="../js/theme.js"></script>
   </body>
 </html>
+<!-- <div class="profile_icon"></div>
+<div class="profile_head"></div>
+<div class="profile_img"></div>
+<div class="profile_details"></div> -->
