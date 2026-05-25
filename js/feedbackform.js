@@ -1,7 +1,6 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
-  feedback_msg()
 })
 function sidebarClick(){
   const sidebarIcon = document.querySelector('.sidebar')
