@@ -35,6 +35,7 @@ body {
   --secondory_color1:#fff;
   --secondory_color2:#434343;
   --tertiary_color1:#fff;
+  --shadow1:0px 0px 0px rgba(0, 0, 0, 0.3);
   
 }
 body {
@@ -68,6 +69,7 @@ body {
   --secondory_color1:#1c2130;
   --secondory_color2:#ffffff;
   --tertiary_color1:#1c2130;
+  --shadow1:5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 #btn-up {
   bottom: 20px;
@@ -707,7 +709,7 @@ body {
   border-radius: 4px;
   background-color: var(--secondory_color1);
   color: var(--secondory_color2);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: var(--shadow1); 
 }
 .profile_section2 .profile_form #profile_box input::placeholder{
   color: #b3b3b3;
@@ -725,7 +727,7 @@ body {
   font-size: 12px;
   border-radius: 4px;
   font-weight: 600;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: var(--shadow1); 
 }
 .profile_section2 #save_profilebtn:hover{
   cursor: pointer;
