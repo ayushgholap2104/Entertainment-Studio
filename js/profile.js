@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
-  profileData()
+  // profileData()
 })
 
 function sidebarClick(){

@@ -589,15 +589,15 @@ body {
   color: var(--secondory_color);
 }
 .profile_section1 .profile_img_cont {
-  width: 180px;
-  margin-left: 120px;
-  position: relative;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .profile_section1 .profile_img {
   height: 150px;
   width: 150px;
-  /* margin-left: 120px; */
+  position: relative;
 }
 
 .profile_img_cont .profile_img img {
@@ -608,15 +608,18 @@ body {
   background-position: center;
   border-radius: 50%;
 }
-.profile_section1 .profile_edit_icon {
+.profile_section1 .profile_img #profile_edit_icon {
   position: absolute;
-  right: 45px;
   bottom: -8px;
   background: #fde6e6;
   color: #6076ff;
   padding: 3px 8px;
-  font-size: 17px;
+  font-size: 16px;
   border-radius: 5px;
+  /* right: 8rem; */
+  border: none;
+  cursor: pointer;
+  right: 20px;
 }
 .profile_section1 .profile_name{
   display: flex;
@@ -689,10 +692,13 @@ body {
   margin-bottom: 50px;
 }
 .profile_section2 .profile_form{
-  margin-left: 70px;
+  /* margin-left: 70px; */
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+.profile_section2 .profile_form #profile_box{
+  margin-left: 70px;
 }
 .profile_section2 .profile_form #profile_box p{
   margin-bottom: 10px;
@@ -715,10 +721,27 @@ body {
   color: #b3b3b3;
   font-size: 13px;
 }
-.profile_section2 #save_profilebtn{
-  height: 45px;
-  width: 145px;
-  margin-left: 190px;
+.profile_section2 .save_profilebtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.profile_section2 .save_profilebtn button{
+  padding: 12px 25px 12px 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--tertiary_color1);
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: var(--shadow1);
+  color: #ff4f9a;
+}
+
+
+/* margin-left: 190px;
   margin-top: 20px;
   background-color: var(--tertiary_color1);
   outline: none;
@@ -727,13 +750,7 @@ body {
   font-size: 12px;
   border-radius: 4px;
   font-weight: 600;
-  box-shadow: var(--shadow1); 
-}
-.profile_section2 #save_profilebtn:hover{
-  cursor: pointer;
-}
-
-
+  box-shadow: var(--shadow1);  */
 
 /* Footer Begins */
 .foot {
