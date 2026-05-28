@@ -564,11 +564,11 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-top: 5rem;
 }
 .profile_container .profile_content {
   height: 680px;
   border-radius: 12px;
-  margin-top: 80px;
   display: flex;
   border: none;
   overflow: hidden; 
@@ -703,7 +703,7 @@ body {
 .profile_section2 .profile_form #profile_box p{
   margin-bottom: 10px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ff4f9a;
 }
 .profile_section2 .profile_form #profile_box input{
@@ -735,7 +735,7 @@ body {
   background-color: var(--tertiary_color1);
   font-size: 12px;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 500;
   box-shadow: var(--shadow1);
   color: #ff4f9a;
 }
