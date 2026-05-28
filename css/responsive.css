@@ -1443,7 +1443,7 @@
   .profile_section2 .profile_form #profile_box input::placeholder {
     font-size: 12px;
   }
-  .profile_section2 .save_profilebtn button{
+  .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
     font-size: 11px;
   }
@@ -1600,7 +1600,6 @@
   }
   .profile_container .profile_content {
     flex-direction: column;
-    width: 80%;
     height: 100%;
     margin-top: 7rem;
     margin-bottom: 2.5rem;
@@ -1679,7 +1678,7 @@
   .profile_section2 .profile_form #profile_box input::placeholder {
     font-size: 11px;
   }
-  .profile_section2 .save_profilebtn button{
+  .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
     font-size: 10px;
     /* margin-left: 0px; */
@@ -1841,6 +1840,92 @@
   }
   form .input_cont3 #message {
     font-size: 13px;
+  }
+  .profile_container .profile_content {
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+  }
+  .profile_container .profile_content .profile_section1 {
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: var(--tertiary_color);
+    /* height: 300px; */
+  }
+  .profile_section1 .back_icon {
+    font-size: 17px;
+  }
+  .profile_section1 .profile_img_cont {
+    margin-top: 0px;
+  }
+  .profile_section1 .profile_img {
+    height: 120px;
+    width: 120px;
+  }
+  .profile_section1 .profile_name {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .profile_section1 .follow_me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .profile_section1 .follow_me .user_accounts {
+    margin-bottom: 20px;
+  }
+
+  .profile_section1 .follow_me h4 {
+    display: none;
+  }
+  .profile_section1 .follow_me .user_accounts a {
+    font-size: 11px;
+  }
+  .profile_section1 .user_options {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+  .profile_container .profile_content .profile_section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_section2 .profile_head {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .profile_section2 .profile_form {
+    margin-left: 0px;
+    gap: 30px;
+  }
+  .profile_section2 .profile_form #profile_box p {
+    font-size: 10px;
+  }
+  .profile_section2 .profile_form #profile_box input {
+    width: 360px;
+  }
+  .profile_section2 .profile_form #profile_box input::placeholder {
+    font-size: 10px;
+  }
+  .profile_section2 .save_profilebtn button {
+    margin-bottom: 25px;
+    font-size: 9px;
+    /* margin-left: 0px; */
   }
 }
 @media only screen and (max-width: 555px) {
@@ -2068,6 +2153,92 @@
   footer {
     margin-top: 0.1rem;
   }
+  .profile_container .profile_content {
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+  }
+  .profile_container .profile_content .profile_section1 {
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: var(--tertiary_color);
+    /* height: 300px; */
+  }
+  .profile_section1 .back_icon {
+    font-size: 16px;
+  }
+  .profile_section1 .profile_img_cont {
+    margin-top: 0px;
+  }
+  .profile_section1 .profile_img {
+    height: 110px;
+    width: 110px;
+  }
+  .profile_section1 .profile_name {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .profile_section1 .follow_me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .profile_section1 .follow_me .user_accounts {
+    margin-bottom: 20px;
+  }
+
+  .profile_section1 .follow_me h4 {
+    display: none;
+  }
+  .profile_section1 .follow_me .user_accounts a {
+    font-size: 10px;
+  }
+  .profile_section1 .user_options {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+  .profile_container .profile_content .profile_section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_section2 .profile_head {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .profile_section2 .profile_form {
+    margin-left: 0px;
+    gap: 30px;
+  }
+  .profile_section2 .profile_form #profile_box p {
+    font-size: 9px;
+  }
+  .profile_section2 .profile_form #profile_box input {
+    width: 300px;
+  }
+  .profile_section2 .profile_form #profile_box input::placeholder {
+    font-size: 9px;
+  }
+  .profile_section2 .save_profilebtn button {
+    margin-bottom: 25px;
+    font-size: 8px;
+    /* margin-left: 0px; */
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -2285,6 +2456,92 @@
   }
   footer {
     margin-top: 0.1rem;
+  }
+  .profile_container .profile_content {
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+  }
+  .profile_container .profile_content .profile_section1 {
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: var(--tertiary_color);
+    /* height: 300px; */
+  }
+  .profile_section1 .back_icon {
+    font-size: 15px;
+  }
+  .profile_section1 .profile_img_cont {
+    margin-top: 0px;
+  }
+  .profile_section1 .profile_img {
+    height: 100px;
+    width: 100px;
+  }
+  .profile_section1 .profile_name {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .profile_section1 .follow_me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .profile_section1 .follow_me .user_accounts {
+    margin-bottom: 20px;
+  }
+
+  .profile_section1 .follow_me h4 {
+    display: none;
+  }
+  .profile_section1 .follow_me .user_accounts a {
+    font-size: 9px;
+  }
+  .profile_section1 .user_options {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+  .profile_container .profile_content .profile_section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_section2 .profile_head {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  .profile_section2 .profile_form {
+    margin-left: 0px;
+    gap: 30px;
+  }
+  .profile_section2 .profile_form #profile_box p {
+    font-size: 8px;
+  }
+  .profile_section2 .profile_form #profile_box input {
+    width: 250px;
+  }
+  .profile_section2 .profile_form #profile_box input::placeholder {
+    font-size: 8px;
+  }
+  .profile_section2 .save_profilebtn button {
+    margin-bottom: 25px;
+    font-size: 7px;
+    /* margin-left: 0px; */
   }
 }
 @media only screen and (max-width: 398px) {
@@ -2520,6 +2777,92 @@
   }
   .copy-right {
     font-size: 13.5px;
+  }
+  .profile_container .profile_content {
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+  }
+  .profile_container .profile_content .profile_section1 {
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: var(--tertiary_color);
+    /* height: 300px; */
+  }
+  .profile_section1 .back_icon {
+    font-size: 14px;
+  }
+  .profile_section1 .profile_img_cont {
+    margin-top: 0px;
+  }
+  .profile_section1 .profile_img {
+    height: 80px;
+    width: 80px;
+  }
+  .profile_section1 .profile_name {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .profile_section1 .follow_me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .profile_section1 .follow_me .user_accounts {
+    margin-bottom: 20px;
+  }
+
+  .profile_section1 .follow_me h4 {
+    display: none;
+  }
+  .profile_section1 .follow_me .user_accounts a {
+    font-size: 9px;
+  }
+  .profile_section1 .user_options {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+  .profile_container .profile_content .profile_section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_section2 .profile_head {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  .profile_section2 .profile_form {
+    margin-left: 0px;
+    gap: 30px;
+  }
+  .profile_section2 .profile_form #profile_box p {
+    font-size: 8px;
+  }
+  .profile_section2 .profile_form #profile_box input {
+    width: 250px;
+  }
+  .profile_section2 .profile_form #profile_box input::placeholder {
+    font-size: 8px;
+  }
+  .profile_section2 .save_profilebtn button {
+    margin-bottom: 25px;
+    font-size: 7px;
+    /* margin-left: 0px; */
   }
 }
 @media only screen and (min-width: 1391px) and (max-width: 1500px) {
