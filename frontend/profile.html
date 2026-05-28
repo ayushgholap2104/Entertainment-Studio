@@ -129,7 +129,7 @@
           </div>
           <div class="profile_img_cont">
             <div class="profile_img">
-              <img src="/img/About_img1.png" alt="" srcset="">
+              <img src="/img/About_img1.png" alt="" srcset="" />
               <button id="profile_edit_icon">
                 <i class="fa-solid fa-camera"></i>
               </button>
@@ -141,43 +141,70 @@
           <div class="follow_me">
             <h4>Social Media</h4>
             <div class="user_accounts">
-              <a href="https://www.instagram.com/ayush__gholap2104/"><i class="fa-brands fa-instagram" style="color:#E1306C ;"></i>Instagram</a>
+              <a href="https://www.instagram.com/ayush__gholap2104/"
+                ><i class="fa-brands fa-instagram" style="color: #e1306c"></i
+                >Instagram</a
+              >
             </div>
             <div class="user_accounts">
-              <a href=""><i class="fa-brands fa-facebook" style="color:#1877F2;"></i>Facebook</a>
+              <a href=""
+                ><i class="fa-brands fa-facebook" style="color: #1877f2"></i
+                >Facebook</a
+              >
             </div>
             <div class="user_accounts">
-              <a href="https://github.com/ayushgholap2104"><i class="fa-brands fa-github" style="color:#C9D1D9;"></i>Github</a>
+              <a href="https://github.com/ayushgholap2104"
+                ><i class="fa-brands fa-github" style="color: #c9d1d9"></i
+                >Github</a
+              >
             </div>
           </div>
           <div class="user_options">
             <a href="" id="user_logout">Logout</a>
-            <a href="" id="user_deleteAccount" style="color:red;" >Delete Account</a>
+            <a href="" id="user_deleteAccount" style="color: red"
+              >Delete Account</a
+            >
           </div>
         </div>
         <div class="profile_section2">
-          <div class="profile_head">
-            My Profile
-          </div>
+          <div class="profile_head">My Profile</div>
           <form class="profile_form">
             <div class="profile_name" id="profile_box">
               <p>NAME</p>
-              <input type="text" placeholder="name" id="user_name" style="text-transform: capitalize;">
+              <input
+                type="text"
+                placeholder="name"
+                id="user_name"
+                style="text-transform: capitalize"
+              />
             </div>
             <div class="profile_email" id="profile_box">
               <p>EMAIL</p>
-              <input type="text" placeholder="email" id="user_email">
+              <input type="text" placeholder="email" id="user_email" />
             </div>
             <div class="profile_genre" id="profile_box">
               <p>GENRE</p>
-              <input type="text" placeholder="genre" id="user_genre">
+              <input type="text" placeholder="genre" id="user_genre" />
             </div>
             <div class="profile_location" id="profile_box">
               <p>LOCATION</p>
-              <input type="text" placeholder="location" id="user_location">
+              <input type="text" placeholder="location" id="user_location" />
             </div>
             <div class="save_profilebtn">
               <button type="submit" id="profile_btn">SAVE CHANGES</button>
+            </div>
+            <div class="profile_warning_msg" id="status">
+              <div class="caution_icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+              </div>
+              <div class="warning_msg">Are you sure?</div>
+              <div class="warning_desc">
+                This action cannot be undone, Your account will be permanently deleted.
+              </div>
+              <div class="close_btn">
+                <button id="profile-btn-close">Delete</button>
+                <button id="profile-btn-cancle">Cancle</button>
+              </div>
             </div>
           </form>
         </div>

@@ -680,6 +680,30 @@
   .profile_section2 .save_profilebtn button {
     font-size: 11px;
   }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 19%;
+    height: 18rem;
+    width: 22rem;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 24px;
+    padding: 4px 13px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 17px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 14px;
+    width: 320px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 11px 130px;
+    font-size: 15px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 11px 130px;
+    font-size: 15px;
+  }
 }
 @media only screen and (min-width: 947px) and (max-width: 1024px) {
   /* For Header part */
@@ -879,11 +903,35 @@
   .profile_section2 .profile_form #profile_box input::placeholder {
     font-size: 11px;
   }
-  .profile_section2 .save_profilebtn{
+  .profile_section2 .save_profilebtn {
     margin-top: 10px;
   }
   .profile_section2 .save_profilebtn button {
     font-size: 9px;
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 19%;
+    height: 17rem;
+    width: 21rem;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 23px;
+    padding: 4px 12px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 16px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 13px;
+    width: 300px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 10px 120px;
+    font-size: 14px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 10px 120px;
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 850px) and (max-width: 946px) {
@@ -1073,13 +1121,13 @@
   .img_description a {
     font-size: 0.8rem;
   }
-  
+
   .profile_container .profile_content {
     flex-direction: column;
     width: 90%;
     height: 100%;
-    margin-top: 2rem; 
-    margin-bottom: 2.5rem; 
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -1151,6 +1199,31 @@
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 16%;
+    height: 17.5rem;
+    width: 21rem;
+    top: -28%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 24px;
+    padding: 4px 13px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 17px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 14px;
+    width: 320px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 10px 130px;
+    font-size: 15px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 10px 130px;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -1376,7 +1449,7 @@
     width: 100%;
     margin-bottom: 10px;
   }
-  .profile_container{
+  .profile_container {
     padding-top: 0rem;
   }
   .profile_container .profile_content {
@@ -1478,6 +1551,31 @@
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
     font-size: 11px;
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 13%;
+    height: 17rem;
+    width: 20rem;
+    top: -28%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 23px;
+    padding: 4px 12px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 16px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 13px;
+    width: 300px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 10px 120px;
+    font-size: 14px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 10px 120px;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 739px) {
@@ -1726,6 +1824,31 @@
     margin-bottom: 25px;
     font-size: 10px;
     /* margin-left: 0px; */
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 8%;
+    height: 16.5rem;
+    width: 19rem;
+    top: -18%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 22px;
+    padding: 4px 11px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 15px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 12px;
+    width: 280px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 10px 110px;
+    font-size: 13px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 10px 110px;
+    font-size: 13px;
   }
 }
 @media only screen and (max-width: 644px) {
@@ -1982,6 +2105,31 @@
     margin-bottom: 25px;
     font-size: 9px;
     /* margin-left: 0px; */
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 9%;
+    height: 16rem;
+    width: 17rem;
+    top: -18%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 21px;
+    padding: 4px 10px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 14px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 11px;
+    width: 250px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 9px 100px;
+    font-size: 12px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 9px 100px;
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 555px) {
@@ -2305,6 +2453,31 @@
     font-size: 8px;
     /* margin-left: 0px; */
   }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 4%;
+    height: 15rem;
+    width: 16rem;
+    top: -18%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 20px;
+    padding: 4px 9px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 13px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 10px;
+    width: 250px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 9px 90px;
+    font-size: 11px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 9px 90px;
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -2619,6 +2792,31 @@
     margin-bottom: 25px;
     font-size: 7px;
     /* margin-left: 0px; */
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: 0%;
+    height: 14.5rem;
+    width: 15rem;
+    top: -18%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 19px;
+    padding: 4px 8px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 12px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 9px;
+    width: 240px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 8px 80px;
+    font-size: 10px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 8px 80px;
+    font-size: 10px;
   }
 }
 @media only screen and (max-width: 398px) {
@@ -2954,6 +3152,31 @@
     margin-bottom: 25px;
     font-size: 6px;
     /* margin-left: 0px; */
+  }
+  .profile_section2 .profile_form .profile_warning_msg {
+    left: -8%;
+    height: 14rem;
+    width: 14rem;
+    top: -18%;
+  }
+  .profile_form .profile_warning_msg .caution_icon {
+    font-size: 17px;
+    padding: 3px 8px;
+  }
+  .profile_form .profile_warning_msg .warning_msg {
+    font-size: 11px;
+  }
+  .profile_form .profile_warning_msg .warning_desc {
+    font-size: 8px;
+    width: 240px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+    padding: 7px 70px;
+    font-size: 9px;
+  }
+  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+    padding: 7px 70px;
+    font-size: 9px;
   }
 }
 @media only screen and (min-width: 1391px) and (max-width: 1500px) {
