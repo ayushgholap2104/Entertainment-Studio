@@ -610,7 +610,7 @@ body {
 }
 .profile_section1 .profile_img #profile_edit_icon {
   position: absolute;
-  bottom: -8px;
+  bottom: -6px;
   background: #fde6e6;
   color: #6076ff;
   padding: 3px 8px;
@@ -619,7 +619,7 @@ body {
   /* right: 8rem; */
   border: none;
   cursor: pointer;
-  right: 20px;
+  right: 28px;
 }
 .profile_section1 .profile_name{
   display: flex;
