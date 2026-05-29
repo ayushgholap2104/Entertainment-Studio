@@ -663,6 +663,9 @@
     margin-top: 160px;
     gap: 7px;
   }
+  .profile_section1 .user_options p {
+    font-size: 11px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 680px;
   }
@@ -682,7 +685,6 @@
     font-size: 11.5px;
   }
   .profile_section2 .profile_warning_msg {
-    left: 19%;
     height: 17.8rem;
     width: 22rem;
   }
@@ -887,6 +889,9 @@
     margin-top: 170px;
     gap: 7px;
   }
+  .profile_section1 .user_options p {
+    font-size: 10.5px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 620px;
   }
@@ -909,7 +914,6 @@
     font-size: 12px;
   }
   .profile_section2 .profile_warning_msg {
-    left: 19%;
     height: 17rem;
     width: 21rem;
   }
@@ -1201,10 +1205,8 @@
     font-size: 10.5px;
   }
   .profile_section2 .profile_warning_msg {
-    left:26%;
     height: 17.5rem;
     width: 21rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24px;
@@ -1515,6 +1517,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 11.5px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -1553,10 +1558,8 @@
     font-size: 11.5px;
   }
   .profile_section2 .profile_warning_msg {
-    left: 23.5%;
     height: 17rem;
     width: 20rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 23px;
@@ -1790,6 +1793,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 11px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -1826,10 +1832,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    left: 22%;
     height: 16.5rem;
     width: 19rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 22px;
@@ -2071,6 +2075,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 10.5px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -2107,10 +2114,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    left: 21.5%;
     height: 16rem;
     width: 17rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 21px;
@@ -2420,6 +2425,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 10px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -2454,10 +2462,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    left: 18.5%;
     height: 15rem;
     width: 16rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 20px;
@@ -2760,6 +2766,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 9.5px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -2794,10 +2803,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    left: 15%;
     height: 14.5rem;
     width: 15rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 19px;
@@ -3056,7 +3063,7 @@
   .profile_container .profile_content {
     flex-direction: column;
     height: 100%;
-    width: 85%;
+    width: 90%;
     margin-top: 7rem;
     margin-bottom: 2.5rem;
   }
@@ -3116,6 +3123,9 @@
     margin-left: 10px;
     flex-direction: row;
   }
+  .profile_section1 .user_options p {
+    font-size: 8px;
+  }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
     display: flex;
@@ -3154,10 +3164,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    left: 11.5%;
     height: 14rem;
     width: 14rem;
-    top: 1%;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 17px;
