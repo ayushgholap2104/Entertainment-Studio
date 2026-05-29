@@ -758,10 +758,11 @@ body {
   opacity: 0;
   transition: transform,opacity 0.3s ease-in-out;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  z-index: 4;
+  z-index: 0;
 }
 .profile_section2 .profile_warning_msg.active{
   opacity: 1;
+  z-index: 4;
 }
 
 .profile_section2 .profile_warning_msg .caution_icon{
