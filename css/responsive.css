@@ -660,7 +660,8 @@
     font-size: 13px;
   }
   .profile_section1 .user_options {
-    margin-top: 150px;
+    margin-top: 160px;
+    gap: 7px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 680px;
@@ -669,16 +670,16 @@
     font-size: 33px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 500px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 12px;
+    font-size: 12.5px;
   }
   .profile_section2 .save_profilebtn button {
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form .profile_warning_msg {
     left: 19%;
@@ -864,50 +865,48 @@
     font-size: 18px;
   }
   .profile_section1 .profile_img {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 15px;
-    padding: 1px 4px;
+    padding: 1px 5px;
     right: 15px;
   }
   .profile_section1 .profile_name {
-    font-size: 13px;
-    /* margin-top: 35px; */
+    font-size: 14px;
+    margin-top: 20px;
   }
   .profile_section1 .follow_me h4 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 11px;
+    font-size: 12px;
   }
   .profile_section1 .user_options {
-    margin-top: 180px;
-  }
-  .profile_section1 .user_options a {
-    font-size: 7px;
+    margin-top: 170px;
+    gap: 7px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 620px;
   }
   .profile_section2 .profile_head {
-    font-size: 31px;
+    font-size: 32px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 450px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 11px;
+    font-size: 12px;
   }
   .profile_section2 .save_profilebtn {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .profile_section2 .save_profilebtn button {
-    font-size: 9px;
+    font-size: 12px;
   }
   .profile_section2 .profile_form .profile_warning_msg {
     left: 19%;
@@ -1199,6 +1198,7 @@
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
+    font-size: 10.5px;
   }
   .profile_section2 .profile_form .profile_warning_msg {
     left: 16%;
@@ -1468,7 +1468,7 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 19px;
+    font-size: 19.5px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
@@ -1479,7 +1479,7 @@
   }
   .profile_section1 .profile_img #profile_edit_icon {
     padding: 4px 8px;
-    font-size: 15px;
+    font-size: 15.5px;
     right: 25px;
     bottom: -5px;
   }
@@ -1499,19 +1499,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 13px;
+    font-size: 13.5px;
     gap: 8px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -1536,21 +1536,21 @@
     margin-left: 0px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 480px;
     font-size: 14.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 13px;
+    font-size: 13.5px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 10px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form .profile_warning_msg {
     left: 13%;
@@ -1743,7 +1743,7 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 18px;
+    font-size: 19px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
@@ -1753,7 +1753,7 @@
     width: 130px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 14.5px;
+    font-size: 15px;
     padding: 3px 8px;
     right: 49px;
     bottom: -10px;
@@ -1774,19 +1774,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 12px;
+    font-size: 13px;
     gap: 6px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -1808,21 +1808,21 @@
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 400px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 12px;
+    font-size: 13px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 15px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 10px;
+    font-size: 11px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_form .profile_warning_msg {
@@ -2024,7 +2024,7 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 17px;
+    font-size: 18px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
@@ -2034,7 +2034,7 @@
     width: 120px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 14px;
+    font-size: 14.5px;
     padding: 3px 8px;
     right: 44px;
     bottom: -8px;
@@ -2055,19 +2055,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 11px;
+    font-size: 12px;
     gap: 6px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -2089,21 +2089,21 @@
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 10px;
+    font-size: 10.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 360px;
-    font-size: 13px;
+    font-size: 13.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 10px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 9px;
+    font-size: 10.5px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_form .profile_warning_msg {
@@ -2373,7 +2373,7 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 16px;
+    font-size: 17px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
@@ -2383,7 +2383,7 @@
     width: 110px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 13px;
+    font-size: 14px;
     padding: 3px 8px;
     right: 39px;
     bottom: -9px;
@@ -2404,19 +2404,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 10px;
+    font-size: 11px;
     gap: 6px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -2438,19 +2438,19 @@
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 300px;
     height: 39px;
-    font-size: 12.5px;
+    font-size: 13px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 10px;
+    font-size: 11px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 8px;
+    font-size: 10px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_form .profile_warning_msg {
@@ -2712,7 +2712,7 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 15px;
+    font-size: 16px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
@@ -2723,7 +2723,7 @@
     width: 100px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 13px;
+    font-size: 13.5px;
     padding: 2px 6px;
     right: 37px;
     bottom: -9px;
@@ -2744,19 +2744,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 9px;
+    font-size: 10px;
     gap: 6px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -2778,19 +2778,19 @@
     gap: 25px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 8px;
+    font-size: 9.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 250px;
     height: 38px;
-    font-size: 11.5px;
+    font-size: 12.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 9px;
+    font-size: 10px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 7px;
+    font-size: 9.5px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_form .profile_warning_msg {
@@ -3069,24 +3069,24 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 14px;
+    font-size: 15px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
   .profile_section1 .profile_img {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 12px;
-    padding: 2px 5px;
-    right: 28px;
+    font-size: 13px;
+    padding: 2px 6px;
+    right: 32px;
     bottom: -9px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 11.5px;
+    font-size: 12px;
   }
 
   .profile_section1 .follow_me {
@@ -3100,19 +3100,19 @@
     margin-left: 0px;
   }
   .profile_section1 .follow_me .user_accounts {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 8px;
+    font-size: 9px;
     gap: 6px;
   }
   .profile_section1 .user_options {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     flex-direction: row;
   }
@@ -3134,15 +3134,15 @@
     gap: 25px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 6px;
+    font-size: 9px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 200px;
-    height: 35px;
-    font-size: 10px;
+    height: 36px;
+    font-size: 12px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 8px;
+    font-size: 9.5px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 10px;
@@ -3150,7 +3150,7 @@
   .profile_section2 .save_profilebtn button {
     padding: 10px 20px 10px 20px;
     margin-bottom: 25px;
-    font-size: 6px;
+    font-size: 9px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_form .profile_warning_msg {
