@@ -720,7 +720,7 @@ body {
 }
 .profile_section2 .profile_form #profile_box input::placeholder{
   color: #b3b3b3;
-  font-size: 13px;
+  font-size: 14px;
 }
 .profile_section2 .save_profilebtn{
   display: flex;
