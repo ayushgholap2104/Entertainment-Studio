@@ -754,6 +754,7 @@ body {
   border-radius: 1rem;
   gap: 15px;
   /* backdrop-filter: blur(6px); */
+  opacity: 0;
 }
 .profile_form .profile_warning_msg .caution_icon{
   margin-top: 25px;
