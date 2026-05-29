@@ -657,7 +657,7 @@ body {
   color: var(--secondory_color);
 }
 .profile_section1 .user_options{
-  margin-top:120px;
+  margin-top:125px;
   margin-left: 30px;
   display: flex;
   flex-direction: column;
@@ -672,14 +672,13 @@ body {
   color: var(--secondory_color);
 }
 
-
-
 .profile_container .profile_content .profile_section2 {
   background-color: var(--primary_color2);
   height: 100%;
   width: 800px;
   border-left: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 .profile_section2 .profile_head{
   margin-top: 40px;
@@ -696,7 +695,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  position: relative;
 }
 .profile_section2 .profile_form #profile_box{
   margin-left: 70px;
@@ -740,9 +738,9 @@ body {
   box-shadow: var(--shadow1);
   color: #ff4f9a;
 }
-.profile_section2 .profile_form .profile_warning_msg{
+.profile_section2 .profile_warning_msg{
   position: absolute;
-  top: 10%;
+  top: 26%;
   left: 20%;
   height: 18rem;
   background-color: #feecec;
@@ -753,38 +751,43 @@ body {
   width: 23rem;
   border-radius: 1rem;
   gap: 15px;
-  visibility: hidden;
+  /* visibility: hidden; */
   /* backdrop-filter: blur(6px); */
+  transition: visibility 0.3s ease;
 }
-.profile_form .profile_warning_msg .caution_icon{
+.profile_section2 .profile_warning_msg.active{
+  visibility: visible;
+}
+
+.profile_section2 .profile_warning_msg .caution_icon{
   margin-top: 25px;
   font-size: 25px;
   padding: 5px 14px;
   background-color: #fedadadf;
   border-radius: 50%;
 }
-.profile_form .profile_warning_msg .caution_icon .fa-triangle-exclamation{
+.profile_section2 .profile_warning_msg .caution_icon .fa-triangle-exclamation{
   color:#d93b43 ;
 }
-.profile_form .profile_warning_msg .warning_msg{
+.profile_section2 .profile_warning_msg .warning_msg{
   color: #1F1F1F;
   font-weight: 500;
   font-size: 18px;
 }
-.profile_form .profile_warning_msg .warning_desc{
+.profile_section2 .profile_warning_msg .warning_desc{
   color:#7A7A7A ;
   text-align: center;
   font-size: 15px;
   width: 350px;
   font-weight: 300;
 }
-.profile_form .profile_warning_msg .close_btn{
+.profile_section2 .profile_warning_msg .close_btn{
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 10px;
 }
-.profile_form .profile_warning_msg .close_btn #profile-btn-close{
+.profile_section2 .profile_warning_msg .close_btn #profile-btn-close{
   color: #fff;
   background-color:#eb2553;
   outline: none;
@@ -794,7 +797,7 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
-.profile_form .profile_warning_msg .close_btn #profile-btn-cancle{
+.profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle{
   color: #1F1F1F;
   outline: none;
   border: none;

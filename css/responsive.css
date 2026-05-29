@@ -681,27 +681,27 @@
   .profile_section2 .save_profilebtn button {
     font-size: 11.5px;
   }
-  .profile_section2 .profile_form .profile_warning_msg {
+  .profile_section2 .profile_warning_msg {
     left: 19%;
-    height: 18rem;
+    height: 17.8rem;
     width: 22rem;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24px;
     padding: 4px 13px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 17px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 14px;
     width: 320px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 11px 130px;
     font-size: 15px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 11px 130px;
     font-size: 15px;
   }
@@ -908,27 +908,27 @@
   .profile_section2 .save_profilebtn button {
     font-size: 12px;
   }
-  .profile_section2 .profile_form .profile_warning_msg {
+  .profile_section2 .profile_warning_msg {
     left: 19%;
     height: 17rem;
     width: 21rem;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 23px;
     padding: 4px 12px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 16px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 13px;
     width: 300px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 10px 120px;
     font-size: 14px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 10px 120px;
     font-size: 14px;
   }
@@ -1200,28 +1200,28 @@
     margin-bottom: 25px;
     font-size: 10.5px;
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: 16%;
+  .profile_section2 .profile_warning_msg {
+    left:26%;
     height: 17.5rem;
     width: 21rem;
-    top: -28%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24px;
     padding: 4px 13px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 17px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 14px;
     width: 320px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 10px 130px;
     font-size: 15px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 10px 130px;
     font-size: 15px;
   }
@@ -1552,28 +1552,28 @@
     margin-bottom: 25px;
     font-size: 11.5px;
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: 13%;
+  .profile_section2 .profile_warning_msg {
+    left: 23.5%;
     height: 17rem;
     width: 20rem;
-    top: -25%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 23px;
     padding: 4px 12px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 16px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 13px;
     width: 300px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 10px 120px;
     font-size: 14px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 10px 120px;
     font-size: 14px;
   }
@@ -1825,28 +1825,28 @@
     font-size: 11px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: 8.5%;
+  .profile_section2 .profile_warning_msg {
+    left: 22%;
     height: 16.5rem;
     width: 19rem;
-    top: -18%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 22px;
     padding: 4px 11px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 15px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 12px;
     width: 280px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 10px 110px;
     font-size: 13px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 10px 110px;
     font-size: 13px;
   }
@@ -2106,28 +2106,28 @@
     font-size: 10.5px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: 9%;
+  .profile_section2 .profile_warning_msg {
+    left: 21.5%;
     height: 16rem;
     width: 17rem;
-    top: -18%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 21px;
     padding: 4px 10px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 14px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 11px;
     width: 250px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 9px 100px;
     font-size: 12px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 9px 100px;
     font-size: 12px;
   }
@@ -2453,28 +2453,28 @@
     font-size: 10px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: 4%;
+  .profile_section2 .profile_warning_msg {
+    left: 18.5%;
     height: 15rem;
     width: 16rem;
-    top: -18%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 20px;
     padding: 4px 9px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 13px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 10px;
     width: 250px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 9px 90px;
     font-size: 11px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 9px 90px;
     font-size: 11px;
   }
@@ -2793,28 +2793,28 @@
     font-size: 9.5px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: -1%;
+  .profile_section2 .profile_warning_msg {
+    left: 15%;
     height: 14.5rem;
     width: 15rem;
-    top: -18%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 19px;
     padding: 4px 8px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 12px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 9px;
     width: 240px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 8px 80px;
     font-size: 10px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 8px 80px;
     font-size: 10px;
   }
@@ -3153,28 +3153,28 @@
     font-size: 9px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_form .profile_warning_msg {
-    left: -9%;
+  .profile_section2 .profile_warning_msg {
+    left: 11.5%;
     height: 14rem;
     width: 14rem;
-    top: -18%;
+    top: 1%;
   }
-  .profile_form .profile_warning_msg .caution_icon {
+  .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 17px;
     padding: 3px 8px;
   }
-  .profile_form .profile_warning_msg .warning_msg {
+  .profile_section2 .profile_warning_msg .warning_msg {
     font-size: 11px;
   }
-  .profile_form .profile_warning_msg .warning_desc {
+  .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 8px;
     width: 240px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 7px 70px;
     font-size: 9px;
   }
-  .profile_form .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 7px 70px;
     font-size: 9px;
   }
