@@ -384,6 +384,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 84%;
 }
 
 .profile_popup .profile_container2 .profile_msg1 a{
