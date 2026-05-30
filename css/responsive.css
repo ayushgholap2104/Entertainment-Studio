@@ -2226,7 +2226,7 @@
     font-size: 12px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 360px;
+    width: 400px;
     font-size: 15px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
@@ -2311,7 +2311,7 @@
   .profile_popup {
     right: -30px;
     width: 220px;
-    height: 18.5vh;
+    height: 155px;
   }
   .profile_popup .profile_container1 .profile_img {
     height: 45px;
@@ -2592,8 +2592,7 @@
     font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 300px;
-    height: 39px;
+    width: 340px;
     font-size: 14.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
@@ -2948,8 +2947,7 @@
     font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 280px;
-    height: 39px;
+    width: 290px;
     font-size: 14.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
@@ -3031,7 +3029,7 @@
   .profile_popup {
     right: -35px;
     width: 200px;
-    height: 17.5vh;
+    height: 140px;
   }
   .profile_popup .profile_container1 .profile_img {
     height: 40px;
@@ -3334,7 +3332,6 @@
   }
   .profile_section2 .profile_form #profile_box input {
     width: 240px;
-    /* height: 39px; */
     font-size: 14px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
