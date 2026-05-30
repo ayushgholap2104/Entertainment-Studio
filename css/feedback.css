@@ -605,7 +605,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
-  font-size: 0.85rem;
+  font-size: 15px;
   line-height: 1.4;
   gap: 1rem;
   width: 100%;
@@ -626,8 +626,8 @@ form label {
   margin-bottom: 1rem;
 }
 form .input_cont #name {
-  height: 2.2rem;
-  font-size: 14px;
+  height: 2.4rem;
+  font-size: 16px;
   outline: none;
   padding-left: 12px;
   border-radius: 0.4rem;
@@ -640,6 +640,7 @@ form .input_cont #name {
 .input_cont ::placeholder {
   color: rgb(139, 139, 139);
   font-weight: 400;
+  font-size: 15px;
 }
 form #name:hover {
   border: 0.05rem solid #f39140;
@@ -656,8 +657,8 @@ form #name:hover {
   margin-bottom: 1rem;
 }
 form .input_cont1 #Email {
-  height: 2.2rem;
-  font-size: 14px;
+  height: 2.4rem;
+  font-size: 16px;
   outline: none;
   padding-left: 12px;
   border-radius: 0.4rem;
@@ -670,6 +671,7 @@ form .input_cont1 #Email {
 .input_cont1 ::placeholder {
   color: rgb(139, 139, 139);
   font-weight: 400;
+  font-size: 15px;
 }
 form #Email:hover {
   border: 0.05rem solid #f39140;
@@ -686,8 +688,8 @@ form #Email:hover {
   margin-bottom: 1rem;
 }
 form .input_cont2 #Subject {
-  height: 2.2rem;
-  font-size: 14px;
+  height: 2.4rem;
+  font-size: 16px;
   outline: none;
   padding-left: 12px;
   border-radius: 0.4rem;
@@ -700,6 +702,7 @@ form .input_cont2 #Subject {
 .input_cont2 ::placeholder {
   color: rgb(139, 139, 139);
   font-weight: 400;
+  font-size: 15px;
 }
 form #Subject:hover {
   border: 0.05rem solid #f39140;
@@ -717,7 +720,7 @@ form #Subject:hover {
 }
 form .input_cont3 #message {
   height: 13rem;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
   padding: 0.5rem;
   border-radius: 0.4rem;
@@ -734,6 +737,7 @@ form .input_cont3 #message {
 .input_cont3 textarea::placeholder {
   color: rgb(139, 139, 139);
   font-weight: 400;
+  font-size: 15px;
 }
 form #message:hover {
   border: 0.05rem solid #f39140;
