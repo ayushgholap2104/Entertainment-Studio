@@ -572,6 +572,7 @@ body {
   border: none;
   overflow: hidden; 
   box-shadow: var(--shadow);
+  z-index: 3;
 }
 .profile_container .profile_content .profile_section1 {
   height: 100%;
@@ -609,11 +610,11 @@ body {
 }
 .profile_section1 .profile_img #profile_edit_icon {
   position: absolute;
-  bottom: -6px;
+  bottom: -10px;
   background: #fde6e6;
   color: #6076ff;
-  padding: 3px 8px;
-  font-size: 16px;
+  padding: 3px 9px;
+  font-size: 17px;
   border-radius: 5px;
   /* right: 8rem; */
   border: none;
@@ -624,11 +625,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 20px;
   color: var(--secondory_color);
 }
 .profile_section1 .profile_name h3{
   font-weight: 400;
+  font-size: 21px;
 }
 .profile_section1 .profile_edit_icon:hover{
   cursor: pointer;
@@ -641,6 +643,7 @@ body {
   margin-bottom: 25px;
   font-weight: 400;
   color: var(--secondory_color);
+  font-size: 18px;
 }
 .profile_section1 .follow_me .user_accounts{
   margin-bottom: 20px;
@@ -648,7 +651,7 @@ body {
 .profile_section1 .follow_me .user_accounts a{
   display: flex;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   gap: 13px;
   text-decoration: none;
   align-items: center;
@@ -665,14 +668,16 @@ body {
 .profile_section1 .user_options p{
   text-decoration: none;
   font-weight: 300;
-  font-size:11.5px;
+  font-size:13px;
 }
 .profile_section1 .user_options #user_logout{
   color: var(--secondory_color);
+  width: 45px;
   cursor: pointer;
 }
 .profile_section1 .user_options #user_deleteAccount{
   cursor: pointer;
+  width: 100px;
 }
 
 .profile_container .profile_content .profile_section2 {
@@ -681,7 +686,6 @@ body {
   width: 800px;
   border-left: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  position: relative;
 }
 .profile_section2 .profile_head{
   margin-top: 40px;
@@ -704,12 +708,12 @@ body {
 }
 .profile_section2 .profile_form #profile_box p{
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #ff4f9a;
 }
 .profile_section2 .profile_form #profile_box input{
-  height: 42px;
+  height: 45px;
   outline: none;
   width: 550px;
   padding-left: 12px;
@@ -718,24 +722,25 @@ body {
   background-color: var(--secondory_color1);
   color: var(--secondory_color2);
   box-shadow: var(--shadow1); 
+  font-size: 17px;
 }
 .profile_section2 .profile_form #profile_box input::placeholder{
   color: #b3b3b3;
-  font-size: 14px;
+  font-size: 15px;
 }
 .profile_section2 .save_profilebtn{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .profile_section2 .save_profilebtn button{
-  padding: 12px 25px 12px 25px;
+  padding: 14px 25px 14px 25px;
   outline: none;
   border: none;
   cursor: pointer;
   background-color: var(--tertiary_color1);
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 4px;
   font-weight: 500;
   box-shadow: var(--shadow1);
@@ -746,23 +751,23 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 18rem;
+  height: 18.5rem;
   background-color: #feecec;
   /* background-color: #EAE0CF; */
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 23rem;
+  width: 23.5rem;
   border-radius: 1rem;
   gap: 15px;
   opacity: 0;
   transition: transform,opacity 0.3s ease-in-out;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  z-index: 0;
+  z-index: -10;
 }
 .profile_section2 .profile_warning_msg.active{
   opacity: 1;
-  z-index: 4;
+  z-index:50 ;
 }
 
 .profile_section2 .profile_warning_msg .caution_icon{
@@ -790,7 +795,7 @@ body {
 .profile_section2 .profile_warning_msg .close_btn{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   margin-top: 10px;
 }
 .profile_section2 .profile_warning_msg .close_btn #profile-btn-close{
@@ -802,6 +807,7 @@ body {
   border-radius: 6px;
   font-weight: 400;
   cursor: pointer;
+  font-size: 16px;
 }
 .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle{
   color: #1F1F1F;
@@ -812,6 +818,7 @@ body {
   border: 1px solid #D8D8D8;
   font-weight: 400;
   cursor: pointer;
+  font-size: 16px;
 }
 
 

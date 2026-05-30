@@ -633,79 +633,77 @@
     font-size: 0.7rem;
   }
   .profile_container .profile_content {
-    height: 670px;
-  }
-  .profile_container .profile_content .profile_section1 {
-    width: 280px;
+    height: 680px;
+    width: 90%;
   }
   .profile_section1 .back_icon {
-    font-size: 19px;
+    font-size: 19.5px;
   }
   .profile_section1 .profile_img {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 15px;
-    padding: 2px 6px;
+    font-size: 16.5px;
+    padding: 2px 8px;
+    right: 22px;
   }
-  .profile_section1 .profile_name {
-    font-size: 15px;
-    /* margin-top: 35px; */
+  .profile_section1 .profile_name h3 {
+    font-size: 20.5px;
   }
   .profile_section1 .follow_me h4 {
-    font-size: 16px;
+    font-size: 17.5px;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 13px;
+    font-size: 13.5px;
   }
   .profile_section1 .user_options {
-    margin-top: 160px;
+    margin-top: 130px;
     gap: 7px;
   }
   .profile_section1 .user_options p {
-    font-size: 11px;
-  }
-  .profile_container .profile_content .profile_section2 {
-    width: 680px;
+    font-size: 12.5px;
   }
   .profile_section2 .profile_head {
-    font-size: 33px;
+    font-size: 34px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11.5px;
+    font-size: 13.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 500px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 12.5px;
+    font-size: 14.5px;
+  }
+  .profile_section2 .save_profilebtn {
+    margin-top: 0px;
   }
   .profile_section2 .save_profilebtn button {
-    font-size: 11.5px;
+    font-size: 12.5px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 17.8rem;
-    width: 22rem;
+    height: 18.5rem;
+    width: 23rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 24px;
-    padding: 4px 13px;
+    font-size: 24.5px;
+    padding: 6px 14px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 17px;
+    font-size: 17.5px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 14px;
+    font-size: 14.5px;
     width: 320px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 11px 130px;
-    font-size: 15px;
+    font-size: 15.5px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 11px 130px;
-    font-size: 15px;
+    font-size: 15.5px;
   }
 }
 @media only screen and (min-width: 947px) and (max-width: 1024px) {
@@ -858,83 +856,82 @@
     font-size: 0.68rem;
   }
   .profile_container .profile_content {
-    height: 650px;
-  }
-  .profile_container .profile_content .profile_section1 {
-    width: 220px;
+    /* height: 650px; */
+    width: 90%;
   }
   .profile_section1 .back_icon {
-    font-size: 18px;
+    font-size: 19px;
   }
   .profile_section1 .profile_img {
-    height: 110px;
-    width: 110px;
+    height: 130px;
+    width: 130px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 15px;
-    padding: 1px 5px;
-    right: 15px;
+    font-size: 16px;
+    padding: 4px 9px;
+    right: 18px;
+    /* bottom: 2px; */
+    bottom: -10px;
   }
   .profile_section1 .profile_name {
-    font-size: 14px;
     margin-top: 20px;
   }
+  .profile_section1 .profile_name h3 {
+    font-size: 20px;
+  }
   .profile_section1 .follow_me h4 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 12px;
+    font-size: 13px;
   }
   .profile_section1 .user_options {
-    margin-top: 170px;
+    margin-top: 155px;
     gap: 7px;
   }
   .profile_section1 .user_options p {
-    font-size: 10.5px;
-  }
-  .profile_container .profile_content .profile_section2 {
-    width: 620px;
+    font-size: 12px;
   }
   .profile_section2 .profile_head {
-    font-size: 32px;
+    font-size: 33px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11px;
+    font-size: 13px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 450px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 12px;
+    font-size: 14px;
   }
-  .profile_section2 .save_profilebtn {
-    margin-top: 5px;
-  }
+  /* .profile_section2 .save_profilebtn {
+    margin-top: 3px;
+  } */
   .profile_section2 .save_profilebtn button {
     font-size: 12px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 17rem;
-    width: 21rem;
+    height: 18rem;
+    width: 23rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 23px;
-    padding: 4px 12px;
+    font-size: 24px;
+    padding: 4px 14px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 16px;
+    font-size: 17px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 13px;
-    width: 300px;
+    font-size: 14px;
+    width: 350px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 10px 120px;
-    font-size: 14px;
+    font-size: 15px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
     padding: 10px 120px;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 @media only screen and (min-width: 850px) and (max-width: 946px) {
@@ -1129,8 +1126,8 @@
     flex-direction: column;
     width: 90%;
     height: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -1140,17 +1137,29 @@
     border-bottom: var(--tertiary_color);
     /* height: 300px; */
   }
+  .profile_section1 .back_icon {
+    font-size: 19.5px;
+  }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
+  .profile_section1 .profile_img {
+    height: 140px;
+    width: 140px;
+    position: relative;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
-    padding: 4px 8px;
+    padding: 4px 9px;
     font-size: 16px;
     right: 25px;
-    bottom: -5px;
+    bottom: -8px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-weight: 400;
+    font-size: 20.5px;
   }
 
   .profile_section1 .follow_me {
@@ -1163,11 +1172,15 @@
     justify-content: center;
     margin-left: 0px;
   }
+  .profile_section1 .follow_me h4 {
+    font-size: 17.5px;
+  }
   .profile_section1 .follow_me .user_accounts {
     margin-bottom: 20px;
   }
   .profile_section1 .follow_me .user_accounts a {
     gap: 10px;
+    font-size: 13.5px;
   }
   .profile_section1 .follow_me h4 {
     display: none;
@@ -1177,6 +1190,9 @@
     margin-bottom: 10px;
     margin-left: 10px;
     flex-direction: row;
+  }
+  .profile_section1 .user_options p {
+    font-size: 12.5px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -1189,6 +1205,7 @@
     margin-left: 0px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-size: 33px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
@@ -1197,35 +1214,42 @@
   .profile_section2 .profile_form #profile_box {
     margin-left: 0px;
   }
+  .profile_section2 .profile_form #profile_box p {
+    font-size: 13.5px;
+  }
   .profile_section2 .profile_form #profile_box input {
-    font-size: 15px;
+    font-size: 16.5px;
+  }
+  .profile_section2 .profile_form #profile_box input::placeholder {
+    color: #b3b3b3;
+    font-size: 14.5px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 10.5px;
+    font-size: 12.5px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 17.5rem;
-    width: 21rem;
+    height: 18rem;
+    width: 23rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 24px;
-    padding: 4px 13px;
+    font-size: 24.5px;
+    padding: 6px 14px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 17px;
+    font-size: 17.5px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 14px;
-    width: 320px;
+    font-size: 14.5px;
+    width: 350px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 10px 130px;
-    font-size: 15px;
+    padding: 10px 140px;
+    font-size: 15.5px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 10px 130px;
-    font-size: 15px;
+    padding: 10px 140px;
+    font-size: 15.5px;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -1456,10 +1480,10 @@
   }
   .profile_container .profile_content {
     flex-direction: column;
-    width: 85%;
+    width: 90%;
     height: 100%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
+    margin-top: 6.5rem;
+    margin-bottom: 2rem;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -1470,24 +1494,26 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 19.5px;
+    font-size: 19px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
   .profile_section1 .profile_img {
-    height: 140px;
-    width: 140px;
+    height: 135px;
+    width: 135px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    padding: 4px 8px;
-    font-size: 15.5px;
+    padding: 4px 9px;
+    font-size: 16px;
     right: 25px;
-    bottom: -5px;
+    bottom: -8px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 17px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-size: 20px;
   }
 
   .profile_section1 .follow_me {
@@ -1508,7 +1534,7 @@
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 13.5px;
+    font-size: 13px;
     gap: 8px;
   }
   .profile_section1 .user_options {
@@ -1518,7 +1544,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -1531,7 +1557,7 @@
     margin-left: 0px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 34px;
+    font-size: 32px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
@@ -1541,44 +1567,44 @@
     margin-left: 0px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11.5px;
+    font-size: 13px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 480px;
-    font-size: 14.5px;
+    font-size: 16px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 13.5px;
+    font-size: 14px;
   }
   .profile_section2 .save_profilebtn {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 17rem;
-    width: 20rem;
+    height: 18rem;
+    width: 22.5rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 23px;
-    padding: 4px 12px;
+    font-size: 24px;
+    padding: 5px 14px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 16px;
+    font-size: 17px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 13px;
-    width: 300px;
+    font-size: 14px;
+    width: 350px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 10px 120px;
-    font-size: 14px;
+    padding: 10px 135px;
+    font-size: 15px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 10px 120px;
-    font-size: 14px;
+    padding: 10px 135px;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 739px) {
@@ -1734,8 +1760,6 @@
   .profile_container .profile_content {
     flex-direction: column;
     height: 100%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -1746,24 +1770,27 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 19px;
+    font-size: 18.5px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
   .profile_section1 .profile_img {
-    height: 130px;
-    width: 130px;
+    height: 125px;
+    width: 125px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 15px;
-    padding: 3px 8px;
-    right: 49px;
-    bottom: -10px;
+    font-size: 15.5px;
+    padding: 4px 9px;
+    right: 46px;
+    bottom: -12px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 16px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-weight: 400;
+    font-size: 19.5px;
   }
 
   .profile_section1 .follow_me {
@@ -1784,7 +1811,7 @@
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 13px;
+    font-size: 12.5px;
     gap: 6px;
   }
   .profile_section1 .user_options {
@@ -1794,7 +1821,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 11px;
+    font-size: 11.5px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -1807,52 +1834,52 @@
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 32px;
+    font-size: 31px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 400px;
-    font-size: 14px;
+    width: 470px;
+    font-size: 15.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 13px;
+    font-size: 13.5px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 15px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 11px;
+    font-size: 11.5px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 16.5rem;
-    width: 19rem;
+    height: 17.8rem;
+    width: 22rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 22px;
-    padding: 4px 11px;
+    font-size: 23.5px;
+    padding: 5px 12px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 15px;
+    font-size: 16.5px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 12px;
-    width: 280px;
+    font-size: 13.5px;
+    width: 320px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 10px 110px;
-    font-size: 13px;
+    padding: 10px 125px;
+    font-size: 14.5px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 10px 110px;
-    font-size: 13px;
+    padding: 10px 125px;
+    font-size: 14.5px;
   }
 }
 @media only screen and (max-width: 644px) {
@@ -2015,9 +2042,7 @@
   .profile_container .profile_content {
     flex-direction: column;
     height: 100%;
-    width: 85%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
+    width: 90%;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -2038,14 +2063,16 @@
     width: 120px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 14.5px;
+    font-size: 15px;
     padding: 3px 8px;
     right: 44px;
-    bottom: -8px;
+    bottom: -10px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 15px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-size: 19px;
   }
 
   .profile_section1 .follow_me {
@@ -2076,7 +2103,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 10.5px;
+    font-size: 11px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -2096,45 +2123,45 @@
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 10.5px;
+    font-size: 12px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 360px;
-    font-size: 13.5px;
+    font-size: 15px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 11.5px;
+    font-size: 13px;
   }
   .profile_section2 .save_profilebtn {
     margin-top: 10px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 10.5px;
+    font-size: 11px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 16rem;
-    width: 17rem;
+    height: 17.2rem;
+    width: 20rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 21px;
-    padding: 4px 10px;
+    font-size: 23px;
+    padding: 5px 12px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 14px;
+    font-size: 16px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 11px;
-    width: 250px;
+    font-size: 13px;
+    width: 300px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 9px 100px;
-    font-size: 12px;
+    padding: 9px 120px;
+    font-size: 14px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 9px 100px;
-    font-size: 12px;
+    padding: 9px 120px;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 555px) {
@@ -2365,9 +2392,7 @@
   .profile_container .profile_content {
     flex-direction: column;
     height: 100%;
-    width: 85%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
+    width: 90%;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -2378,24 +2403,27 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 17px;
+    font-size: 17.5px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
   .profile_section1 .profile_img {
-    height: 110px;
-    width: 110px;
+    height: 115px;
+    width: 115px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 14px;
+    font-size: 14.5px;
     padding: 3px 8px;
     right: 39px;
-    bottom: -9px;
+    bottom: -10px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 14px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-weight: 400;
+    font-size: 18.5px;
   }
 
   .profile_section1 .follow_me {
@@ -2416,7 +2444,7 @@
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 11px;
+    font-size: 11.5px;
     gap: 6px;
   }
   .profile_section1 .user_options {
@@ -2426,7 +2454,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 10px;
+    font-size: 10.5px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -2439,50 +2467,50 @@
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 28px;
+    font-size: 29px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
     gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 10px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
     width: 300px;
     height: 39px;
-    font-size: 13px;
+    font-size: 14.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 10px;
+    font-size: 10.5px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 15rem;
-    width: 16rem;
+    height: 16.8rem;
+    width: 20rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 20px;
-    padding: 4px 9px;
+    font-size: 22.5px;
+    padding: 4px 12px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 13px;
+    font-size: 15.5px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 10px;
-    width: 250px;
+    font-size: 12.5px;
+    width: 280px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 9px 90px;
-    font-size: 11px;
+    padding: 9px 110px;
+    font-size: 13.5px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 9px 90px;
-    font-size: 11px;
+    padding: 9px 110px;
+    font-size: 13.5px;
   }
 }
 
@@ -2705,9 +2733,7 @@
   .profile_container .profile_content {
     flex-direction: column;
     height: 100%;
-    width: 85%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
+    width: 90%;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -2718,25 +2744,27 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 16px;
+    font-size: 17.5px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
-
   .profile_section1 .profile_img {
-    height: 100px;
-    width: 100px;
+    height: 115px;
+    width: 115px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 13.5px;
-    padding: 2px 6px;
-    right: 37px;
-    bottom: -9px;
+    font-size: 14.5px;
+    padding: 3px 8px;
+    right: 39px;
+    bottom: -10px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 13px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-weight: 400;
+    font-size: 18.5px;
   }
 
   .profile_section1 .follow_me {
@@ -2757,7 +2785,7 @@
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 10px;
+    font-size: 11.5px;
     gap: 6px;
   }
   .profile_section1 .user_options {
@@ -2767,7 +2795,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 9.5px;
+    font-size: 10.5px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -2780,50 +2808,50 @@
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 26px;
+    font-size: 28px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
-    gap: 25px;
+    gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 9.5px;
+    font-size: 11.5px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 250px;
-    height: 38px;
-    font-size: 12.5px;
+    width: 280px;
+    height: 39px;
+    font-size: 14.5px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 10px;
+    font-size: 12.5px;
   }
   .profile_section2 .save_profilebtn button {
     margin-bottom: 25px;
-    font-size: 9.5px;
+    font-size: 10.5px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 14.5rem;
-    width: 15rem;
+    height: 16.8rem;
+    width: 18rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 19px;
-    padding: 4px 8px;
+    font-size: 22.5px;
+    padding: 4px 12px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 12px;
+    font-size: 15.5px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 9px;
-    width: 240px;
+    font-size: 12.5px;
+    width: 280px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 8px 80px;
-    font-size: 10px;
+    padding: 9px 95px;
+    font-size: 13.5px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 8px 80px;
-    font-size: 10px;
+    padding: 9px 95px;
+    font-size: 13.5px;
   }
 }
 @media only screen and (max-width: 398px) {
@@ -3064,8 +3092,6 @@
     flex-direction: column;
     height: 100%;
     width: 90%;
-    margin-top: 7rem;
-    margin-bottom: 2.5rem;
   }
   .profile_container .profile_content .profile_section1 {
     border-right: none;
@@ -3076,24 +3102,27 @@
     /* height: 300px; */
   }
   .profile_section1 .back_icon {
-    font-size: 15px;
+    font-size: 17px;
   }
   .profile_section1 .profile_img_cont {
     margin-top: 0px;
   }
   .profile_section1 .profile_img {
-    height: 90px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
   }
   .profile_section1 .profile_img #profile_edit_icon {
-    font-size: 13px;
-    padding: 2px 6px;
-    right: 32px;
-    bottom: -9px;
+    font-size: 14px;
+    padding: 3px 7px;
+    right: 40px;
+    bottom: -10px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
-    font-size: 12px;
+  }
+  .profile_section1 .profile_name h3 {
+    font-weight: 400;
+    font-size: 18px;
   }
 
   .profile_section1 .follow_me {
@@ -3114,7 +3143,7 @@
     display: none;
   }
   .profile_section1 .follow_me .user_accounts a {
-    font-size: 9px;
+    font-size: 11px;
     gap: 6px;
   }
   .profile_section1 .user_options {
@@ -3124,7 +3153,7 @@
     flex-direction: row;
   }
   .profile_section1 .user_options p {
-    font-size: 8px;
+    font-size: 10px;
   }
   .profile_container .profile_content .profile_section2 {
     width: 100%;
@@ -3137,54 +3166,50 @@
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 27px;
   }
   .profile_section2 .profile_form {
     margin-left: 0px;
-    gap: 25px;
+    gap: 30px;
   }
   .profile_section2 .profile_form #profile_box p {
-    font-size: 9px;
+    font-size: 11px;
   }
   .profile_section2 .profile_form #profile_box input {
-    width: 200px;
-    height: 36px;
-    font-size: 12px;
+    width: 240px;
+    /* height: 39px; */
+    font-size: 14px;
   }
   .profile_section2 .profile_form #profile_box input::placeholder {
-    font-size: 9.5px;
-  }
-  .profile_section2 .save_profilebtn {
-    margin-top: 10px;
+    font-size: 12px;
   }
   .profile_section2 .save_profilebtn button {
-    padding: 10px 20px 10px 20px;
     margin-bottom: 25px;
-    font-size: 9px;
+    font-size: 10px;
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 14.5rem;
-    width: 14rem;
+    height: 16.5rem;
+    width: 16.5rem;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
-    font-size: 17px;
-    padding: 3px 8px;
+    font-size: 22px;
+    padding: 4px 12px;
   }
   .profile_section2 .profile_warning_msg .warning_msg {
-    font-size: 11px;
+    font-size: 15px;
   }
   .profile_section2 .profile_warning_msg .warning_desc {
-    font-size: 8px;
-    width: 240px;
+    font-size: 12px;
+    width: 270px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
-    padding: 7px 70px;
-    font-size: 9px;
+    padding: 9px 90px;
+    font-size: 13px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
-    padding: 7px 70px;
-    font-size: 9px;
+    padding: 9px 90px;
+    font-size: 13px;
   }
 }
 @media only screen and (min-width: 1391px) and (max-width: 1500px) {
