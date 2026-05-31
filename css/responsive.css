@@ -707,8 +707,8 @@
     font-size: 12.5px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 18.5rem;
-    width: 23rem;
+    height: 335px;
+    width: 435px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24.5px;
@@ -959,8 +959,8 @@
     font-size: 12px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 18rem;
-    width: 23rem;
+    height: 325px;
+    width: 430px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24px;
@@ -1302,8 +1302,8 @@
     font-size: 12.5px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 18rem;
-    width: 23rem;
+    height: 330px;
+    width: 425px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24.5px;
@@ -1681,8 +1681,8 @@
     font-size: 12px;
   }
   .profile_section2 .profile_warning_msg {
-    height: 18rem;
-    width: 22.5rem;
+    height: 325px;
+    width: 415px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 24px;
@@ -1944,8 +1944,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 17.8rem;
-    width: 22rem;
+    height: 315px;
+    width: 400px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 23.5px;
@@ -2241,8 +2241,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 17.2rem;
-    width: 20rem;
+    height: 308px;
+    width: 380px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 23px;
@@ -2604,8 +2604,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 16.8rem;
-    width: 20rem;
+    height: 302px;
+    width: 360px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 22.5px;
@@ -2959,8 +2959,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 16.8rem;
-    width: 18rem;
+    height: 302px;
+    width: 330px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 22.5px;
@@ -3343,8 +3343,8 @@
     /* margin-left: 0px; */
   }
   .profile_section2 .profile_warning_msg {
-    height: 16.8rem;
-    width: 16.5rem;
+    height: 295px;
+    width: 300px;
   }
   .profile_section2 .profile_warning_msg .caution_icon {
     font-size: 22px;
@@ -3355,7 +3355,7 @@
   }
   .profile_section2 .profile_warning_msg .warning_desc {
     font-size: 12px;
-    width: 270px;
+    width: 260px;
   }
   .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
     padding: 9px 90px;
