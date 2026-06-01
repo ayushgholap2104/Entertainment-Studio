@@ -748,7 +748,7 @@ form #message:hover {
 }
 #open-popup-btn {
   padding: 10px 40px;
-  font-size: 0.9rem;
+  font-size: 16px;
   box-shadow: 0 0.08rem 0.5rem rgba(0, 0, 0, 0.1);
   background: var(--bg_color);
   cursor: pointer;
@@ -763,6 +763,7 @@ form #message:hover {
 #open-popup-btn:hover {
   background-color: #ff6400;
   color: #fff;
+  /* transition: background-color color 0.3s ease; */
 }
 .popup-center {
   height: 14rem;

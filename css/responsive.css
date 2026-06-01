@@ -523,6 +523,10 @@
     font-size: 25px;
     /* margin-right: 4px; */
   }
+  .profile_popup .profile_container2 {
+    margin-top: 2px;
+    gap: 10px;
+  }
   .login a {
     font-size: 10px;
   }
@@ -610,7 +614,8 @@
     font-size: 14.5px;
   }
   #open-popup-btn {
-    padding: 10px 35px;
+    padding: 10px 38px;
+    font-size: 15.5px;
   }
   .sub-main {
     width: 27.5%;
@@ -883,7 +888,8 @@
     width: 52.5%;
   }
   #open-popup-btn {
-    padding: 10px 35px;
+    padding: 10px 36px;
+    font-size: 14.5px;
   }
   .sub-main {
     width: 31.5%;
@@ -1137,6 +1143,10 @@
   form {
     font-size: 14.5px;
   }
+  #open-popup-btn {
+    padding: 10px 38px;
+    font-size: 14.5px;
+  }
 
   form .input_cont #name {
     font-size: 15.5px;
@@ -1374,6 +1384,10 @@
     width: 40px;
     font-size: 32px;
   }
+  .profile_popup .profile_container2 {
+    margin-top: 2px;
+    gap: 0px;
+  }
   .profile_popup {
     right: -20px;
     width: 240px;
@@ -1513,6 +1527,10 @@
   }
   form {
     font-size: 14px;
+  }
+  #open-popup-btn {
+    padding: 10px 38px;
+    font-size: 14.5px;
   }
   form .input_cont #name {
     font-size: 15px;
@@ -1750,6 +1768,10 @@
     height: 38px;
     width: 38px;
     font-size: 30px;
+  }
+  .profile_popup .profile_container2 {
+    margin-top: 2px;
+    gap: 5px;
   }
   .login a {
     display: none;
@@ -2313,12 +2335,15 @@
   .profile_popup .profile_container1 .profile_name p {
     font-size: 15.5px;
   }
+  .profile_popup .profile_container2 {
+    margin-top: 4px;
+  }
   .profile_popup .profile_container2 .profile_msg1 a {
-    /* padding: 8px 25px; */
+    padding: 9px 27px;
     font-size: 13px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
-    /* padding: 8px 40px; */
+    padding: 9px 41px;
     font-size: 13px;
   }
   .login a {
@@ -2460,6 +2485,10 @@
   }
   form {
     font-size: 13px;
+  }
+  #open-popup-btn {
+    padding: 10px 37px;
+    font-size: 13.5px;
   }
   form .input_cont #name {
     font-size: 14px;
@@ -2812,6 +2841,10 @@
   form {
     font-size: 12.5px;
   }
+  #open-popup-btn {
+    padding: 10px 36px;
+    font-size: 13px;
+  }
   form .input_cont #name {
     font-size: 13.5px;
   }
@@ -3029,11 +3062,16 @@
   .profile_popup .profile_container1 .profile_name p {
     font-size: 15px;
   }
+  .profile_popup .profile_container2 {
+    margin-top: 5px;
+  }
   .profile_popup .profile_container2 .profile_msg1 a {
     font-size: 12px;
+    padding: 8px 28px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
     font-size: 12px;
+    padding: 8px 42px;
   }
   .login a {
     display: none;
