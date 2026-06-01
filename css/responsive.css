@@ -1407,6 +1407,25 @@
   .light-dark {
     font-size: 32px;
   }
+  .company-info h4 {
+    font-size: 13.5px;
+  }
+  .company-info a {
+    font-size: 12.5px;
+  }
+  .feedback-center h4 {
+    font-size: 13.5px;
+  }
+  .feedback-center a {
+    font-size: 12.5px;
+  }
+  .copy-right {
+    font-size: 14px;
+  }
+
+  .icons {
+    font-size: 15.5px;
+  }
   .side-menu {
     width: 300px;
     margin-top: 0px;
@@ -2357,6 +2376,13 @@
   }
   foot {
     height: 8vh;
+  }
+  .copy-right {
+    font-size: 13.5px;
+  }
+
+  .icons {
+    font-size: 14px;
   }
   .company-info {
     display: none;
