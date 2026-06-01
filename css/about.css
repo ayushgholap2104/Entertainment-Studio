@@ -385,6 +385,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 84%;
+  gap: 5px;
 }
 
 .profile_popup .profile_container2 .profile_msg1 a{
@@ -393,7 +394,7 @@ body {
   font-weight: 500;
   font-size: 13px;
   border: none;
-  padding: 8px 30px;
+  padding: 10px 30px;
   border-radius: 20px;
   background:var(--primary_color);
   color: var(--body_color);
@@ -407,7 +408,7 @@ body {
   font-weight: 500;
   font-size: 13px;
   border: none;
-  padding: 8px 45px;
+  padding: 10px 45px;
   border-radius: 20px;
   background: var(--signout-color);
   border: none;
