@@ -42,9 +42,9 @@
   }
   /* For Verify page */
   .verify_interface {
-    width: 18rem;
-    height: 22.5rem;
-    gap: 27px;
+    min-width: 310px;
+    min-height: 400px;
+    gap: 25px;
   }
   .verify_interface .verify_icon {
     font-size: 60px;
@@ -70,6 +70,7 @@
     width: 140px;
     font-size: 10px;
     height: 38px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -115,8 +116,8 @@
   }
   /* For Verify page */
   .verify_interface {
-    width: 19rem;
-    height: 24rem;
+    min-width: 360px;
+    min-height: 420px;
     gap: 25px;
   }
   .verify_interface .verify_icon {
@@ -143,6 +144,7 @@
     width: 150px;
     font-size: 11px;
     height: 39px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -188,9 +190,8 @@
   }
   /* For Verify page */
   .verify_interface {
-    width: 21rem;
-    height: 24rem;
-    gap: 27px;
+    min-width: 370px;
+    min-height: 420px;
   }
   .verify_interface .verify_icon {
     font-size: 70px;
@@ -216,6 +217,7 @@
     width: 160px;
     font-size: 12px;
     height: 40px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 1285px) and (max-width: 1390px) {
