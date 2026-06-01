@@ -30,7 +30,7 @@
   }
   /* For Sign in page */
   .signin {
-    min-width: 380px;
+    min-width: 310px;
     min-height: 380px;
     gap: 27px;
   }
@@ -76,8 +76,8 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* For Sign Up page */
   .signup {
-    min-width: 380px;
-    min-height: 430px;
+    min-width: 390px;
+    min-height: 440px;
     gap: 27px;
   }
   .signup h2 {
@@ -104,8 +104,8 @@
   }
   /* For Sign in page */
   .signin {
-    min-width: 380px;
-    min-height: 380px;
+    min-width: 400px;
+    min-height: 390px;
     gap: 27px;
   }
   .signin h2 {
@@ -150,8 +150,8 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* For Sign Up page */
   .signup {
-    min-width: 410px;
-    min-height: 430px;
+    min-width: 420px;
+    min-height: 450px;
     gap: 27px;
   }
   .signup h2 {
@@ -178,8 +178,8 @@
   }
   /* For Sign in page */
   .signin {
-    min-width: 410px;
-    min-height: 380px;
+    min-width: 420px;
+    min-height: 400px;
     gap: 27px;
   }
   .signin h2 {
@@ -472,7 +472,7 @@
   }
   .profile_popup .profile_container2 {
     margin-top: 2px;
-    gap: 10px;
+    gap: 15px;
   }
   .login a {
     font-size: 10px;
