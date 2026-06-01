@@ -920,7 +920,7 @@ footer{
 
 }
 .foot {
-  width: 100%;
+  /* width: 100%; */
   background-color: #1a1b1e;
   /* height: 11vh; */
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);

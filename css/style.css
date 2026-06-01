@@ -800,7 +800,7 @@ body{
 }
 /* Footer Begins */
 .foot{
-  width: 100%;
+  /* width: 100%; */
   bottom: 0;
   display: flex;
   background-color:#1a1b1e;
