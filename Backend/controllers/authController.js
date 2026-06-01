@@ -145,7 +145,7 @@ exports.verify = (req, res) => {
         const token = jwt.sign(
           { id: user.id, email: user.email },
           "secretkey",
-          { expiresIn: "24h" }
+          { expiresIn: "10d" }
         )
         db.query("UPDATE users_detail SET otp = NULL,is_verified = true WHERE email =?", [email])
 
