@@ -1331,20 +1331,28 @@
     width: 40px;
     font-size: 32px;
   }
+  .profile_popup .profile_container1 .profile_name p {
+    font-size: 14.5px;
+  }
   .profile_popup .profile_container2 {
     margin-top: 2px;
-    gap: 0px;
+    gap: 5px;
   }
   .profile_popup {
     right: -20px;
     width: 240px;
   }
-  /* .profile_popup .profile_container2 .profile_msg1 a {
-    padding: 8px 30px;
+  .profile_popup .profile_container2 .profile_msg1 a {
+    font-size: 12.5px;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
-    padding: 8px 45px;
-  } */
+    font-size: 12.5px;
+    padding: 10px 43px;
+    border-radius: 18px;
+  }
   .login {
     display: none;
   }
@@ -1737,7 +1745,7 @@
   }
   .profile_popup .profile_container2 {
     margin-top: 2px;
-    gap: 5px;
+    gap: 10px;
   }
   .login a {
     display: none;
@@ -1993,6 +2001,7 @@
     width: 36px;
     font-size: 28px;
   }
+
   .login a {
     display: none;
   }
@@ -2152,6 +2161,7 @@
     right: 44px;
     bottom: -10px;
   }
+
   .profile_section1 .profile_name {
     margin-top: 20px;
   }
@@ -2302,18 +2312,18 @@
     width: 45px;
   }
   .profile_popup .profile_container1 .profile_name p {
-    font-size: 15.5px;
-  }
-  .profile_popup .profile_container2 {
-    margin-top: 4px;
+    font-size: 14px;
   }
   .profile_popup .profile_container2 .profile_msg1 a {
-    padding: 9px 27px;
-    font-size: 13px;
+    font-size: 12px;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
-    padding: 9px 41px;
-    font-size: 13px;
+    font-size: 12px;
+    padding: 10px 41px;
+    border-radius: 18px;
   }
   .login a {
     display: none;
@@ -3013,25 +3023,29 @@
   .profile_popup {
     right: -35px;
     width: 200px;
-    height: 140px;
+    height: 150px;
   }
   .profile_popup .profile_container1 .profile_img {
     height: 40px;
     width: 40px;
   }
   .profile_popup .profile_container1 .profile_name p {
-    font-size: 15px;
+    font-size: 13.5px;
   }
-  .profile_popup .profile_container2 {
+  .profile_popup .profile_container2{
     margin-top: 5px;
+    gap: 10px;
   }
   .profile_popup .profile_container2 .profile_msg1 a {
-    font-size: 12px;
-    padding: 8px 28px;
+    font-size: 11.5px;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
-    font-size: 12px;
-    padding: 8px 42px;
+    font-size: 11.5px;
+    padding: 10px 39px;
+    border-radius: 18px;
   }
   .login a {
     display: none;
