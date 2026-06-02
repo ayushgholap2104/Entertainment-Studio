@@ -441,12 +441,13 @@ body {
   /* display: none; */
   margin-top: 80px;
 }
+
 .user-signin a {
   font-size: 13px;
   text-decoration: none;
   color: var(--primary_color);
   font-weight: 500;
-  padding: 14px 30px;
+  padding: 12.5px 27px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -460,7 +461,7 @@ body {
   color: var(--body_color);
 }
 .user-signup a {
-  padding: 15.5px 30px;
+  padding: 14px 27px;
   font-size: 13px;
   border-radius: 6px;
   background-color: #8c05fb;
