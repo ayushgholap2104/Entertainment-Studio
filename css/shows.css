@@ -328,14 +328,12 @@ body {
   position: absolute;
   top: 70px;
   width: 230px;
-  height: 170px;
-  visibility: hidden;
   transform: translateY(8px);
   opacity: 0;
   transition: all 0.5s ease;
+  height: 170px;
 }
 .profile_popup.active {
-  visibility: visible;
   transform: translateY(0);
   opacity: 1;
 }

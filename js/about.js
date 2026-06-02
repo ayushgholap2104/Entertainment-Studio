@@ -19,6 +19,8 @@ function profilePopup(){
   userProfilebtn.addEventListener('click',()=>{
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
-    
   })
+}
+function userLogout(){
+  
 }
