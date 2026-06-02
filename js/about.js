@@ -1,6 +1,7 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
+  userLogout()
 })
 
 function sidebarClick(){
@@ -21,6 +22,11 @@ function profilePopup(){
     userProfilebtn.classList.toggle('active');
   })
 }
-// function userLogout(){
-  
-// }
+function userLogout(){
+  const userLogout = document.querySelector('#user_logout');
+  userLogout.addEventListener('click', (e)=>{
+    e.preventDefault()
+    localStorage.removeItem("token")
+    window.location.href = "../index.html"
+  })
+}

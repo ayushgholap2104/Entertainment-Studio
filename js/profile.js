@@ -1,6 +1,7 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
+  userLogout()
   // profileData()
   profileDelete_modal()
 })
@@ -21,6 +22,14 @@ function profilePopup() {
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
+  })
+}
+function userLogout() {
+  const userLogout = document.querySelector('#user_logout');
+  userLogout.addEventListener('click', (e) => {
+    e.preventDefault()
+    localStorage.removeItem("token")
+    window.location.href = "../index.html"
   })
 }
 
@@ -48,7 +57,7 @@ async function profileData() {
     }
   })
   const data = await res.json()
-  
+
 }
 
 

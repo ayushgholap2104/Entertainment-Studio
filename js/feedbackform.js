@@ -1,8 +1,9 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
+  userLogout()
 })
-function sidebarClick(){
+function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
 
@@ -11,13 +12,21 @@ function sidebarClick(){
     sidebarIcon.classList.toggle('active')
   })
 }
-function profilePopup(){
+function profilePopup() {
   const userProfilebtn = document.querySelector('.language')
   const showProfile = document.querySelector('.profile_popup')
-  userProfilebtn.addEventListener('click',()=>{
+  userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
-    
+
+  })
+}
+function userLogout() {
+  const userLogout = document.querySelector('#user_logout');
+  userLogout.addEventListener('click', (e) => {
+    e.preventDefault()
+    localStorage.removeItem("token")
+    window.location.href = "../index.html"
   })
 }
 const form = document.getElementById('my_form')
@@ -41,22 +50,22 @@ async function handleSubmit(event) {
   //   status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
   // });
 
-  try{
+  try {
 
     var res = await fetch(event.target.action, {
       method: form.method,
       body: data,
       headers: { 'accept': 'application/json' },
     })
-  
+
     if (res.ok) {
       status.classList.add('active')
       form.reset()
     } else {
       status.innerHTML = 'Oops! There Was a Problem Submitting Your Form'
     }
-    
-  } catch(err) {
+
+  } catch (err) {
     console.log(err)
   }
 }

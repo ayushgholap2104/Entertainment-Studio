@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
   searchbarClick()
   sidebarSearchclick()
   profilePopup()
+  userLogout()
   upButton()
   card_right_slide()
 })
@@ -728,7 +729,14 @@ function profilePopup() {
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
-
+  })
+}
+function userLogout() {
+  const userLogout = document.querySelector('#user_logout');
+  userLogout.addEventListener('click', (e) => {
+    e.preventDefault()
+    localStorage.removeItem("token")
+    window.location.href = "../index.html"
   })
 }
 function upButton() {

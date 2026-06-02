@@ -20,6 +20,7 @@ window.addEventListener("load", () => {
   searchbarClick()
   sidebarSearchclick()
   profilePopup()
+  userLogout()
   upButton()
   card_right_slide()
 })
@@ -653,15 +654,15 @@ function searchbarClick() {
   const search_btn = document.querySelector('.search-btn input')
   const sections = document.querySelectorAll('.child-box-content')
   const foot = document.querySelector('.foot')
-  search_btn.addEventListener('input',()=>{
+  search_btn.addEventListener('input', () => {
     const search_value = search_btn.value.toLowerCase().trim()
-    if (search_value === ""){
-      sections.forEach(section=>{
+    if (search_value === "") {
+      sections.forEach(section => {
         section.style.display = 'block'
         const boxes = section.querySelectorAll('.box')
         const box_left_btn = section.querySelector('.swipe-left-btn')
         const box_right_btn = section.querySelector('.swipe-right-btn')
-        boxes.forEach(box=>{
+        boxes.forEach(box => {
           box.style.display = 'block'
         })
 
@@ -677,16 +678,16 @@ function searchbarClick() {
       const cardrightBtn = section.querySelector('.swipe-right-btn')
       let hasVisiblebox = false
 
-      allboxes.forEach(box=>{
+      allboxes.forEach(box => {
         const boxText = box.dataset.title.toLowerCase();
-        if (boxText.includes(search_value)){
+        if (boxText.includes(search_value)) {
           box.style.display = 'block'
           hasVisiblebox = true
-        }else{
+        } else {
           box.style.display = 'none'
         }
       })
-      section.style.display = hasVisiblebox ? 'block':'none';
+      section.style.display = hasVisiblebox ? 'block' : 'none';
       cardleftBtn.style.display = 'none'
       cardrightBtn.style.display = 'none'
     });
@@ -698,15 +699,15 @@ function sidebarSearchclick() {
   const search_btn = document.querySelector('.search-bar input')
   const sections = document.querySelectorAll('.child-box-content')
   const foot = document.querySelector('.foot')
-  search_btn.addEventListener('input',()=>{
+  search_btn.addEventListener('input', () => {
     const search_value = search_btn.value.toLowerCase().trim()
-    if (search_value === ""){
-      sections.forEach(section=>{
+    if (search_value === "") {
+      sections.forEach(section => {
         section.style.display = 'block'
         const boxes = section.querySelectorAll('.box')
         const box_left_btn = section.querySelector('.swipe-left-btn')
         const box_right_btn = section.querySelector('.swipe-right-btn')
-        boxes.forEach(box=>{
+        boxes.forEach(box => {
           box.style.display = 'block'
         })
 
@@ -722,29 +723,36 @@ function sidebarSearchclick() {
       const cardrightBtn = section.querySelector('.swipe-right-btn')
       let hasVisiblebox = false
 
-      allboxes.forEach(box=>{
+      allboxes.forEach(box => {
         const boxText = box.dataset.title.toLowerCase();
-        if (boxText.includes(search_value)){
+        if (boxText.includes(search_value)) {
           box.style.display = 'block'
           hasVisiblebox = true
-        }else{
+        } else {
           box.style.display = 'none'
         }
       })
-      section.style.display = hasVisiblebox ? 'block':'none';
+      section.style.display = hasVisiblebox ? 'block' : 'none';
       cardleftBtn.style.display = 'none'
       cardrightBtn.style.display = 'none'
     });
-    
+
   })
 }
-function profilePopup(){
+function profilePopup() {
   const userProfilebtn = document.querySelector('.language')
   const showProfile = document.querySelector('.profile_popup')
-  userProfilebtn.addEventListener('click',()=>{
+  userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
-    
+  })
+}
+function userLogout() {
+  const userLogout = document.querySelector('#user_logout');
+  userLogout.addEventListener('click', (e) => {
+    e.preventDefault()
+    localStorage.removeItem("token")
+    window.location.href = "../index.html"
   })
 }
 function upButton() {
