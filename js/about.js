@@ -21,6 +21,6 @@ function profilePopup(){
     userProfilebtn.classList.toggle('active');
   })
 }
-function userLogout(){
+// function userLogout(){
   
-}
+// }
