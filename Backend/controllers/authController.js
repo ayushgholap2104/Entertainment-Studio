@@ -5,7 +5,13 @@ const nodemailer = require("nodemailer")
 
 
 exports.profile = (req,res) =>{
-  
+  db.query(
+    "SELECT name,email FROM user_details WHERE email=?",
+    [req.user.email],
+    (err,result) =>{
+      res.json(result[0])
+    }
+  )
 }
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
