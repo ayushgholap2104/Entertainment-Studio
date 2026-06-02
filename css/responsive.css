@@ -2018,7 +2018,10 @@
     width: 270px;
   }
   .user-signin a {
-    width: 90px;
+    font-size: 12px;
+  }
+  .user-signup a {
+    font-size: 12px;
   }
 
   .aboutContent .about_Info1 {
@@ -2364,17 +2367,13 @@
     color: black;
     font-size: 11px;
   }
-  .user-signin {
-    width: 73px;
-    font-size: 11px;
-  }
   .user-signin a {
-    font-weight: 500;
-    width: 70px;
+    font-size: 11px;
+    padding: 12px 28px;
   }
-  .user-signup {
-    width: 100px;
-    font-size: 10px;
+  .user-signup a {
+    font-size: 11px;
+    padding: 13.5px 28px;
   }
   .aboutContent .about_Info1 {
     flex-direction: column;
@@ -2716,18 +2715,7 @@
     color: black;
     font-size: 10px;
   }
-  .user-signin {
-    width: 71px;
-    font-size: 10px;
-  }
-  .user-signin a {
-    font-weight: 500;
-    width: 68px;
-  }
-  .user-signup {
-    width: 98px;
-    font-size: 8px;
-  }
+
   .aboutContent {
     padding-top: 65px;
   }
@@ -3091,17 +3079,13 @@
     color: black;
     font-size: 9px;
   }
-  .user-signin {
-    width: 69px;
-    font-size: 9px;
-  }
   .user-signin a {
-    font-weight: 500;
-    width: 66px;
+    font-size: 10px;
+    padding: 12px 26px;
   }
-  .user-signup {
-    width: 96px;
-    font-size: 7px;
+  .user-signup a {
+    font-size: 10px;
+    padding: 13.5px 26px;
   }
   .parent-box {
     padding: 0;
