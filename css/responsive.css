@@ -997,20 +997,20 @@
     font-size: 17px;
   }
   .search-bar {
-    width: 12rem;
+    width: 210px;
+    height: 44px;
   }
   .search-bar input {
-    height: 3vh;
-    width: 10rem;
+    width: 170px;
+    font-size: 15.5px;
+    height: 41px;
+    padding-left: 5px;
   }
   .search-bar i {
-    color: grey;
-    font-size: 15px;
-    padding-right: 5px;
+    font-size: 15.5px;
   }
   .search-bar input::placeholder {
-    color: black;
-    font-size: 12px;
+    font-size: 14.5px;
   }
   .user-login {
     display: none;
@@ -1399,19 +1399,20 @@
     font-size: 16px;
   }
   .search-bar {
-    width: 11rem;
+    width: 200px;
+    height: 43px;
   }
   .search-bar input {
-    width: 9rem;
+    width: 160px;
+    font-size: 15px;
+    height: 40px;
+    padding-left: 5px;
   }
   .search-bar i {
-    color: grey;
     font-size: 15px;
-    padding-right: 7px;
   }
   .search-bar input::placeholder {
-    color: black;
-    font-size: 12px;
+    font-size: 14px;
   }
   .aboutContent {
     padding-top: 70px;
@@ -2352,6 +2353,14 @@
   .side-menu {
     width: 250px;
   }
+  .user-signin a {
+    font-size: 11px;
+    padding: 12px 28px;
+  }
+  .user-signup a {
+    font-size: 11px;
+    padding: 13.5px 28px;
+  }
   .menu a {
     font-size: 14px;
     height: 1.5vh;
@@ -2363,28 +2372,22 @@
     font-size: 15px;
   }
   .search-bar {
-    width: 10rem;
+    width: 180px;
+    height: 41px;
   }
   .search-bar input {
-    width: 8rem;
+    width: 140px;
+    font-size: 14.5px;
+    height: 38px;
+    padding-left: 5px;
   }
   .search-bar i {
-    color: grey;
-    font-size: 14px;
-    padding-right: 7px;
+    font-size: 14.5px;
   }
   .search-bar input::placeholder {
-    color: black;
-    font-size: 11px;
+    font-size: 13.5px;
   }
-  .user-signin a {
-    font-size: 11px;
-    padding: 12px 28px;
-  }
-  .user-signup a {
-    font-size: 11px;
-    padding: 13.5px 28px;
-  }
+
   .aboutContent .about_Info1 {
     flex-direction: column;
     text-align: center;
@@ -2702,7 +2705,7 @@
   }
   .menu a {
     font-size: 13px;
-    height: 1vh;
+    /* height: 1vh; */
   }
   .menu a.active {
     font-size: 14px;
@@ -2711,19 +2714,20 @@
     font-size: 14px;
   }
   .search-bar {
-    width: 9rem;
+    width: 170px;
+    height: 40px;
   }
   .search-bar input {
-    width: 7rem;
+    width: 130px;
+    font-size: 13px;
+    height: 37px;
+    padding-left: 5px;
   }
   .search-bar i {
-    color: grey;
-    font-size: 13px;
-    padding-right: 7px;
+    font-size: 14px;
   }
   .search-bar input::placeholder {
-    color: black;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .aboutContent {
@@ -3032,7 +3036,7 @@
   .profile_popup .profile_container1 .profile_name p {
     font-size: 13.5px;
   }
-  .profile_popup .profile_container2{
+  .profile_popup .profile_container2 {
     margin-top: 5px;
     gap: 10px;
   }
@@ -3070,7 +3074,6 @@
   }
   .menu a {
     font-size: 12px;
-    height: 1vh;
   }
   .menu a.active {
     font-size: 13px;
@@ -3079,20 +3082,22 @@
     font-size: 13px;
   }
   .search-bar {
-    width: 8rem;
+    width: 160px;
+    height: 40px;
   }
   .search-bar input {
-    width: 6rem;
+    width: 120px;
+    font-size: 12px;
+    height: 36px;
+    padding-left: 5px;
   }
   .search-bar i {
-    color: grey;
-    font-size: 12px;
-    padding-right: 7px;
+    font-size: 13px;
   }
   .search-bar input::placeholder {
-    color: black;
-    font-size: 9px;
+    font-size: 12px;
   }
+
   .user-signin a {
     font-size: 10px;
     padding: 12px 26px;
