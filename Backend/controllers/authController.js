@@ -3,6 +3,10 @@ const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
 
+
+exports.profile = (req,res) =>{
+  
+}
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
   console.log(req.body)

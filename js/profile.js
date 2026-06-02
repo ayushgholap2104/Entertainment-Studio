@@ -48,7 +48,6 @@ async function profileData() {
     }
   })
   const data = await res.json()
-  console.log(data)
 }
 
 
