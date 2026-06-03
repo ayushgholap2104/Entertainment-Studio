@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   sidebarClick()
   profilePopup()
   userLogout()
-  // profileData()
+  profileData()
   profileDelete_modal()
 })
 
@@ -57,6 +57,7 @@ async function profileData() {
     }
   })
   const data = await res.json()
+  console.log(data)
 
 }
 

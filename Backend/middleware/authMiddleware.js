@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken")
 const verifytoken = (req,res,next) =>{
   const token = req.headers["authorization"]
   if (!token){
-    return res.json("Email does not exist")
+    return res.json("Login to continue")
   }
   try {
     const verified = jwt.verify(token,"secretkey")

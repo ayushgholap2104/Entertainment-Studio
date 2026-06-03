@@ -6,10 +6,10 @@ const nodemailer = require("nodemailer")
 
 exports.profile = (req,res) =>{
   db.query(
-    "SELECT name,email FROM user_details WHERE email=?",
-    [req.user.email],
+    "SELECT name,email FROM user_details WHERE id=?",
+    [req.user.id],
     (err,result) =>{
-      res.json(result[0])
+      res.json(result[0]);
     }
   )
 }
