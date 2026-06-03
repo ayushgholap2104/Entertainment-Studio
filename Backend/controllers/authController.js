@@ -4,11 +4,11 @@ const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
 
 
-exports.profile = (req,res) =>{
+exports.profile = (req, res) => {
   db.query(
     "SELECT name,email FROM user_details WHERE id=?",
     [req.user.id],
-    (err,result) =>{
+    (err, result) => {
       res.json(result[0]);
     }
   )
@@ -170,6 +170,25 @@ exports.verify = (req, res) => {
           message: "Invalid OTP"
         })
       }
+    }
+  )
+}
+exports.userdelete = (res, req) => {
+  db.query(
+    "DELETE * FROM user_detail WHERE email=?",
+    [req.user.email],
+    (err) => {
+      if (err) {
+        res.status(500).json({
+          success: false,
+          message: "Error while deleting account"
+        })
+      }
+
+      res.json({
+        success: true,
+        message: "Your account has been succesfully deleted"
+      })
     }
   )
 }

@@ -14,4 +14,5 @@ router.post('/signup',signup)
 router.post('/login',login)
 router.post('/verify',verify)
 router.get('/profile',verifytoken,profile)
+router.delete('/userdelete',verifytoken,userdelete)
 module.exports = router

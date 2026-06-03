@@ -4,6 +4,7 @@ window.addEventListener("load", () => {
   profilePopup()
   userLogout()
   profileDelete_modal()
+  userAccountdelete()
 })
 
 function sidebarClick() {
@@ -61,7 +62,28 @@ async function profileData() {
   })
   const data = await res.json()
   console.log(data)
+}
+function userAccountdelete(){
+  const deleteBtn = document.querySelector("#profile-btn-close")
+  deleteBtn.addEventListener('click', async(e) => {
+    e.preventDefault()
+    token = localStorage.getItem("token")
 
+    const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete",{
+      method: "DELETE",
+      headers: {
+        "authorization":token
+      }
+    })
+    const data = await res.json()
+    if (data.success){
+      localStorage.removeItem("token")
+      showToast(data.message, "success");
+    }else{
+      showToast(data.message, "danger");
+    }
+
+  })
 }
 
 
