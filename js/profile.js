@@ -79,6 +79,7 @@ function userAccountdelete(){
     if (data.success){
       localStorage.removeItem("token")
       showToast(data.message, "success");
+      window.location.href = "../frontend/sign_up.html"
     }else{
       showToast(data.message, "danger");
     }
