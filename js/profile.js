@@ -1,8 +1,8 @@
 window.addEventListener("load", () => {
   sidebarClick()
+  profileData()
   profilePopup()
   userLogout()
-  profileData()
   profileDelete_modal()
 })
 

@@ -10,5 +10,5 @@ const {profile} = require("../controllers/authController")
 router.post('/signup',signup)
 router.post('/login',login)
 router.post('/verify',verify)
-router.post('/profile',verifytoken,profile)
+router.get('/profile',verifytoken,profile)
 module.exports = router
