@@ -18,9 +18,9 @@ function loginData() {
     })
 
     const data = await res.json()
-    localStorage.setItem('token', data.token)
-    localStorage.setItem('userEmail', data.email)
     if (data.success) {
+      localStorage.setItem('token', data.token)
+      localStorage.setItem('userEmail', data.email)
       showToast(data.message, "success");
       setTimeout(() => {
         window.location.href = "../frontend/verify.html"

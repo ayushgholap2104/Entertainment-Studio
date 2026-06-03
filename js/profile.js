@@ -25,12 +25,15 @@ function profilePopup() {
   })
 }
 function userLogout() {
-  const userLogout = document.querySelector('#user_logout');
-  userLogout.addEventListener('click', (e) => {
-    e.preventDefault()
-    localStorage.removeItem("token")
-    window.location.href = "../index.html"
+  const userLogout = document.querySelectorAll('#user_logout');
+  userLogout.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault()
+      localStorage.removeItem("token")
+      window.location.href = "../index.html"
+    })
   })
+
 }
 
 function profileDelete_modal() {
