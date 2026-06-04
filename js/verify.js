@@ -41,6 +41,9 @@ function verifyOTP() {
     const email = localStorage.getItem('userEmail')
     const otp = getOTP()
 
+    console.log("Email from localStorage:", email);
+    console.log("OTP:", otp);
+
     const res = await fetch("http://127.0.0.1:5000/api/auth/verify", {
       method: "POST",
       headers: {
@@ -53,7 +56,7 @@ function verifyOTP() {
 
     if (data.success) {
       showToast(data.message, "success");
-      localStorage.setItem('token',data.token)
+      localStorage.setItem('token', data.token)
 
       setTimeout(() => {
         window.location.href = "../frontend/Home.html"

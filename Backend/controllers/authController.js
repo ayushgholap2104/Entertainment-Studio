@@ -37,7 +37,8 @@ exports.signup = (req, res) => {
             sendOTP(email, otp)
             res.json({
               success: true,
-              message: "OTP sent to your email"
+              message: "OTP sent to your email",
+              email:email
             })
           }
         )
@@ -137,7 +138,8 @@ const sendOTP = async (email, otp) => {
 
 exports.verify = (req, res) => {
   const { email, otp } = req.body
-
+  console.log('Frontend otp: ',otp)
+  // console.log('User Email: ',email )
   db.query(
     "SELECT * FROM users_detail WHERE email =? AND otp = ?",
     [email, otp],
