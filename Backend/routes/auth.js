@@ -8,9 +8,9 @@ const {verify} = require("../controllers/authController");
 const {profile} = require("../controllers/authController");
 const {userdelete} = require("../controllers/authController");
 
-router.post('/signup',signup)
-router.post('/login',login)
-router.post('/verify',verify)
-router.get('/profile',verifytoken,profile)
-router.delete('/userdelete',verifytoken,userdelete)
+router.post('/signup',signup);
+router.post('/login',login);
+router.post('/verify',verify);
+router.get('/profile',verifytoken,profile);
+router.delete('/userdelete',verifytoken,userdelete);
 module.exports = router
