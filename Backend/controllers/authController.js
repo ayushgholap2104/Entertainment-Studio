@@ -174,7 +174,7 @@ exports.verify = (req, res) => {
 }
 exports.userdelete = (res, req) => {
   db.query(
-    "DELETE * FROM users_detail WHERE email=?",
+    "DELETE FROM users_detail WHERE email=?",
     [req.user.email],
     (err) => {
       if (err) {
