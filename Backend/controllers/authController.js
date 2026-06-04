@@ -119,7 +119,7 @@ const sendOTP = async (email, otp) => {
       service: "gmail",
       auth: {
         user: "ayushgholap2104@gmail.com",
-        pass: "vrvj btua mnvj ousk"
+        pass: "wzes oklh vajx thdg"
       }
     })
 
