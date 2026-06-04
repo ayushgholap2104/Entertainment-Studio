@@ -273,7 +273,6 @@ body {
   align-items: center;
   transition: 0.3s;
   position: relative;
-  cursor: pointer;
   color: #a9a9a9dc;
 }
 
@@ -281,8 +280,11 @@ body {
   color: #fff;
 }
 .language.active {
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #fff;
+}
+.language .fa-circle-user {
+  cursor: pointer;
 }
 .login a {
   font-weight: bold;
