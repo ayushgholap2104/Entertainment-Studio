@@ -3,16 +3,6 @@ const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
 
-
-exports.profile = (req, res) => {
-  db.query(
-    "SELECT name,email FROM user_details WHERE id=?",
-    [req.user.id],
-    (err, result) => {
-      res.json(result[0]);
-    }
-  )
-}
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
   console.log(req.body)
@@ -113,6 +103,15 @@ exports.login = (req, res) => {
     }
   )
 }
+exports.profile = (req, res) => {
+  db.query(
+    "SELECT name,email FROM users_details WHERE email=?",
+    [req.user.email],
+    (err, result) => {
+      res.json(result[0]);
+    }
+  )
+}
 // OTP send logic
 const sendOTP = async (email, otp) => {
   try {
@@ -175,7 +174,7 @@ exports.verify = (req, res) => {
 }
 exports.userdelete = (res, req) => {
   db.query(
-    "DELETE * FROM user_detail WHERE email=?",
+    "DELETE * FROM users_detail WHERE email=?",
     [req.user.email],
     (err) => {
       if (err) {
