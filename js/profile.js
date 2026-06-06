@@ -55,7 +55,7 @@ function profileDelete_modal() {
 async function profileData() {
   const token = localStorage.getItem("token")
 
-  const res = await fetch("http://localhost:5000/api/auth/profile", {
+  const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
     headers: {
       "authorization": token
     }
@@ -63,27 +63,28 @@ async function profileData() {
   const data = await res.json()
   console.log(data)
 }
-function userAccountdelete(){
+function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-btn-close")
-  deleteBtn.addEventListener('click', async(e) => {
+  deleteBtn.addEventListener('click', async (e) => {
     e.preventDefault()
     token = localStorage.getItem("token")
 
-    const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete",{
+    const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete", {
       method: "DELETE",
       headers: {
-        "authorization":token
+        "authorization": token
       }
     })
     const data = await res.json()
-    if (data.success){
+    if (data.success) {
       localStorage.removeItem("token")
-      showToast(data.message, "success");
-      window.location.href = "../frontend/sign_up.html"
-    }else{
-      showToast(data.message, "danger");
+      alert(data.message, "success");
+      setTimeout(() => {
+        window.location.href = "../frontend/sign_up.html"
+      }, 2000)
+    } else {
+      alert(data.message, "danger");
     }
-
   })
 }
 

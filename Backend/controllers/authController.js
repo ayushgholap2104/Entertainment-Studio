@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
 
+
 exports.signup = (req, res) => {
   const { name, email, password } = req.body
   console.log(req.body)
@@ -106,10 +107,10 @@ exports.login = (req, res) => {
 }
 exports.profile = (req, res) => {
   db.query(
-    "SELECT name,email FROM users_details WHERE email=?",
+    "SELECT * FROM users_details WHERE email=?",
     [req.user.email],
     (err, result) => {
-      res.json(result[0]);
+      // res.json(result[0]);
     }
   )
 }
@@ -174,7 +175,8 @@ exports.verify = (req, res) => {
     }
   )
 }
-exports.userdelete = (res, req) => {
+exports.userdelete = (req, res) => {
+  console.log("Controller req.user",req.user) 
   db.query(
     "DELETE FROM users_detail WHERE email=?",
     [req.user.email],
