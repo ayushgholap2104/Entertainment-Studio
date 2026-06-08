@@ -655,26 +655,26 @@
   .profile_section2 .save_profilebtn button {
     font-size: 12.5px;
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 335px;
     width: 435px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 24.5px;
     padding: 6px 14px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 17.5px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 14.5px;
     width: 320px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 11px 130px;
     font-size: 15.5px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 11px 130px;
     font-size: 15.5px;
   }
@@ -907,26 +907,26 @@
   .profile_section2 .save_profilebtn button {
     font-size: 12px;
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 325px;
     width: 430px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 24px;
     padding: 4px 14px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 17px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 14px;
     width: 350px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 10px 120px;
     font-size: 15px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 10px 120px;
     font-size: 15px;
   }
@@ -1253,26 +1253,26 @@
     margin-bottom: 25px;
     font-size: 12.5px;
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 330px;
     width: 425px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 24.5px;
     padding: 6px 14px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 17.5px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 14.5px;
     width: 350px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 10px 140px;
     font-size: 15.5px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 10px 140px;
     font-size: 15.5px;
   }
@@ -1668,26 +1668,26 @@
     margin-bottom: 25px;
     font-size: 12px;
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 325px;
     width: 415px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 24px;
     padding: 5px 14px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 17px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 14px;
     width: 350px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 10px 135px;
     font-size: 15px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 10px 135px;
     font-size: 15px;
   }
@@ -1934,26 +1934,26 @@
     font-size: 11.5px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 315px;
     width: 400px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 23.5px;
     padding: 5px 12px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 16.5px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 13.5px;
     width: 320px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 10px 125px;
     font-size: 14.5px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 10px 125px;
     font-size: 14.5px;
   }
@@ -2235,26 +2235,26 @@
     font-size: 11px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 308px;
     width: 380px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 23px;
     padding: 5px 12px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 16px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 13px;
     width: 300px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 9px 120px;
     font-size: 14px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 9px 120px;
     font-size: 14px;
   }
@@ -2608,26 +2608,26 @@
     font-size: 10.5px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 302px;
     width: 360px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 22.5px;
     padding: 4px 12px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 15.5px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 12.5px;
     width: 280px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 9px 110px;
     font-size: 13.5px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 9px 110px;
     font-size: 13.5px;
   }
@@ -2956,26 +2956,26 @@
     font-size: 10.5px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 302px;
     width: 330px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 22.5px;
     padding: 4px 12px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 15.5px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 12.5px;
     width: 280px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 9px 95px;
     font-size: 13.5px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 9px 95px;
     font-size: 13.5px;
   }
@@ -3343,26 +3343,26 @@
     font-size: 10px;
     /* margin-left: 0px; */
   }
-  .profile_section2 .profile_warning_msg {
+  .profile_section2 .profileStatus {
     height: 295px;
     width: 300px;
   }
-  .profile_section2 .profile_warning_msg .caution_icon {
+  .profile_section2 .profileStatus .caution_icon {
     font-size: 22px;
     padding: 4px 12px;
   }
-  .profile_section2 .profile_warning_msg .warning_msg {
+  .profile_section2 .profileStatus .warning_msg {
     font-size: 15px;
   }
-  .profile_section2 .profile_warning_msg .warning_desc {
+  .profile_section2 .profileStatus .warning_desc {
     font-size: 12px;
     width: 260px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+  .profile_section2 .profileStatus .close_btn #profile-btn-close {
     padding: 9px 90px;
     font-size: 13px;
   }
-  .profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+  .profile_section2 .profileStatus .close_btn #profile-btn-cancle {
     padding: 9px 90px;
     font-size: 13px;
   }

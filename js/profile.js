@@ -31,7 +31,7 @@ function userLogout() {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
       localStorage.removeItem("token")
-      window.location.href = "../index.html"
+      window.location.href = "../Home.html"
     })
   })
 

@@ -738,7 +738,7 @@ body {
   box-shadow: var(--shadow1);
   color: #ff4f9a;
 }
-.profile_section2 .profile_warning_msg {
+.profile_section2 .profileStatus {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -759,40 +759,40 @@ body {
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   z-index: -10;
 }
-.profile_section2 .profile_warning_msg.active {
+.profile_section2 .profileStatus.active {
   opacity: 1;
   z-index: 50;
 }
 
-.profile_section2 .profile_warning_msg .caution_icon {
+.profile_section2 .profileStatus .caution_icon {
   margin-top: 25px;
   font-size: 25px;
   padding: 5px 14px;
   background-color: #fedadadf;
   border-radius: 50%;
 }
-.profile_section2 .profile_warning_msg .caution_icon .fa-triangle-exclamation {
+.profile_section2 .profileStatus .caution_icon .fa-triangle-exclamation {
   color: #d93b43;
 }
-.profile_section2 .profile_warning_msg .warning_msg {
+.profile_section2 .profileStatus .warning_msg {
   color: #1f1f1f;
   font-weight: 500;
   font-size: 18px;
 }
-.profile_section2 .profile_warning_msg .warning_desc {
+.profile_section2 .profileStatus .warning_desc {
   color: #7a7a7a;
   text-align: center;
   font-size: 15px;
   width: 350px;
   font-weight: 300;
 }
-.profile_section2 .profile_warning_msg .close_btn {
+.profile_section2 .profileStatus .close_btn {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 10px;
 }
-.profile_section2 .profile_warning_msg .close_btn #profile-btn-close {
+.profile_section2 .profileStatus .close_btn #profile-btn-close {
   color: #fff;
   background-color: #eb2553;
   outline: none;
@@ -803,7 +803,7 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.profile_section2 .profile_warning_msg .close_btn #profile-btn-cancle {
+.profile_section2 .profileStatus .close_btn #profile-btn-cancle {
   color: #1f1f1f;
   outline: none;
   border: none;
