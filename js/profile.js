@@ -27,11 +27,22 @@ function profilePopup() {
 }
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');
+  const modalPopup = document.querySelector('#profile_logout_msg')
+  const cancleModal = document.querySelector('#profile-btn-cancle')
+
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
-      localStorage.removeItem("token")
-      window.location.href = "../Home.html"
+      modalPopup.classList.toggle('active')
+      
+      modalPopup.addEventListener('click', () => {
+        localStorage.removeItem("token")
+        window.location.href = "../frontend/Home.html"
+      })
+
+      cancleModal.addEventListener('click', () => {
+        modalPopup.classList.remove('active')
+      })
     })
   })
 
@@ -40,7 +51,7 @@ function userLogout() {
 function profileDelete_modal() {
 
   const profileDelete = document.querySelector('#user_deleteAccount')
-  const modalPopup = document.querySelector('.profile_warning_msg')
+  const modalPopup = document.querySelector('#profile_delete_msg')
   const cancleModal = document.querySelector('#profile-btn-cancle')
 
   profileDelete.addEventListener('click', () => {
