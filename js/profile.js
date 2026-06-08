@@ -24,6 +24,7 @@ function profilePopup() {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
   })
+
 }
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');

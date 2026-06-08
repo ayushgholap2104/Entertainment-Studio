@@ -342,19 +342,19 @@ body {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-  z-index: -10;
   position: absolute;
   top: 70px;
   width: 230px;
-  transform: translateY(8px);
-  opacity: 0;
-  transition: transform,opacity 0.3s ease;
+  display: none;
   height: 170px;
+  z-index: 200;
+  user-select: none;
+  transition:
+    display 0.4s ease,
+    transform 0.3s ease;
 }
 .profile_popup.active {
-  /* transform: translateY(0); */
-  opacity: 1;
-  z-index: 999;
+  display: block;
 }
 .profile_container1 {
   display: flex;
@@ -793,7 +793,7 @@ body {
   gap: 15px;
   margin-top: 10px;
 }
-.profile_section2 .profileStatus .close_btn .modal-action-btn{
+.profile_section2 .profileStatus .close_btn .modal-action-btn {
   color: #fff;
   background-color: #eb2553;
   outline: none;
@@ -804,7 +804,7 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+.profile_section2 .profileStatus .close_btn .modal-cancle-btn {
   color: #1f1f1f;
   outline: none;
   border: none;
