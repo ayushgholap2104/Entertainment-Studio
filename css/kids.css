@@ -376,7 +376,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 84%;
-  gap: 5px;
+  gap: 10px;
 }
 
 .profile_popup .profile_container2 .profile_msg1 a {
@@ -409,7 +409,6 @@ body {
   background: rgba(255, 0, 0, 0.15);
   color: #ff4d4d;
 }
-
 .side-menu {
   width: 320px;
   z-index: 100;
