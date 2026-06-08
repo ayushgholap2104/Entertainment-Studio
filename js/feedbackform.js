@@ -22,12 +22,27 @@ function profilePopup() {
   })
 }
 function userLogout() {
-  const userLogout = document.querySelector('#user_logout');
-  userLogout.addEventListener('click', (e) => {
-    e.preventDefault()
-    localStorage.removeItem("token")
-    window.location.href = "../index.html"
+  const userLogout = document.querySelectorAll('#user_logout');
+  const modalPopup = document.querySelector('#profile_logout_msg');
+  const logoutBtn = document.querySelector("#profile-logout-btn");
+  const cancleModal = document.querySelector('#profile-logout-cancle');
+
+  userLogout.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault()
+      modalPopup.classList.toggle('active')
+
+      logoutBtn.addEventListener('click', () => {
+        localStorage.removeItem("token")
+        window.location.href = "../frontend/Home.html"
+      })
+
+      cancleModal.addEventListener('click', () => {
+        modalPopup.classList.remove('active')
+      })
+    })
   })
+
 }
 const form = document.getElementById('my_form')
 async function handleSubmit(event) {

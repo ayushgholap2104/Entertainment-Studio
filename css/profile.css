@@ -771,7 +771,7 @@ body {
   background-color: #fedadadf;
   border-radius: 50%;
 }
-.profile_section2 .profileStatus .caution_icon .fa-triangle-exclamation {
+.profile_section2 .profileStatus .caution_icon i {
   color: #d93b43;
 }
 .profile_section2 .profileStatus .warning_msg {
@@ -792,7 +792,7 @@ body {
   gap: 15px;
   margin-top: 10px;
 }
-.profile_section2 .profileStatus .close_btn #profile-btn-close {
+.profile_section2 .profileStatus .close_btn .modal-action-btn{
   color: #fff;
   background-color: #eb2553;
   outline: none;
@@ -803,7 +803,7 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.profile_section2 .profileStatus .close_btn #profile-btn-cancle {
+.profile_section2 .profileStatus .close_btn .modal-cancle-btn{
   color: #1f1f1f;
   outline: none;
   border: none;

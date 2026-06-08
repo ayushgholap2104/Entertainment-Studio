@@ -27,15 +27,16 @@ function profilePopup() {
 }
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');
-  const modalPopup = document.querySelector('#profile_logout_msg')
-  const cancleModal = document.querySelector('#profile-btn-cancle')
+  const modalPopup = document.querySelector('#profile_logout_msg');
+  const logoutBtn = document.querySelector("#profile-logout-btn");
+  const cancleModal = document.querySelector('#profile-logout-cancle');
 
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
       modalPopup.classList.toggle('active')
-      
-      modalPopup.addEventListener('click', () => {
+
+      logoutBtn.addEventListener('click', () => {
         localStorage.removeItem("token")
         window.location.href = "../frontend/Home.html"
       })
@@ -52,7 +53,7 @@ function profileDelete_modal() {
 
   const profileDelete = document.querySelector('#user_deleteAccount')
   const modalPopup = document.querySelector('#profile_delete_msg')
-  const cancleModal = document.querySelector('#profile-btn-cancle')
+  const cancleModal = document.querySelector('#profile-delete-cancle')
 
   profileDelete.addEventListener('click', () => {
     modalPopup.classList.toggle('active')
@@ -75,7 +76,7 @@ async function profileData() {
   console.log(data)
 }
 function userAccountdelete() {
-  const deleteBtn = document.querySelector("#profile-btn-close")
+  const deleteBtn = document.querySelector("#profile-delete-btn")
   deleteBtn.addEventListener('click', async (e) => {
     e.preventDefault()
     token = localStorage.getItem("token")
