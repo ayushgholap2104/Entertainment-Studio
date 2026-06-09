@@ -674,7 +674,7 @@
     padding: 11px 130px;
     font-size: 15.5px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 11px 130px;
     font-size: 15.5px;
   }
@@ -926,7 +926,7 @@
     padding: 10px 140px;
     font-size: 15.5px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 10px 140px;
     font-size: 15.5px;
   }
@@ -1272,7 +1272,7 @@
     padding: 10px 140px;
     font-size: 15.5px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 10px 140px;
     font-size: 15.5px;
   }
@@ -1687,12 +1687,16 @@
     padding: 10px 135px;
     font-size: 15px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 10px 135px;
     font-size: 15px;
   }
 }
 @media only screen and (max-width: 739px) {
+  #loader .spinner{
+    height: 40px;
+    width: 40px;
+  } 
   #head {
     display: flex;
     justify-content: space-between;
@@ -1953,7 +1957,7 @@
     padding: 10px 125px;
     font-size: 14.5px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 10px 125px;
     font-size: 14.5px;
   }
@@ -2254,7 +2258,7 @@
     padding: 9px 120px;
     font-size: 14px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 9px 120px;
     font-size: 14px;
   }
@@ -2627,7 +2631,7 @@
     padding: 9px 110px;
     font-size: 13.5px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 9px 110px;
     font-size: 13.5px;
   }
@@ -3362,7 +3366,7 @@
     padding: 9px 90px;
     font-size: 13px;
   }
-  .profile_section2 .profileStatus .close_btn .modal-cancle-btn{
+  .profile_section2 .profileStatus .close_btn .modal-cancle-btn {
     padding: 9px 90px;
     font-size: 13px;
   }

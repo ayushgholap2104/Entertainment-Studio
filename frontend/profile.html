@@ -18,10 +18,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/profile.css"/>
+    <link rel="stylesheet" href="../css/profile.css" />
     <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/keyframe.css" />
   </head>
   <body class="dark">
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
     <header id="head">
       <div class="sidebar">
         <i class="fa-solid fa-bars" id="menu-btn"></i>
@@ -211,8 +215,12 @@
               You will asked to login again to watch your favourites.
             </div>
             <div class="close_btn">
-              <button class="modal-action-btn" id="profile-logout-btn">Logout</button>
-              <button class="modal-cancle-btn" id="profile-logout-cancle">Cancel</button>
+              <button class="modal-action-btn" id="profile-logout-btn">
+                Logout
+              </button>
+              <button class="modal-cancle-btn" id="profile-logout-cancle">
+                Cancel
+              </button>
             </div>
           </div>
           <div class="profileStatus" id="profile_delete_msg">
@@ -225,8 +233,12 @@
               deleted.
             </div>
             <div class="close_btn">
-              <button class="modal-action-btn" id="profile-delete-btn">Delete</button>
-              <button class="modal-cancle-btn" id="profile-delete-cancle">Cancel</button>
+              <button class="modal-action-btn" id="profile-delete-btn">
+                Delete
+              </button>
+              <button class="modal-cancle-btn" id="profile-delete-cancle">
+                Cancel
+              </button>
             </div>
           </div>
         </div>

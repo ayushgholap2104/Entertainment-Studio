@@ -54,6 +54,7 @@ body {
   --profile-color-hover: rgb(184, 184, 184);
   --signout-color: rgba(255, 255, 255, 0.05);
 }
+
 #btn-up {
   bottom: 20px;
   position: fixed;
