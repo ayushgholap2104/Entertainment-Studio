@@ -7,6 +7,12 @@ window.addEventListener("load", () => {
   userAccountdelete()
 })
 
+function showLoader(){
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader(){
+  document.getElementById('loader').style.display = 'none'
+}
 function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
@@ -67,7 +73,7 @@ function profileDelete_modal() {
 
 async function profileData() {
   const token = localStorage.getItem("token")
-
+  // showLoader()
   const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
     headers: {
       "authorization": token
@@ -75,13 +81,14 @@ async function profileData() {
   })
   const data = await res.json()
   console.log(data)
+  // hideLoader()
 }
 function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-delete-btn")
   deleteBtn.addEventListener('click', async (e) => {
     e.preventDefault()
     token = localStorage.getItem("token")
-
+    // showLoader()
     const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete", {
       method: "DELETE",
       headers: {
@@ -98,6 +105,7 @@ function userAccountdelete() {
     } else {
       alert(data.message, "danger");
     }
+    // hideLoader()
   })
 }
 

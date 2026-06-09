@@ -76,7 +76,7 @@ body {
   left: 0;
   top: 0;
   position: fixed;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -847,7 +847,7 @@ body {
   box-shadow: var(--shadow1);  */
 
 /* Footer Begins */
-.foot {
+footer.foot {
   /* width: 100%; */
   bottom: 0;
   display: flex;
