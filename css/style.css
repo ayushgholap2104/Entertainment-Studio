@@ -333,10 +333,11 @@ body {
   height: 170px;
   z-index: 200;
   user-select: none;
-  transition: display 0.4s ease,transform 0.3s ease;
-  
+  transition:
+    display 0.4s ease,
+    transform 0.3s ease;
 }
-.profile_popup.active{
+.profile_popup.active {
   display: block;
 }
 
@@ -809,16 +810,14 @@ body {
   width: 440px;
   border-radius: 1rem;
   gap: 15px;
-  opacity: 0;
-  transition:
-    transform,
-    opacity 0.3s ease;
+  visibility: collapse;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  z-index: -10;
+  /* z-index: -10; */
+  z-index: 999;
 }
 .profileStatus.active {
-  opacity: 1;
-  z-index: 50;
+  /* opacity: 1; */
+  visibility: visible;
 }
 
 .profileStatus .caution_icon {
