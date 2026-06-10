@@ -7,12 +7,9 @@
   scroll-behavior: smooth;
   transition: 0.5s all;
   list-style: none;
+  box-sizing: unset;
 }
-html,
-body {
-  max-width: 100%;
-  overflow-x: clip;
-}
+
 :root {
   --body_color: #fff;
   --shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -37,15 +34,7 @@ body {
   --tertiary_color1: #fff;
   --shadow1: 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
-body {
-  background: var(--bg_color);
-  color: #fff;
-  min-height: 100vh;
-  width: 100%;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
-}
+
 .dark_theme {
   --body_color: #000000;
   --shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -69,6 +58,18 @@ body {
   --secondory_color2: #ffffff;
   --tertiary_color1: #1c2130;
   --shadow1: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.profile_main_content {
+  background: var(--bg_color);
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  max-width: 100%;
+  overflow-x: clip;
+  line-height: normal;
 }
 #loader {
   height: 100%;
@@ -583,7 +584,7 @@ body {
   display: flex;
   border: none;
   overflow: hidden;
-  /* box-shadow: var(--shadow); */
+  box-shadow: var(--shadow);
   z-index: 3;
 }
 .profile_container .profile_content .profile_section1 {
@@ -681,6 +682,8 @@ body {
   text-decoration: none;
   font-weight: 300;
   font-size: 13px;
+  padding: 0;
+  margin: 0;
 }
 .profile_section1 .user_options #user_logout {
   color: var(--secondory_color);
@@ -864,6 +867,8 @@ footer.foot {
 .foot .company-info h4 {
   font-weight: 400;
   font-size: 14px;
+  margin: 0;
+  line-height: normal;
 }
 .foot .company-info a {
   text-decoration: none;
@@ -879,6 +884,8 @@ footer.foot {
 .foot .feedback-center h4 {
   font-weight: 400;
   font-size: 14px;
+  margin: 0;
+  line-height: normal;
 }
 .foot .feedback-center a {
   text-decoration: none;
@@ -902,6 +909,7 @@ footer.foot {
 .foot .copy-right p {
   font-weight: 400;
   color: #fff;
+  margin: 0;
 }
 .foot .copy-right .icons {
   display: flex;
