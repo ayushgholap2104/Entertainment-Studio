@@ -7,10 +7,10 @@ window.addEventListener("load", () => {
   userAccountdelete()
 })
 
-function showLoader(){
+function showLoader() {
   document.getElementById('loader').style.display = 'flex'
 }
-function hideLoader(){
+function hideLoader() {
   document.getElementById('loader').style.display = 'none'
 }
 function sidebarClick() {
@@ -88,24 +88,30 @@ function userAccountdelete() {
   deleteBtn.addEventListener('click', async (e) => {
     e.preventDefault()
     token = localStorage.getItem("token")
-    // showLoader()
-    const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete", {
-      method: "DELETE",
-      headers: {
-        "authorization": token
+    try {
+      showLoader()
+      const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete", {
+        method: "DELETE",
+        headers: {
+          "authorization": token
+        }
+      })
+      const data = await res.json()
+      if (data.success) {
+        localStorage.removeItem("token")
+        showToast(data.message, "success");
+        setTimeout(() => {
+          window.location.href = "../frontend/sign_up.html"
+        }, 2000)
+      } else {
+        showToast(data.message, "danger");
       }
-    })
-    const data = await res.json()
-    if (data.success) {
-      localStorage.removeItem("token")
-      showToast(data.message, "success");
-      setTimeout(() => {
-        window.location.href = "../frontend/sign_up.html"
-      }, 2000)
-    } else {
-      showToast(data.message, "danger");
+    } catch (err) {
+      console.log(err)
+      showToast("Something went wrong.","danger")
+    }finally{
+      hideLoader()
     }
-    // hideLoader()
   })
 }
 

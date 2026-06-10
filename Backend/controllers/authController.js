@@ -39,7 +39,7 @@ exports.signup = (req, res) => {
             res.json({
               success: true,
               message: "OTP sent to your email",
-              email:email
+              email: email
             })
           }
         )
@@ -139,7 +139,7 @@ const sendOTP = async (email, otp) => {
 
 exports.verify = (req, res) => {
   const { email, otp } = req.body
-  console.log('Frontend otp: ',otp)
+  console.log('Frontend otp: ', otp)
   // console.log('User Email: ',email )
   db.query(
     "SELECT * FROM users_detail WHERE email =? AND otp = ?",
@@ -176,7 +176,7 @@ exports.verify = (req, res) => {
   )
 }
 exports.userdelete = (req, res) => {
-  console.log("Controller req.user",req.user) 
+  console.log("Controller req.user", req.user)
   db.query(
     "DELETE FROM users_detail WHERE email=?",
     [req.user.email],
@@ -190,7 +190,7 @@ exports.userdelete = (req, res) => {
 
       res.json({
         success: true,
-        message: "Your account has been succesfully deleted"
+        message: "Your account has been succesfully deleted."
       })
     }
   )
