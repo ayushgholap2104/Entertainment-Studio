@@ -98,12 +98,12 @@ function userAccountdelete() {
     const data = await res.json()
     if (data.success) {
       localStorage.removeItem("token")
-      alert(data.message, "success");
+      showToast(data.message, "success");
       setTimeout(() => {
         window.location.href = "../frontend/sign_up.html"
       }, 2000)
     } else {
-      alert(data.message, "danger");
+      showToast(data.message, "danger");
     }
     // hideLoader()
   })
