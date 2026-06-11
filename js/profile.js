@@ -44,17 +44,16 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
-        showLoader()
         localStorage.removeItem("token")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
+        showToast("Account logout successful", 'success')
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
-      hideLoader()
     })
   })
 
@@ -77,6 +76,14 @@ function profileDelete_modal() {
 
 async function profileData() {
   const token = localStorage.getItem("token")
+  if (!token) {
+    showToast("Please login or signup first.", "danger")
+    setTimeout(() => {
+      window.location.href = "../frontend/Home.html"
+    }, 2000)
+
+    return
+  }
   try {
     showLoader()
     const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
@@ -85,19 +92,14 @@ async function profileData() {
       }
     })
     const data = await res.json()
-    if (!data.success) {
-      showToast("Please login or signup first.", "danger")
-      setTimeout(() => {
-        window.location.href = "../frontend/Home.html"
-      }, 2000)
-    }else{
-      userName = user.name;
-      userEmail = user.email;
+    if (data.success) {
+      document.getElementById('user_name').value = data.user.name;
+      document.getElementById('user_email').value = data.user.email;
     }
   } catch (err) {
     console.log(err)
     showToast("Something went wrong.", "danger")
-  }finally{
+  } finally {
     hideLoader()
   }
 }

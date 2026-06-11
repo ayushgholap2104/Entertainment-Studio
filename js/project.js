@@ -24,7 +24,12 @@ window.addEventListener("load", () => {
   upButton()
   card_right_slide()
 })
-
+function showLoader() {
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none'
+}
 function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
@@ -746,7 +751,7 @@ function profilePopup() {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
   })
-  
+
 }
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');
@@ -760,13 +765,18 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
-        localStorage.removeItem("token")
-        window.location.href = "../frontend/Home.html"
+        showLoader()
+        token = localStorage.removeItem("token")
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        }, 2000)
+        console.log(token)
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
 

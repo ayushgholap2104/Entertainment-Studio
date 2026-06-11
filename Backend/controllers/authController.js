@@ -107,7 +107,7 @@ exports.login = (req, res) => {
 }
 exports.profile = (req, res) => {
   db.query(
-    "SELECT * FROM users_details WHERE email=?",
+    "SELECT * FROM users_detail WHERE email=?",
     [req.user.email],
     (err, result) => {
       if (err) {
@@ -186,7 +186,6 @@ exports.verify = (req, res) => {
   )
 }
 exports.userdelete = (req, res) => {
-  console.log("Controller req.user", req.user)
   db.query(
     "DELETE FROM users_detail WHERE email=?",
     [req.user.email],
