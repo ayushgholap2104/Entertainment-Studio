@@ -44,13 +44,17 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        showLoader()
         localStorage.removeItem("token")
-        window.location.href = "../frontend/Home.html"
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        }, 2000)
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
 
@@ -108,8 +112,8 @@ function userAccountdelete() {
       }
     } catch (err) {
       console.log(err)
-      showToast("Something went wrong.","danger")
-    }finally{
+      showToast("Something went wrong.", "danger")
+    } finally {
       hideLoader()
     }
   })
