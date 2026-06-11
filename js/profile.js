@@ -77,15 +77,29 @@ function profileDelete_modal() {
 
 async function profileData() {
   const token = localStorage.getItem("token")
-  // showLoader()
-  const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
-    headers: {
-      "authorization": token
+  try {
+    showLoader()
+    const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+      headers: {
+        "authorization": token
+      }
+    })
+    const data = await res.json()
+    if (!data.success) {
+      showToast("Please login or signup first.", "danger")
+      setTimeout(() => {
+        window.location.href = "../frontend/Home.html"
+      }, 2000)
+    }else{
+      userName = user.name;
+      userEmail = user.email;
     }
-  })
-  const data = await res.json()
-  console.log(data)
-  // hideLoader()
+  } catch (err) {
+    console.log(err)
+    showToast("Something went wrong.", "danger")
+  }finally{
+    hideLoader()
+  }
 }
 function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-delete-btn")

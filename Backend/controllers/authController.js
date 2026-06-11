@@ -110,7 +110,17 @@ exports.profile = (req, res) => {
     "SELECT * FROM users_details WHERE email=?",
     [req.user.email],
     (err, result) => {
-      // res.json(result[0]);
+      if (err) {
+        return res.status(500).json({
+          success: false,
+          message: "Something went wrong."
+        })
+      }
+
+      res.json({
+        success: true,
+        user: result[0]
+      })
     }
   )
 }
