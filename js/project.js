@@ -758,6 +758,7 @@ function userLogout() {
   const modalPopup = document.querySelector('#profile_logout_msg');
   const logoutBtn = document.querySelector("#profile-logout-btn");
   const cancleModal = document.querySelector('#profile-logout-cancle');
+  const token = localStorage.getItem("token");
 
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -765,6 +766,12 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        if (!token) {
+          showToast("Please signup or login first", "danger")
+          setTimeout(() => {
+            window.location.href = "../frontend/Home.html"
+          })
+        }
         showLoader()
         token = localStorage.removeItem("token")
         setTimeout(() => {
