@@ -84,7 +84,7 @@ async function handleSubmit(event) {
   // });
 
   try {
-
+    showLoader()
     var res = await fetch(event.target.action, {
       method: form.method,
       body: data,
@@ -101,8 +101,10 @@ async function handleSubmit(event) {
   } catch (err) {
     console.log(err)
   }
+  hideLoader()
 }
 form.addEventListener('submit', handleSubmit)
+
 const feedback_close_btn = document.querySelector('#popup-btn-close')
 feedback_close_btn.addEventListener('click', () => {
   document.getElementById('status').classList.remove('active')

@@ -659,7 +659,6 @@ form .input_cont #name {
 form #name:hover {
   border: 0.05rem solid #f39140;
   box-shadow: var(--shadow);
-  scale: 1.003;
 }
 /* Container2 */
 .input_cont1 {
@@ -690,7 +689,6 @@ form .input_cont1 #Email {
 form #Email:hover {
   border: 0.05rem solid #f39140;
   box-shadow: var(--shadow);
-  scale: 1.003;
 }
 /* Cont 3 */
 .input_cont2 {
@@ -721,7 +719,6 @@ form .input_cont2 #Subject {
 form #Subject:hover {
   border: 0.05rem solid #f39140;
   box-shadow: var(--shadow);
-  scale: 1.003;
 }
 /* cont 4 */
 .input_cont3 {
@@ -744,9 +741,9 @@ form .input_cont3 #message {
   background: var(--bg_color);
   color: var(--primary_color);
   width: 100%;
-  text-transform: capitalize;
   display: block;
   box-sizing: border-box;
+  text-transform: capitalize;
 }
 .input_cont3 textarea::placeholder {
   color: rgb(139, 139, 139);
@@ -756,7 +753,6 @@ form .input_cont3 #message {
 form #message:hover {
   border: 0.05rem solid #f39140;
   box-shadow: var(--shadow);
-  scale: 1.003;
 }
 #open-popup-btn {
   padding: 10px 40px;
@@ -837,6 +833,8 @@ form #message:hover {
   border-bottom: var(--border1-color);
   height: 4rem;
   display: flex;
+  margin: 0px;
+  padding: 0px;
 }
 .sub-main .sub-main-content {
   padding: 2rem;
