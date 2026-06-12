@@ -107,9 +107,8 @@ async function profileData() {
   } catch (err) {
     console.log(err)
     showToast("Something went wrong.", "danger")
-  } finally {
-    hideLoader()
   }
+  hideLoader()
 }
 function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-delete-btn")

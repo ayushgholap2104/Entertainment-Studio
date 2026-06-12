@@ -50,7 +50,8 @@ exports.signup = (req, res) => {
   )
 }
 exports.login = (req, res) => {
-  const { email, password } = req.body
+  const { email, password } = req.body;
+
   db.query(
     "SELECT * FROM users_detail WHERE email = ?",
     [email],
@@ -65,6 +66,9 @@ exports.login = (req, res) => {
         })
       }
       try {
+        user = result[0]
+        console.log("enteredPassword:", password)
+        console.log("dbPassword:", user.password)
         const isMatch = await bcrypt.compare(password, user.password)
         if (!isMatch) {
           return res.json({
@@ -199,7 +203,7 @@ exports.userdelete = (req, res) => {
 
       res.json({
         success: true,
-        message: "Your account has been succesfully deleted."
+        message: "Account deleted successfully."
       })
     }
   )
