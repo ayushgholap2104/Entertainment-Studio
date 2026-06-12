@@ -889,7 +889,7 @@ body {
   font-size: 16px;
 }
 /* Footer Begins */
-.foot {
+footer.foot {
   /* width: 100%; */
   bottom: 0;
   display: flex;
@@ -903,11 +903,13 @@ body {
   align-items: center;
   padding: 1rem;
 }
-.company-info h4 {
+.foot .company-info h4 {
   font-weight: 400;
   font-size: 14px;
+  margin: 0;
+  line-height: normal;
 }
-.company-info a {
+.foot .company-info a {
   text-decoration: none;
   font-size: 13px;
   font-weight: 400;
@@ -915,24 +917,26 @@ body {
   /* padding-left: 1px; */
   text-align: center;
 }
-.company-info a:hover {
+.foot .company-info a:hover {
   color: #5a00b5;
 }
-.feedback-center h4 {
+.foot .feedback-center h4 {
   font-weight: 400;
   font-size: 14px;
+  margin: 0;
+  line-height: normal;
 }
-.feedback-center a {
+.foot .feedback-center a {
   text-decoration: none;
   font-size: 13px;
   font-weight: 500;
   color: #a1a0a0;
   align-items: center;
 }
-.feedback-center a:hover {
+.foot .feedback-center a:hover {
   color: #5a00b5;
 }
-.copy-right {
+.foot .copy-right {
   display: flex;
   justify-content: center;
   font-size: 14.5px;
@@ -941,33 +945,34 @@ body {
   flex-direction: column;
   gap: 14px;
 }
-.copy-right p {
+.foot .copy-right p {
   font-weight: 400;
   color: #fff;
+  margin: 0;
 }
-.icons {
+.foot .copy-right .icons {
   display: flex;
   justify-content: center;
   gap: 15px;
   font-size: 16px;
 }
-.icons a {
+.foot .copy-right .icons a {
   text-decoration: none;
   color: #fff;
 }
-.fa-facebook:hover {
+.foot .copy-right .icons .fa-facebook:hover {
   cursor: pointer;
   color: #1877f2;
 }
-.fa-instagram:hover {
+.foot .copy-right .icons .fa-instagram:hover {
   cursor: pointer;
   color: #e1306c;
 }
-.fa-linkedin:hover {
+.foot .copy-right .icons .fa-linkedin:hover {
   cursor: pointer;
   color: #0a66c2;
 }
-.fa-github:hover {
+.foot .copy-right .icons .fa-github:hover {
   cursor: pointer;
   color: #686666;
 }
