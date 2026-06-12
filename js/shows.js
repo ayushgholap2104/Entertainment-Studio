@@ -744,23 +744,34 @@ function userLogout() {
   const modalPopup = document.querySelector('#profile_logout_msg');
   const logoutBtn = document.querySelector("#profile-logout-btn");
   const cancleModal = document.querySelector('#profile-logout-cancle');
+  const token = localStorage.getItem("token");
 
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
+      if (!token) {
+        showToast("Please signup or login first", "danger")
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        }, 2000)
+      }
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        showLoader()
         localStorage.removeItem("token")
-        window.location.href = "../frontend/Home.html"
+        showToast("You have successfully logged out of your account.", "success")
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        }, 2000)
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
-
 }
 function upButton() {
   const btn_up = document.querySelector('#btn-up')

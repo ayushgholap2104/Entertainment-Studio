@@ -774,6 +774,7 @@ function userLogout() {
       logoutBtn.addEventListener('click', () => {
         showLoader()
         localStorage.removeItem("token")
+        showToast("You have successfully logged out of your account.","success")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
@@ -785,7 +786,6 @@ function userLogout() {
       hideLoader()
     })
   })
-
 }
 
 function upButton() {

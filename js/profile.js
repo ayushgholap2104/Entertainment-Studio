@@ -42,28 +42,29 @@ function userLogout() {
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
-      if(!token){
-        showToast("Please signup or login first","danger")
-        setTimeout(()=>{
+      if (!token) {
+        showToast("Please signup or login first", "danger")
+        setTimeout(() => {
           window.location.href = "../frontend/Home.html"
-        })
+        }, 2000)
       }
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        showLoader()
         localStorage.removeItem("token")
+        showToast("You have successfully logged out of your account.", "success")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
-        showToast("Account logout successful", 'success')
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
-
 }
 
 function profileDelete_modal() {
@@ -136,7 +137,7 @@ function userAccountdelete() {
     } catch (err) {
       console.log(err)
       showToast("Something went wrong.", "danger")
-    } 
+    }
     hideLoader()
   })
 }
