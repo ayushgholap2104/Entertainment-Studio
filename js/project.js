@@ -767,7 +767,7 @@ function userLogout() {
         showToast("Please login first.", "danger")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
-        },2000)
+        }, 2000)
       }
       modalPopup.classList.toggle('active')
 
@@ -787,6 +787,7 @@ function userLogout() {
     })
   })
 }
+
 
 function upButton() {
   const btn_up = document.querySelector('#btn-up')

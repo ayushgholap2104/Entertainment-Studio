@@ -48,6 +48,7 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        showLoader()
         localStorage.removeItem("token")
         showToast("Logged out successfully.", "success")
         setTimeout(() => {
@@ -58,7 +59,7 @@ function userLogout() {
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
-
 }

@@ -750,7 +750,7 @@ function userLogout() {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
       if (!token) {
-        showToast("Please login first", "danger")
+        showToast("Please login first.", "danger")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
@@ -773,6 +773,7 @@ function userLogout() {
     })
   })
 }
+
 function upButton() {
   const btn_up = document.querySelector('#btn-up')
   btn_up.addEventListener('click', () => {

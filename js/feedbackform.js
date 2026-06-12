@@ -62,6 +62,7 @@ function userLogout() {
   })
 }
 
+
 const form = document.getElementById('my_form')
 async function handleSubmit(event) {
   event.preventDefault()
