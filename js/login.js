@@ -1,6 +1,12 @@
 window.addEventListener("load", () => {
   loginData()
 })
+function showLoader() {
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none'
+}
 function loginData() {
   const form = document.querySelector('form')
   form.addEventListener('submit', async (e) => {

@@ -3,6 +3,12 @@ window.addEventListener("load", () => {
   profilePopup()
   userLogout()
 })
+function showLoader() {
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none'
+}
 function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')

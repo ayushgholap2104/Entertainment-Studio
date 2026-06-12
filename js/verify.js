@@ -2,6 +2,12 @@ window.addEventListener("load", () => {
   boxfunctionality()
   verifyOTP()
 })
+function showLoader() {
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none'
+}
 
 const inputs = document.querySelectorAll('.otp_input')
 

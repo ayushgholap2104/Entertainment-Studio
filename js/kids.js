@@ -11,6 +11,12 @@ window.addEventListener("load", () => {
   upButton()
   card_right_slide()
 })
+function showLoader() {
+  document.getElementById('loader').style.display = 'flex'
+}
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none'
+}
 function sidebarClick() {
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('#side-menu')
