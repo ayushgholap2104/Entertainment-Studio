@@ -50,26 +50,34 @@ function verifyOTP() {
     console.log("Email from localStorage:", email);
     console.log("OTP:", otp);
 
-    const res = await fetch("http://127.0.0.1:5000/api/auth/verify", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ email, otp })
-    })
+    try {
+      showLoader()
+      const res = await fetch("http://127.0.0.1:5000/api/auth/verify", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email, otp })
+      })
 
-    const data = await res.json()
+      const data = await res.json()
 
-    if (data.success) {
-      showToast(data.message, "success");
-      localStorage.setItem('token', data.token)
+      if (data.success) {
+        showToast(data.message, "success");
+        localStorage.setItem('token', data.token)
 
-      setTimeout(() => {
-        window.location.href = "../frontend/Home.html"
-      }, 1000)
-    } else {
-      showToast(data.message, "danger");
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        }, 2000)
+      } else {
+        showToast(data.message, "danger");
+      }
+
+    } catch (err) {
+      console.log(err)
+      showToast("Something went wrong.","danger")
     }
+    hideLoader()
   })
 }
 

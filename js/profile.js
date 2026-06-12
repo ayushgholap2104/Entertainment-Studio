@@ -136,9 +136,8 @@ function userAccountdelete() {
     } catch (err) {
       console.log(err)
       showToast("Something went wrong.", "danger")
-    } finally {
-      hideLoader()
-    }
+    } 
+    hideLoader()
   })
 }
 

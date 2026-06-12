@@ -14,25 +14,31 @@ function loginData() {
 
     const email = document.querySelector('#email').value
     const password = document.querySelector('#password').value
+    try {
+      showLoader()
+      const res = await fetch("http://127.0.0.1:5000/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email, password })
+      })
 
-    const res = await fetch("http://127.0.0.1:5000/api/auth/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ email, password })
-    })
-
-    const data = await res.json()
-    if (data.success) {
-      localStorage.setItem('token', data.token)
-      localStorage.setItem('userEmail', data.email)
-      showToast(data.message, "success");
-      setTimeout(() => {
-        window.location.href = "../frontend/verify.html"
-      }, 2000)
-    } else {
-      showToast(data.message, "danger");
+      const data = await res.json()
+      if (data.success) {
+        localStorage.setItem('token', data.token)
+        localStorage.setItem('userEmail', data.email)
+        showToast(data.message, "success");
+        setTimeout(() => {
+          window.location.href = "../frontend/verify.html"
+        }, 2000)
+      } else {
+        showToast(data.message, "danger");
+      }
+    } catch (err) {
+      console.log(err)
+      showToast("Something went wrong.","danger")
     }
+    hideLoader()
   })
 }
