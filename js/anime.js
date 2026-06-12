@@ -760,21 +760,21 @@ function userLogout() {
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
+        showLoader()
         localStorage.removeItem("token")
+        showToast("Logged out successfully.", "success")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
-        showToast("Account logout successful", 'success')
       })
 
       cancleModal.addEventListener('click', () => {
         modalPopup.classList.remove('active')
       })
+      hideLoader()
     })
   })
-
 }
-
 function upButton() {
   const btn_up = document.querySelector('#btn-up')
   btn_up.addEventListener('click', () => {

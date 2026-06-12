@@ -49,10 +49,10 @@ function userLogout() {
 
       logoutBtn.addEventListener('click', () => {
         localStorage.removeItem("token")
+        showToast("Logged out successfully.", "success")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
-        showToast("Account logout successful", 'success')
       })
 
       cancleModal.addEventListener('click', () => {
