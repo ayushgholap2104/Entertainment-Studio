@@ -763,21 +763,20 @@ function userLogout() {
   userLogout.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
+      if (!token) {
+        showToast("Please signup or login first", "danger")
+        setTimeout(() => {
+          window.location.href = "../frontend/Home.html"
+        },2000)
+      }
       modalPopup.classList.toggle('active')
 
       logoutBtn.addEventListener('click', () => {
-        if (!token) {
-          showToast("Please signup or login first", "danger")
-          setTimeout(() => {
-            window.location.href = "../frontend/Home.html"
-          })
-        }
         showLoader()
-        token = localStorage.removeItem("token")
+        localStorage.removeItem("token")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
-        console.log(token)
       })
 
       cancleModal.addEventListener('click', () => {
