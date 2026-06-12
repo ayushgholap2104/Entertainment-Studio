@@ -38,7 +38,7 @@ function userLogout() {
     btn.addEventListener('click', (e) => {
       e.preventDefault()
       if (!token) {
-        showToast("Please login or signup first.", "danger")
+        showToast("Please login first.", "danger")
         setTimeout(() => {
           window.location.href = "../frontend/Home.html"
         }, 2000)
