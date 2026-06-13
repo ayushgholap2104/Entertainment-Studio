@@ -83,6 +83,7 @@ function profileDelete_modal() {
 }
 
 async function profileData() {
+  const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
   if (!token) {
     showToast("Please login or signup first.", "danger")
@@ -103,6 +104,16 @@ async function profileData() {
     if (data.success) {
       document.getElementById('user_name').value = data.user.name;
       document.getElementById('user_email').value = data.user.email;
+
+      const usershortName = data.user.name;
+      const parts = usershortName.split(" ");
+      const profileName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
+      console.log(profileName)
+
+      userprofileName.forEach(userName =>{
+        userName.textContent = profileName;
+      })
+      
     }
   } catch (err) {
     console.log(err)
