@@ -753,6 +753,7 @@ function profilePopup() {
   })
 
 }
+
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');
   const modalPopup = document.querySelector('#profile_logout_msg');

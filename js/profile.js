@@ -108,7 +108,6 @@ async function profileData() {
       const usershortName = data.user.name;
       const parts = usershortName.split(" ");
       const profileName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
-      console.log(profileName)
 
       userprofileName.forEach(userName =>{
         userName.textContent = profileName;
