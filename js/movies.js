@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
   searchbarClick()
   sidebarSearchclick()
   profilePopup()
+  profileData()
   userLogout()
   upButton()
   card_right_slide()
@@ -738,6 +739,36 @@ function profilePopup() {
   })
 
 }
+
+async function profileData() {
+  const userprofileName = document.querySelectorAll('#user_profileName');
+  const token = localStorage.getItem("token")
+  if (!token) {
+    return
+  }
+  try {
+    const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+      headers: {
+        "authorization": token
+      }
+    })
+    const data = await res.json()
+    if (data.success) {
+      const usershortName = data.user.name;
+      const parts = usershortName.split(" ");
+      const profileName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
+
+      userprofileName.forEach(userName => {
+        userName.textContent = profileName;
+      })
+
+    }
+  } catch (err) {
+    console.log(err)
+    showToast("Something went wrong.", "danger")
+  }
+}
+
 function userLogout() {
   const userLogout = document.querySelectorAll('#user_logout');
   const modalPopup = document.querySelector('#profile_logout_msg');

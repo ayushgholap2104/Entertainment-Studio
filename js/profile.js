@@ -86,7 +86,7 @@ async function profileData() {
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
   if (!token) {
-    showToast("Please login or signup first.", "danger")
+    showToast("Please login first.", "danger")
     setTimeout(() => {
       window.location.href = "../frontend/Home.html"
     }, 2000)
