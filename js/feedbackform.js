@@ -43,12 +43,16 @@ async function profileData() {
     })
     const data = await res.json()
     if (data.success) {
-      const usershortName = data.user.name;
-      const parts = usershortName.split(" ");
-      const profileName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
-
+      const userfullName = data.user.name;
+      const parts = userName.trim().split(" ");
+      let displayName;
+      if (parts.length === 3) {
+        displayName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
+      } else {
+        displayName = userfullName;
+      }
       userprofileName.forEach(userName => {
-        userName.textContent = profileName;
+        userName.textContent = displayName;
       })
 
     }

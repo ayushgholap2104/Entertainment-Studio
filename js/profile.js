@@ -105,14 +105,18 @@ async function profileData() {
       document.getElementById('user_name').value = data.user.name;
       document.getElementById('user_email').value = data.user.email;
 
-      const usershortName = data.user.name;
-      const parts = usershortName.split(" ");
-      const profileName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
-
-      userprofileName.forEach(userName =>{
-        userName.textContent = profileName;
+      const userfullName = data.user.name;
+      const parts = userName.trim().split(" ");
+      let displayName;
+      if (parts.length === 3) {
+        displayName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
+      } else {
+        displayName = userfullName;
+      }
+      userprofileName.forEach(userName => {
+        userName.textContent = displayName;
       })
-      
+
     }
   } catch (err) {
     console.log(err)
