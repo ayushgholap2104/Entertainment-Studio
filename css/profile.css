@@ -686,6 +686,7 @@
 }
 .profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;
+  display: none;
 }
 .profile_section1 .follow_me .user_social_links a {
   display: flex;
