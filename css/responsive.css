@@ -627,7 +627,7 @@
   .profile_section1 .follow_me h4 {
     font-size: 17.5px;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 13.5px;
   }
   .profile_section1 .user_options {
@@ -879,7 +879,7 @@
   .profile_section1 .follow_me h4 {
     font-size: 17px;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 13px;
   }
   .profile_section1 .user_options {
@@ -1200,10 +1200,10 @@
   .profile_section1 .follow_me h4 {
     font-size: 17.5px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 20px;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     gap: 10px;
     font-size: 13.5px;
   }
@@ -1611,14 +1611,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 13px;
     gap: 8px;
   }
@@ -1883,14 +1883,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 12.5px;
     gap: 6px;
   }
@@ -2184,14 +2184,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 12px;
     gap: 6px;
   }
@@ -2560,14 +2560,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 11.5px;
     gap: 6px;
   }
@@ -2908,14 +2908,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 11.5px;
     gap: 6px;
   }
@@ -3295,14 +3295,14 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .profile_section1 .follow_me .user_accounts {
+  .profile_section1 .follow_me .user_social_links {
     margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me h4 {
     display: none;
   }
-  .profile_section1 .follow_me .user_accounts a {
+  .profile_section1 .follow_me .user_social_links a {
     font-size: 11px;
     gap: 6px;
   }

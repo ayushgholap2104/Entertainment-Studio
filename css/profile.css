@@ -659,10 +659,10 @@
   color: var(--secondory_color);
   font-size: 18px;
 }
-.profile_section1 .follow_me .user_accounts {
+.profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;
 }
-.profile_section1 .follow_me .user_accounts a {
+.profile_section1 .follow_me .user_social_links a {
   display: flex;
   font-size: 14px;
   font-weight: 300;
