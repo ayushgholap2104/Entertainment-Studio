@@ -659,6 +659,31 @@
   color: var(--secondory_color);
   font-size: 18px;
 }
+
+.profile_section1 .follow_me .user_social_inputs {
+  display: flex;
+  font-size: 14px;
+  font-weight: 300;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.profile_section1 .follow_me .user_social_inputs .user_socials{
+  height: 30px;
+  outline: none;
+  padding-left: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: var(--primary_color2);
+  color: var(--secondory_color2);
+}
+.profile_section1 .follow_me .user_social_inputs .user_socials::placeholder{
+  font-size: 12px;
+  color: #b3b3b3;
+  
+}
 .profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;
 }
@@ -673,7 +698,7 @@
   color: var(--secondory_color);
 }
 .profile_section1 .user_options {
-  margin-top: 125px;
+  margin-top: 98px;
   margin-left: 30px;
   display: flex;
   flex-direction: column;
