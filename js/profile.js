@@ -106,7 +106,7 @@ async function profileData() {
       document.getElementById('user_email').value = data.user.email;
 
       const userfullName = data.user.name;
-      const parts = userName.trim().split(" ");
+      const parts = userfullName.trim().split(" ");
       let displayName;
       if (parts.length === 3) {
         displayName = `${parts[0]} ${parts[1].charAt(0)} ${parts[2]}`;
