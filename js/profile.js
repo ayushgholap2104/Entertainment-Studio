@@ -85,14 +85,14 @@ function profileDelete_modal() {
 async function profileData() {
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
-  if (!token) {
-    showToast("Please login first.", "danger")
-    setTimeout(() => {
-      window.location.href = "../frontend/Home.html"
-    }, 2000)
+  // if (!token) {
+  //   showToast("Please login first.", "danger")
+  //   setTimeout(() => {
+  //     window.location.href = "../frontend/Home.html"
+  //   }, 2000)
 
-    return
-  }
+  //   return
+  // }
   try {
     showLoader()
     const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
