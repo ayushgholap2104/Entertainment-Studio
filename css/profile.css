@@ -664,23 +664,24 @@
   display: flex;
   font-size: 14px;
   font-weight: 300;
-  gap: 10px;
+  gap: 5px;
   margin-bottom: 20px;
   align-items: center;
 }
 .profile_section1 .follow_me .user_social_inputs .user_socials{
   height: 30px;
   outline: none;
-  padding-left: 8px;
+  padding-left: 10px;
   border-radius: 5px;
   border: none;
   font-size: 14px;
   font-weight: 300;
   background-color: var(--primary_color2);
   color: var(--secondory_color2);
+  width: 190px;
 }
 .profile_section1 .follow_me .user_social_inputs .user_socials::placeholder{
-  font-size: 12px;
+  font-size: 13px;
   color: #b3b3b3;
   
 }
