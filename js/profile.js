@@ -1,6 +1,7 @@
 window.addEventListener("load", () => {
   sidebarClick()
   profileData()
+  userImage()
   profilePopup()
   userLogout()
   profileDelete_modal()
@@ -123,6 +124,24 @@ async function profileData() {
     showToast("Something went wrong.", "danger")
   }
   hideLoader()
+}
+function userImage() {
+  const profileInput = document.getElementById('profileInput');
+  const cameraBtn = document.getElementById('profile_edit_icon');
+  const profileImage = document.getElementById('profileImage');
+
+  cameraBtn.addEventListener('click', () => {
+    profileInput.click();
+  })
+
+  profileInput.addEventListener('change',(e)=>{
+    const file = e.target.files[0];
+    if (!file){
+      return 
+    }
+    imgUrl = URL.createObjectURL(file);
+    profileImage.src = imgUrl;
+  })
 }
 function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-delete-btn")
