@@ -83,28 +83,8 @@ function profileDelete_modal() {
   })
 }
 
-let userimgFile = null;
-function userImage() {
-  const profileInput = document.getElementById('profileInput');
-  const cameraBtn = document.getElementById('profile_edit_icon');
-  const profileImage = document.getElementById('profileImage');
-
-  cameraBtn.addEventListener('click', () => {
-    profileInput.click();
-  })
-
-  profileInput.addEventListener('change', (e) => {
-    const file = e.target.files[0];
-    if (!file) {
-      return
-    }
-    userimgFile = file;
-    const imgUrl = URL.createObjectURL(file);
-    profileImage.src = imgUrl;
-  })
-}
-
 async function profileData() {
+  const profile_form = document.querySelector('.profile_form');
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
   if (!token) {
@@ -138,14 +118,39 @@ async function profileData() {
       userprofileName.forEach(userName => {
         userName.textContent = displayName;
       })
-
     }
+
+    // Profile Update Code
+    
+
   } catch (err) {
     console.log(err)
     showToast("Something went wrong.", "danger")
   }
   hideLoader()
 }
+
+let userimgFile = null;
+function userImage() {
+  const profileInput = document.getElementById('profileInput');
+  const cameraBtn = document.getElementById('profile_edit_icon');
+  const profileImage = document.getElementById('profileImage');
+
+  cameraBtn.addEventListener('click', () => {
+    profileInput.click();
+  })
+
+  profileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (!file) {
+      return
+    }
+    userimgFile = file;
+    const imgUrl = URL.createObjectURL(file);
+    profileImage.src = imgUrl;
+  })
+}
+
 
 
 function userAccountdelete() {
