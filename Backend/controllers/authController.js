@@ -148,7 +148,7 @@ exports.updateProfile = (req, res) => {
       SET facebook = ?,
       SET github = ?,
       SET profileImg = ?,
-      WHERE email =?
+      WHERE email =?;
     `,
     [genre, location, instagram, facebook, github, profileImg, email],
     (err, result) => {

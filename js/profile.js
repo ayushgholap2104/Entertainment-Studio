@@ -83,6 +83,27 @@ function profileDelete_modal() {
   })
 }
 
+let userimgFile = null;
+function userImage() {
+  const profileInput = document.getElementById('profileInput');
+  const cameraBtn = document.getElementById('profile_edit_icon');
+  const profileImage = document.getElementById('profileImage');
+
+  cameraBtn.addEventListener('click', () => {
+    profileInput.click();
+  })
+
+  profileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (!file) {
+      return
+    }
+    userimgFile = file;
+    const imgUrl = URL.createObjectURL(file);
+    profileImage.src = imgUrl;
+  })
+}
+
 async function profileData() {
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
@@ -124,27 +145,6 @@ async function profileData() {
     showToast("Something went wrong.", "danger")
   }
   hideLoader()
-}
-
-function userImage() {
-  let userimgFile = null;
-  const profileInput = document.getElementById('profileInput');
-  const cameraBtn = document.getElementById('profile_edit_icon');
-  const profileImage = document.getElementById('profileImage');
-
-  cameraBtn.addEventListener('click', () => {
-    profileInput.click();
-  })
-
-  profileInput.addEventListener('change',(e)=>{
-    const file = e.target.files[0];
-    if (!file){
-      return 
-    }
-    userimgFile = file;
-    const imgUrl = URL.createObjectURL(file);
-    profileImage.src = imgUrl;
-  })
 }
 
 
