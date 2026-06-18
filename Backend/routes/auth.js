@@ -7,7 +7,9 @@ const {login} = require("../controllers/authController");
 const {verify} = require("../controllers/authController");
 const {profile} = require("../controllers/authController");
 const {userdelete} = require("../controllers/authController");
+const {updateProfile} = require("../controllers/authController");
 const {upload} = require("../middleware/Uploads");
+
 
 router.post('/signup',signup);
 
