@@ -128,6 +128,29 @@ exports.profile = (req, res) => {
     }
   )
 }
+exports.updateProfile = (req,res) =>{
+  const {
+    email,
+    genre,
+    location,
+    instagramId,
+    facebookId,
+    githubId,
+    profileImg
+  } = req.body
+  db.query(
+    `
+      UPDATE users_detail
+      SET genre = ?,
+      SET location = ?,
+      SET instagram = ?,
+      SET facebook = ?,
+      SET github = ?,
+      SET profileImg = ?,
+      WHERE email =?
+    `,[email]
+  )
+}
 // OTP send logic
 const sendOTP = async (email, otp) => {
   try {
