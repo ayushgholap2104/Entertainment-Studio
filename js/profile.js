@@ -125,7 +125,9 @@ async function profileData() {
   }
   hideLoader()
 }
+
 function userImage() {
+  let userimgFile = null;
   const profileInput = document.getElementById('profileInput');
   const cameraBtn = document.getElementById('profile_edit_icon');
   const profileImage = document.getElementById('profileImage');
@@ -139,10 +141,13 @@ function userImage() {
     if (!file){
       return 
     }
-    imgUrl = URL.createObjectURL(file);
+    userimgFile = file;
+    const imgUrl = URL.createObjectURL(file);
     profileImage.src = imgUrl;
   })
 }
+
+
 function userAccountdelete() {
   const deleteBtn = document.querySelector("#profile-delete-btn")
   deleteBtn.addEventListener('click', async (e) => {
