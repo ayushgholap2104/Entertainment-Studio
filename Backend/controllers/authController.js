@@ -128,7 +128,7 @@ exports.profile = (req, res) => {
     }
   )
 }
-exports.updateProfile = (req,res) =>{
+exports.updateProfile = (req, res) => {
   const {
     email,
     genre,
@@ -138,6 +138,7 @@ exports.updateProfile = (req,res) =>{
     githubId,
     profileImg
   } = req.body
+
   db.query(
     `
       UPDATE users_detail
@@ -148,7 +149,21 @@ exports.updateProfile = (req,res) =>{
       SET github = ?,
       SET profileImg = ?,
       WHERE email =?
-    `,[email]
+    `,
+    [genre, location, instagram, facebook, github, profileImg, email],
+    (err, result) => {
+      if (err) {
+        return res.status(500).json({
+          success: false,
+          message: "Some err have occured"
+        })
+      }
+
+      res.json({
+        success: true,
+        user: result[0],
+      })
+    }
   )
 }
 // OTP send logic
