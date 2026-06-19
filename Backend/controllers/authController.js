@@ -136,8 +136,9 @@ exports.updateProfile = (req, res) => {
     instagramId,
     facebookId,
     githubId,
-    profileImg
   } = req.body
+
+  const profileImg = req.file? req.file.filename:null;
 
   db.query(
     `

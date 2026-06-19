@@ -121,7 +121,43 @@ async function profileData() {
     }
 
     // Profile Update Code
-    
+    profile_form.addEventListener('submit',async (e) => {
+      e.preventDefault()
+      const userGenre = document.querySelector('#user_genre').value;
+      const userLocation = document.querySelector('#user_location').value;
+      const userInstagram = document.querySelector('#user_instagram').value;
+      const userFacebook = document.querySelector('#user_facebook').value;
+      const userGithub = document.querySelector('#user_github').value;
+
+      const formData = new FormData();
+      formData.append("genre",userGenre)
+      formData.append("location",userLocation)
+      formData.append("instagram",userInstagram)
+      formData.append("facebook",userFacebook)
+      formData.append("github",userGithub)
+
+      if(userimgFile){
+        formData.append("profileImg",userimgFile)
+      }
+
+      const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+        method: "PUT",
+        headers:{
+          authorization:token
+        },
+        body: formData,
+      })
+
+      const data = await res.json();
+      if (data.success) {
+        showToast("Profile update successful", "success")
+        userGenre = data.user.genre;
+        userLocation = data.user.location;
+        userInstagram = data.user.instagram;
+        userFacebook = data.user.facebook;
+        userGithub = data.user.gihub;
+      }
+    })
 
   } catch (err) {
     console.log(err)

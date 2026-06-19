@@ -19,7 +19,11 @@ router.post('/verify',verify);
 
 router.get('/profile',verifytoken,profile);
 
-// router.put('/profile',verifytoken,upload.single(""),updateProfile);
+router.put(
+  '/profile',
+  verifytoken,
+  upload.single("profileImg"),
+  updateProfile);
 
 router.delete('/userdelete',verifytoken,userdelete);
 
