@@ -407,7 +407,6 @@
   font-size: 15px;
   font-weight: 400;
   color: var(--primary_color);
-
 }
 .profile_popup .profile_container2 {
   display: flex;
@@ -668,7 +667,7 @@
   margin-bottom: 20px;
   align-items: center;
 }
-.profile_section1 .follow_me .user_social_inputs .user_socials{
+.profile_section1 .follow_me .user_social_inputs .user_socials {
   height: 30px;
   outline: none;
   padding-left: 10px;
@@ -680,10 +679,9 @@
   color: var(--secondory_color2);
   width: 190px;
 }
-.profile_section1 .follow_me .user_social_inputs .user_socials::placeholder{
+.profile_section1 .follow_me .user_social_inputs .user_socials::placeholder {
   font-size: 13px;
   color: #b3b3b3;
-  
 }
 .profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;

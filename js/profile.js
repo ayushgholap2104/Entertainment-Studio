@@ -85,6 +85,11 @@ function profileDelete_modal() {
 
 async function profileData() {
   const profile_form = document.querySelector('form');
+  const user_social_inputs = document.querySelectorAll('.user_social_inputs');
+  const user_social_links = document.querySelectorAll('.user_social_links');
+  const instaLink = document.querySelector('#instaLink')
+  const fbLink = document.querySelector('#fbLink')
+  const githubLink = document.querySelector('#githubLink')
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
   if (!token) {
@@ -119,6 +124,47 @@ async function profileData() {
       userprofileName.forEach(userName => {
         userName.textContent = displayName;
       })
+      console.log(data.user.profileImg)
+
+      document.querySelector('#user_genre').value = data.user.genre;
+      document.querySelector('#user_location').value = data.user.location;
+      instagramUrl = `https://www.instagram.com/${data.user.instagram}`;
+      facebookUrl = `https://www.facebook.com/${data.user.facebook}`;
+      githubUrl = `https://www.github.com/${data.user.github}`;
+      document.querySelector('#profileImage').src = data.user.profileImg;
+
+      if (data.user.instagram) {
+        user_social_inputs.forEach(input => {
+          input.style.display = "none"
+        })
+        user_social_links.forEach(link => {
+          link.style.display = "block"
+        })
+        instaLink.hidden = false;
+        instaLink.href = instagramUrl
+      }
+      if (data.user.facebook) {
+        user_social_inputs.forEach(input => {
+          input.style.display = "none"
+        })
+        user_social_links.forEach(link => {
+          link.style.display = "block"
+          fbLink.hidden = false;
+          fbLink.href = facebookUrl
+        })
+
+      }
+      if (data.user.github) {
+        user_social_inputs.forEach(input => {
+          input.style.display = "none"
+        })
+        user_social_links.forEach(link => {
+          link.style.display = "block"
+        })
+        githubLink.hidden = false;
+        githubLink.hrf = githubUrl
+
+      }
 
     }
 
@@ -130,7 +176,6 @@ async function profileData() {
       const userInstagram = document.querySelector('#user_instagram').value;
       const userFacebook = document.querySelector('#user_facebook').value;
       const userGithub = document.querySelector('#user_github').value;
-      console.log(userGenre)
 
       const formData = new FormData();
       formData.append("genre", userGenre)
@@ -154,15 +199,13 @@ async function profileData() {
         const data = await res.json();
         if (data.success) {
           showToast("Profile update successful", "success")
-          document.querySelector('#user_genre').value = data.user.genre;
-          document.querySelector('#user_location').value = data.user.location;
-          document.querySelector('#user_instagram').value = data.user.instagram;
-          document.querySelector('#user_facebook').value = data.user.facebook;
-          document.querySelector('#user_github').value = data.user.github;
-          document.querySelector('#profileImage').src = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+          setTimeout(() => {
+            window.location.href = "../frontend/profile.html"
+          }, 2000)
+
         }
       } catch (err) {
-        console.log("Something went wrong.",err)
+        console.log("Something went wrong.", err)
       }
 
 
@@ -191,8 +234,6 @@ function userImage() {
       return
     }
     userimgFile = file;
-    const imgUrl = URL.createObjectURL(file);
-    profileImage.src = imgUrl;
   })
 }
 
