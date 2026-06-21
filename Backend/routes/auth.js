@@ -7,8 +7,9 @@ const {login} = require("../controllers/authController");
 const {verify} = require("../controllers/authController");
 const {profile} = require("../controllers/authController");
 const {userdelete} = require("../controllers/authController");
+const upload = require("../middleware/Uploads");
 const {updateProfile} = require("../controllers/authController");
-const {upload} = require("../middleware/Uploads");
+
 
 
 router.post('/signup',signup);
@@ -19,11 +20,12 @@ router.post('/verify',verify);
 
 router.get('/profile',verifytoken,profile);
 
-router.put(
+router.patch(
   '/profile',
   verifytoken,
   upload.single("profileImg"),
-  updateProfile);
+  updateProfile
+);
 
 router.delete('/userdelete',verifytoken,userdelete);
 

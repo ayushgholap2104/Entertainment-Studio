@@ -130,7 +130,6 @@ exports.profile = (req, res) => {
 }
 exports.updateProfile = (req, res) => {
   const {
-    email,
     genre,
     location,
     instagramId,
@@ -138,32 +137,44 @@ exports.updateProfile = (req, res) => {
     githubId,
   } = req.body
 
-  const profileImg = req.file? req.file.filename:null;
-
+  const profileImg = req.file ? req.file.filename : null;
+  console.log(profileImg)
+  
   db.query(
     `
       UPDATE users_detail
       SET genre = ?,
-      SET location = ?,
-      SET instagram = ?,
-      SET facebook = ?,
-      SET github = ?,
-      SET profileImg = ?,
-      WHERE email =?;
+          location = ?,
+          instagram = ?,
+          facebook = ?,
+          github = ?,
+          profileImg = ?
+      WHERE email =?
     `,
-    [genre, location, instagram, facebook, github, profileImg, email],
+    [genre, location, instagramId, facebookId, githubId, profileImg, req.user.email],
     (err, result) => {
+      console.log("userGenre:",genre)
+      console.log("userEmail:",req.user.email)
+      console.log("userLocation:",location)
       if (err) {
-        return res.status(500).json({
-          success: false,
-          message: "Some err have occured"
-        })
+        return res.status(500).json(err)
       }
+      db.query(
+        "SELECT * FROM users_detail WHERE email = ?",
+        [req.user.email],
+        (err, result) => {
+          console.log("Profile update result:",result)
+          if (err) {
+            return res.status(500).json(err)
+          }
 
-      res.json({
-        success: true,
-        user: result[0],
-      })
+          res.json({
+            success: true,
+            message:"Profile Updated successfully",
+            user: result[0]
+          })
+        }
+      )
     }
   )
 }

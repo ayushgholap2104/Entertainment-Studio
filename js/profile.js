@@ -84,7 +84,7 @@ function profileDelete_modal() {
 }
 
 async function profileData() {
-  const profile_form = document.querySelector('.profile_form');
+  const profile_form = document.querySelector('form');
   const userprofileName = document.querySelectorAll('#user_profileName');
   const token = localStorage.getItem("token")
   if (!token) {
@@ -98,6 +98,7 @@ async function profileData() {
   try {
     showLoader()
     const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+      method: "GET",
       headers: {
         "authorization": token
       }
@@ -118,45 +119,53 @@ async function profileData() {
       userprofileName.forEach(userName => {
         userName.textContent = displayName;
       })
+
     }
 
     // Profile Update Code
-    profile_form.addEventListener('submit',async (e) => {
+    profile_form.addEventListener('submit', async (e) => {
       e.preventDefault()
       const userGenre = document.querySelector('#user_genre').value;
       const userLocation = document.querySelector('#user_location').value;
       const userInstagram = document.querySelector('#user_instagram').value;
       const userFacebook = document.querySelector('#user_facebook').value;
       const userGithub = document.querySelector('#user_github').value;
+      console.log(userGenre)
 
       const formData = new FormData();
-      formData.append("genre",userGenre)
-      formData.append("location",userLocation)
-      formData.append("instagram",userInstagram)
-      formData.append("facebook",userFacebook)
-      formData.append("github",userGithub)
+      formData.append("genre", userGenre)
+      formData.append("location", userLocation)
+      formData.append("instagramId", userInstagram)
+      formData.append("facebookId", userFacebook)
+      formData.append("githubId", userGithub)
 
-      if(userimgFile){
-        formData.append("profileImg",userimgFile)
+      if (userimgFile) {
+        formData.append("profileImg", userimgFile)
+      }
+      try {
+        const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+          method: "PATCH",
+          headers: {
+            "authorization": token
+          },
+          body: formData
+        })
+
+        const data = await res.json();
+        if (data.success) {
+          showToast("Profile update successful", "success")
+          document.querySelector('#user_genre').value = data.user.genre;
+          document.querySelector('#user_location').value = data.user.location;
+          document.querySelector('#user_instagram').value = data.user.instagram;
+          document.querySelector('#user_facebook').value = data.user.facebook;
+          document.querySelector('#user_github').value = data.user.github;
+          document.querySelector('#profileImage').src = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+        }
+      } catch (err) {
+        console.log("Something went wrong.",err)
       }
 
-      const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
-        method: "PUT",
-        headers:{
-          authorization:token
-        },
-        body: formData,
-      })
 
-      const data = await res.json();
-      if (data.success) {
-        showToast("Profile update successful", "success")
-        userGenre = data.user.genre;
-        userLocation = data.user.location;
-        userInstagram = data.user.instagram;
-        userFacebook = data.user.facebook;
-        userGithub = data.user.gihub;
-      }
     })
 
   } catch (err) {
