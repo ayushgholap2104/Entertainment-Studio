@@ -427,6 +427,9 @@
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1165px) {
+  #head {
+    padding: 0 1rem;
+  }
   .sidebar {
     font-size: 20px;
   }
@@ -616,6 +619,11 @@
     height: 140px;
     width: 140px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 140px;
+    min-width: 140px;
+    font-size: 78px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 16.5px;
     padding: 2px 8px;
@@ -691,13 +699,8 @@
   }
 }
 @media only screen and (min-width: 947px) and (max-width: 1024px) {
-  /* For Header part */
   #head {
-    display: flex;
     justify-content: space-between;
-    /* padding: 0.8rem; */
-    align-items: center;
-    /* z-index: 1999; */
   }
   .sidebar {
     font-size: 22px;
@@ -874,6 +877,11 @@
     height: 130px;
     width: 130px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 130px;
+    min-width: 130px;
+    font-size: 76px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 16px;
     padding: 4px 9px;
@@ -955,9 +963,7 @@
 }
 @media only screen and (min-width: 850px) and (max-width: 946px) {
   #head {
-    display: flex;
     justify-content: space-between;
-    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 21px;
@@ -1195,6 +1201,11 @@
     width: 140px;
     position: relative;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 140px;
+    min-width: 140px;
+    font-size: 74px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     padding: 4px 9px;
     font-size: 16px;
@@ -1311,9 +1322,7 @@
 }
 @media only screen and (max-width: 850px) {
   #head {
-    display: flex;
     justify-content: space-between;
-    /* padding: 0.6rem; */
   }
   #btn-up {
     width: 42px;
@@ -1620,6 +1629,11 @@
     height: 135px;
     width: 135px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 135px;
+    min-width: 135px;
+    font-size: 72px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     padding: 4px 9px;
     font-size: 16px;
@@ -1738,11 +1752,6 @@
   #loader .spinner {
     height: 40px;
     width: 40px;
-  }
-  #head {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0.6rem; */
   }
   .sidebar {
     font-size: 20px;
@@ -1901,6 +1910,11 @@
     height: 125px;
     width: 125px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 125px;
+    min-width: 125px;
+    font-size: 70px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 15.5px;
     padding: 4px 9px;
@@ -2008,11 +2022,6 @@
   }
 }
 @media only screen and (max-width: 644px) {
-  #head {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0.6rem; */
-  }
   .sidebar {
     font-size: 18px;
     height: 22px;
@@ -2205,11 +2214,16 @@
     height: 120px;
     width: 120px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 120px;
+    min-width: 120px;
+    font-size: 68px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 15px;
     padding: 3px 8px;
     right: 44px;
-    bottom: -10px;
+    bottom: -13px;
   }
 
   .profile_section1 .profile_name {
@@ -2320,9 +2334,7 @@
 }
 @media only screen and (max-width: 555px) {
   #head {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0.6rem; */
+    padding: 0 1.5rem;
   }
   .sidebar {
     font-size: 16px;
@@ -2591,11 +2603,16 @@
     height: 115px;
     width: 115px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 115px;
+    min-width: 115px;
+    font-size: 66px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 14.5px;
     padding: 3px 8px;
     right: 39px;
-    bottom: -10px;
+    bottom: -12px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
@@ -2698,9 +2715,7 @@
 
 @media only screen and (max-width: 470px) {
   #head {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0.6rem; */
+    padding: 0 1rem;
   }
   #btn-up {
     width: 40px;
@@ -2943,11 +2958,16 @@
     height: 115px;
     width: 115px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 115px;
+    min-width: 115px;
+    font-size: 64px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 14.5px;
     padding: 3px 8px;
     right: 39px;
-    bottom: -10px;
+    bottom: -12px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;
@@ -3054,11 +3074,6 @@
   }
 }
 @media only screen and (max-width: 398px) {
-  #head {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0.6rem; */
-  }
   .sidebar {
     font-size: 13px;
     height: 17px;
@@ -3340,11 +3355,16 @@
     height: 110px;
     width: 110px;
   }
+  .profile_section1 .profile_img .profile_initial {
+    min-height: 110px;
+    min-width: 110px;
+    font-size: 62px;
+  }
   .profile_section1 .profile_img #profile_edit_icon {
     font-size: 14px;
     padding: 3px 7px;
     right: 40px;
-    bottom: -10px;
+    bottom: -12px;
   }
   .profile_section1 .profile_name {
     margin-top: 20px;

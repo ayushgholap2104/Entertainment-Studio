@@ -87,10 +87,12 @@ async function profileData() {
   const profile_form = document.querySelector('form');
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
   const user_social_links = document.querySelectorAll('.user_social_links');
+  const profileImage =  document.querySelector('#profileImage');
   const instaLink = document.querySelector('#instaLink')
   const fbLink = document.querySelector('#fbLink')
   const githubLink = document.querySelector('#githubLink')
   const userprofileName = document.querySelectorAll('#user_profileName');
+  const profile_initial = document.querySelector('.profile_initial');
   const token = localStorage.getItem("token")
   if (!token) {
     showToast("Please login first.", "danger")
@@ -131,7 +133,18 @@ async function profileData() {
       instagramUrl = `https://www.instagram.com/${data.user.instagram}`;
       facebookUrl = `https://www.facebook.com/${data.user.facebook}`;
       githubUrl = `https://github.com/${data.user.github}`;
-      document.querySelector('#profileImage').src = `../Backend/uploads/${data.user.profileImg}`;
+      console.log(data.user.profileImg)
+      profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+
+      if(data.user.profileImg){
+        profileImage.src = profileImageUrl
+        profile_initial.style.display = 'none'
+      }else{
+        const usernameFirstletter = userfullName.charAt(0).toUpperCase()
+        profile_initial.style.display = 'flex'
+        profile_initial.textContent = usernameFirstletter
+        profileImage.style.display = 'none'
+      }
 
       if (data.user.instagram) {
         user_social_inputs.forEach(input => {

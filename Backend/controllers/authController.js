@@ -137,10 +137,21 @@ exports.updateProfile = (req, res) => {
     githubId,
   } = req.body
 
-  const profileImg = req.file ? req.file.filename : null;
-  
   db.query(
-    `
+    "SELECT profileImg FROM users_detail WHERE email = ? ",
+    [req.user.email],
+    (err, result) => {
+      if (err) {
+        return res.status(500).json({
+          success: false,
+          message: "Something went wrong"
+        })
+      }
+
+      const profileImg = req.file ? req.file.filename : result[0].profileImg;
+
+      db.query(
+        `
       UPDATE users_detail
       SET genre = ?,
           location = ?,
@@ -150,28 +161,30 @@ exports.updateProfile = (req, res) => {
           profileImg = ?
       WHERE email =?
     `,
-    [genre, location, instagramId, facebookId, githubId, profileImg, req.user.email],
-    (err, result) => {
-      console.log("userGenre:",genre)
-      console.log("userEmail:",req.user.email)
-      console.log("userLocation:",location)
-      if (err) {
-        return res.status(500).json(err)
-      }
-      db.query(
-        "SELECT * FROM users_detail WHERE email = ?",
-        [req.user.email],
+        [genre, location, instagramId, facebookId, githubId, profileImg, req.user.email],
         (err, result) => {
-          console.log("Profile update result:",result)
+          console.log("userGenre:", genre)
+          console.log("userEmail:", req.user.email)
+          console.log("userLocation:", location)
           if (err) {
             return res.status(500).json(err)
           }
+          db.query(
+            "SELECT * FROM users_detail WHERE email = ?",
+            [req.user.email],
+            (err, result) => {
+              console.log("Profile update result:", result)
+              if (err) {
+                return res.status(500).json(err)
+              }
 
-          res.json({
-            success: true,
-            message:"Profile Updated successfully",
-            user: result[0]
-          })
+              res.json({
+                success: true,
+                message: "Profile Updated successfully",
+                user: result[0]
+              })
+            }
+          )
         }
       )
     }
