@@ -138,7 +138,6 @@ exports.updateProfile = (req, res) => {
   } = req.body
 
   const profileImg = req.file ? req.file.filename : null;
-  console.log(profileImg)
   
   db.query(
     `

@@ -130,8 +130,8 @@ async function profileData() {
       document.querySelector('#user_location').value = data.user.location;
       instagramUrl = `https://www.instagram.com/${data.user.instagram}`;
       facebookUrl = `https://www.facebook.com/${data.user.facebook}`;
-      githubUrl = `https://www.github.com/${data.user.github}`;
-      document.querySelector('#profileImage').src = data.user.profileImg;
+      githubUrl = `https://github.com/${data.user.github}`;
+      document.querySelector('#profileImage').src = `../Backend/uploads/${data.user.profileImg}`;
 
       if (data.user.instagram) {
         user_social_inputs.forEach(input => {
@@ -162,7 +162,7 @@ async function profileData() {
           link.style.display = "block"
         })
         githubLink.hidden = false;
-        githubLink.hrf = githubUrl
+        githubLink.href = githubUrl
 
       }
 
