@@ -23,13 +23,23 @@ function sidebarClick() {
     sidebarIcon.classList.toggle('active')
   })
 }
-
+// Profilepopup when no user data(img)
 function profilePopup() {
   const userProfilebtn = document.querySelector('.language')
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
     userProfilebtn.classList.toggle('active');
+  })
+
+}
+// Profilepopup when user apload data(img)
+function userPanelpopup() {
+  const userImg = document.querySelector('.language i')
+  const showProfile = document.querySelector('.profile_popup')
+  userImg.addEventListener('click', () => {
+    showProfile.classList.toggle('active');
+    userImg.classList.toggle('active');
   })
 
 }
@@ -93,6 +103,8 @@ async function profileData() {
   const githubLink = document.querySelector('#githubLink')
   const userprofileName = document.querySelectorAll('#user_profileName');
   const profile_initial = document.querySelector('.profile_initial');
+  const profileLogo = document.querySelector('.language i');
+  const userProfileimg = document.querySelector('.User_img');
   const token = localStorage.getItem("token")
   if (!token) {
     showToast("Please login first.", "danger")
@@ -140,6 +152,9 @@ async function profileData() {
           img.src = profileImageUrl
         })
         profile_initial.style.display = 'none'
+        profileLogo.style.display = 'none'
+        userProfileimg.style.display = 'flex';
+        
       }else{
         const usernameFirstletter = userfullName.charAt(0).toUpperCase()
         profile_initial.style.display = 'flex'
@@ -179,6 +194,7 @@ async function profileData() {
         githubLink.href = githubUrl
 
       }
+      
 
     }
 

@@ -259,8 +259,8 @@
     width: 28rem;
     /* height: 4.5vh; */
   }
-  .language {
-    font-size: 28px;
+  .language i {
+    font-size: 32px;
   }
   .login a {
     font-size: 12px;
@@ -346,7 +346,16 @@
     width: 22rem;
   }
   .language {
-    font-size: 27px;
+    height: 40px;
+    width: 40px;
+  }
+  .language i {
+    font-size: 31px;
+  }
+
+  .language .User_img {
+    min-height: 40px;
+    min-width: 40px;
   }
   .login a {
     font-size: 11px;
@@ -470,13 +479,18 @@
     width: 21rem;
   }
   .language {
-    font-size: 25px;
     /* margin-right: 4px; */
+    height: 39px;
+    width: 39px;
   }
-  .profile_popup .profile_container2 {
-    margin-top: 2px;
-    gap: 15px;
+  .language i {
+    font-size: 29px;
   }
+  .language .User_img {
+    min-height: 39px;
+    min-width: 39px;
+  }
+
   .login a {
     font-size: 10px;
   }
@@ -703,9 +717,9 @@
     justify-content: space-between;
   }
   .sidebar {
-    font-size: 22px;
-    height: 28px;
-    width: 36px;
+    font-size: 20px;
+    height: 26px;
+    width: 34px;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px 4px;
@@ -719,11 +733,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 56px;
+    font-size: 50px;
   }
 
   .brand-name {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     position: relative;
     top: 20px;
@@ -741,9 +755,16 @@
     /* padding-right: 10px; */
   }
   .language {
-    font-size: 30px;
-    height: 38px;
-    width: 38px;
+    height: 40px;
+    width: 40px;
+  }
+  .language i {
+    font-size: 28px;
+  }
+
+  .language .User_img {
+    min-height: 40px;
+    min-width: 40px;
   }
   .login a {
     font-size: 12px;
@@ -966,12 +987,15 @@
     justify-content: space-between;
   }
   .sidebar {
-    font-size: 21px;
-    height: 28px;
-    width: 35px;
+    font-size: 19px;
+    height: 26px;
+    width: 33px;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px 4px;
+  }
+  .search-bar i {
+    color: gray;
   }
   .Es-logo {
     display: flex;
@@ -979,11 +1003,11 @@
     align-items: center;
   }
   .Es-logo i {
-    font-size: 55px;
+    font-size: 49px;
   }
 
   .brand-name {
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     position: relative;
     top: 20px;
@@ -1001,9 +1025,16 @@
     /* padding-right: 20px; */
   }
   .language {
-    font-size: 29px;
-    height: 35px;
-    width: 35px;
+    height: 39px;
+    width: 39px;
+  }
+  .language i {
+    font-size: 31px;
+  }
+
+  .language .User_img {
+    min-height: 39px;
+    min-width: 39px;
   }
   .login a {
     font-size: 12px;
@@ -1368,9 +1399,16 @@
     padding-left: 0px;
   }
   .language {
-    height: 40px;
-    width: 40px;
-    font-size: 32px;
+    height: 38px;
+    width: 38px;
+  }
+  .language i {
+    font-size: 30px;
+  }
+
+  .language .User_img {
+    min-height: 38px;
+    min-width: 38px;
   }
   .profile_popup .profile_container1 .profile_name p {
     font-size: 14.5px;
@@ -1384,10 +1422,6 @@
     min-width: 48px;
     font-size: 26px;
   }
-  .profile_popup .profile_container2 {
-    margin-top: 2px;
-    gap: 5px;
-  }
   .profile_popup {
     right: -20px;
     width: 240px;
@@ -1395,7 +1429,7 @@
   .profile_popup .profile_container2 .profile_msg1 a {
     font-size: 12.5px;
     border: none;
-    padding: 10px 28px;
+    padding: 10px 31px;
     border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
@@ -1804,14 +1838,23 @@
     gap: 14px;
   }
   .language {
-    height: 38px;
-    width: 38px;
-    font-size: 30px;
+    height: 37px;
+    width: 37px;
+  }
+  .language i {
+    font-size: 29px;
+  }
+
+  .language .User_img {
+    min-height: 37px;
+    min-width: 37px;
   }
   .profile_popup .profile_container2 {
-    margin-top: 2px;
-    gap: 10px;
+    min-height: 100%;
+    gap: 28px;
+    margin-top: 36px;
   }
+
   .login a {
     display: none;
   }
@@ -2065,9 +2108,22 @@
     gap: 12px;
   }
   .language {
-    height: 36px;
-    width: 36px;
+    height: 35px;
+    width: 35px;
+  }
+  .language i {
     font-size: 28px;
+  }
+
+  .language .User_img {
+    min-height: 35px;
+    min-width: 35px;
+  }
+
+  .profile_popup .profile_container2 {
+    min-height: 100%;
+    gap: 28px;
+    margin-top: 36px;
   }
 
   .login a {
@@ -2381,7 +2437,20 @@
   .language {
     height: 34px;
     width: 34px;
+  }
+
+  .language .User_img {
+    min-height: 34px;
+    min-width: 34px;
+  }
+  .language i {
     font-size: 27px;
+  }
+
+  .profile_popup .profile_container2 {
+    min-height: 100%;
+    gap: 25px;
+    margin-top: 32px;
   }
   .profile_popup {
     right: -30px;
@@ -2404,7 +2473,7 @@
   .profile_popup .profile_container2 .profile_msg1 a {
     font-size: 12px;
     border: none;
-    padding: 10px 26px;
+    padding: 10px 28px;
     border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
@@ -2777,7 +2846,20 @@
   .language {
     height: 33px;
     width: 33px;
+  }
+
+  .language .User_img {
+    min-height: 33px;
+    min-width: 33px;
+  }
+  .language i {
     font-size: 26px;
+  }
+
+  .profile_popup .profile_container2 {
+    min-height: 100%;
+    gap: 25px;
+    margin-top: 32px;
   }
   .profile_popup .profile_container1 .profile_img {
     height: 43px;
@@ -3101,7 +3183,7 @@
 @media only screen and (max-width: 398px) {
   .sidebar {
     font-size: 13px;
-    height: 17px;
+    height: 18px;
     width: 20px;
     color: #fff;
     border: 1px solid #fff;
@@ -3137,6 +3219,15 @@
     width: 32px;
     font-size: 24px;
   }
+  .language .User_img {
+    min-height: 32px;
+    min-width: 32px;
+  }
+  .profile_popup .profile_container2 {
+    min-height: 100%;
+    gap: 14px;
+    margin-top: 25px;
+  }
   .profile_popup {
     right: -35px;
     width: 200px;
@@ -3155,14 +3246,10 @@
     min-width: 40px;
     font-size: 21px;
   }
-  .profile_popup .profile_container2 {
-    margin-top: 5px;
-    gap: 10px;
-  }
   .profile_popup .profile_container2 .profile_msg1 a {
     font-size: 11.5px;
     border: none;
-    padding: 10px 24px;
+    padding: 10px 27px;
     border-radius: 18px;
   }
   .profile_popup .profile_container2 .profile_msg2 a {
