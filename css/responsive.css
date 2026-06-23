@@ -1375,6 +1375,15 @@
   .profile_popup .profile_container1 .profile_name p {
     font-size: 14.5px;
   }
+  .profile_popup .profile_container1 .profile_img {
+    height: 48px;
+    width: 48px;
+  }
+  .profile_popup .profile_container1 .profile_img .profile_initial {
+    min-height: 48px;
+    min-width: 48px;
+    font-size: 26px;
+  }
   .profile_popup .profile_container2 {
     margin-top: 2px;
     gap: 5px;
@@ -2386,6 +2395,12 @@
   .profile_popup .profile_container1 .profile_name p {
     font-size: 14px;
   }
+
+  .profile_popup .profile_container1 .profile_img .profile_initial {
+    min-height: 45px;
+    min-width: 45px;
+    font-size: 24px;
+  }
   .profile_popup .profile_container2 .profile_msg1 a {
     font-size: 12px;
     border: none;
@@ -2758,10 +2773,20 @@
   .panel4 {
     gap: 15px;
   }
+
   .language {
     height: 33px;
     width: 33px;
     font-size: 26px;
+  }
+  .profile_popup .profile_container1 .profile_img {
+    height: 43px;
+    width: 43px;
+  }
+  .profile_popup .profile_container1 .profile_img .profile_initial {
+    min-height: 43px;
+    min-width: 43px;
+    font-size: 22px;
   }
   .login a {
     display: none;
@@ -3123,6 +3148,12 @@
   }
   .profile_popup .profile_container1 .profile_name p {
     font-size: 13.5px;
+  }
+
+  .profile_popup .profile_container1 .profile_img .profile_initial {
+    min-height: 40px;
+    min-width: 40px;
+    font-size: 21px;
   }
   .profile_popup .profile_container2 {
     margin-top: 5px;

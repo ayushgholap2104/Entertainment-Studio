@@ -87,7 +87,7 @@ async function profileData() {
   const profile_form = document.querySelector('form');
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
   const user_social_links = document.querySelectorAll('.user_social_links');
-  const profileImage =  document.querySelector('#profileImage');
+  const profileImage =  document.querySelectorAll('#profileImage');
   const instaLink = document.querySelector('#instaLink')
   const fbLink = document.querySelector('#fbLink')
   const githubLink = document.querySelector('#githubLink')
@@ -136,7 +136,9 @@ async function profileData() {
       profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
 
       if(data.user.profileImg){
-        profileImage.src = profileImageUrl
+        profileImage.forEach(img =>{
+          img.src = profileImageUrl
+        })
         profile_initial.style.display = 'none'
       }else{
         const usernameFirstletter = userfullName.charAt(0).toUpperCase()
