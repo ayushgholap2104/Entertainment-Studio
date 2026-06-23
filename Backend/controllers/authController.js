@@ -138,7 +138,7 @@ exports.updateProfile = (req, res) => {
   } = req.body
 
   db.query(
-    "SELECT profileImg FROM users_detail WHERE email = ? ",
+    "SELECT * FROM users_detail WHERE email = ? ",
     [req.user.email],
     (err, result) => {
       if (err) {
@@ -147,8 +147,12 @@ exports.updateProfile = (req, res) => {
           message: "Something went wrong"
         })
       }
+      oldUser = result[0]
 
-      const profileImg = req.file ? req.file.filename : result[0].profileImg;
+      const instagram = instagramId || oldUser.instagram;
+      const facebook = facebookId || oldUser.facebook;
+      const github = githubId || oldUser.github;
+      const profileImg = req.file ? req.file.filename : oldUser.profileImg;
 
       db.query(
         `
@@ -161,7 +165,7 @@ exports.updateProfile = (req, res) => {
           profileImg = ?
       WHERE email =?
     `,
-        [genre, location, instagramId, facebookId, githubId, profileImg, req.user.email],
+        [genre, location, instagram, facebook, github, profileImg, req.user.email],
         (err, result) => {
           console.log("userGenre:", genre)
           console.log("userEmail:", req.user.email)

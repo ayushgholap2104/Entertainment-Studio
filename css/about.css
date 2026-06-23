@@ -385,6 +385,18 @@ body {
   height: 50px;
   width: 50px;
 }
+.profile_popup .profile_container1 .profile_img .profile_initial {
+  color: var(--profile_color_text);
+  display: none;
+  background-color: var(--profile_color_bg);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+}
 .profile_popup .profile_container1 .profile_img img {
   height: 100%;
   width: 100%;

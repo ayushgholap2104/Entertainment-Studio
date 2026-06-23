@@ -33,8 +33,8 @@
   --secondory_color2: #434343;
   --tertiary_color1: #fff;
   --shadow1: 0px 0px 0px rgba(0, 0, 0, 0.3);
-  --profile_color_bg:#e0e0e0;
-  --profile_color_text:#676767;
+  --profile_color_bg: #e0e0e0;
+  --profile_color_text: #676767;
 }
 
 .dark_theme {
@@ -60,8 +60,8 @@
   --secondory_color2: #ffffff;
   --tertiary_color1: #1c2130;
   --shadow1: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  --profile_color_bg:#282828;
-  --profile_color_text:#fefdfd;
+  --profile_color_bg: #282828;
+  --profile_color_text: #fefdfd;
 }
 .profile_main_content {
   background: var(--bg_color);
@@ -398,6 +398,18 @@
   height: 50px;
   width: 50px;
 }
+.profile_popup .profile_container1 .profile_img .profile_initial {
+  color: var(--profile_color_text);
+  display: none;
+  background-color: var(--profile_color_bg);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+}
 .profile_popup .profile_container1 .profile_img img {
   height: 100%;
   width: 100%;
@@ -619,7 +631,7 @@
   width: 150px;
   position: relative;
 }
-.profile_section1 .profile_img .profile_initial{
+.profile_section1 .profile_img .profile_initial {
   color: var(--profile_color_text);
   display: none;
   background-color: var(--profile_color_bg);
