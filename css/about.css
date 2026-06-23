@@ -392,10 +392,10 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  min-height: 50px;
-  min-width: 50px;
+  min-height: 48px;
+  min-width: 48px;
   border-radius: 50%;
-  font-size: 40px;
+  font-size: 28px;
 }
 .profile_popup .profile_container1 .profile_img img {
   height: 100%;
