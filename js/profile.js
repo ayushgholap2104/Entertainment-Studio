@@ -160,6 +160,8 @@ async function profileData() {
         profile_initial.style.display = 'flex'
         profile_initial.textContent = usernameFirstletter
         profileImage.style.display = 'none'
+        profileLogo.style.display = 'flex';
+        userProfileimg.style.display = 'none';
       }
 
       if (data.user.instagram) {
