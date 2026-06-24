@@ -97,12 +97,12 @@ async function profileData() {
   const profile_form = document.querySelector('form');
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
   const user_social_links = document.querySelectorAll('.user_social_links');
-  const profileImage =  document.querySelectorAll('#profileImage');
+  const profileImage = document.querySelectorAll('#profileImage');
   const instaLink = document.querySelector('#instaLink')
   const fbLink = document.querySelector('#fbLink')
   const githubLink = document.querySelector('#githubLink')
   const userprofileName = document.querySelectorAll('#user_profileName');
-  const profile_initial = document.querySelector('.profile_initial');
+  const profile_initial = document.querySelectorAll('.profile_initial');
   const profileLogo = document.querySelector('.language i');
   const userProfileimg = document.querySelector('.User_img');
   const token = localStorage.getItem("token")
@@ -147,19 +147,26 @@ async function profileData() {
       githubUrl = `https://github.com/${data.user.github}`;
       profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
 
-      if(data.user.profileImg){
-        profileImage.forEach(img =>{
+      if (data.user.profileImg) {
+        profileImage.forEach(img => {
           img.src = profileImageUrl
         })
-        profile_initial.style.display = 'none'
+        profile_initial.forEach(userLetter => {
+          userLetter.style.display = 'none'
+        })
         profileLogo.style.display = 'none'
         userProfileimg.style.display = 'flex';
-        
-      }else{
+
+      } else {
         const usernameFirstletter = userfullName.charAt(0).toUpperCase()
-        profile_initial.style.display = 'flex'
-        profile_initial.textContent = usernameFirstletter
-        profileImage.style.display = 'none'
+        profileImage.forEach(img => {
+          img.style.display = "none"
+        })
+
+        profile_initial.forEach(userLetter => {
+          userLetter.style.display = 'flex'
+          userLetter.textContent = usernameFirstletter
+        })
         profileLogo.style.display = 'flex';
         userProfileimg.style.display = 'none';
       }
@@ -196,7 +203,7 @@ async function profileData() {
         githubLink.href = githubUrl
 
       }
-      
+
 
     }
 

@@ -307,8 +307,8 @@
   transition: 0.3s;
   position: relative;
   color: #a9a9a9dc;
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
 }
 
 
@@ -324,8 +324,8 @@
   font-size: 33px;
 }
 .language .User_img{
-  min-height: 42px;
-  min-width: 42px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -428,7 +428,7 @@
   border-radius: 50%;
   font-size: 28px;
 }
-.profile_popup .profile_container1 .profile_img img {
+.profile_popup .profile_container1 .profile_img #profileImage {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -664,7 +664,7 @@
   font-size: 80px;
 }
 
-.profile_img_cont .profile_img img {
+.profile_img_cont .profile_img #profileImage {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
