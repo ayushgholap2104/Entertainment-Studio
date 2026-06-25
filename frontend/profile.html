@@ -74,7 +74,7 @@
       <div class="panel4">
         <div class="language">
           <div class="profile_initial" id="User_profilename"></div>
-          <img id="profileImage" class="User_img" src="" alt="" srcset=""/>
+          <img id="profileImage" class="User_img" src="" alt="" srcset="" />
           <div class="profile_popup">
             <div class="profile_container1">
               <div class="profile_img">
@@ -143,7 +143,7 @@
           <div class="back_icon">
             <a href="Home.html">
               <i class="fa-solid fa-arrow-left"></i>
-            </a >
+            </a>
           </div>
           <div class="profile_img_cont">
             <div class="profile_img">
@@ -152,7 +152,15 @@
               <button id="profile_edit_icon">
                 <i class="fa-solid fa-pen"></i>
               </button>
-              <input id="profileInput" type="file" accept="image/*" hidden/>
+              <div class="Profile_dropdown_menu">
+                <button id="Avatar_upload" class="dropdown_item">
+                  Upload a photo...
+                </button>
+                <button id="Avatar_remove" class="dropdown_item">
+                  Remove photo
+                </button>
+              </div>
+              <input id="profileInput" type="file" accept="image/*" hidden />
             </div>
           </div>
           <div class="profile_name">
@@ -225,7 +233,7 @@
             </div>
             <div class="profile_email" id="profile_box">
               <p>EMAIL</p>
-              <input type="text" value="email" id="user_email" readonly/>
+              <input type="text" value="email" id="user_email" readonly />
             </div>
             <div class="profile_genre" id="profile_box">
               <p>GENRE</p>
