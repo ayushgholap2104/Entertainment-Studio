@@ -30,7 +30,11 @@ function profilePopup() {
 }
 
 async function profileData() {
+  const profileImage = document.querySelectorAll('#profileImage');
   const userprofileName = document.querySelectorAll('#user_profileName');
+  const profile_initial = document.querySelectorAll('.profile_initial');
+  const profileLogo = document.querySelector('.language i');
+  const userProfileimg = document.querySelector('.User_img');
   const token = localStorage.getItem("token")
   if (!token) {
     return
@@ -55,6 +59,31 @@ async function profileData() {
         userName.textContent = displayName;
       })
 
+      profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+
+      if (data.user.profileImg) {
+        profileImage.forEach(img => {
+          img.src = profileImageUrl
+        })
+        profile_initial.forEach(userLetter => {
+          userLetter.style.display = 'none'
+        })
+        profileLogo.style.display = 'none'
+        userProfileimg.style.display = 'flex';
+
+      } else {
+        const usernameFirstletter = userfullName.charAt(0).toUpperCase()
+        profileImage.forEach(img => {
+          img.style.display = "none"
+        })
+
+        profile_initial.forEach(userLetter => {
+          userLetter.style.display = 'flex'
+          userLetter.textContent = usernameFirstletter
+        })
+        profileLogo.style.display = 'flex';
+        userProfileimg.style.display = 'none';
+      }
     }
   } catch (err) {
     console.log(err)

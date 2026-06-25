@@ -138,7 +138,6 @@ async function profileData() {
       userprofileName.forEach(userName => {
         userName.textContent = displayName;
       })
-      console.log(data.user.profileImg)
 
       document.querySelector('#user_genre').value = data.user.genre;
       document.querySelector('#user_location').value = data.user.location;
