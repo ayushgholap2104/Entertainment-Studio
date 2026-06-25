@@ -259,9 +259,6 @@
     width: 28rem;
     /* height: 4.5vh; */
   }
-  .language i {
-    font-size: 32px;
-  }
   .login a {
     font-size: 12px;
   }
@@ -349,8 +346,10 @@
     height: 38px;
     width: 38px;
   }
-  .language i {
-    font-size: 31px;
+  .language #User_profilename {
+    height: 38px;
+    width: 38px;
+    font-size: 24px;
   }
 
   .language .User_img {
@@ -483,8 +482,10 @@
     height: 36px;
     width: 36px;
   }
-  .language i {
-    font-size: 29px;
+  .language #User_profilename {
+    height: 36px;
+    width: 36px;
+    font-size: 23px;
   }
   .language .User_img {
     height: 36px;
@@ -758,8 +759,10 @@
     height: 40px;
     width: 40px;
   }
-  .language i {
-    font-size: 28px;
+  .language #User_profilename {
+    height: 40px;
+    width: 40px;
+    font-size: 26px;
   }
 
   .language .User_img {
@@ -1028,8 +1031,10 @@
     height: 39px;
     width: 39px;
   }
-  .language i {
-    font-size: 31px;
+  .language #User_profilename {
+    height: 39px;
+    width: 39px;
+    font-size: 25px;
   }
 
   .language .User_img {
@@ -1402,8 +1407,10 @@
     height: 38px;
     width: 38px;
   }
-  .language i {
-    font-size: 30px;
+  .language #User_profilename {
+    height: 38px;
+    width: 38px;
+    font-size: 24px;
   }
 
   .language .User_img {
@@ -1417,9 +1424,9 @@
     height: 48px;
     width: 48px;
   }
-  .profile_popup .profile_container1 .profile_img .profile_initial {
-    min-height: 48px;
-    min-width: 48px;
+  .profile_popup .profile_container1 .profile_img #User_profilename_popup {
+    height: 48px;
+    width: 48px;
     font-size: 26px;
   }
   .profile_popup {
@@ -1841,8 +1848,10 @@
     height: 37px;
     width: 37px;
   }
-  .language i {
-    font-size: 29px;
+  .language #User_profilename {
+    height: 37px;
+    width: 37px;
+    font-size: 23px;
   }
 
   .language .User_img {
@@ -2111,8 +2120,10 @@
     height: 35px;
     width: 35px;
   }
-  .language i {
-    font-size: 28px;
+  .language #User_profilename {
+    height: 36px;
+    width: 36px;
+    font-size: 22px;
   }
 
   .language .User_img {
@@ -2443,8 +2454,10 @@
     height: 34px;
     width: 34px;
   }
-  .language i {
-    font-size: 27px;
+  .language #User_profilename {
+    height: 34px;
+    width: 34px;
+    font-size: 21px;
   }
 
   .profile_popup .profile_container2 {
@@ -2465,9 +2478,9 @@
     font-size: 14px;
   }
 
-  .profile_popup .profile_container1 .profile_img .profile_initial {
-    min-height: 45px;
-    min-width: 45px;
+  .profile_popup .profile_container1 .profile_img #User_profilename_popup {
+    height: 45px;
+    width: 45px;
     font-size: 24px;
   }
   .profile_popup .profile_container2 .profile_msg1 a {
@@ -2852,8 +2865,10 @@
     height: 33px;
     width: 33px;
   }
-  .language i {
-    font-size: 26px;
+  .language #User_profilename {
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
   }
 
   .profile_popup .profile_container2 {
@@ -2865,7 +2880,7 @@
     height: 43px;
     width: 43px;
   }
-  .profile_popup .profile_container1 .profile_img .profile_initial {
+  .profile_popup .profile_container1 .profile_img #User_profilename_popup {
     min-height: 43px;
     min-width: 43px;
     font-size: 22px;
@@ -3219,6 +3234,11 @@
     width: 32px;
     font-size: 24px;
   }
+  .language #User_profilename {
+    height: 32px;
+    width: 32px;
+    font-size: 19px;
+  }
   .language .User_img {
     height: 32px;
     width: 32px;
@@ -3241,9 +3261,9 @@
     font-size: 13.5px;
   }
 
-  .profile_popup .profile_container1 .profile_img .profile_initial {
-    min-height: 40px;
-    min-width: 40px;
+  .profile_popup .profile_container1 .profile_img #User_profilename_popup {
+    height: 40px;
+    width: 40px;
     font-size: 21px;
   }
   .profile_popup .profile_container2 .profile_msg1 a {

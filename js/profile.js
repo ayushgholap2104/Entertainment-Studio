@@ -153,7 +153,6 @@ async function profileData() {
         profile_initial.forEach(userLetter => {
           userLetter.style.display = 'none'
         })
-        profileLogo.style.display = 'none'
         userProfileimg.style.display = 'flex';
 
       } else {
