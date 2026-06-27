@@ -25,13 +25,13 @@ function sidebarClick() {
 }
 // Profilepopup when no user data(img)
 function profilePopup() {
-  const userProfilebtn = document.getElementById('User_profilename')
+  const userProfilebtn = document.querySelector('.language')
+  const User_profilename = document.getElementById('User_profilename')
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
-    userProfilebtn.classList.toggle('active');
+    User_profilename.classList.toggle('active');
   })
-
 }
 // Profilepopup when user apload data(img)
 function userPanelpopup() {

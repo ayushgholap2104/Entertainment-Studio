@@ -20,15 +20,14 @@ function sidebarClick() {
   })
 }
 function profilePopup() {
-  const userProfilebtn = document.getElementById('User_profilename')
+  const userProfilebtn = document.querySelector('.language')
+  const User_profilename = document.getElementById('User_profilename')
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
-    userProfilebtn.classList.toggle('active');
+    User_profilename.classList.toggle('active');
   })
-
 }
-
 async function profileData() {
   const profileImage = document.querySelectorAll('#profileImage');
   const userprofileName = document.querySelectorAll('#user_profileName');
