@@ -52,6 +52,10 @@ body {
   --icon-color: #c4c3c3;
   --profile-color-hover: rgb(184, 184, 184);
   --signout-color: rgba(255, 255, 255, 0.05);
+  --profile_color_bg: #282828;
+  --profile_color_text: #dedddd;
+  --profile_color_bg_hover: #404040;
+  --profile_color_text_hover: #ffff;
 }
 #loader {
   height: 100%;

@@ -2,6 +2,9 @@ const db = require("../config/db")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
+const fs = require("fs")
+const path = require("path")
+
 
 
 exports.signup = (req, res) => {
@@ -152,7 +155,25 @@ exports.updateProfile = (req, res) => {
       const instagram = instagramId || oldUser.instagram;
       const facebook = facebookId || oldUser.facebook;
       const github = githubId || oldUser.github;
-      const profileImg = req.file ? req.file.filename : oldUser.profileImg;
+      let profileImg;
+      if(req.file){
+        profileImg = req.file.filename
+      } else if(req.body.photoRemoved == "true"){
+
+        if(oldUser.profileImg){
+          const imgPath = path.join(__dirname,"../uploads",oldUser.profileImg)
+          fs.unlink(imgPath,(err) =>{
+            if(err){
+              console.log(err)
+            }else{
+              console.log("Img removed successfully")
+            }
+          })
+        }
+        profileImg = null
+      }else{
+        profileImg = oldUser.profileImg
+      }
 
       db.query(
         `
@@ -167,9 +188,6 @@ exports.updateProfile = (req, res) => {
     `,
         [genre, location, instagram, facebook, github, profileImg, req.user.email],
         (err, result) => {
-          console.log("userGenre:", genre)
-          console.log("userEmail:", req.user.email)
-          console.log("userLocation:", location)
           if (err) {
             return res.status(500).json(err)
           }
@@ -194,6 +212,7 @@ exports.updateProfile = (req, res) => {
     }
   )
 }
+
 // OTP send logic
 const sendOTP = async (email, otp) => {
   try {

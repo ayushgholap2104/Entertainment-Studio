@@ -709,7 +709,9 @@
   background-color:var(--primary_color2);
   border-radius: 5px;
   box-shadow: var(--shadow);
-  display: flex;
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -718,7 +720,14 @@
   position: absolute;
   top: 115%;
   right: -24px;
+  transition: opacity 0.3s ease,transform 0.3s ease,display 0.3s allow-discrete;
 }
+.profile_img_cont .profile_img .Profile_dropdown_menu.active{
+  opacity: 1;
+  display: flex;
+  transform: translateY(0px);
+}
+
 .profile_img_cont .profile_img .Profile_dropdown_menu .dropdown_item{
   border: none;
   width: 180px;
@@ -752,6 +761,7 @@
 .profile_section1 .follow_me {
   margin-top: 70px;
   margin-left: 30px;
+  
 }
 .profile_section1 .follow_me h4 {
   margin-bottom: 25px;
@@ -767,6 +777,7 @@
   gap: 5px;
   margin-bottom: 20px;
   align-items: center;
+  
 }
 .profile_section1 .follow_me .user_social_inputs .user_socials {
   height: 30px;
@@ -787,6 +798,7 @@
 .profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;
   display: none;
+  width: 100px;
 }
 .profile_section1 .follow_me .user_social_links a {
   display: flex;

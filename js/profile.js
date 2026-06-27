@@ -218,6 +218,7 @@ async function profileData() {
       formData.append("instagramId", userInstagram)
       formData.append("facebookId", userFacebook)
       formData.append("githubId", userGithub)
+      formData.append("photoRemoved",photoRemoved)
 
       if (userimgFile) {
         formData.append("profileImg", userimgFile)
@@ -242,8 +243,6 @@ async function profileData() {
       } catch (err) {
         console.log("Something went wrong.", err)
       }
-
-
     })
 
   } catch (err) {
@@ -253,22 +252,39 @@ async function profileData() {
   hideLoader()
 }
 
-let userimgFile;
+let userimgFile=null;
+let photoRemoved =false;
 function userImage() {
   const profileInput = document.getElementById('profileInput');
   const cameraBtn = document.getElementById('profile_edit_icon');
-  const profileImage = document.getElementById('profileImage');
+  const profileImage = document.querySelectorAll('#profileImage');
+  const profileDropdown_menu = document.querySelector('.Profile_dropdown_menu');
+  const profileAvatar_upload = document.getElementById('Avatar_upload');
+  const profileAvatar_remove = document.getElementById('Avatar_remove');
+  const token = localStorage.getItem("token")
 
   cameraBtn.addEventListener('click', () => {
-    profileInput.click();
+    profileDropdown_menu.classList.toggle('active');
   })
 
+  profileAvatar_upload.addEventListener('click', () => {
+    profileInput.click();
+  })
+  
   profileInput.addEventListener('change', (e) => {
     const file = e.target.files[0];
     if (!file) {
       return
     }
     userimgFile = file;
+    photoRemoved = false;
+  })
+  profileAvatar_remove.addEventListener('click', () => {
+    userimgFile = null
+    photoRemoved = true;
+    profileImage.forEach(img => {
+      img.src = ""
+    })
   })
 }
 
