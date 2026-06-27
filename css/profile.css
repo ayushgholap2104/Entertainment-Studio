@@ -315,14 +315,10 @@
   width: 40px;
 }
 
-
 .language:hover {
   color: #fff;
 }
-.language.active {
-  /* cursor: pointer; */
-  color: #fff;
-}
+
 .language #User_profilename {
   height: 40px;
   width: 40px;
@@ -336,11 +332,15 @@
   align-items: center;
   justify-content: center;
 }
-.language #User_profilename:hover{
+.language #User_profilename.active {
   background-color: var(--profile_color_bg_hover);
   color: var(--profile_color_text_hover);
 }
-.language .User_img{
+.language #User_profilename:hover {
+  background-color: var(--profile_color_bg_hover);
+  color: var(--profile_color_text_hover);
+}
+.language .User_img {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -350,7 +350,7 @@
   position: relative;
   display: none;
 }
-.language .User_img:hover{
+.language .User_img:hover {
   cursor: pointer;
 }
 
@@ -467,7 +467,6 @@
   min-height: 100%;
   gap: 28px;
   margin-top: 36px;
-  
 }
 
 .profile_popup .profile_container2 .profile_msg1 a {
@@ -703,10 +702,10 @@
   cursor: pointer;
   right: 28px;
 }
-.profile_img_cont .profile_img .Profile_dropdown_menu{
+.profile_img_cont .profile_img .Profile_dropdown_menu {
   width: 180px;
   height: 80px;
-  background-color:var(--primary_color2);
+  background-color: var(--primary_color2);
   border-radius: 5px;
   box-shadow: var(--shadow);
   display: none;
@@ -720,28 +719,31 @@
   position: absolute;
   top: 115%;
   right: -24px;
-  transition: opacity 0.3s ease,transform 0.3s ease,display 0.3s allow-discrete;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    display 0.3s allow-discrete;
 }
-.profile_img_cont .profile_img .Profile_dropdown_menu.active{
+.profile_img_cont .profile_img .Profile_dropdown_menu.active {
   opacity: 1;
   display: flex;
   transform: translateY(0px);
 }
 
-.profile_img_cont .profile_img .Profile_dropdown_menu .dropdown_item{
+.profile_img_cont .profile_img .Profile_dropdown_menu .dropdown_item {
   border: none;
   width: 180px;
   text-align: center;
-  height:36px;
+  height: 36px;
   font-size: 15px;
   font-weight: 400;
   color: var(--profile_color_text);
   background-color: transparent;
 }
-.profile_img_cont .profile_img .Profile_dropdown_menu #Avatar_upload:hover{
+.profile_img_cont .profile_img .Profile_dropdown_menu #Avatar_upload:hover {
   background-color: var(--secondory_color1);
 }
-.profile_img_cont .profile_img .Profile_dropdown_menu #Avatar_remove:hover{
+.profile_img_cont .profile_img .Profile_dropdown_menu #Avatar_remove:hover {
   background-color: var(--secondory_color1);
 }
 .profile_section1 .profile_name {
@@ -761,7 +763,6 @@
 .profile_section1 .follow_me {
   margin-top: 70px;
   margin-left: 30px;
-  
 }
 .profile_section1 .follow_me h4 {
   margin-bottom: 25px;
@@ -777,7 +778,6 @@
   gap: 5px;
   margin-bottom: 20px;
   align-items: center;
-  
 }
 .profile_section1 .follow_me .user_social_inputs .user_socials {
   height: 30px;

@@ -299,13 +299,6 @@ body {
   width: 40px;
 }
 
-.language:hover {
-  color: #fff;
-}
-.language.active {
-  /* cursor: pointer; */
-  color: #fff;
-}
 .language #User_profilename {
   height: 40px;
   width: 40px;
@@ -319,6 +312,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.language #User_profilename.active {
+  background-color: var(--profile_color_bg_hover);
+  color: var(--profile_color_text_hover);
+}
+
 .language #User_profilename:hover {
   background-color: var(--profile_color_bg_hover);
   color: var(--profile_color_text_hover);
