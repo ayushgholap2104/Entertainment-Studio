@@ -29,6 +29,10 @@ body {
   --icon-color: #666;
   --profile-color-hover: rgb(50, 50, 50);
   --signout-color: rgba(198, 198, 198, 0.287);
+  --profile_color_bg: #cccccc;
+  --profile_color_text: #2f2f2f;
+  --profile_color_bg_hover: #ffffff;
+  --profile_color_text_hover: #4f4f4f;
 }
 body {
   background: var(--bg_color);
