@@ -731,7 +731,7 @@ function sidebarSearchclick() {
   })
 }
 function profilePopup() {
-  const userProfilebtn = document.querySelector('.language')
+  const userProfilebtn = document.getElementById('User_profilename')
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');

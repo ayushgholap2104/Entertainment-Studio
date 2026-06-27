@@ -25,7 +25,7 @@ function sidebarClick() {
 }
 // Profilepopup when no user data(img)
 function profilePopup() {
-  const userProfilebtn = document.querySelector('.language')
+  const userProfilebtn = document.getElementById('User_profilename')
   const showProfile = document.querySelector('.profile_popup')
   userProfilebtn.addEventListener('click', () => {
     showProfile.classList.toggle('active');
@@ -218,7 +218,7 @@ async function profileData() {
       formData.append("instagramId", userInstagram)
       formData.append("facebookId", userFacebook)
       formData.append("githubId", userGithub)
-      formData.append("photoRemoved",photoRemoved)
+      formData.append("photoRemoved", photoRemoved)
 
       if (userimgFile) {
         formData.append("profileImg", userimgFile)
@@ -252,8 +252,8 @@ async function profileData() {
   hideLoader()
 }
 
-let userimgFile=null;
-let photoRemoved =false;
+let userimgFile = null;
+let photoRemoved = false;
 function userImage() {
   const profileInput = document.getElementById('profileInput');
   const cameraBtn = document.getElementById('profile_edit_icon');
@@ -270,7 +270,7 @@ function userImage() {
   profileAvatar_upload.addEventListener('click', () => {
     profileInput.click();
   })
-  
+
   profileInput.addEventListener('change', (e) => {
     const file = e.target.files[0];
     if (!file) {
