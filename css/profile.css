@@ -798,7 +798,8 @@
 .profile_section1 .follow_me .user_social_links {
   margin-bottom: 20px;
   display: none;
-  width: 100px;
+  width: 150px;
+  gap: 20px;
 }
 .profile_section1 .follow_me .user_social_links a {
   display: flex;
@@ -809,6 +810,17 @@
   align-items: center;
   text-align: center;
   color: var(--secondory_color);
+}
+.profile_section1 #User_insta_edit{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 80px;
+  background-color: var(--primary_color2);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  justify-content: center;
+  align-items: center;
 }
 .profile_section1 .user_options {
   margin-left: 30px;

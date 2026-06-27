@@ -172,7 +172,7 @@ async function profileData() {
           input.style.display = "none"
         })
         user_social_links.forEach(link => {
-          link.style.display = "block"
+          link.style.display = "flex"
         })
         instaLink.hidden = false;
         instaLink.href = instagramUrl
@@ -182,7 +182,7 @@ async function profileData() {
           input.style.display = "none"
         })
         user_social_links.forEach(link => {
-          link.style.display = "block"
+          link.style.display = "flex"
           fbLink.hidden = false;
           fbLink.href = facebookUrl
         })
@@ -193,7 +193,7 @@ async function profileData() {
           input.style.display = "none"
         })
         user_social_links.forEach(link => {
-          link.style.display = "block"
+          link.style.display = "flex"
         })
         githubLink.hidden = false;
         githubLink.href = githubUrl
