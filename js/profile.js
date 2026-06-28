@@ -93,7 +93,9 @@ function profileDelete_modal() {
     modalPopup.classList.remove('active')
   })
 }
-
+let userInstagram;
+let userFacebook;
+let userGithub;
 async function profileData() {
   const profile_form = document.querySelector('form');
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
@@ -141,6 +143,9 @@ async function profileData() {
 
       document.querySelector('#user_genre').value = data.user.genre;
       document.querySelector('#user_location').value = data.user.location;
+      userInstagram = data.user.instagram;
+      userFacebook = data.user.facebook;
+      userGithub = data.user.github;
       instagramUrl = `https://www.instagram.com/${data.user.instagram}`;
       facebookUrl = `https://www.facebook.com/${data.user.facebook}`;
       githubUrl = `https://github.com/${data.user.github}`;
@@ -292,8 +297,15 @@ function userSocialedit() {
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
   const user_social_links = document.querySelectorAll('.user_social_links');
   const userSocialedit_icon = document.getElementById('Usersocial_edit');
+  const user_instagram = document.getElementById('user_instagram');
+  const user_facebook = document.getElementById('user_facebook');
+  const user_github = document.getElementById('user_github');
   userSocialedit_icon.addEventListener('click', () => {
     user_social_inputs.forEach(input => {
+      user_instagram.value = userInstagram;
+      user_facebook.value = userFacebook;
+      user_github.value = userGithub;
+      userSocialedit_icon.style.display = 'none'
       input.style.display = "flex"
     })
     user_social_links.forEach(link => {
