@@ -5,6 +5,7 @@ window.addEventListener("load", () => {
   profilePopup()
   userLogout()
   profileDelete_modal()
+  userSocialedit()
   userAccountdelete()
 })
 
@@ -284,6 +285,19 @@ function userImage() {
     photoRemoved = true;
     profileImage.forEach(img => {
       img.src = ""
+    })
+  })
+}
+function userSocialedit() {
+  const user_social_inputs = document.querySelectorAll('.user_social_inputs');
+  const user_social_links = document.querySelectorAll('.user_social_links');
+  const userSocialedit_icon = document.getElementById('Usersocial_edit');
+  userSocialedit_icon.addEventListener('click', () => {
+    user_social_inputs.forEach(input => {
+      input.style.display = "flex"
+    })
+    user_social_links.forEach(link => {
+      link.style.display = "none"
     })
   })
 }
