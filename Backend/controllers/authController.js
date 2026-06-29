@@ -151,28 +151,48 @@ exports.updateProfile = (req, res) => {
         })
       }
       oldUser = result[0]
-
-      const instagram = instagramId || oldUser.instagram;
-      const facebook = facebookId || oldUser.facebook;
-      const github = githubId || oldUser.github;
       let profileImg;
-      if(req.file){
+      if (req.file) {
         profileImg = req.file.filename
-      } else if(req.body.photoRemoved == "true"){
+      } else if (req.body.photoRemoved == "true") {
 
-        if(oldUser.profileImg){
-          const imgPath = path.join(__dirname,"../uploads",oldUser.profileImg)
-          fs.unlink(imgPath,(err) =>{
-            if(err){
+        if (oldUser.profileImg) {
+          const imgPath = path.join(__dirname, "../uploads", oldUser.profileImg)
+          fs.unlink(imgPath, (err) => {
+            if (err) {
               console.log(err)
-            }else{
+            } else {
               console.log("Img removed successfully")
             }
           })
         }
         profileImg = null
-      }else{
+      } else {
         profileImg = oldUser.profileImg
+      }
+      // For Instagram
+      if (instagramId) {
+        instagram = instagramId
+      } else if (req.body.instaRemoved == "true") {
+        instagram = ""
+      } else {
+        instagram = oldUser.instagram
+      }
+      // For facebook
+      if (facebookId) {
+        facebook = facebookId
+      } else if (req.body.fbRemoved == "true") {
+        facebook = ""
+      } else {
+        facebook = oldUser.facebook
+      }
+      // For github
+      if (githubId) {
+        github = githubId
+      } else if (req.body.githubRemoved == "true") {
+        github = ""
+      } else {
+        github = oldUser.github
       }
 
       db.query(

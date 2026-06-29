@@ -180,7 +180,7 @@ async function profileData() {
         user_social_links.forEach(link => {
           link.style.display = "flex"
         })
-        instaLink.hidden = false;
+        instaLink.style.display = "flex";
         instaLink.href = instagramUrl
       }
       if (data.user.facebook) {
@@ -189,10 +189,9 @@ async function profileData() {
         })
         user_social_links.forEach(link => {
           link.style.display = "flex"
-          fbLink.hidden = false;
-          fbLink.href = facebookUrl
         })
-
+        fbLink.style.display = "flex";
+        fbLink.href = facebookUrl
       }
       if (data.user.github) {
         user_social_inputs.forEach(input => {
@@ -201,7 +200,7 @@ async function profileData() {
         user_social_links.forEach(link => {
           link.style.display = "flex"
         })
-        githubLink.hidden = false;
+        githubLink.style.display = "flex";
         githubLink.href = githubUrl
 
       }
@@ -225,6 +224,9 @@ async function profileData() {
       formData.append("facebookId", userFacebook)
       formData.append("githubId", userGithub)
       formData.append("photoRemoved", photoRemoved)
+      formData.append("instaRemoved", instaRemoved)
+      formData.append("fbRemoved", fbRemoved)
+      formData.append("githubRemoved", githubRemoved)
 
       if (userimgFile) {
         formData.append("profileImg", userimgFile)
@@ -260,6 +262,10 @@ async function profileData() {
 
 let userimgFile = null;
 let photoRemoved = false;
+let instaRemoved = false;
+let fbRemoved = false;
+let githubRemoved = false;
+
 function userImage() {
   const profileInput = document.getElementById('profileInput');
   const cameraBtn = document.getElementById('profile_edit_icon');
@@ -293,6 +299,7 @@ function userImage() {
     })
   })
 }
+
 function userSocialedit() {
   const user_social_inputs = document.querySelectorAll('.user_social_inputs');
   const user_social_links = document.querySelectorAll('.user_social_links');
@@ -300,6 +307,9 @@ function userSocialedit() {
   const user_instagram = document.getElementById('user_instagram');
   const user_facebook = document.getElementById('user_facebook');
   const user_github = document.getElementById('user_github');
+  const userInstagraminput = document.querySelector('#user_instagram');
+  const userFacebookinput = document.querySelector('#user_facebook');
+  const userGithubinput = document.querySelector('#user_github');
   userSocialedit_icon.addEventListener('click', () => {
     user_social_inputs.forEach(input => {
       user_instagram.value = userInstagram;
@@ -307,6 +317,27 @@ function userSocialedit() {
       user_github.value = userGithub;
       userSocialedit_icon.style.display = 'none'
       input.style.display = "flex"
+      userInstagraminput.addEventListener('input', () => {
+        if (userInstagraminput.value.trim() === "") {
+          instaRemoved = true
+        } else {
+          instaRemoved = false
+        }
+      })
+      userFacebookinput.addEventListener('input', () => {
+        if (userFacebookinput.value.trim() === "") {
+          fbRemoved = true
+        } else {
+          fbRemoved = false
+        }
+      })
+      userGithubinput.addEventListener('input', () => {
+        if (userGithubinput.value.trim() === "") {
+          githubRemoved = true
+        } else {
+          githubRemoved = false
+        }
+      })
     })
     user_social_links.forEach(link => {
       link.style.display = "none"

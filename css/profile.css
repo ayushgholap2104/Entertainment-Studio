@@ -841,7 +841,6 @@
   color: #b3b3b3;
 }
 .profile_section1 .follow_me .user_social_links {
-  margin-bottom: 20px;
   display: none;
   /* gap: 20px; */
 }
@@ -854,6 +853,16 @@
   align-items: center;
   text-align: center;
   color: var(--secondory_color);
+  margin-bottom: 20px;
+}
+.profile_section1 .follow_me .user_social_links #instaLink{
+  display: none;
+}
+.profile_section1 .follow_me .user_social_links #fbLink{
+  display: none;
+}
+.profile_section1 .follow_me .user_social_links #githubLink{
+  display: none;
 }
 
 .profile_section1 .user_options {
