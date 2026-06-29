@@ -37,6 +37,7 @@
   --profile_color_text: #2f2f2f;
   --profile_color_bg_hover: #ffffff;
   --profile_color_text_hover: #4f4f4f;
+  --tertiary_color2: #000000;
 }
 
 .dark_theme {
@@ -66,6 +67,7 @@
   --profile_color_text: #dedddd;
   --profile_color_bg_hover: #404040;
   --profile_color_text_hover: #ffff;
+  --tertiary_color2: #fff;
 }
 .profile_main_content {
   background: var(--bg_color);
@@ -655,6 +657,20 @@
 }
 .profile_section1 .back_icon a {
   color: var(--secondory_color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  text-decoration: none;
+  color: var(--secondory_color);
+  transition: border 0.4s ease;
+}
+.profile_section1 .back_icon a:hover {
+  border: 1px solid var(--secondory_color);
+  color: var(--tertiary_color2);
 }
 .profile_section1 .profile_img_cont {
   margin-top: 10px;
@@ -761,7 +777,7 @@
   cursor: pointer;
 }
 .profile_section1 .follow_me {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 30px;
   /* width: 200px; */
 }
@@ -771,6 +787,7 @@
   justify-content: space-between;
   margin-bottom: 25px;
   align-items: center;
+  height: 45px;
 }
 
 .profile_section1 .follow_me .Usersocial_accounts h4 {
@@ -780,13 +797,23 @@
   margin: 0px;
   line-height: normal;
 }
-.profile_section1 .follow_me .Usersocial_accounts i{
+.profile_section1 .follow_me .Usersocial_accounts i {
   margin-right: 20px;
   font-size: 14.5px;
   color: var(--secondory_color);
+  height: 35px;
+  width: 35px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 0.4s ease;
 }
-.profile_section1 .follow_me .Usersocial_accounts i:hover{
+.profile_section1 .follow_me .Usersocial_accounts i:hover {
   cursor: pointer;
+  border: 1px solid var(--secondory_color);
+  color: var(--tertiary_color2);
 }
 
 .profile_section1 .follow_me .user_social_inputs {
