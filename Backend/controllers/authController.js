@@ -112,6 +112,24 @@ exports.login = (req, res) => {
     }
   )
 }
+exports.getContent = (req,res) =>{
+  db.query(
+    "SELECT * FROM content",
+    (err,result) =>{
+      if(err){
+        return res.status(500).json({
+          success:false,
+          message:"Something went wrong"
+        })
+      }
+
+      res.json({
+        success:true,
+        data:result
+      })
+    }
+  )
+}
 exports.profile = (req, res) => {
   db.query(
     "SELECT * FROM users_detail WHERE email=?",

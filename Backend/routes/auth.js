@@ -5,6 +5,7 @@ const router = express.Router()
 const {signup} = require("../controllers/authController");
 const {login} = require("../controllers/authController");
 const {verify} = require("../controllers/authController");
+const {getContent} = require("../controllers/authController");
 const {profile} = require("../controllers/authController");
 const {userdelete} = require("../controllers/authController");
 const upload = require("../middleware/Uploads");
@@ -17,6 +18,8 @@ router.post('/signup',signup);
 router.post('/login',login);
 
 router.post('/verify',verify);
+
+router.get('/getContent',getContent)
 
 router.get('/profile',verifytoken,profile);
 
