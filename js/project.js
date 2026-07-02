@@ -203,72 +203,72 @@ const boxDetailstore = {
       {
         title: "Jawan",
         img: "../img/Jawan.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Terminator",
         img: "../img/Terminator.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Leo",
         img: "../img/Leo.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "bhootPolice",
         img: "../img/Bhoot-police.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "blackPanther",
         img: "../img/Black-panther.png",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "masterMovie",
         img: "../img/Master-movie.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Jumanji",
         img: "../img/Jumanji.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "VR",
         img: "../img/VR.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Salaar",
         img: "../img/Salaar.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "King-of-Kotha",
         img: "../img/King-Of-Kotha.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Mirai",
         img: "../img/Mirai.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "Kabali",
         img: "../img/Kabali.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       {
         title: "vikramVedha",
         img: "../img/Vikramvedha.jpg",
-        genre: "Action Extavaganza"
+        genre: "Action Extravaganza"
       },
       // 3rd Box
       {
@@ -630,13 +630,13 @@ const boxDetailstore = {
     const parentBox = document.querySelector('.parent-box')
     const genreMap = {}
     boxesData.forEach(boxData => {
-      const Genre = boxData.Genre
-      if (!genreMap[Genre]) {
+      const genre = boxData.genre
+      if (!genreMap[genre]) {
         const childBoxcontent = document.createElement('div');
         childBoxcontent.classList.add('child-box-content');
-        childBoxcontent.setAttribute("data-category", Genre);
+        childBoxcontent.setAttribute("data-category", genre);
         childBoxcontent.innerHTML = `
-          <h2 class="category">${Genre}</h2>
+          <h2 class="category">${genre}</h2>
           <button class="swipe-left-btn swipe-btn">
             <i class="fa-solid fa-angle-left"></i>
           </button>
@@ -646,13 +646,13 @@ const boxDetailstore = {
           </button>
         `;
         parentBox.appendChild(childBoxcontent)
-        genreMap[Genre] = childBoxcontent.querySelector('.child-boxes')
+        genreMap[genre] = childBoxcontent.querySelector('.child-boxes')
       }
       const box = document.createElement('div');
       box.classList.add('box');
       box.dataset.title = boxData.title;
       box.innerHTML = `<img src="${boxData.img}" alt="${boxData.title}" srcset="" />`
-      genreMap[Genre].appendChild(box)
+      genreMap[genre].appendChild(box)
     })
   },
 }
