@@ -1,15 +1,503 @@
-// let events = [
+// const boxesData = [
+//   // 1st box
 //   {
-//     id: 1,
-//     eventTitle: "Campaign",
-//     eventDesc: "This is the event description",
-//     eventMedia: [
-//       "path1/path2/path2",
-//       "path1/path2/path3",
-//       "vidpath/vidpath/vidpath"
-//     ]
+//     title: "The Dark Sphere",
+//     img: "../img/The_dark_sphere.jpg",
+//     genre: "New Movies for You"
 //   },
-// ] 
+//   {
+//     title: "parantu po",
+//     img: "../img/parantu_po.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Kramp",
+//     img: "../img/K_ramp.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "40 Acres",
+//     img: "../img/40_Acres.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Blind_spot",
+//     img: "../img/Blind_spot.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Kantara",
+//     img: "../img/kantara.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Bempura",
+//     img: "../img/Bempura.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "rathnan-prapancha",
+//     img: "../img/rathnan-prapancha.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Zebra",
+//     img: "../img/Aan_pavam.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Lokha",
+//     img: "../img/lokah.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "radheSham",
+//     img: "../img/Radhe-sham.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "Kesari chapter 2",
+//     img: "../img/Kesari_chapter_2.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "The Attack of 26/11",
+//     img: "../img/The_attack_of_2611.jpg",
+//     genre: "New Movies for You"
+//   },
+//   {
+//     title: "paramSundari",
+//     img: "../img/paramSundari.jpg",
+//     genre: "New Movies for You"
+//   },
+
+//   // 2nd box
+//   {
+//     title: "Jawan",
+//     img: "../img/Jawan.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Terminator",
+//     img: "../img/Terminator.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Leo",
+//     img: "../img/Leo.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "justiceLeague",
+//     img: "../img/Justice-league.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Sister Midnight",
+//     img: "../img/Sister_midnight.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "blackPanther",
+//     img: "../img/Black-panther.png",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "masterMovie",
+//     img: "../img/Master-movie.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Jumanji",
+//     img: "../img/Jumanji.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "VR",
+//     img: "../img/VR.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Tanhaji",
+//     img: "../img/Tanhaji.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "King-of-Kotha",
+//     img: "../img/King-Of-Kotha.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Bloody Daddy",
+//     img: "../img/Bloody_daddy.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "Kabali",
+//     img: "../img/Kabali.jpg",
+//     genre: "Popular Movies"
+//   },
+//   {
+//     title: "vikramVedha",
+//     img: "../img/Vikramvedha.jpg",
+//     genre: "Popular Movies"
+//   },
+//   // 3rd Box
+//   {
+//     title: "Munjhya",
+//     img: "../img/Munjhya.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Train to busan",
+//     img: "../img/Train_to_busan.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Annabella",
+//     img: "../img/Annabella.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Terrifier",
+//     img: "../img/Terrifier.jpg",
+//     genre: "Horror Movies",
+//   },
+//   {
+//     title: "Alien Covinant.",
+//     img: "../img/alienCovinant.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Aranmanai_4",
+//     img: "../img/Aranmanai_4.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Do Not Enter",
+//     img: "../img/Do_not_enter.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Lift",
+//     img: "../img/Lift.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "I Saw the Devil",
+//     img: "../img/I_saw_the_devil.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Romamcham",
+//     img: "../img/Romamcham.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Maneater",
+//     img: "../img/Maneater.jpg",
+//     genre: "Horror Movies",
+//   },
+//   {
+//     title: "Knock at cabin",
+//     img: "../img/Knock_at_cabin.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Bhediya",
+//     img: "../img/bhediya.jpg",
+//     genre: "Horror Movies"
+//   },
+//   {
+//     title: "Sinners",
+//     img: "../img/Sinners.jpg",
+//     genre: "Horror Movies"
+//   },
+//   // "womenCricket" box
+//   {
+//     title: "sitaramam",
+//     img: "../img/sitaramam.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Khuda haafiz",
+//     img: "../img/Khuda_haafiz.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Duniyadari",
+//     img: "../img/Duniyadari.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Zara hatke",
+//     img: "../img/Zara_hatke.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "The family star",
+//     img: "../img/The_family_star.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Premalu",
+//     img: "../img/Premalu.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Sanam re",
+//     img: "../img/Sanam_re.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "liger",
+//     img: "../img/liger.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "ved",
+//     img: "../img/ved.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Tadap",
+//     img: "../img/Tadap.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Badshaho",
+//     img: "../img/Badshaho.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Student of year",
+//     img: "../img/Student_of_year.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Game of love",
+//     img: "../img/Game_of_love.jpg",
+//     genre: "Romance Movies"
+//   },
+//   {
+//     title: "Titanic",
+//     img: "../img/Titanic.jpg",
+//     genre: "Romance Movies"
+//   },
+//   // 5th Box
+//   {
+//     title: "Super 30",
+//     img: "../img/Super_30.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Ms_Dhoni",
+//     img: "../img/Ms_Dhoni.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Mission mangal",
+//     img: "../img/Mission_mangal.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Bhuj",
+//     img: "../img/Bhuj.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Rocketry",
+//     img: "../img/Rocketry.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "12th fail",
+//     img: "../img/12th_fail.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "83 movie",
+//     img: "../img/83_movie.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Panga",
+//     img: "../img/Panga.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Baghavant kesari",
+//     img: "../img/Baghavant_kesari.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Sarfira",
+//     img: "../img/Sarfira.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Neru",
+//     img: "../img/Neru.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Captain marvel",
+//     img: "../img/Captain_marvel.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Raya the last dragon",
+//     img: "../img/Raya_the_last_dragon.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   {
+//     title: "Brave",
+//     img: "../img/Brave.jpg",
+//     genre: "Inspirational Movies"
+//   },
+//   // 6th Box
+//   {
+//     title: "The lion king",
+//     img: "../img/The_lion_king.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Alladin",
+//     img: "../img/Alladin.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Kung_fu_panda",
+//     img: "../img/Kung_fu_panda.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Moana2",
+//     img: "../img/Moana2.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "How to train your dragon 2",
+//     img: "../img/How_to_train_your_dragon2.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Motu patlu kungfu king",
+//     img: "../img/Motu_patlu_kungfu_king.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "The Bad Guys",
+//     img: "../img/The_bad_guys.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "ninjaHattori",
+//     img: "../img/ninjaHattori.png",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "munkiTrunk",
+//     img: "../img/munkiTrunk.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Ainbo",
+//     img: "../img/Ainbo.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "chikooAurbunty",
+//     img: "../img/chikooAurbunty.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "peppaPig",
+//     img: "../img/peppaPig.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "Bajrangi",
+//     img: "../img/Bajrangi.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   {
+//     title: "mashaAndbeer",
+//     img: "../img/mashaAndbeer.jpg",
+//     genre: "Popular Kids Movies"
+//   },
+//   // 7th Box
+//   {
+//     title: "Dragons",
+//     img: "../img/dragons-movie.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "Fastx",
+//     img: "../img/fastx.jpeg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "Ironman",
+//     img: "../img/ironman.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "FastandFurious",
+//     img: "../img/fast-and-furious.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "openHeighmer",
+//     img: "../img/openheighmer.jpeg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "Dc",
+//     img: "../img/dc.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "Anora",
+//     img: "../img/anora.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "deadpoolWolverin",
+//     img: "../img/deadpoolWolverin.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "disneyTangled",
+//     img: "../img/disneyTangled.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "disneyCars",
+//     img: "../img/disneyCars.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "planetOfapes",
+//     img: "../img/planetOfapes.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "alienCovinant",
+//     img: "../img/alienCovinant.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "insideOut2",
+//     img: "../img/insideOut2.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+//   {
+//     title: "avengerInfinitywar",
+//     img: "../img/avengerInfinitywar.jpg",
+//     genre: "Hollywood Superhits"
+//   },
+// ]
 
 window.addEventListener("load", () => {
   functions.cardDataBinding()

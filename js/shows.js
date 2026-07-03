@@ -29,41 +29,45 @@ function sidebarClick() {
 }
 
 const functions = {
-  cardDataBinding: function () {
+  cardDataBinding: async function () {
     // A variable that contains data in json format
-    const cardsData = [
-      {
-        title: "Demon_slayer",
-        img: "../img/Demon_slayer.jpg"
-      },
-      {
-        title: "Money Heist",
-        img: "../img/Money_Heist.jpg"
-      },
-      {
-        title: "MoonKnight",
-        img: "../img/MoonKnight.jpg"
-      },
-      {
-        title: "Tokyo Revengers",
-        img: "../img/tokyoRevengers.jpg"
-      },
+    showLoader()
+    try {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+        method: "GET",
+      })
+      const data = await res.json()
+      const container = document.querySelector('.card-container')
 
-    ]
-    const container = document.querySelector('.card-container')
+      banner = data.data
+      console.log(banner)
 
-    cardsData.forEach(data => {
-      const card = document.createElement('div');
-      card.classList.add('card');
+      const bannerMovies = [];
 
-      card.innerHTML = `
-        <div class="card-bg-img-cont" style="background-image:url('${data.img}');"></div>
+      for (let i = 0; i < 4; i++) {
+        const randomIndex = Math.floor(Math.random() * banner.length);
+        bannerMovies.push(banner[randomIndex]);
+      }
+
+      bannerMovies.forEach(randomCard => {
+        const bannerImg = `../img/${randomCard.img}`
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        card.innerHTML = `
+        <div class="card-bg-img-cont" style="background-image:url('${bannerImg}');"></div>
         <div class = "card-img-title-cont">
-          <img src="${data.img}" alt="${data.title}" srcset="" />
+          <img src="${bannerImg}" alt="${randomCard.title}" srcset="" />
         </div>
       `;
-      container.appendChild(card)
-    })
+        container.appendChild(card)
+      })
+    } catch (err) {
+      console.log(err)
+    }
+    hideLoader()
+    startslider()
+    slide_left_rightbtn()
   },
 }
 
@@ -78,9 +82,7 @@ function startslider() {
     const shift = cardIndex * -cardWidth;
     cardContainer.style.transform = `translateX(${shift}px)`;
   }
-
   setInterval(slideNext, 2000);
-
 }
 function slide_left_rightbtn() {
   const leftBtn = document.querySelector(".left-arrow");
@@ -112,517 +114,24 @@ function slide_left_rightbtn() {
 
 }
 const boxDetailstore = {
-  childBoxes: function () {
-    const boxesData = [
-      // 1st box
-      {
-        title: "MoonWalk",
-        img: "../img/MoonWalk.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "KhalbaliRecords",
-        img: "../img/KhalbaliRecords.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "HoneyMoonPhotographer",
-        img: "../img/HoneyMoonPhotographer.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Cadets",
-        img: "../img/Cadets.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Taali",
-        img: "../img/Taali.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Kaalkoot Series",
-        img: "../img/Kaalkoot-Series.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "ShekharHome",
-        img: "../img/ShekharHome.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Asur2",
-        img: "../img/Asur2.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "CandySeries",
-        img: "../img/CandySeries.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "IllegalSeries",
-        img: "../img/IllegalSeries.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "YaariaanSeries",
-        img: "../img/YaariaanSeries.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Gaanth",
-        img: "../img/Gaanth.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Aashikana",
-        img: "../img/Aashikana.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "HanumanSeries",
-        img: "../img/HanumanSeries.jpg",
-        genre: "Must Watch Originals"
-      },
-
-      // 2nd box
-      {
-        title: "TrialSeries",
-        img: "../img/TrialSeries.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Rambo In Love",
-        img: "../img/RamboInLove.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "MangalLakshmi",
-        img: "../img/mangalLakshmi.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Kobali Series",
-        img: "../img/KobaliSeries.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Thukra Ke Pyaar Mera",
-        img: "../img/Thukra_ke_Pyaar_Mera.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Gunaah",
-        img: "../img/Gunaah.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Tharla tar mag",
-        img: "../img/tharla-mag-serial.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Pariniti Serial",
-        img: "../img/ParinitiSerial.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Yeh Ristha Kya Khelata he",
-        img: "../img/yeh-rista-serial.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Illegal",
-        img: "../img/IllegalSeries.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Apolina",
-        img: "../img/Apolina.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "Kabali",
-        img: "../img/Kabali.jpg",
-        genre: "House Of Dramas"
-      },
-      {
-        title: "vikramVedha",
-        img: "../img/Vikramvedha.jpg",
-        genre: "House Of Dramas"
-      },
-      // 3rd Box
-      {
-        title: "bigBoss",
-        img: "../img/bigboss.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Anupama",
-        img: "../img/anupama-serial.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "ristakyakhelatahe",
-        img: "../img/yeh-rista-serial.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Tharlamag",
-        img: "../img/tharla-mag-serial.jpg",
-        genre: "Popular Serials",
-      },
-      {
-        title: "Mannat",
-        img: "../img/mannat-serial.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Devmanush",
-        img: "../img/devmanush-serial.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Mitwa",
-        img: "../img/mitwa-serial.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "udneKiaasha",
-        img: "../img/UdnekiAasha.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "mangalLakshmi",
-        img: "../img/mangalLakshmi.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Mahabharat",
-        img: "../img/Mahabharat.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "Jhanak",
-        img: "../img/Jhanak.jpg",
-        genre: "Popular Serials",
-      },
-      {
-        title: "Swabhimaan",
-        img: "../img/Swabhimaan.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "radhaKrishna",
-        img: "../img/radhaKrishna.jpg",
-        genre: "Popular Serials"
-      },
-      {
-        title: "tulaJapnaar",
-        img: "../img/tulaJapnaar.jpg",
-        genre: "Popular Serials"
-      },
-      // 4th box
-      {
-        title: "Healer",
-        img: "../img/Healer.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Irrational",
-        img: "../img/Irrational.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Ashoka",
-        img: "../img/Ashoka.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "BigMouth",
-        img: "../img/BigMouth.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Moon Knight",
-        img: "../img/MoonKnight.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "WandaVision",
-        img: "../img/WandaVision.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "ThePitt",
-        img: "../img/ThePitt.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Loki",
-        img: "../img/Loki.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "The Hunting Party",
-        img: "../img/The_Hunting_Party.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "SharkTank",
-        img: "../img/SharkTank.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Succession",
-        img: "../img/Succession.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Tokyo Revengers",
-        img: "../img/tokyoRevengers.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "CB Strike",
-        img: "../img/CB_Strike.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      {
-        title: "Law And Order",
-        img: "../img/Law_And_Order.jpg",
-        genre: "Shows You Can't Miss"
-      },
-      // 5th Box
-      {
-        title: "jujutsuKiasen",
-        img: "../img/jujutsu-anime.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "onepiece",
-        img: "../img/onepiece-anime.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "demonSlayer",
-        img: "../img/demon-slayer.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "Naruto",
-        img: "../img/naruto.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "AttackonTitan",
-        img: "../img/Aot.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "Bleach",
-        img: "../img/bleach.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "deathNote",
-        img: "../img/death-note.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "Haikyuu",
-        img: "../img/haikyuu.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "spyFamily",
-        img: "../img/spyFamily.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "assasinationClasroom",
-        img: "../img/assasinationClassroom.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "mushukoTensei",
-        img: "../img/mushukoTensei.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "jhunjiltoCollection",
-        img: "../img/jhunjiltoCollection.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "myheroAcademia",
-        img: "../img/myheroAcademia.jpg",
-        genre: "Top Rated Animes!"
-      },
-      {
-        title: "blackButtler",
-        img: "../img/blackButtler.jpg",
-        genre: "Top Rated Animes!"
-      },
-      // 6th Box
-      {
-        title: "Doraemon",
-        img: "../img/doraemon.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "Shinchan",
-        img: "../img/shinchan.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "TomandJerry",
-        img: "../img/tom-and-cherry.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "Ben10",
-        img: "../img/ben10.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "motuPatlu",
-        img: "../img/motu-patlu.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "Woody",
-        img: "../img/woody.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "mickyMouse",
-        img: "../img/micky-mouse.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "ninjaHattori",
-        img: "../img/ninjaHattori.png",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "munkiTrunk",
-        img: "../img/munkiTrunk.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "Ainbo",
-        img: "../img/Ainbo.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "chikooAurbunty",
-        img: "../img/chikooAurbunty.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "peppaPig",
-        img: "../img/peppaPig.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "Bajrangi",
-        img: "../img/Bajrangi.jpg",
-        genre: "Popular Kids Shows"
-      },
-      {
-        title: "mashaAndbeer",
-        img: "../img/mashaAndbeer.jpg",
-        genre: "Popular Kids Shows"
-      },
-      // 7th Box
-      {
-        title: "Money_Heist",
-        img: "../img/Money_Heist.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Kerala Files",
-        img: "../img/Kerala_Files.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Parampara",
-        img: "../img/Parampara.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "CriminalJustice",
-        img: "../img/CriminalJustice.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Ekaki",
-        img: "../img/Ekaki.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Bhay",
-        img: "../img/Bhay.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Mahabharat",
-        img: "../img/Mahabharat.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "The Legend Of Hanuman",
-        img: "../img/The_Legend_Of_Hanuman.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Asur2",
-        img: "../img/Asur2.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "SquidGame",
-        img: "../img/SquidGame.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Alice_In_Borderland",
-        img: "../img/Alice_In_Borderland.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Ziddi Ishq",
-        img: "../img/Ziddi_Ishq.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "Stranger Things",
-        img: "../img/Stranger_Things.jpg",
-        genre: "Shows Recommended For You"
-      },
-      {
-        title: "lagna nanter hoilach prem",
-        img: "../img/lagna_nanter_hoilach_prem.jpg",
-        genre: "Shows Recommended For You"
-      },
-    ]
-    const parentBox = document.querySelector('.parent-box')
-    const genreMap = {}
-    boxesData.forEach(boxData => {
-      const Genre = boxData.Genre
-      if (!genreMap[Genre]) {
-        const childBoxcontent = document.createElement('div');
-        childBoxcontent.classList.add('child-box-content');
-        childBoxcontent.setAttribute("data-category", Genre);
-        childBoxcontent.innerHTML = `
-          <h2 class="category">${Genre}</h2>
+  childBoxes: async function () {
+    showLoader()
+    try {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+        method: "GET",
+      })
+      const boxesData = await res.json()
+      const parentBox = document.querySelector('.parent-box')
+      const genreMap = {}
+      boxesData.data.forEach(boxData => {
+        boxImg = `../img/${boxData.img}`
+        const genre = boxData.genre
+        if (!genreMap[genre]) {
+          const childBoxcontent = document.createElement('div');
+          childBoxcontent.classList.add('child-box-content');
+          childBoxcontent.setAttribute("data-category", genre);
+          childBoxcontent.innerHTML = `
+          <h2 class="category">${genre}</h2>
           <button class="swipe-left-btn swipe-btn">
             <i class="fa-solid fa-angle-left"></i>
           </button>
@@ -631,15 +140,19 @@ const boxDetailstore = {
             <i class="fa-solid fa-angle-right"></i>
           </button>
         `;
-        parentBox.appendChild(childBoxcontent)
-        genreMap[Genre] = childBoxcontent.querySelector('.child-boxes')
-      }
-      const box = document.createElement('div');
-      box.classList.add('box');
-      box.dataset.title = boxData.title;
-      box.innerHTML = `<img src="${boxData.img}" alt="${boxData.title}" srcset="" />`
-      genreMap[Genre].appendChild(box)
-    })
+          parentBox.appendChild(childBoxcontent)
+          genreMap[genre] = childBoxcontent.querySelector('.child-boxes')
+        }
+        const box = document.createElement('div');
+        box.classList.add('box');
+        box.dataset.title = boxData.title;
+        box.innerHTML = `<img src="${boxImg}" alt="${boxData.title}" srcset="" />`
+        genreMap[genre].appendChild(box)
+      })
+    } catch (err) {
+      console.log(err)
+    }
+    hideLoader()
   },
 }
 function searchbarClick() {

@@ -29,41 +29,45 @@ function sidebarClick() {
 }
 
 const functions = {
-  cardDataBinding: function () {
+  cardDataBinding: async function () {
     // A variable that contains data in json format
-    const cardsData = [
-      {
-        title: "Boss baby",
-        img: "../img/Boss_baby.jpg"
-      },
-      {
-        title: "disney cars",
-        img: "../img/disney_cars.jpg"
-      },
-      {
-        title: "incredibles 2",
-        img: "../img/incredibles_2.jpg"
-      },
-      {
-        title: "The_wildrobot",
-        img: "../img/The_wildrobot.jpg"
-      },
+    showLoader()
+    try {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+        method: "GET",
+      })
+      const data = await res.json()
+      const container = document.querySelector('.card-container')
 
-    ]
-    const container = document.querySelector('.card-container')
+      banner = data.data
+      console.log(banner)
 
-    cardsData.forEach(data => {
-      const card = document.createElement('div');
-      card.classList.add('card');
+      const bannerMovies = [];
 
-      card.innerHTML = `
-        <div class="card-bg-img-cont" style="background-image:url('${data.img}');"></div>
+      for (let i = 0; i < 4; i++) {
+        const randomIndex = Math.floor(Math.random() * banner.length);
+        bannerMovies.push(banner[randomIndex]);
+      }
+
+      bannerMovies.forEach(randomCard => {
+        const bannerImg = `../img/${randomCard.img}`
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        card.innerHTML = `
+        <div class="card-bg-img-cont" style="background-image:url('${bannerImg}');"></div>
         <div class = "card-img-title-cont">
-          <img src="${data.img}" alt="${data.title}" srcset="" />
+          <img src="${bannerImg}" alt="${randomCard.title}" srcset="" />
         </div>
       `;
-      container.appendChild(card)
-    })
+        container.appendChild(card)
+      })
+    } catch (err) {
+      console.log(err)
+    }
+    hideLoader()
+    startslider()
+    slide_left_rightbtn()
   },
 }
 
@@ -78,9 +82,7 @@ function startslider() {
     const shift = cardIndex * -cardWidth;
     cardContainer.style.transform = `translateX(${shift}px)`;
   }
-
   setInterval(slideNext, 2000);
-
 }
 function slide_left_rightbtn() {
   const leftBtn = document.querySelector(".left-arrow");
@@ -112,517 +114,24 @@ function slide_left_rightbtn() {
 
 }
 const boxDetailstore = {
-  childBoxes: function () {
-    const boxesData = [
-      // 1st box
-      {
-        title: "Luca",
-        img: "../img/Luca.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Finding Nemo",
-        img: "../img/Finding_nemo.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Good dinosaur",
-        img: "../img/Good_dinosaur.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "thelandBeforetime",
-        img: "../img/landb.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "tangled",
-        img: "../img/tangled.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Zotopia",
-        img: "../img/Zotopia.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Elemental",
-        img: "../img/Elemental.png",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "LiloStitch",
-        img: "../img/LiloStitch.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Mufasa",
-        img: "../img/Mufasa.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "frozen",
-        img: "../img/frozen.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "The Jungle Book",
-        img: "../img/The_junglebook.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Narnia",
-        img: "../img/Narnia.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Wicked",
-        img: "../img/Wicked.jpg",
-        genre: "Popular Kids Movies"
-      },
-      {
-        title: "Coco",
-        img: "../img/Coco.jpg",
-        genre: "Popular Kids Movies"
-      },
-
-      // 2nd box
-      {
-        title: "Sonic2",
-        img: "../img/Sonic2.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Alladin",
-        img: "../img/Alladin.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Maleficient",
-        img: "../img/Maleficient.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "justiceLeague",
-        img: "../img/Justice-league.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Princes Diaries",
-        img: "../img/PrincesDiaries.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "madagaskar",
-        img: "../img/madagaskar.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Snow white",
-        img: "../img/Snow_white.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Ratatouille",
-        img: "../img/Ratatouille.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Minecraft",
-        img: "../img/Minecraft.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Boss Baby",
-        img: "../img/Boss_baby.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Home Alone",
-        img: "../img/Home_alone.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Elemental",
-        img: "../img/Elemental.png",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Turning Red",
-        img: "../img/Turning_red.jpg",
-        genre: "Fantasy Movies"
-      },
-      {
-        title: "Alice_In_Wonderland",
-        img: "../img/Alice_In_Wonderland.jpg",
-        genre: "Fantasy Movies"
-      },
-      // 3rd Box
-      {
-        title: "Monster Inc",
-        img: "../img/Monster_inc.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Toy story",
-        img: "../img/Toy_story.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Home Alone",
-        img: "../img/Home_alone.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "InsideOut 2",
-        img: "../img/insideOut2.jpg",
-        genre: "Top Rated Movies",
-      },
-      {
-        title: "Shrek",
-        img: "../img/Shrek.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Dalmatians",
-        img: "../img/Dalmatians.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Lego Movie",
-        img: "../img/Lego_movie.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Wall_E",
-        img: "../img/Wall_E.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Mulan",
-        img: "../img/Mulan.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Up",
-        img: "../img/Up.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "Wreck It Ralph",
-        img: "../img/Wreck_it_ralph.jpg",
-        genre: "Top Rated Movies",
-      },
-      {
-        title: "incredibles_2",
-        img: "../img/incredibles_2.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "hotelTransylvania",
-        img: "../img/hotelTransylvania.jpg",
-        genre: "Top Rated Movies"
-      },
-      {
-        title: "The Little Mermaid",
-        img: "../img/The_little_mermaid.jpg",
-        genre: "Top Rated Movies"
-      },
-      // "womenCricket" box
-      {
-        title: "Matilda",
-        img: "../img/Matilda.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "the_land_Beforetime",
-        img: "../img/the_land_Beforetime.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Ice_age",
-        img: "../img/Ice_age.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Despicable",
-        img: "../img/Despicable.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Spongebob",
-        img: "../img/Spongebob.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Blue_clues",
-        img: "../img/Blue_clues.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Odd_parents",
-        img: "../img/Odd_parents.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "The_backyardians",
-        img: "../img/The_backyardians.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Avatar_the_last_airbender",
-        img: "../img/Avatar_the_last_airbender.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Hey_arnold",
-        img: "../img/Hey_arnold.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "The_loudhouse",
-        img: "../img/The_loudhouse.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Rugrats",
-        img: "../img/Rugrats.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "The_star_and_evil",
-        img: "../img/The_star_and_evil.jpg",
-        genre: "Must Watch Originals"
-      },
-      {
-        title: "Gravity Falls",
-        img: "../img/Gravity_falls.jpg",
-        genre: "Must Watch Originals"
-      },
-      // 5th Box
-      {
-        title: "jujutsuKiasen",
-        img: "../img/jujutsu-anime.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "onepiece",
-        img: "../img/onepiece-anime.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "demonSlayer",
-        img: "../img/demon-slayer.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "Naruto",
-        img: "../img/naruto.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "AttackonTitan",
-        img: "../img/Aot.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "Bleach",
-        img: "../img/bleach.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "deathNote",
-        img: "../img/death-note.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "Haikyuu",
-        img: "../img/haikyuu.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "spyFamily",
-        img: "../img/spyFamily.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "assasinationClasroom",
-        img: "../img/assasinationClassroom.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "mushukoTensei",
-        img: "../img/mushukoTensei.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "jhunjiltoCollection",
-        img: "../img/jhunjiltoCollection.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "myheroAcademia",
-        img: "../img/myheroAcademia.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      {
-        title: "blackButtler",
-        img: "../img/blackButtler.jpg",
-        genre: "Rejoice Anime Fans!"
-      },
-      // 6th Box
-      {
-        title: "Doraemon",
-        img: "../img/doraemon.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "Shinchan",
-        img: "../img/shinchan.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "TomandJerry",
-        img: "../img/tom-and-cherry.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "Ben10",
-        img: "../img/ben10.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "motuPatlu",
-        img: "../img/motu-patlu.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "Woody",
-        img: "../img/woody.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "mickyMouse",
-        img: "../img/micky-mouse.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "ninjaHattori",
-        img: "../img/ninjaHattori.png",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "munkiTrunk",
-        img: "../img/munkiTrunk.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "Ainbo",
-        img: "../img/Ainbo.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "chikooAurbunty",
-        img: "../img/chikooAurbunty.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "peppaPig",
-        img: "../img/peppaPig.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "Bajrangi",
-        img: "../img/Bajrangi.jpg",
-        genre: "Recommended Shows"
-      },
-      {
-        title: "mashaAndbeer",
-        img: "../img/mashaAndbeer.jpg",
-        genre: "Recommended Shows"
-      },
-      // 7th Box
-      {
-        title: "Dragons",
-        img: "../img/dragons-movie.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Mickey_mouse",
-        img: "../img/Mickey_mouse.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Kim_possible",
-        img: "../img/Kim_possible.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Phineas_ferb",
-        img: "../img/Phineas_ferb.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Sofia_the_first",
-        img: "../img/Sofia_the_first.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Doc_mcstuffins",
-        img: "../img/Doc_mcstuffins.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Milo_murphylaw",
-        img: "../img/Milo_murphylaw.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "Miles_from_tommorowland",
-        img: "../img/Miles_from_tommorowland.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "disneyTangled",
-        img: "../img/disneyTangled.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "disneyCars",
-        img: "../img/disneyCars.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "planetOfapes",
-        img: "../img/planetOfapes.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "alienCovinant",
-        img: "../img/alienCovinant.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "insideOut2",
-        img: "../img/insideOut2.jpg",
-        genre: "Amazing Extravanza"
-      },
-      {
-        title: "avengerInfinitywar",
-        img: "../img/avengerInfinitywar.jpg",
-        genre: "Amazing Extravanza"
-      },
-    ]
-    const parentBox = document.querySelector('.parent-box')
-    const genreMap = {}
-    boxesData.forEach(boxData => {
-      const Genre = boxData.Genre
-      if (!genreMap[Genre]) {
-        const childBoxcontent = document.createElement('div');
-        childBoxcontent.classList.add('child-box-content');
-        childBoxcontent.setAttribute("data-category", Genre);
-        childBoxcontent.innerHTML = `
-          <h2 class="category">${Genre}</h2>
+  childBoxes: async function () {
+    showLoader()
+    try {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+        method: "GET",
+      })
+      const boxesData = await res.json()
+      const parentBox = document.querySelector('.parent-box')
+      const genreMap = {}
+      boxesData.data.forEach(boxData => {
+        boxImg = `../img/${boxData.img}`
+        const genre = boxData.genre
+        if (!genreMap[genre]) {
+          const childBoxcontent = document.createElement('div');
+          childBoxcontent.classList.add('child-box-content');
+          childBoxcontent.setAttribute("data-category", genre);
+          childBoxcontent.innerHTML = `
+          <h2 class="category">${genre}</h2>
           <button class="swipe-left-btn swipe-btn">
             <i class="fa-solid fa-angle-left"></i>
           </button>
@@ -631,15 +140,19 @@ const boxDetailstore = {
             <i class="fa-solid fa-angle-right"></i>
           </button>
         `;
-        parentBox.appendChild(childBoxcontent)
-        genreMap[Genre] = childBoxcontent.querySelector('.child-boxes')
-      }
-      const box = document.createElement('div');
-      box.classList.add('box');
-      box.dataset.title = boxData.title;
-      box.innerHTML = `<img src="${boxData.img}" alt="${boxData.title}" srcset="" />`
-      genreMap[Genre].appendChild(box)
-    })
+          parentBox.appendChild(childBoxcontent)
+          genreMap[genre] = childBoxcontent.querySelector('.child-boxes')
+        }
+        const box = document.createElement('div');
+        box.classList.add('box');
+        box.dataset.title = boxData.title;
+        box.innerHTML = `<img src="${boxImg}" alt="${boxData.title}" srcset="" />`
+        genreMap[genre].appendChild(box)
+      })
+    } catch (err) {
+      console.log(err)
+    }
+    hideLoader()
   },
 }
 function searchbarClick() {
