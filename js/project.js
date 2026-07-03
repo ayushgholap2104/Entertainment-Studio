@@ -14,7 +14,6 @@
 window.addEventListener("load", () => {
   functions.cardDataBinding()
   sidebarClick()
-  slide_left_rightbtn()
   boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
@@ -79,6 +78,7 @@ const functions = {
     }
     hideLoader()
     startslider()
+    slide_left_rightbtn()
   },
 }
 

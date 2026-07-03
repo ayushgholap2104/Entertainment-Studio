@@ -643,6 +643,7 @@ body {
     background 0.3s ease;
   opacity: 0;
   border: none;
+  cursor: pointer;
 }
 .fa-chevron-right {
   font-size: 18px;
