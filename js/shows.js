@@ -118,499 +118,499 @@ const boxDetailstore = {
       {
         title: "MoonWalk",
         img: "../img/MoonWalk.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "KhalbaliRecords",
         img: "../img/KhalbaliRecords.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "HoneyMoonPhotographer",
         img: "../img/HoneyMoonPhotographer.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Cadets",
         img: "../img/Cadets.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Taali",
         img: "../img/Taali.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Kaalkoot Series",
         img: "../img/Kaalkoot-Series.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "ShekharHome",
         img: "../img/ShekharHome.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Asur2",
         img: "../img/Asur2.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "CandySeries",
         img: "../img/CandySeries.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "IllegalSeries",
         img: "../img/IllegalSeries.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "YaariaanSeries",
         img: "../img/YaariaanSeries.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Gaanth",
         img: "../img/Gaanth.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Aashikana",
         img: "../img/Aashikana.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "HanumanSeries",
         img: "../img/HanumanSeries.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
 
       // 2nd box
       {
         title: "TrialSeries",
         img: "../img/TrialSeries.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Rambo In Love",
         img: "../img/RamboInLove.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "MangalLakshmi",
         img: "../img/mangalLakshmi.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Kobali Series",
         img: "../img/KobaliSeries.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Thukra Ke Pyaar Mera",
         img: "../img/Thukra_ke_Pyaar_Mera.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Gunaah",
         img: "../img/Gunaah.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Tharla tar mag",
         img: "../img/tharla-mag-serial.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Pariniti Serial",
         img: "../img/ParinitiSerial.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Yeh Ristha Kya Khelata he",
         img: "../img/yeh-rista-serial.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Illegal",
         img: "../img/IllegalSeries.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Apolina",
         img: "../img/Apolina.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Devmanush",
         img: "../img/devmanush-serial.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "Kabali",
         img: "../img/Kabali.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       {
         title: "vikramVedha",
         img: "../img/Vikramvedha.jpg",
-        Genre: "House Of Dramas"
+        genre: "House Of Dramas"
       },
       // 3rd Box
       {
         title: "bigBoss",
         img: "../img/bigboss.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Anupama",
         img: "../img/anupama-serial.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "ristakyakhelatahe",
         img: "../img/yeh-rista-serial.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Tharlamag",
         img: "../img/tharla-mag-serial.jpg",
-        Genre: "Popular Serials",
+        genre: "Popular Serials",
       },
       {
         title: "Mannat",
         img: "../img/mannat-serial.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Devmanush",
         img: "../img/devmanush-serial.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Mitwa",
         img: "../img/mitwa-serial.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "udneKiaasha",
         img: "../img/UdnekiAasha.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "mangalLakshmi",
         img: "../img/mangalLakshmi.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Mahabharat",
         img: "../img/Mahabharat.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "Jhanak",
         img: "../img/Jhanak.jpg",
-        Genre: "Popular Serials",
+        genre: "Popular Serials",
       },
       {
         title: "Swabhimaan",
         img: "../img/Swabhimaan.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "radhaKrishna",
         img: "../img/radhaKrishna.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       {
         title: "tulaJapnaar",
         img: "../img/tulaJapnaar.jpg",
-        Genre: "Popular Serials"
+        genre: "Popular Serials"
       },
       // 4th box
       {
         title: "Healer",
         img: "../img/Healer.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Irrational",
         img: "../img/Irrational.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Ashoka",
         img: "../img/Ashoka.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "BigMouth",
         img: "../img/BigMouth.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Moon Knight",
         img: "../img/MoonKnight.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "WandaVision",
         img: "../img/WandaVision.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "ThePitt",
         img: "../img/ThePitt.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Loki",
         img: "../img/Loki.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "The Hunting Party",
         img: "../img/The_Hunting_Party.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "SharkTank",
         img: "../img/SharkTank.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Succession",
         img: "../img/Succession.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Tokyo Revengers",
         img: "../img/tokyoRevengers.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "CB Strike",
         img: "../img/CB_Strike.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       {
         title: "Law And Order",
         img: "../img/Law_And_Order.jpg",
-        Genre: "Shows You Can't Miss"
+        genre: "Shows You Can't Miss"
       },
       // 5th Box
       {
         title: "jujutsuKiasen",
         img: "../img/jujutsu-anime.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "onepiece",
         img: "../img/onepiece-anime.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "demonSlayer",
         img: "../img/demon-slayer.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "Naruto",
         img: "../img/naruto.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "AttackonTitan",
         img: "../img/Aot.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "Bleach",
         img: "../img/bleach.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "deathNote",
         img: "../img/death-note.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "Haikyuu",
         img: "../img/haikyuu.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "spyFamily",
         img: "../img/spyFamily.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "assasinationClasroom",
         img: "../img/assasinationClassroom.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "mushukoTensei",
         img: "../img/mushukoTensei.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "jhunjiltoCollection",
         img: "../img/jhunjiltoCollection.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "myheroAcademia",
         img: "../img/myheroAcademia.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       {
         title: "blackButtler",
         img: "../img/blackButtler.jpg",
-        Genre: "Top Rated Animes!"
+        genre: "Top Rated Animes!"
       },
       // 6th Box
       {
         title: "Doraemon",
         img: "../img/doraemon.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "Shinchan",
         img: "../img/shinchan.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "TomandJerry",
         img: "../img/tom-and-cherry.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "Ben10",
         img: "../img/ben10.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "motuPatlu",
         img: "../img/motu-patlu.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "Woody",
         img: "../img/woody.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "mickyMouse",
         img: "../img/micky-mouse.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Popular Kids Shows"
+        genre: "Popular Kids Shows"
       },
       // 7th Box
       {
         title: "Money_Heist",
         img: "../img/Money_Heist.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Kerala Files",
         img: "../img/Kerala_Files.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Parampara",
         img: "../img/Parampara.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "CriminalJustice",
         img: "../img/CriminalJustice.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Ekaki",
         img: "../img/Ekaki.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Bhay",
         img: "../img/Bhay.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Mahabharat",
         img: "../img/Mahabharat.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "The Legend Of Hanuman",
         img: "../img/The_Legend_Of_Hanuman.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Asur2",
         img: "../img/Asur2.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "SquidGame",
         img: "../img/SquidGame.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Alice_In_Borderland",
         img: "../img/Alice_In_Borderland.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Ziddi Ishq",
         img: "../img/Ziddi_Ishq.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "Stranger Things",
         img: "../img/Stranger_Things.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
       {
         title: "lagna nanter hoilach prem",
         img: "../img/lagna_nanter_hoilach_prem.jpg",
-        Genre: "Shows Recommended For You"
+        genre: "Shows Recommended For You"
       },
     ]
     const parentBox = document.querySelector('.parent-box')

@@ -118,499 +118,499 @@ const boxDetailstore = {
       {
         title: "Luca",
         img: "../img/Luca.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Finding Nemo",
         img: "../img/Finding_nemo.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Good dinosaur",
         img: "../img/Good_dinosaur.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "thelandBeforetime",
         img: "../img/landb.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "tangled",
         img: "../img/tangled.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Zotopia",
         img: "../img/Zotopia.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Elemental",
         img: "../img/Elemental.png",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "LiloStitch",
         img: "../img/LiloStitch.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Mufasa",
         img: "../img/Mufasa.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "frozen",
         img: "../img/frozen.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "The Jungle Book",
         img: "../img/The_junglebook.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Narnia",
         img: "../img/Narnia.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Wicked",
         img: "../img/Wicked.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
       {
         title: "Coco",
         img: "../img/Coco.jpg",
-        Genre: "Popular Kids Movies"
+        genre: "Popular Kids Movies"
       },
 
       // 2nd box
       {
         title: "Sonic2",
         img: "../img/Sonic2.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Alladin",
         img: "../img/Alladin.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Maleficient",
         img: "../img/Maleficient.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "justiceLeague",
         img: "../img/Justice-league.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Princes Diaries",
         img: "../img/PrincesDiaries.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "madagaskar",
         img: "../img/madagaskar.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Snow white",
         img: "../img/Snow_white.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Ratatouille",
         img: "../img/Ratatouille.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Minecraft",
         img: "../img/Minecraft.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Boss Baby",
         img: "../img/Boss_baby.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Home Alone",
         img: "../img/Home_alone.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Elemental",
         img: "../img/Elemental.png",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Turning Red",
         img: "../img/Turning_red.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       {
         title: "Alice_In_Wonderland",
         img: "../img/Alice_In_Wonderland.jpg",
-        Genre: "Fantasy Movies"
+        genre: "Fantasy Movies"
       },
       // 3rd Box
       {
         title: "Monster Inc",
         img: "../img/Monster_inc.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Toy story",
         img: "../img/Toy_story.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Home Alone",
         img: "../img/Home_alone.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "InsideOut 2",
         img: "../img/insideOut2.jpg",
-        Genre: "Top Rated Movies",
+        genre: "Top Rated Movies",
       },
       {
         title: "Shrek",
         img: "../img/Shrek.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Dalmatians",
         img: "../img/Dalmatians.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Lego Movie",
         img: "../img/Lego_movie.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Wall_E",
         img: "../img/Wall_E.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Mulan",
         img: "../img/Mulan.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Up",
         img: "../img/Up.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "Wreck It Ralph",
         img: "../img/Wreck_it_ralph.jpg",
-        Genre: "Top Rated Movies",
+        genre: "Top Rated Movies",
       },
       {
         title: "incredibles_2",
         img: "../img/incredibles_2.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "hotelTransylvania",
         img: "../img/hotelTransylvania.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       {
         title: "The Little Mermaid",
         img: "../img/The_little_mermaid.jpg",
-        Genre: "Top Rated Movies"
+        genre: "Top Rated Movies"
       },
       // "womenCricket" box
       {
         title: "Matilda",
         img: "../img/Matilda.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "the_land_Beforetime",
         img: "../img/the_land_Beforetime.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Ice_age",
         img: "../img/Ice_age.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Despicable",
         img: "../img/Despicable.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Spongebob",
         img: "../img/Spongebob.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Blue_clues",
         img: "../img/Blue_clues.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Odd_parents",
         img: "../img/Odd_parents.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "The_backyardians",
         img: "../img/The_backyardians.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Avatar_the_last_airbender",
         img: "../img/Avatar_the_last_airbender.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Hey_arnold",
         img: "../img/Hey_arnold.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "The_loudhouse",
         img: "../img/The_loudhouse.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Rugrats",
         img: "../img/Rugrats.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "The_star_and_evil",
         img: "../img/The_star_and_evil.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       {
         title: "Gravity Falls",
         img: "../img/Gravity_falls.jpg",
-        Genre: "Must Watch Originals"
+        genre: "Must Watch Originals"
       },
       // 5th Box
       {
         title: "jujutsuKiasen",
         img: "../img/jujutsu-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "onepiece",
         img: "../img/onepiece-anime.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "demonSlayer",
         img: "../img/demon-slayer.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "Naruto",
         img: "../img/naruto.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "AttackonTitan",
         img: "../img/Aot.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "Bleach",
         img: "../img/bleach.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "deathNote",
         img: "../img/death-note.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "Haikyuu",
         img: "../img/haikyuu.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "spyFamily",
         img: "../img/spyFamily.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "assasinationClasroom",
         img: "../img/assasinationClassroom.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "mushukoTensei",
         img: "../img/mushukoTensei.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "jhunjiltoCollection",
         img: "../img/jhunjiltoCollection.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "myheroAcademia",
         img: "../img/myheroAcademia.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       {
         title: "blackButtler",
         img: "../img/blackButtler.jpg",
-        Genre: "Rejoice Anime Fans!"
+        genre: "Rejoice Anime Fans!"
       },
       // 6th Box
       {
         title: "Doraemon",
         img: "../img/doraemon.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "Shinchan",
         img: "../img/shinchan.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "TomandJerry",
         img: "../img/tom-and-cherry.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "Ben10",
         img: "../img/ben10.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "motuPatlu",
         img: "../img/motu-patlu.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "Woody",
         img: "../img/woody.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "mickyMouse",
         img: "../img/micky-mouse.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "ninjaHattori",
         img: "../img/ninjaHattori.png",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "munkiTrunk",
         img: "../img/munkiTrunk.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "Ainbo",
         img: "../img/Ainbo.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "chikooAurbunty",
         img: "../img/chikooAurbunty.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "peppaPig",
         img: "../img/peppaPig.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "Bajrangi",
         img: "../img/Bajrangi.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       {
         title: "mashaAndbeer",
         img: "../img/mashaAndbeer.jpg",
-        Genre: "Recommended Shows"
+        genre: "Recommended Shows"
       },
       // 7th Box
       {
         title: "Dragons",
         img: "../img/dragons-movie.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Mickey_mouse",
         img: "../img/Mickey_mouse.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Kim_possible",
         img: "../img/Kim_possible.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Phineas_ferb",
         img: "../img/Phineas_ferb.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Sofia_the_first",
         img: "../img/Sofia_the_first.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Doc_mcstuffins",
         img: "../img/Doc_mcstuffins.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Milo_murphylaw",
         img: "../img/Milo_murphylaw.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "Miles_from_tommorowland",
         img: "../img/Miles_from_tommorowland.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "disneyTangled",
         img: "../img/disneyTangled.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "disneyCars",
         img: "../img/disneyCars.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "planetOfapes",
         img: "../img/planetOfapes.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "alienCovinant",
         img: "../img/alienCovinant.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "insideOut2",
         img: "../img/insideOut2.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
       {
         title: "avengerInfinitywar",
         img: "../img/avengerInfinitywar.jpg",
-        Genre: "Amazing Extravanza"
+        genre: "Amazing Extravanza"
       },
     ]
     const parentBox = document.querySelector('.parent-box')
