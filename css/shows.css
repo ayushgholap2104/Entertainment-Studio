@@ -750,6 +750,9 @@ body {
   align-items: center;
   object-fit: cover;
 }
+.card-img-title-cont img {
+  height: 430px;
+}
 .parent-box {
   /* width: 100%; */
   display: flex;

@@ -699,6 +699,7 @@ body {
   object-fit: cover;
   overflow: clip;
   border: none;
+  background-size: cover;
 }
 .card::after {
   content: "";
@@ -747,6 +748,10 @@ body {
   justify-content: center;
   align-items: center;
   object-fit: cover;
+  background-size: cover;
+}
+.card-img-title-cont img{
+  height: 430px;
 }
 .parent-box {
   /* width: 100%; */
