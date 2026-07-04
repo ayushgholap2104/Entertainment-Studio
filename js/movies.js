@@ -1,8 +1,6 @@
 window.addEventListener("load", () => {
   sidebarClick()
   functions.cardDataBinding()
-  startslider()
-  slide_left_rightbtn()
   boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
