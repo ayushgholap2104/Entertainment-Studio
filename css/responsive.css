@@ -3473,6 +3473,9 @@
     height: 400px;
     width: 330px;
   }
+  .card-img-title-cont img {
+    height: 400px;
+  }
   .right-arrow {
     display: none;
   }
