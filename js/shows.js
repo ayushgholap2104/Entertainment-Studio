@@ -151,6 +151,7 @@ const boxDetailstore = {
       console.log(err)
     }
     hideLoader()
+    card_right_slide()
   },
 }
 function searchbarClick() {

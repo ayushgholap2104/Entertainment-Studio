@@ -509,7 +509,6 @@ window.addEventListener("load", () => {
   profileData()
   userLogout()
   upButton()
-  card_right_slide()
 })
 function showLoader() {
   document.getElementById('loader').style.display = 'flex'
@@ -652,6 +651,7 @@ const boxDetailstore = {
       console.log(err)
     }
     hideLoader()
+    card_right_slide()
   },
 }
 function searchbarClick() {
