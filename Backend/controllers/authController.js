@@ -113,8 +113,10 @@ exports.login = (req, res) => {
   )
 }
 exports.getContent = (req, res) => {
+  const { category } = req.query
   db.query(
-    "SELECT * FROM content",
+    "SELECT * FROM content WHERE category = ?",
+    [category],
     (err, result) => {
       if (err) {
         return res.status(500).json({

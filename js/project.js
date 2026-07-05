@@ -532,7 +532,7 @@ const functions = {
     // A variable that contains data in json format
     showLoader()
     try {
-      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent?category=homePage", {
         method: "GET",
       })
       const data = await res.json()
@@ -616,7 +616,7 @@ const boxDetailstore = {
   childBoxes: async function () {
     showLoader()
     try {
-      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent", {
+      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent?category=homePage", {
         method: "GET",
       })
       const boxesData = await res.json()
