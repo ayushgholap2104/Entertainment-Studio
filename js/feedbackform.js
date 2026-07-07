@@ -38,7 +38,7 @@ async function profileData() {
     return
   }
   try {
-    const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+    const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/profile", {
       headers: {
         "authorization": token
       }
@@ -57,7 +57,7 @@ async function profileData() {
         userName.textContent = displayName;
       })
 
-      profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+      profileImageUrl = `https://entertainmentstudio-backend.onrender.com/uploads/${data.user.profileImg}`;
 
       if (data.user.profileImg) {
         profileImage.forEach(img => {

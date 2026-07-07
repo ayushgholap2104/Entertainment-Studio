@@ -52,7 +52,7 @@ function verifyOTP() {
 
     try {
       showLoader()
-      const res = await fetch("http://127.0.0.1:5000/api/auth/verify", {
+      const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/verify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -75,7 +75,7 @@ function verifyOTP() {
 
     } catch (err) {
       console.log(err)
-      showToast("Something went wrong.","danger")
+      showToast("Something went wrong.", "danger")
     }
     hideLoader()
   })

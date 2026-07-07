@@ -118,7 +118,7 @@ async function profileData() {
   }
   try {
     showLoader()
-    const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+    const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/profile", {
       method: "GET",
       headers: {
         "authorization": token
@@ -232,7 +232,7 @@ async function profileData() {
         formData.append("profileImg", userimgFile)
       }
       try {
-        const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+        const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/profile", {
           method: "PATCH",
           headers: {
             "authorization": token
@@ -354,7 +354,7 @@ function userAccountdelete() {
     token = localStorage.getItem("token")
     try {
       showLoader()
-      const res = await fetch("http://127.0.0.1:5000/api/auth/userdelete", {
+      const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/userdelete", {
         method: "DELETE",
         headers: {
           "authorization": token

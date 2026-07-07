@@ -31,7 +31,7 @@ const functions = {
     // A variable that contains data in json format
     showLoader()
     try {
-      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent?category=showsPage", {
+      const res = await fetch(" https://entertainmentstudio-backend.onrender.com/api/auth/getContent?category=showsPage", {
         method: "GET",
       })
       const data = await res.json()
@@ -115,7 +115,7 @@ const boxDetailstore = {
   childBoxes: async function () {
     showLoader()
     try {
-      const res = await fetch("http://127.0.0.1:5000/api/auth/getContent?category=showsPage", {
+      const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/getContent?category=showsPage", {
         method: "GET",
       })
       const boxesData = await res.json()
@@ -263,7 +263,7 @@ async function profileData() {
     return
   }
   try {
-    const res = await fetch("http://127.0.0.1:5000/api/auth/profile", {
+    const res = await fetch(" https://entertainmentstudio-backend.onrender.com/api/auth/profile", {
       headers: {
         "authorization": token
       }
@@ -282,7 +282,7 @@ async function profileData() {
         userName.textContent = displayName;
       })
 
-      profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+      profileImageUrl = ` https://entertainmentstudio-backend.onrender.com/uploads/${data.user.profileImg}`;
 
       if (data.user.profileImg) {
         profileImage.forEach(img => {
