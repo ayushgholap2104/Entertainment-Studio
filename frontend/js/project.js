@@ -548,7 +548,7 @@ const functions = {
       }
 
       bannerMovies.forEach(randomCard => {
-        const bannerImg = `../img/${randomCard.img}`
+        const bannerImg = `./img/${randomCard.img}`
         const card = document.createElement('div');
         card.classList.add('card');
 
@@ -622,7 +622,7 @@ const boxDetailstore = {
       const parentBox = document.querySelector('.parent-box')
       const genreMap = {}
       boxesData.data.forEach(boxData => {
-        boxImg = `../img/${boxData.img}`
+        boxImg = `./img/${boxData.img}`
         const genre = boxData.genre
         if (!genreMap[genre]) {
           const childBoxcontent = document.createElement('div');
@@ -827,7 +827,7 @@ function userLogout() {
       if (!token) {
         showToast("Please login first.", "danger")
         setTimeout(() => {
-          window.location.href = "../frontend/Home.html"
+          window.location.href = "./frontend/Home.html"
         }, 2000)
       }
       modalPopup.classList.toggle('active')
@@ -837,7 +837,7 @@ function userLogout() {
         localStorage.removeItem("token")
         showToast("Logged out successfully.", "success")
         setTimeout(() => {
-          window.location.href = "../frontend/Home.html"
+          window.location.href = "./frontend/Home.html"
         }, 2000)
       })
 

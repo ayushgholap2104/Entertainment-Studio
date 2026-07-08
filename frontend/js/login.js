@@ -30,7 +30,7 @@ function loginData() {
         localStorage.setItem('userEmail', data.email)
         showToast(data.message, "success");
         setTimeout(() => {
-          window.location.href = "../frontend/verify.html"
+          window.location.href = "./frontend/verify.html"
         }, 2000)
       } else {
         showToast(data.message, "danger");

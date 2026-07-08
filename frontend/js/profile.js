@@ -57,7 +57,7 @@ function userLogout() {
       if (!token) {
         showToast("Please login first.", "danger")
         setTimeout(() => {
-          window.location.href = "../frontend/Home.html"
+          window.location.href = "./frontend/Home.html"
         }, 2000)
       }
       modalPopup.classList.toggle('active')
@@ -67,7 +67,7 @@ function userLogout() {
         localStorage.removeItem("token")
         showToast("Logged out successfully.", "success")
         setTimeout(() => {
-          window.location.href = "../frontend/Home.html"
+          window.location.href = "./frontend/Home.html"
         }, 2000)
       })
 
@@ -111,7 +111,7 @@ async function profileData() {
   if (!token) {
     showToast("Please login first.", "danger")
     setTimeout(() => {
-      window.location.href = "../frontend/Home.html"
+      window.location.href = "./frontend/Home.html"
     }, 2000)
 
     return
@@ -244,7 +244,7 @@ async function profileData() {
         if (data.success) {
           showToast("Profile update successful", "success")
           setTimeout(() => {
-            window.location.href = "../frontend/profile.html"
+            window.location.href = "./frontend/profile.html"
           }, 2000)
 
         }
@@ -365,7 +365,7 @@ function userAccountdelete() {
         localStorage.removeItem("token")
         showToast(data.message, "success");
         setTimeout(() => {
-          window.location.href = "../frontend/sign_up.html"
+          window.location.href = "./frontend/sign_up.html"
         }, 2000)
       } else {
         showToast(data.message, "danger");
