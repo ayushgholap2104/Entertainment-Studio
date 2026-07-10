@@ -149,7 +149,7 @@ async function profileData() {
       instagramUrl = `https://www.instagram.com/${data.user.instagram}`;
       facebookUrl = `https://www.facebook.com/${data.user.facebook}`;
       githubUrl = `https://github.com/${data.user.github}`;
-      profileImageUrl = `http://127.0.0.1:5000/uploads/${data.user.profileImg}`;
+      profileImageUrl = `https://entertainmentstudio-backend.onrender.com/uploads/${data.user.profileImg}`;
 
       if (data.user.profileImg) {
         profileImage.forEach(img => {
