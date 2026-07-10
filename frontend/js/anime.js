@@ -326,7 +326,7 @@ function userLogout() {
       if (!token) {
         showToast("Please login first.", "danger")
         setTimeout(() => {
-          window.location.href = "./frontend/Home.html"
+          window.location.href = "./Home.html"
         }, 2000)
       }
       modalPopup.classList.toggle('active')
@@ -336,7 +336,7 @@ function userLogout() {
         localStorage.removeItem("token")
         showToast("Logged out successfully.", "success")
         setTimeout(() => {
-          window.location.href = "./frontend/Home.html"
+          window.location.href = "./Home.html"
         }, 2000)
       })
 

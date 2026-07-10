@@ -31,12 +31,12 @@ function signupData() {
         showToast(data.message, "success");
         localStorage.setItem("userEmail", data.email)
         setTimeout(() => {
-          window.location.href = "./frontend/verify.html"
+          window.location.href = "./verify.html"
         }, 2000)
       } else {
         showToast(data.message, "danger");
         setTimeout(() => {
-          window.location.href = "./frontend/index.html"
+          window.location.href = "./index.html"
         }, 2000)
       }
     } catch (err) {

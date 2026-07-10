@@ -67,7 +67,7 @@ function verifyOTP() {
         localStorage.setItem('token', data.token)
 
         setTimeout(() => {
-          window.location.href = "./frontend/Home.html"
+          window.location.href = "./Home.html"
         }, 2000)
       } else {
         showToast(data.message, "danger");
