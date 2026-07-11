@@ -89,23 +89,23 @@ exports.login = (req, res) => {
         const otp = Math.floor(100000 + Math.random() * 900000)
         db.query(
           "UPDATE users_detail SET otp = ? WHERE email = ?",
-          [otp, email]
-        ),
-          (err) => {
+          [otp, email],
+          async (err) => {
             if (err) {
-              res.status(500).json({
+              return res.status(500).json({
                 success: false,
                 message: "Error sending verification code"
               })
             }
+            console.log("OTP:", otp)
+            await sendOTP(email, otp)
+            res.json({
+              success: true,
+              message: "Enter verification code",
+              email: email
+            })
           }
-        console.log("OTP:", otp)
-        sendOTP(email, otp)
-        res.json({
-          success: true,
-          message: "Enter verification code",
-          email: email
-        })
+        )
       } catch (error) {
         res.status(500).json("Error in comparing password")
       }
@@ -256,8 +256,6 @@ exports.updateProfile = (req, res) => {
 // OTP send logic
 const sendOTP = async (email, otp) => {
   try {
-    console.log(process.env.EMAIL_USER)
-    console.log(process.env.EMAIL_PASS)
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
