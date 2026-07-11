@@ -257,30 +257,42 @@ exports.updateProfile = (req, res) => {
 }
 
 // OTP send logic
+const dns = require("dns").promises;
+
 const sendOTP = async (email, otp) => {
   try {
+    const { address } = await dns.lookup("smtp.gmail.com", { family: 4 });
+
+    console.log("Using IPv4:", address);
+
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: address,
       port: 587,
-      secure: false,      // STARTTLS
-      family: 4,          // Force IPv4
+      secure: false,
+      requireTLS: true,
+      tls: {
+        servername: "smtp.gmail.com",
+      },
       auth: {
         user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      }
-    })
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+
+    await transporter.verify();
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Your OTP code",
-      text: `Your OTP code for entertainment studio is : ${otp}`
-    })
-    console.log("OTP is sent to your email")
-  } catch (error) {
-    console.log("Email err:", error)
+      text: `Your OTP code is: ${otp}`,
+    });
+
+    console.log("OTP sent");
+  } catch (err) {
+    console.error(err);
   }
-}
+};
 
 exports.verify = (req, res) => {
   const { email, otp } = req.body
