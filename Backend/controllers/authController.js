@@ -297,7 +297,7 @@ const sendOTP = async (email, otp) => {
           },
         ],
         subject: "Your OTP Code",
-        textContent: `Your OTP code is ${otp}`,
+        textContent: `Your verification code is ${otp}`,
       },
       {
         headers: {
