@@ -258,36 +258,29 @@ exports.updateProfile = (req, res) => {
 
 // OTP send logic
 const sendOTP = async (email, otp) => {
-  console.log("1. sendOTP started");
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-  });
-
-  console.log("2. Transport created");
-
   try {
-    console.log("3. Before verify");
-    await transporter.verify();
-    console.log("4. Verify successful");
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 587,
+      secure: false,      // STARTTLS
+      family: 4,          // Force IPv4
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
+      }
+    })
 
-    console.log("5. Before sendMail");
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Your OTP code",
-      text: `Your OTP code is: ${otp}`,
-    });
-
-    console.log("6. Mail sent");
-  } catch (err) {
-    console.error("SMTP Error:", err);
+      text: `Your OTP code for entertainment studio is : ${otp}`
+    })
+    console.log("OTP is sent to your email")
+  } catch (error) {
+    console.log("Email err:", error)
   }
-};
+}
 
 exports.verify = (req, res) => {
   const { email, otp } = req.body
