@@ -100,7 +100,7 @@ exports.login = (req, res) => {
           }
         ),
         console.log("OTP:", otp)
-        sendOTP(email, otp)
+        // sendOTP(email, otp)
         res.json({
           success: true,
           message: "Enter verification code",
