@@ -90,22 +90,22 @@ exports.login = (req, res) => {
         db.query(
           "UPDATE users_detail SET otp = ? WHERE email = ?",
           [otp, email],
-          async (err) => {
+          (err) => {
             if (err) {
-              return res.status(500).json({
+              res.status(500).json({
                 success: false,
                 message: "Error sending verification code"
               })
             }
-            console.log("OTP:", otp)
-            await sendOTP(email, otp)
-            res.json({
-              success: true,
-              message: "Enter verification code",
-              email: email
-            })
           }
-        )
+        ),
+        console.log("OTP:", otp)
+        sendOTP(email, otp)
+        res.json({
+          success: true,
+          message: "Enter verification code",
+          email: email
+        })
       } catch (error) {
         res.status(500).json("Error in comparing password")
       }
