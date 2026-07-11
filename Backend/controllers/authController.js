@@ -261,8 +261,9 @@ const dns = require("dns").promises;
 
 const sendOTP = async (email, otp) => {
   try {
-    const { address } = await dns.lookup("smtp.gmail.com", { family: 4 });
+    const dns = require("dns").promises;
 
+    const { address } = await dns.lookup("smtp.gmail.com", { family: 4 });
     console.log("Using IPv4:", address);
 
     const transporter = nodemailer.createTransport({
@@ -270,30 +271,37 @@ const sendOTP = async (email, otp) => {
       port: 587,
       secure: false,
       requireTLS: true,
+      connectionTimeout: 10000,
+      greetingTimeout: 10000,
+      socketTimeout: 10000,
       tls: {
-        servername: "smtp.gmail.com",
+        servername: "smtp.gmail.com"
       },
       auth: {
         user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        pass: process.env.EMAIL_PASS
       },
+      logger: true,
+      debug: true
     });
 
+    console.log("Before verify");
     await transporter.verify();
+    console.log("Verify success");
 
+    console.log("Before sendMail");
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
-      subject: "Your OTP code",
-      text: `Your OTP code is: ${otp}`,
+      subject: "OTP",
+      text: `${otp}`
     });
 
-    console.log("OTP sent");
+    console.log("Mail sent");
   } catch (err) {
     console.error(err);
   }
 };
-
 exports.verify = (req, res) => {
   const { email, otp } = req.body
   console.log('Frontend otp: ', otp)
