@@ -257,51 +257,30 @@ exports.updateProfile = (req, res) => {
 }
 
 // OTP send logic
-const dns = require("dns").promises;
-
 const sendOTP = async (email, otp) => {
   try {
-    const dns = require("dns").promises;
-
-    const { address } = await dns.lookup("smtp.gmail.com", { family: 4 });
-    console.log("Using IPv4:", address);
-
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "smtp-relay.brevo.com",
       port: 587,
-      secure: false,
-      requireTLS: true,
-      connectionTimeout: 10000,
-      greetingTimeout: 10000,
-      socketTimeout: 10000,
-      tls: {
-        servername: "smtp.gmail.com"
-      },
+      secure: false,     // Force IPv4
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      },
-      logger: true,
-      debug: true
-    });
+        user: process.env.BREVO_USER,
+        pass: process.env.BREVO_PASS,
+      }
+    })
 
-    console.log("Before verify");
-    await transporter.verify();
-    console.log("Verify success");
-
-    console.log("Before sendMail");
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+      from: process.env.EMAIL_FROM,
       to: email,
-      subject: "OTP",
-      text: `${otp}`
-    });
-
-    console.log("Mail sent");
-  } catch (err) {
-    console.error(err);
+      subject: "Your OTP code",
+      text: `Your OTP code for entertainment studio is : ${otp}`
+    })
+    console.log("OTP is sent to your email")
+  } catch (error) {
+    console.log("Email err:", error)
   }
-};
+}
+
 exports.verify = (req, res) => {
   const { email, otp } = req.body
   console.log('Frontend otp: ', otp)
