@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken")
 const nodemailer = require("nodemailer")
 const fs = require("fs")
 const path = require("path")
+const axios = require("axios");
 
 
 
@@ -257,29 +258,63 @@ exports.updateProfile = (req, res) => {
 }
 
 // OTP send logic
+// const sendOTP = async (email, otp) => {
+//   try {
+//     const transporter = nodemailer.createTransport({
+//       host: "smtp-relay.brevo.com",
+//       port: 587,
+//       secure: false,     // Force IPv4
+//       auth: {
+//         user: process.env.BREVO_USER,
+//         pass: process.env.BREVO_PASS,
+//       }
+//     })
+
+//     await transporter.sendMail({
+//       from: process.env.EMAIL_FROM,
+//       to: email,
+//       subject: "Your OTP code",
+//       text: `Your OTP code for entertainment studio is : ${otp}`
+//     })
+//     console.log("OTP is sent to your email")
+//   } catch (error) {
+//     console.log("Email err:", error)
+//   }
+// }
+
 const sendOTP = async (email, otp) => {
   try {
-    const transporter = nodemailer.createTransport({
-      host: "smtp-relay.brevo.com",
-      port: 587,
-      secure: false,     // Force IPv4
-      auth: {
-        user: process.env.BREVO_USER,
-        pass: process.env.BREVO_PASS,
+    const response = await axios.post(
+      "https://api.brevo.com/v3/smtp/email",
+      {
+        sender: {
+          name: "Entertainment Studio",
+          email: process.env.EMAIL_FROM,
+        },
+        to: [
+          {
+            email: email,
+          },
+        ],
+        subject: "Your OTP Code",
+        textContent: `Your OTP code is ${otp}`,
+      },
+      {
+        headers: {
+          "api-key": process.env.BREVO_API_KEY,
+          "Content-Type": "application/json",
+        },
       }
-    })
+    );
 
-    await transporter.sendMail({
-      from: process.env.EMAIL_FROM,
-      to: email,
-      subject: "Your OTP code",
-      text: `Your OTP code for entertainment studio is : ${otp}`
-    })
-    console.log("OTP is sent to your email")
-  } catch (error) {
-    console.log("Email err:", error)
+    console.log("Email sent:", response.data);
+  } catch (err) {
+    console.log(
+      "Brevo Error:",
+      err.response?.data || err.message
+    );
   }
-}
+};
 
 exports.verify = (req, res) => {
   const { email, otp } = req.body
