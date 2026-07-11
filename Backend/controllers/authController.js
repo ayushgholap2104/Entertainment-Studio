@@ -267,9 +267,9 @@ const sendOTP = async (email, otp) => {
     console.log("Using IPv4:", address);
 
     const transporter = nodemailer.createTransport({
-      host: address,
-      port: 465,
-      secure: true,
+      host: "smtp.gmail.com",
+      port: 587,
+      secure: false,
       requireTLS: true,
       connectionTimeout: 10000,
       greetingTimeout: 10000,
