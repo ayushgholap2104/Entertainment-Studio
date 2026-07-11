@@ -268,8 +268,8 @@ const sendOTP = async (email, otp) => {
 
     const transporter = nodemailer.createTransport({
       host: address,
-      port: 587,
-      secure: false,
+      port: 465,
+      secure: true,
       requireTLS: true,
       connectionTimeout: 10000,
       greetingTimeout: 10000,
