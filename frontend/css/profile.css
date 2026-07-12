@@ -744,6 +744,7 @@
   opacity: 1;
   display: flex;
   transform: translateY(0px);
+  z-index: 999;
 }
 
 .profile_img_cont .profile_img .Profile_dropdown_menu .dropdown_item {
