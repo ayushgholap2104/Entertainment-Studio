@@ -242,15 +242,18 @@ async function profileData() {
 
         const data = await res.json();
         if (data.success) {
+          showLoader()
           showToast("Profile update successful", "success")
           setTimeout(() => {
             window.location.href = "./profile.html"
           }, 2000)
+          
 
         }
       } catch (err) {
         console.log("Something went wrong.", err)
       }
+      hideLoader()
     })
 
   } catch (err) {
