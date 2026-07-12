@@ -222,9 +222,7 @@
     display: flex;
     align-items: center;
   }
-  .sidebar {
-    font-size: 22px;
-  }
+  
   .brand-name {
     font-size: 10px;
     top: 12px;
@@ -1401,7 +1399,7 @@
     font-size: 1.3rem;
   }
   .sidebar {
-    font-size: 22px;
+    font-size: 21px;
     height: 26px;
     width: 30px;
     color: #fff;
@@ -2143,7 +2141,7 @@
 }
 @media only screen and (max-width: 644px) {
   .sidebar {
-    font-size: 18px;
+    font-size: 19px;
     height: 22px;
     width: 26px;
     color: #fff;
@@ -2481,7 +2479,7 @@
     padding: 0 1.5rem;
   }
   .sidebar {
-    font-size: 16px;
+    font-size: 18px;
     height: 20px;
     width: 24px;
     color: #fff;
@@ -2901,7 +2899,7 @@
     font-size: 1.2rem;
   }
   .sidebar {
-    font-size: 14px;
+    font-size: 17px;
     height: 18px;
     width: 22px;
     color: #fff;
@@ -3285,7 +3283,7 @@
 }
 @media only screen and (max-width: 398px) {
   .sidebar {
-    font-size: 13px;
+    font-size: 16px;
     height: 18px;
     width: 20px;
     color: #fff;
