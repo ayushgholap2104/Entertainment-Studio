@@ -246,7 +246,7 @@ async function profileData() {
           setTimeout(() => {
             window.location.href = "./profile.html"
           }, 2000)
-          
+
 
         }
       } catch (err) {
