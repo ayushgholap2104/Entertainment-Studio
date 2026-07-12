@@ -1933,7 +1933,7 @@
     flex-direction: column;
     text-align: center;
     padding: 25px 0 40px 0;
-    gap: 20px;
+    gap: 5px;
   }
   .about_Info1 .about_desc1 {
     gap: 25px;
@@ -2231,7 +2231,7 @@
     flex-direction: column;
     text-align: center;
     padding: 15px 0 25px 0;
-    gap: 20px;
+    gap: 5px;
   }
   .about_Info1 .about_desc1 {
     gap: 25px;
@@ -2628,7 +2628,7 @@
     flex-direction: column;
     text-align: center;
     padding: 5px 0 10px 0;
-    gap: 20px;
+    gap: 5px;
   }
   .about_Info1 .about_desc1 {
     gap: 25px;
@@ -3016,7 +3016,7 @@
     flex-direction: column;
     text-align: center;
     padding: 5px 0 10px 0;
-    gap: 20px;
+    gap: 5px;
   }
   .about_Info1 .about_desc1 {
     gap: 25px;
@@ -3427,7 +3427,7 @@
     flex-direction: column;
     text-align: center;
     padding: 10px 0px 10px 0px;
-    gap: 20px;
+    gap: 5px;
   }
   .about_Info1 .about_desc1 {
     gap: 25px;
