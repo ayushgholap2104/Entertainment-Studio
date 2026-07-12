@@ -1545,7 +1545,7 @@
     flex-direction: column;
     text-align: center;
     padding: 25px 0 40px 0;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-evenly;
   }
   .about_Info1 .about_desc1 {
