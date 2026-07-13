@@ -45,7 +45,7 @@
   border-radius: 30px;
   background-color: #edeced;
   box-shadow: 5px 8px 8px 3px rgba(0.5, 0.5, 0.5, 0.5);
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* align-items: center; */
 }
 .verify_interface .verify_icon {
