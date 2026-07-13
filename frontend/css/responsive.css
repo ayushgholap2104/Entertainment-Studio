@@ -1311,9 +1311,7 @@
   .profile_section1 .follow_me .user_social_inputs .user_socials::placeholder {
     font-size: 12.5px;
   }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 20px;
-  }
+  
   .profile_section1 .follow_me .user_social_links a {
     gap: 10px;
     font-size: 13.5px;
