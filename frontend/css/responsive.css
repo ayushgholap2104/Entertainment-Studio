@@ -2050,9 +2050,6 @@
   .profile_section1 .follow_me .user_social_inputs .user_socials {
     width: 140px;
   }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 14px;
-  }
 
   .profile_section1 .follow_me .Usersocial_accounts {
     margin-top: 10px;
@@ -2388,9 +2385,6 @@
   }
   .profile_section1 .follow_me .user_social_inputs .user_socials::placeholder {
     font-size: 11.5px;
-  }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me .Usersocial_accounts h4 {
@@ -2802,9 +2796,6 @@
   .profile_section1 .follow_me .user_social_inputs .user_socials {
     width: 90px;
   }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 14px;
-  }
 
   .profile_section1 .follow_me .Usersocial_accounts h4 {
     display: none;
@@ -3198,9 +3189,6 @@
   }
   .profile_section1 .follow_me .user_social_inputs .user_socials::placeholder {
     font-size: 11px;
-  }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 14px;
   }
 
   .profile_section1 .follow_me .Usersocial_accounts h4 {
@@ -3625,10 +3613,6 @@
   .profile_section1 .follow_me .user_social_inputs .user_socials::placeholder {
     font-size: 10.5px;
   }
-  .profile_section1 .follow_me .user_social_links {
-    margin-bottom: 14px;
-  }
-
   .profile_section1 .follow_me .Usersocial_accounts h4 {
     display: none;
   }
