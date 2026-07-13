@@ -232,6 +232,7 @@ async function profileData() {
         formData.append("profileImg", userimgFile)
       }
       try {
+        showLoader()
         const res = await fetch("https://entertainmentstudio-backend.onrender.com/api/auth/profile", {
           method: "PATCH",
           headers: {
@@ -252,6 +253,7 @@ async function profileData() {
       } catch (err) {
         console.log("Something went wrong.", err)
       }
+      hideLoader()
     })
 
   } catch (err) {
