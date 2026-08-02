@@ -1,7 +1,8 @@
-window.addEventListener("load", () => {
+window.addEventListener("load", async() => {
+  await functions.cardDataBinding()
+  await boxDetailstore.childBoxes()
+
   sidebarClick()
-  functions.cardDataBinding()
-  boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
   profilePopup()
