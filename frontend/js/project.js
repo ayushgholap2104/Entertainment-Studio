@@ -674,7 +674,6 @@ function searchbarClick() {
         box_right_btn.style.display = ''
       })
       foot.style.position = 'static'
-      return
     }
     sections.forEach(section => {
       const allboxes = section.querySelectorAll('.box')
