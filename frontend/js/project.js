@@ -499,10 +499,11 @@
 //   },
 // ]
 
-window.addEventListener("load", () => {
-  functions.cardDataBinding()
+window.addEventListener("load", async() => {
+  await functions.cardDataBinding()
+  await boxDetailstore.childBoxes()
+
   sidebarClick()
-  boxDetailstore.childBoxes()
   searchbarClick()
   sidebarSearchclick()
   profilePopup()
@@ -674,6 +675,7 @@ function searchbarClick() {
         box_right_btn.style.display = ''
       })
       foot.style.position = 'static'
+      return
     }
     sections.forEach(section => {
       const allboxes = section.querySelectorAll('.box')
