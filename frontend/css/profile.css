@@ -386,6 +386,7 @@
 .light-dark {
   font-size: 30px;
   color: #a9a9a9dc;
+  min-width: 30px;
 }
 .comment:hover a {
   color: #fff;
@@ -855,13 +856,13 @@
   color: var(--secondory_color);
   margin-bottom: 20px;
 }
-.profile_section1 .follow_me .user_social_links #instaLink{
+.profile_section1 .follow_me .user_social_links #instaLink {
   display: none;
 }
-.profile_section1 .follow_me .user_social_links #fbLink{
+.profile_section1 .follow_me .user_social_links #fbLink {
   display: none;
 }
-.profile_section1 .follow_me .user_social_links #githubLink{
+.profile_section1 .follow_me .user_social_links #githubLink {
   display: none;
 }
 

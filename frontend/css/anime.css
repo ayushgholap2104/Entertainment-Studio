@@ -366,6 +366,7 @@ body {
 .light-dark {
   font-size: 30px;
   color: #a9a9a9dc;
+  min-width: 30px;
 }
 .comment:hover a {
   color: #fff;
