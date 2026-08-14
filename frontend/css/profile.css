@@ -8,6 +8,7 @@
   transition: 0.5s all;
   list-style: none;
   box-sizing: unset;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {

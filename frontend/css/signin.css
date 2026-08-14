@@ -4,6 +4,7 @@
   font-family: "Poppins";
   font-weight: 300;
   font-style: normal;
+  -webkit-tap-highlight-color: transparent;
 }
 #loader {
   height: 100%;
