@@ -62,12 +62,28 @@ async function profileData() {
       if (data.user.profileImg) {
         profileImage.forEach(img => {
           img.src = profileImageUrl
-        })
-        profile_initial.forEach(userLetter => {
-          userLetter.style.display = 'none'
-        })
-        userProfileimg.style.display = 'flex';
+          img.onload = () => {
+            // Image successfully loaded
+            img.style.display = "flex";
 
+            profile_initial.forEach(userLetter => {
+              userLetter.style.display = "none";
+            });
+          };
+
+          img.onerror = () => {
+            // Image does NOT exist / failed to load
+            img.style.display = "none";
+
+            const usernameFirstletter =
+              userfullName.charAt(0).toUpperCase();
+
+            profile_initial.forEach(userLetter => {
+              userLetter.style.display = "flex";
+              userLetter.textContent = usernameFirstletter;
+            });
+          };
+        });
       } else {
         const usernameFirstletter = userfullName.charAt(0).toUpperCase()
         profileImage.forEach(img => {
