@@ -102,4 +102,4 @@ Contributions to improve Entertainment Studio, add features, or fix bugs are wel
 
 ## 📄 License
 
-If a license file is included in the repository, see [LICENSE](LICENSE) for the applicable terms.
+Check out the license ✒ [License](LICENSE.txt)
