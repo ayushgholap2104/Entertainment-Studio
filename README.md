@@ -4,7 +4,7 @@
 
 ## 🕶️ Preview
 
-![Entertainment Studio Preview](preview.png)
+![Entertainment Studio Preview](EntertainmentStudio_Preview.jpg)
 
 ## 📝 Overview
 
